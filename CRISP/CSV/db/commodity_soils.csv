@@ -1,0 +1,167 @@
+"Name","Soil type",Position,Description,"FS name",FS macro region
+"Rice","Fluvisols",1,,"Lowland Rice",EAP
+"Rice","Cambisols",2,,"Lowland Rice",EAP
+"Rice","Acrisols",3,,"Lowland Rice",EAP
+"Wheat","Clay loam",1,,"Temperate Mixed",EAP
+"Maize","Loamy sand",1,,"Temperate Mixed",EAP
+"Maize","Loamy sand",1,,"Upland Intensive Mixed",EAP
+"Maize","Clay loam",2,,"Upland Intensive Mixed",EAP
+"Pulses","Loam",1,,"Temperate Mixed",EAP
+"Rice","Clay ",1,,"Upland Intensive Mixed",EAP
+"Rice","Clay loam",2,,"Upland Intensive Mixed",EAP
+"Pulses (green gram)","Well-drained loam",1,,"Upland Intensive Mixed",EAP
+"Sugarcane","Sandy loam",1,,"Upland Intensive Mixed",EAP
+"Oilseeds (palm oil)","Various",1,,"Upland Intensive Mixed",EAP
+"Cacao trees","Raw mineral",1,,"Coastal plantation and mixed ",LAC
+"Cacao trees","Clay loam",2,,"Coastal plantation and mixed ",LAC
+"Cacao trees","Sandy loam",3,,"Coastal plantation and mixed ",LAC
+"Arabica Coffee","Sandy loam",1,Shallow soils with good organic matter,"Coastal plantation and mixed ",LAC
+"Arabica Coffee","Virgin",2,On steep mountain slopes or flatlands,"Coastal plantation and mixed ",LAC
+"Robusta Coffee","Sandy loam",1,Shallow soils with good organic matter,"Coastal plantation and mixed ",LAC
+"Robusta Coffee","Virgin",2,On steep mountain slopes or flatlands,"Coastal plantation and mixed ",LAC
+"Maize","Mollisol",1,,"Dryland mixed",LAC
+"Cassava","Sandy loam",1,,"Dryland mixed",LAC
+"Soybean","Sandy",1,,"Forest based Livestock ",LAC
+"Soybean","Clay loam",2,,"Forest based Livestock ",LAC
+"Soybean","Alluvial",3,,"Forest based Livestock ",LAC
+"Acai palm","Loam",1,,"Forest based Livestock ",LAC
+"Acai palm","Sandy",2,,"Forest based Livestock ",LAC
+"Avocado","Clay loam",1,,"Forest based Livestock ",LAC
+"Avocado","Silty loam",2,,"Forest based Livestock ",LAC
+"Avocado","Sandy loam",3,,"Forest based Livestock ",LAC
+"Potato","Sandy loam",1,Slightly acidic soil with a PH of 5.0 to 7.0,"High Altitude Mixed (C. Andes)",LAC
+"Cañihua","Loamy clay",1,,"High Altitude Mixed (C. Andes)",LAC
+"Quinoa","Semi-deep loam",1,"Easily worked, with good drainage and a supply of nutrients","High Altitude Mixed (C. Andes)",LAC
+"Quinoa","Acid",2,"With a pH of 4.5 (in Cajamarca, Peru) ","High Altitude Mixed (C. Andes)",LAC
+"Quinoa","Alkaline",3,"With a pH of up to 9.5 (in Uyuni, Bolivia)","High Altitude Mixed (C. Andes)",LAC
+"Maize ","Podzolic alluvium",1,Temperate,"High Altitude Mixed (C. Andes)",LAC
+"Wheat","Light clay",1,,"High Altitude Mixed (C. Andes)",LAC
+"Wheat","Heavy loam",2,,"High Altitude Mixed (C. Andes)",LAC
+"Blueberries","Various",1,,"Irrigated",LAC
+"Bananas","Loam",1,,"Irrigated",LAC
+"Grapes","Sandy loam",1,,"Irrigated",LAC
+"Avocado","Clay loam",1,,"Irrigated",LAC
+"Avocado","Silty loam",2,,"Irrigated",LAC
+"Avocado","Sandy loam",3,,"Irrigated",LAC
+"Asparagus","Sandy loam",1,,"Irrigated",LAC
+"Maize (Zea mays)","Sandy",1,"Clay content <10% ","Maize-beans (Mesoamerica)",LAC
+"Maize (Zea mays)","Clay",2,Clay content in excess of 30%,"Maize-beans (Mesoamerica)",LAC
+"Maize (Zea mays)","Clay loam",3,Clay content in excess of 30%,"Maize-beans (Mesoamerica)",LAC
+"Dry beans","Well drained",1,,"Maize-beans (Mesoamerica)",LAC
+"Coffee","Clay loam",1,,"Forest based Livestock ",LAC
+"Coffee","Silty loam",2,,"Forest based Livestock ",LAC
+"Coffee (Coffea arabica)","Loam",1,"A mixture of sand, silt, and clay","Maize-beans (Mesoamerica)",LAC
+"Coffee (Coffea robusta)","Loam",1,"A mixture of sand, silt, and clay","Maize-beans (Mesoamerica)",LAC
+"Wheat","Clay loam",1,,"Dryland mixed",MENA
+"Wheat","Loam",2,,"Dryland mixed",MENA
+"Barley","Deep loam",1,,"Dryland mixed",MENA
+"Wheat","Clay loam",1,,"Highland Mixed",MENA
+"Rice","Podzolic alluvium",1,,"Highland Mixed",MENA
+"Rice","Clay",2,,"Highland Mixed",MENA
+"Rice","Fertile riverine alluvial",3,,"Highland Mixed",MENA
+"Corn","Podzolic alluvium",1,Temperate,"Highland Mixed",MENA
+"Corn","Leached red",2,Of the tropics,"Highland Mixed",MENA
+"Corn","Deep",3,"Of the sub-tropics, where there is abundant nitrogen","Highland Mixed",MENA
+"Lentils","Sandy",1,With a PH near 7,"Highland Mixed",MENA
+"Lentils","Clay loam",2,With a PH near 7,"Highland Mixed",MENA
+"Olives","Dry",1,,"Rainfed Mixed",MENA
+"Olives","Chalky",2,,"Rainfed Mixed",MENA
+"Olives","Clay-rich",3,,"Rainfed Mixed",MENA
+"Lentils","Sandy",1,With a PH near 7,"Rainfed Mixed",MENA
+"Lentils","Clay loam",2,With a PH near 7,"Rainfed Mixed",MENA
+"Chickpeas","Black cotton",1,Soils with a pH ranging from 6.0 to 8.0 are best suited,"Rainfed Mixed",MENA
+"Chickpeas","Sandy loam",2,Soils with a pH ranging from 6.0 to 8.0 are best suited,"Rainfed Mixed",MENA
+"Rice","Deep fertile clayey",1,"Can be easily puddled into mud and develop cracks on drying. ","Rainfed Mixed",SA
+"Rice","Loam",2,"Can be easily puddled into mud and develop cracks on drying. ","Rainfed Mixed",SA
+"Rice","Silty loam",3,,"Rainfed Mixed",SA
+"Rice","Loam",4,,"Rainfed Mixed",SA
+"Rice","Gravel",5,,"Rainfed Mixed",SA
+"Rice","Acid",6,,"Rainfed Mixed",SA
+"Rice","Alkaline",7,,"Rainfed Mixed",SA
+"Wheat","Well drained",1,,"Rainfed Mixed",SA
+"Wheat","Fertile",2,,"Rainfed Mixed",SA
+"Wheat","Friable loam",3,,"Rainfed Mixed",SA
+"Wheat","Clay loam",4,,"Rainfed Mixed",SA
+"Maize","Loam",1,,"Rainfed Mixed",SA
+"Maize","Sandy loam",2,,"Rainfed Mixed",SA
+"Maize","Black cotton ",3,,"Rainfed Mixed",SA
+"Chickpea","Black cotton ",1,,"Rainfed Mixed",SA
+"Chickpea","Sandy loam",2,With a pH ranging from 6.0 to 8.0 are best suited,"Rainfed Mixed",SA
+"groundnut","Sandy loam",1,Textured with neutral Ph,"Rainfed Mixed",SA
+"pigeopea","Black cotton ",1,,"Rainfed Mixed",SA
+"pigeopea","Well drained",2,With a p H ranging from 7.0 - 8.5,"Rainfed Mixed",SA
+"Rice  (Oryza sativa)","Clay ",1,,"Rice-Wheat",SA
+"Rice  (Oryza sativa)","Clay loam",2,,"Rice-Wheat",SA
+"Wheat (Triticum aestivum)","Clay loam",1,,"Rice-Wheat",SA
+"Wheat (Triticum aestivum)","Loam",2,,"Rice-Wheat",SA
+"Rice  (Oryza sativa)","Clay ",1,,"Rice",SA
+"Rice  (Oryza sativa)","Clay loam",2,,"Rice",SA
+"Maize","Loam",1,,"Cereal-Root Crop Mixed",SSA
+"Millet","Loamy sand",1,,"Cereal-Root Crop Mixed",SSA
+"Sorghum","Laoamy-clay",1,,"Cereal-Root Crop Mixed",SSA
+"Cassava","Sandy",1,,"Cereal-Root Crop Mixed",SSA
+"Highland livestock-cereal","Well drained",1,Deep Cameroon,"Highland Mixed",SSA
+"Highland livestock-cereal","Well drained",2,,"Highland Mixed",SSA
+"Highland livestock-cereal","Ferralitic",3,,"Highland Mixed",SSA
+"Highland livestock-cereal","Nitisols",4,Ethiopian highlands,"Highland Mixed",SSA
+"Highland livestock-cereal","Leptosols",5,Ethiopian highlands,"Highland Mixed",SSA
+"Highland livestock-cereal","Luvisols",6,"Lesotho, Ethiopian highlands","Highland Mixed",SSA
+"Highland livestock-cereal","Vertisols",7,Ethiopian highlands,"Highland Mixed",SSA
+"Highland livestock-cereal","Andosols",8,Lesotho,"Highland Mixed",SSA
+"Highland livestock-cereal","Alluvial",9,Enrich valley bottoms,"Highland Mixed",SSA
+"Highland wheat-pulse","Well drained",1,Deep Cameroon,"Highland Mixed",SSA
+"Highland wheat-pulse","Well drained",2,,"Highland Mixed",SSA
+"Highland livestock-cereal","Ferralitic",3,,"Highland Mixed",SSA
+"Highland wheat-pulse","Nitisols",4,Ethiopian highlands,"Highland Mixed",SSA
+"Highland wheat-pulse","Leptosols",5,Ethiopian highlands,"Highland Mixed",SSA
+"Highland wheat-pulse","Luvisols",6,"Lesotho, Ethiopian highlands","Highland Mixed",SSA
+"Highland wheat-pulse","Vertisols",7,Ethiopian highlands,"Highland Mixed",SSA
+"Highland wheat-pulse","Andosols",8,Lesotho,"Highland Mixed",SSA
+"Highland wheat-pulse","Alluvial",9,Enrich valley bottoms,"Highland Mixed",SSA
+"Highland maize-based","Well drained",1,Deep Cameroon,"Highland Mixed",SSA
+"Highland maize-based","Well drained",2,,"Highland Mixed",SSA
+"Highland livestock-cereal","Ferralitic",3,,"Highland Mixed",SSA
+"Highland maize-based","Nitisols",4,Ethiopian highlands,"Highland Mixed",SSA
+"Highland maize-based","Leptosols",5,Ethiopian highlands,"Highland Mixed",SSA
+"Highland maize-based","Luvisols",6,"Lesotho, Ethiopian highlands","Highland Mixed",SSA
+"Highland maize-based","Vertisols",7,Ethiopian highlands,"Highland Mixed",SSA
+"Highland maize-based","Andosols",8,Lesotho,"Highland Mixed",SSA
+"Highland maize-based","Alluvial",9,Enrich valley bottoms,"Highland Mixed",SSA
+"Highland mixed North African","Well drained",1,Deep Cameroon,"Highland Mixed",SSA
+"Highland mixed North African","Well drained",2,,"Highland Mixed",SSA
+"Highland mixed North African","Ferralitic",3,,"Highland Mixed",SSA
+"Highland mixed North African","Nitisols",4,Ethiopian highlands,"Highland Mixed",SSA
+"Highland mixed North African","Leptosols",5,Ethiopian highlands,"Highland Mixed",SSA
+"Highland mixed North African","Luvisols",6,"Lesotho, Ethiopian highlands","Highland Mixed",SSA
+"Highland mixed North African","Vertisols",7,Ethiopian highlands,"Highland Mixed",SSA
+"Highland mixed North African","Andosols",8,Lesotho,"Highland Mixed",SSA
+"Highland mixed North African","Alluvial",9,Enrich valley bottoms,"Highland Mixed",SSA
+"Tea","Deep",1,"With a pH level of between 5.0 and 5.6 ","Highland Perennial ",SSA
+"Tea","Well drained",2,"With a pH level of between 5.0 and 5.6 ","Highland Perennial ",SSA
+"Tea","Fertile",3,"With a pH level of between 5.0 and 5.6 ","Highland Perennial ",SSA
+"Coffee(Arabica)","Well drained",1,,"Highland Perennial ",SSA
+"Coffee(Arabica)","Volcanic",2,,"Highland Perennial ",SSA
+"Coffee(Arabica)","Deep",3,,"Highland Perennial ",SSA
+"Coffee(Arabica)","Sandy loam",4,,"Highland Perennial ",SSA
+"Maize (Zea mays)","Loamy sand",1,,"Maize Mixed ",SSA
+"Maize (Zea mays)","Clay loam",2,,"Maize Mixed ",SSA
+"Maize (Zea mays)","Clay",3,,"Maize Mixed ",SSA
+"Maize (Zea mays)","Oxisols",4,,"Maize Mixed ",SSA
+"Maize (Zea mays)","Vertisols",5,,"Maize Mixed ",SSA
+"Maize (Zea mays)","Ultisols ",6,,"Maize Mixed ",SSA
+"Maize (Zea mays)","Mollisol",7,,"Maize Mixed ",SSA
+"Sahelian subsystem","Clay-limestone fraction",1,,"Pastoral",SSA
+"Sahelian subsystem","Sandy loam",2,,"Pastoral",SSA
+"Sahelian subsystem","Clay",3,,"Pastoral",SSA
+"Cassava ","Savanna Ochrosols",1,,"Root Crop",SSA
+"Cassava ","Well drained",2,,"Root Crop",SSA
+"Cassava ","Sandy",3,,"Root Crop",SSA
+"Cassava ","Ferruginous",4,,"Root Crop",SSA
+"Cassava ","Ferralitic",5,,"Root Crop",SSA
+"Cassava ","Raw mineral",6,,"Root Crop",SSA
+"Yams","Savanna Ochrosols",1,,"Root Crop",SSA
+"Yams","Well drained",2,,"Root Crop",SSA
+"Yams","Sandy",3,,"Root Crop",SSA
+"Yams","Ferruginous",4,,"Root Crop",SSA
+"Yams","Ferralitic",5,,"Root Crop",SSA
+"Yams","Raw mineral",6,,"Root Crop",SSA

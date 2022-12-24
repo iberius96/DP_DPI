@@ -1,0 +1,42 @@
+"FS name",FS macro region,Dominant livelihood source,Position
+"Agro-Pastoral Millet/Sorghum",SSA,Cereal crop,2
+"Agro-Pastoral Millet/Sorghum",SSA,Livestock,1
+"Cereal-Root Crop Mixed",SSA,Farming,1
+"Coastal plantation and mixed ",LAC,Crops/tree crops export,1
+"Coastal plantation and mixed ",LAC,Fishing,2
+"Coastal plantation and mixed ",LAC,Tubers,3
+"Coastal plantation and mixed ",LAC,Tourism,4
+"Dryland mixed",LAC,Agriculture,1
+"Dryland mixed",MENA,Cereal,1
+"Dryland mixed",MENA,Sheep,2
+"Dryland mixed",LAC,Tourism,2
+"Forest based Livestock ",LAC,Subsistence agriculture,1
+"High Altitude Mixed (C. Andes)",LAC,Tubers,1
+"High Altitude Mixed (C. Andes)",LAC,Sheep,2
+"High Altitude Mixed (C. Andes)",LAC,Grain,3
+"Highland Mixed",MENA,Cereal,1
+"Highland Mixed",MENA,Legumes,2
+"Highland Mixed",MENA,Sheep,3
+"Highland Perennial ",SSA,Farming,1
+"Irrigated",LAC,Commercial horticulture,1
+"Irrigated",LAC,Fruit,2
+"Irrigated",LAC,Cattle,3
+"Lowland Rice",EAP,Rice,1
+"Lowland Rice",EAP,Livestock,2
+"Lowland Rice",EAP,Off-farm income,3
+"Maize Mixed ",SSA,Crop farming,1
+"Maize-beans (Mesoamerica)",LAC,Crop production,1
+"Pastoral ",SSA,Pastoralism,1
+"Rainfed Mixed ",SA,Legumes,2
+"Rainfed Mixed ",SA,Fodder,3
+"Rainfed Mixed ",MENA,Tree crop,1
+"Rainfed Mixed ",MENA,Legumes,2
+"Rainfed Mixed ",SA,Cereal,1
+"Rice",SA,Rice,1
+"Rice-Wheat",SA,Crop production,1
+"Root Crop",SSA,Farming,1
+"Temperate Mixed",EAP,Wheat,1
+"Temperate Mixed",EAP,Maize,2
+"Temperate Mixed",EAP,Pulse,3
+"Temperate Mixed",EAP,Livestock,4
+"Upland Intensive Mixed",EAP,Subsistence rice production,1
