@@ -53,7 +53,7 @@ areas, because of high salinity levels of the water causing unfavourable conditi
 "Lowland Rice",EAP,"Large contributor to national/regional GDP","Leads to","Increase in food prices","The Mekong River Delta (MRD) is the rice basket of Vietnam producing 56% of the total domestic rice production and accounting for 90% of Vietnam’s rice export. However, since it's vulnerable to climatical conditions, it can lead to increased food prices.. "
 "Lowland Rice",EAP,"Low access to markets","Leads to","Delays in transportation","Poor infrastructure causes delays, and delays at borders are another major concern."
 "Lowland Rice",EAP,"Large contributor to national/regional GDP","Leads to","Increase in food imports","Since the Mekong River Delta (MRD) is the rice basket of Vietnam producing 56% of the total domestic rice production and accounting for 90% of Vietnam’s rice export, decline in its production can lead to increase in food imports."
-"Lowland Rice",EAP," ","Leads to"," "," "
+"Lowland Rice",EAP,,"Leads to",,
 "Lowland Rice",EAP,"Water scarce area","Leads to","Reduced crop productivity/failure","Water scarcity in many eregions has resulted to  ground water pumping for irrigation"
 "Lowland Rice",EAP,"Water scarce area","Leads to","Reduced groundwater tables","Elicited by the El Niño, the drought has resulted in effects, such as reduced agricultural production, which limit the livelihoods and aggravates food insecurity in poor and vulnerable communities.These water risks are not only the result of climate change but involve a range of factors, including farming itself, that cause water shortages, floods and degradation of water quality, extensive dam-building and ground water pumping."
 "Lowland Rice",EAP,"Unfavourable soil conditions","Leads to","Reduced crop productivity/failure","The adoption of intensive methods of crop production, based on high levels of inorganic fertilisers and pesticides, has in many cases lowered the quality of soil and water resources. Continuous rice cultivation, using unbalanced mineral fertilisers and only low inputs of organic manure, is in some situations seriously deteriorating the physical and chemical properties of the soil with adverse consequences on crop yields."
@@ -90,7 +90,7 @@ areas, because of high salinity levels of the water causing unfavourable conditi
 "Lowland Rice",EAP,"Major component of local diet","Is mitigated by","Adjust crop calendar
 ","Cropping calendar optimization contributes to an increase in rice yield because it’s a major component for the local diet."
 "Lowland Rice",EAP,"Dependence on groundwater","Is mitigated by","Invest in water harvesting and storage infrastructure","Equipping households and institutions with water harvesting tanks and underground-borehole-like storage cisterns will help maximize on water harvesting and mitigate dependence on groundwater."
-"Lowland Rice",EAP," ","Is mitigated by"," "," "
+"Lowland Rice",EAP,,"Is mitigated by",,
 "Lowland Rice",EAP,"Inadequate climate information services","Is mitigated by","Improve climate change awareness
 "," Participatory weather monitoring system to help farmers pick up weather data at various crop stages and link it to crop calendars. This forecasts will offers potential scenarios to proactively adapt to expected weather conditions"
 "Lowland Rice",EAP,"Inadequate climate information services","Is mitigated by","Improve access to climate information services","Access to extension and weather and climate information services has been shown to increase the abilities of farmers to adopt better management practices."
@@ -133,7 +133,7 @@ the amount of freshwater in many areas and the prolonged drought results in the 
 "Temperate Mixed",EAP,"Shorter growing season","Leads to","Reduced crop productivity/failure","Shorter growing leads to reduced crop productivity in especially in Maize and wheat which are the two important staple crops."
 "Temperate Mixed",EAP,"Increase in extreme rainfall events","Leads to","Increased flooding
 ","Heavy rainfalls leads to increased flooding."
-"Temperate Mixed",EAP," "," "," "," "
+"Temperate Mixed",EAP,,,,
 "Temperate Mixed",EAP,"Rising sea levels","Leads to","Flash floods","WMO reported that sea level rise is already having a major impact on society, economies and ecosystems in Pacific islands, and increases vulnerability to flash floods."
 "Temperate Mixed",EAP,"Increase in tropical cyclones/hurricanes","Leads to","Reduced crop productivity/failure","Between 2000 and 2019, extreme weather events such as tropical cyclones caused around 1,500 fatalities and led to reduced crop productivity."
 "Temperate Mixed",EAP,"Increase in drought events","Leads to","Increased incidence of bushfires","Increased droughts leads to increased incidence of bushfires i.e  the unprecedented 2019-2020 wildfire season."
@@ -155,7 +155,7 @@ the amount of freshwater in many areas and the prolonged drought results in the 
 "Temperate Mixed",EAP,"Increase in strong winds","Leads to","Damage to infrastructure","According to the IPCC's simulations, Asia, for example, is expected to experience damage to urban infrastructure due to increase in strong winds."
 "Temperate Mixed",EAP,"Increase in strong winds","Leads to","Landslide events","Strong winds increase turbulence in the atmosphere and also cause soil erosion leading to landslide events."
 "Temperate Mixed",EAP,"Increase in strong winds","Leads to","Reduced crop productivity/failure","Strong winds damage crops by flattening small grain  through lodging, hence reducing productivity."
-"Temperate Mixed",EAP," "," "," "," "
+"Temperate Mixed",EAP,,,,
 "Temperate Mixed",EAP,"Increase in frost events","Leads to","Increase in food insecurity","Maize and wheat production will be impaired by increasing frost events leading to increased food insecurity."
 "Temperate Mixed",EAP,"Shorter growing season","Leads to","Loss of income","Shorter growing seasons could indicate reduced productivity, hence loss of income."
 "Temperate Mixed",EAP,"Increase in hailstorms","Leads to","Increase in food prices","Climate stimuli such as hailstorms leads to increased wheat and maize prices due to increase in the prices of fertilizers."
@@ -170,9 +170,9 @@ the amount of freshwater in many areas and the prolonged drought results in the 
 "Temperate Mixed",EAP,"Increase in average temperatures","Leads to","Increase in livestock mobility","Changing weather patterns and warming temperatures could contribute to shifting pest and disease distribution and could increase stress on livestock leading increased livestock mobility."
 "Temperate Mixed",EAP,"Increase in extreme rainfall events","Leads to","Increase in food insecurity","Extreme rainfall causes flooding that destroys crops causing reduced crop productivity, which in turn leads to increased food insecurity."
 "Temperate Mixed",EAP,"Increase in average temperatures","Leads to","Increase in food insecurity","Extremely high temperatures lead to crop stress and increased livestock mortality thus leading to increased food insecurity. "
-"Temperate Mixed",EAP," "," "," "," "
-"Temperate Mixed",EAP," "," "," "," "
-"Temperate Mixed",EAP," "," "," "," "
+"Temperate Mixed",EAP,,,,
+"Temperate Mixed",EAP,,,,
+"Temperate Mixed",EAP,,,,
 "Temperate Mixed",EAP,"Land degradation","Leads to","Reduced livestock productivity","Livestock production and yields are likely to suffer a decrease, due to diminishing grassland and overgrazing."
 "Temperate Mixed",EAP,"Increased flooding
 ","Leads to","Increase in malnutrition","Climate change impacts such as floods,  negatively impact agriculture and livestock causing crop failures, decreasing food security and significantly impacting human health and nutrition, especially for those who are immunocompromised as a result of tuberculosis and HIV/AIDS ."
@@ -190,7 +190,7 @@ the amount of freshwater in many areas and the prolonged drought results in the 
 "Temperate Mixed",EAP,"Livestock mortalities","Leads to","Loss of income","African swine fever (ASF) is a viral disease affecting pigs and wild boar with up to 100% case fatality rate leading to loss of income."
 "Temperate Mixed",EAP,"Increase in poverty","Leads to","Increase in malnutrition","The high cost of a healthy diet and persistently high levels of poverty and income inequality continue to hold healthy diets out of reach in East Asia leading to high malnutrtion."
 "Temperate Mixed",EAP,"Shorter growing seasons","Leads to","Increase in food insecurity","Seasonality causes a cyclical pattern of inadequate availability and access to food. This is associated with seasonal fluctuations in the climate, cropping patterns, work opportunities, and disease, leading to increased food insecurity."
-"Temperate Mixed",EAP," "," "," "," "
+"Temperate Mixed",EAP,,,,
 "Temperate Mixed",EAP,"High poverty levels 
 
 
@@ -214,12 +214,12 @@ the amount of freshwater in many areas and the prolonged drought results in the 
 "Temperate Mixed",EAP,"Crop is highly susceptible to diseases ","Leads to","Increase in food insecurity","For example, the gistic virus disease of maize caused by maize chlorotic mottle led to a reduction in maize production hence increasing food insecurity."
 "Temperate Mixed",EAP,"Animal/breed is highly susceptible to diseases ","Leads to","Livestock mortalities","Foot and Mouth  disease is fatal in young animals, leading to high mortality in young animals ."
 "Temperate Mixed",EAP,"Animal/breed is highly susceptible to diseases ","Leads to","Increase in food insecurity","Livestock is highly susceptible to Foot and mouth disease (FMD)which  is a severe, highly contagious viral disease of livestock that has a significant economic impact, leading to increased food insecurity."
-"Temperate Mixed",EAP," "," "," "," "
+"Temperate Mixed",EAP,,,,
 "Temperate Mixed",EAP,"Inadequate climate information services","Leads to","Unpredictable planting period","Lack of knowledge on climate change stimulus disrupt the crops planting season."
 "Temperate Mixed",EAP,"Inadequate climate information services","Leads to","Reduced crop productivity/failure","Agriculture in South Asia is vulnerable to climate change, and farmers have inadequate climate information which exposes them to reduction in crop productivity due to climate events impact. "
 "Temperate Mixed",EAP,"Inadequate climate information services","Leads to","Increase in food insecurity","It is projected that climate change would reduce rain-fed maize yield by an average of 3.3–6.4% in 2030 and 5.2–12.2% in 2050 and irrigated yield by 3–8% in 2030 and 5–14% in 2050 if current varieties were grown. Now, if the smallholder farmers are not up to date with this information, they risk increased food insecurity. "
-"Temperate Mixed",EAP," "," "," "," "
-"Temperate Mixed",EAP," "," "," "," "
+"Temperate Mixed",EAP,,,,
+"Temperate Mixed",EAP,,,,
 "Temperate Mixed",EAP,"Unstable commodity prices","Leads to","Increase in malnutrition","The increase in prices was much higher for the gram. Moreover, other protein and mineral rich foods, such as beef, also became expensive and thus gone out of the reach of the poor people. All this caused increased micronutrient deficiency in Asia leading to increased  malnutrition."
 "Temperate Mixed",EAP,"Low access to markets","Leads to","Loss of income","Low access to markets causes lack of market information hence depriving them of the power to compete on equal terms in the marketplace, leading to loss of income."
 "Temperate Mixed",EAP,"Unstable commodity prices","Leads to","Increase in food insecurity","Rising food costs, along with other shocks such as drought, floods, and economic crises can have a major impact on food and nutrition security as these push the most vulnerable households further into poverty and weaken their ability to access adequate food."
@@ -231,7 +231,7 @@ the amount of freshwater in many areas and the prolonged drought results in the 
 "Temperate Mixed",EAP,"High prevalence of land degradation","Leads to","Reduced crop productivity/failure","Land degradation can affect crop growth and yield by decreasing root depth and available water and nutrient reserves and soil erosion leading to yield loss."
 "Temperate Mixed",EAP,"Cultivation area prone to frost","Leads to","Reduced crop productivity/failure","Frost can cause low crop yields by restricting stem growth. At emergence, crops can be vulnerable to hard frost. Livestock can also suffer from cold stress which can result in injury to limbs and require increased energy to sustain their growth."
 "Temperate Mixed",EAP,"High prevalence of land degradation","Leads to","Increase in food insecurity","Increase in land degradation makes the land less productive in the region leading to increased food insecurity."
-"Temperate Mixed",EAP," "," "," "," "
+"Temperate Mixed",EAP,,,,
 "Temperate Mixed",EAP,"Lack of irrigation infrastructure ","Leads to","Reduced crop productivity/failure","Irrigation is important for wheat and maize for proper growth and development, and lack of it leads poor yields."
 "Temperate Mixed",EAP,"High poverty levels 
 
@@ -252,7 +252,7 @@ the amount of freshwater in many areas and the prolonged drought results in the 
 
 ","Leads to","Competition for resources","Poverty in the region has led to competition for natural resources. The natural resources of the Asian region are under severe threats arising from climate change, globalization, and urbanization."
 "Temperate Mixed",EAP,"Reliance on rainfed agriculture","Leads to","Increase in food insecurity","As agriculture is a highly weather-dependent industry, there is an increased frequency of poor productivity, because Climate change inevitably has a great impact on food security. "
-"Temperate Mixed",EAP," "," "," "," "
+"Temperate Mixed",EAP,,,,
 "Temperate Mixed",EAP,"Reliance on rainfed agriculture","Is mitigated by","Invest in irrigation infrastructure","Agriculture in Asia is vulnerable to climate change, therefore investing in irrigation facilities as a mitigation strategy is advised."
 "Temperate Mixed",EAP,"High poverty levels 
 
@@ -297,16 +297,16 @@ safety and environmental standards to migitate their high susceptibility to dise
 "Temperate Mixed",EAP,"Inadequate climate information services","Is mitigated by","Improve climate change awareness
 ","Climate change is mitigated by creating awareness to help smallholder farmers to cope with its impacts."
 "Temperate Mixed",EAP,"Inadequate climate information services","Is mitigated by","Improve networking and knowledge exchange","Social networks enable the transmission of knowledge between individuals, hence ensuring that climate information gets to the farmers through peer sharing."
-"Temperate Mixed",EAP," "," "," "," "
-"Temperate Mixed",EAP," "," "," "," "
-"Temperate Mixed",EAP," "," "," "," "
+"Temperate Mixed",EAP,,,,
+"Temperate Mixed",EAP,,,,
+"Temperate Mixed",EAP,,,,
 "Temperate Mixed",EAP,"Low access to credit","Is mitigated by","Improve access to credit","Access to credit will help those vulnerable toclimate to better plan for emergencies."
 "Temperate Mixed",EAP,"Unstable commodity prices","Is mitigated by","Support local value chains","Producers and buyers of maize, wheat, pulses and livestock shouldredifine their local value chains so as to curb unstable commodity prices."
 "Temperate Mixed",EAP,"Low access to markets","Is mitigated by","Structural adjustments","Developing economies across East Asia and Pacific are undergoing an important set of structural and demographic changes i.e  accelerated structural transformation out of agriculture , road transformations to deal with the issue of low market acccess."
 "Temperate Mixed",EAP,"Low access to markets","Is mitigated by","Invest in road infrastructure"," Additional resources for infrastructure investments is needed to ensure that the rural roads are accessible for the farmers to access markets. "
 "Temperate Mixed",EAP,"Low access to credit","Is mitigated by","Build capacity on advocacy","Advocacy and capacity building should be used as a tool for facilitating the emergence of an all-inclusive and growth-promoting financial system."
 "Temperate Mixed",EAP,"Unstable commodity prices","Is mitigated by","Build capacity on advocacy"," The capacity for advocacy should be used to identify the commodity price volatility of agricultural products, and then come up with strategic initiatives to curb the volatility."
-"Temperate Mixed",EAP," "," "," "," "
+"Temperate Mixed",EAP,,,,
 "Temperate Mixed",EAP,"High prevalence of land degradation","Is mitigated by","Implement reforestation practices","Asia-Pacific countries areemploying a number of forest management strategies to mitigate land degradation."
 "Temperate Mixed",EAP,"Cultivation area prone to frost","Is mitigated by","Adjust crop calendar
 ","Determining the right time for broadcasting crop season will help to mitigate the adverse effects of frost."
@@ -366,7 +366,7 @@ safety and environmental standards to migitate their high susceptibility to dise
 "Upland Intensive Mixed",EAP,"Increase in drought events","Leads to","Increase in poverty","Food prices are more volatile in years with extreme climatic events and yield shortfalls disproportionately impact smallholder farmers. Farming households in the upland intensive mixed farming system are typically poor, thus losses of income associated with poor yields forces them further into poverty. "
 "Upland Intensive Mixed",EAP,"Increase in drought events","Leads to","Increase in food insecurity","Drought can result in considerable damage to the agriculture sector resulting in food shortages. For example, the drought of 1997–1998 in Papua New Guinea, an El Niño Southern Oscillation induced event, resulted in more than 40% of rural villagers suffering from food shortages of varying severity."
 "Upland Intensive Mixed",EAP,"Increase in average temperatures","Leads to","Increase in food insecurity","Higher average temperatures are projected to result in a decrease in crop yields in the upland intensive mixed farming system. Of particular concern is the impact on rice yields, as it is the region's staple crop. Rice yields decline with higher temperatures due to increased spikelet sterility and shortened growth duration. A 2°C increase in temperature could result in a decline of rice yields by 1 t/ha. Such yield losses are likely to have serious implications for household food security in upland areas, should adequate adaptation measures not be adopted. "
-"Upland Intensive Mixed",EAP," "," "," "," "
+"Upland Intensive Mixed",EAP,,,,
 "Upland Intensive Mixed",EAP,"Increased flooding
 ","Leads to","Reduced crop productivity/failure","Heavy rainfall leading to flooding can delay farming operations, destroy entire crops and restrict access to planting materials and markets. Rice can thrive with periodic flooding, but it cannot survive prolonged submergence. Sugarcane is very vulnerable to flooding which leads to a loss in yields. For example, the 2009 floods in Fiji cost USD 13 million in sugar losses."
 "Upland Intensive Mixed",EAP,"Increased flooding
@@ -390,7 +390,7 @@ safety and environmental standards to migitate their high susceptibility to dise
 "Upland Intensive Mixed",EAP,"Increase in weeds","Leads to","Reduced crop productivity/failure","Weeds can result in major losses in crop yield by competing for resources such as sunlight, water and nutrients. The extent of the yield losses varies with weed density, type and the duration of competition."
 "Upland Intensive Mixed",EAP,"Limited uptake of modern technologies","Leads to","Reduced crop productivity/failure","Low levels of uptake of new agricultural technologies limits the farmers' capacity to adapt to climate change, resulting in lower crop yields and income. "
 "Upland Intensive Mixed",EAP,"Unsustainable land management practices","Leads to","Reduced crop productivity/failure","Unsustainable land management practices contribute to natural resource degradation such as reduced soil fertility and water scarcity, thereby reducing future crop yields. "
-"Upland Intensive Mixed",EAP," "," "," "," "
+"Upland Intensive Mixed",EAP,,,,
 "Upland Intensive Mixed",EAP,"Weak land tenure and access rights for women","Leads to","Increase in poverty","Weak land tenure and use rights for women restrict their access to finance, extension services and other technical support thereby limiting their agricultural productivity and associated incomes. 
 "
 "Upland Intensive Mixed",EAP,"Weak land tenure ","Leads to","Lack of willingness to invest in sustainable agricultural practices","Insecure land titles and user rights discourage farmers from investing in sustainable land management practices.
@@ -401,7 +401,7 @@ safety and environmental standards to migitate their high susceptibility to dise
 "Upland Intensive Mixed",EAP,"Large contributor to national/regional GDP","Leads to","Increase in poverty","As agriculture is directly affected by climate change, a high dependency of national economies and societies on the sector puts them at an increased risk of poverty. For example, three out of four poor people in Southeast Asia reside in rural areas and are dependent on agriculture.
 "
 "Upland Intensive Mixed",EAP,"Lack of access to risk insurance","Leads to","Lack of willingness to invest in sustainable agricultural practices","Farmers that do not have access to agricultural insurance are more risk averse and less likely to adopt new agricultural technologies and practices than farmers with access to insurance. "
-"Upland Intensive Mixed",EAP," "," "," "," "
+"Upland Intensive Mixed",EAP,,,,
 "Upland Intensive Mixed",EAP,"Frequent bushfires","Leads to","Biodiversity loss","Increasing drought and average temperatures will likely increase the occurrence of forest fires in Myanmar and Vietnam, contributing to biodiversity loss."
 "Upland Intensive Mixed",EAP,"High levels of deforestation","Leads to","Land degradation","A study on the impacts of deforestation found that it caused a loss of soil organic matter content (-66%), nitrogen (-67%), phosphorus (-75%), cation exchange capacity (-56%) and raised soil compaction (40%). "
 "Upland Intensive Mixed",EAP,"High prevalence of land degradation","Leads to","Reduced crop productivity/failure","The intensification of agriculture in areas of moderate to steep gradients can lead to irreversible soil loss and a permanent reduction in crop productivity."
@@ -436,18 +436,18 @@ safety and environmental standards to migitate their high susceptibility to dise
 "Upland Intensive Mixed",EAP,"Unsustainable land management practices","Is mitigated by","Invest in water harvesting and storage infrastructure","To enhance upland farmers' resilience to climate change there is a need to invest in water harvesting and storage to serve as water sources during long dry seasons. For example, the construction of rainwater storage ponds in the Philippines."
 "Upland Intensive Mixed",EAP,"Unsustainable land management practices","Is mitigated by","Facilitate access to loans","The adoption of sustainable agricultural practices is enhanced with access to capital. "
 "Upland Intensive Mixed",EAP,"Unequal opportunities for women ","Is mitigated by","Build women's  capacity ","It is important to build the capacity of women and ethnic minorities to adopt appropriate agricultural innovations, and to understand how policies, social and biophysical constraints positively or negatively affect their development. "
-"Upland Intensive Mixed",EAP," "," "," "," "
+"Upland Intensive Mixed",EAP,,,,
 "Upland Intensive Mixed",EAP,"Weak land tenure ","Is mitigated by","Land tenure reform","Weak land tenure impedes agricultural development in many countries engaged in the upland intensive mixed farming system. Governments are reluctant to give farmers legal ownership of the land and farmers are generally unwilling to invest resources in development without secure land ownership. Land tenure, land leasing and land markets are policy issues that need to be reviewed and updated to promote development in upland farming areas."
-"Upland Intensive Mixed",EAP," "," "," "," "
+"Upland Intensive Mixed",EAP,,,,
 "Upland Intensive Mixed",EAP,"Lack of access to risk insurance","Is mitigated by","Improve access to risk insurance schemes","Improving farmers' access to agricultural insurance encourages the adoption of new agricultural practices and technologies by providing the farmers with a safety net. Farmer organisations can be efficient channels for introducing crop insurance programmes for farmers."
 "Upland Intensive Mixed",EAP,"Low access to credit","Is mitigated by","Improve access to credit","A lack of capital constrains investment in sustainable agricultural activities and rural development, this can be addressed by improving farmers' access to rural financial services and establishing community-managed funds."
-"Upland Intensive Mixed",EAP," "," "," "," "
+"Upland Intensive Mixed",EAP,,,,
 "Upland Intensive Mixed",EAP,"High levels of deforestation","Is mitigated by","Implement agroforestry practices","On-farm agroforestry within the agricultural system encourages the growing of trees on mountain slopes. The planting of trees is more environmentally sustainable than growing annual crops, as trees are more effective at preventing soil erosion, regulating the flow of rainwater and maintaining biodiversity."
 "Upland Intensive Mixed",EAP,"High levels of deforestation","Is mitigated by","Implement reforestation practices","Forested areas are scattered throughout the agricultural system, mainly at higher elevations. Development programmes should promote afforestation practices and community management of forested areas to enhance ecological goods and services for improved agricultural productivity and livelihood options."
 "Upland Intensive Mixed",EAP,"High prevalence of land degradation","Is mitigated by","Implement conservation agriculture practices","Conservation agriculture practices can make upland production systems more sustainable and address land degradation by integrating cover crops and mulching methods, introducing fruit trees on sloping land and adopting minimum tillage with legume crop rotations. The use of contour furrows on slopes disrupts surface water flow, decreases runoff and increases the rainwater-soil penetration. The use of biodegradable mulching materials protects the soil from direct rainfall impact and reduces evaporation. Planting multiple crop types creates permanent soil coverage and generates a consistent income flow. Using a combination of these strategies has been shown to reduce soil erosion, improve the water holding capacity of soil and increase crop yields when compared to conventional practices. "
 "Upland Intensive Mixed",EAP,"High prevalence of pests","Is mitigated by","Apply integrated pest and diseases management","Adopt integrated pest management (IPM) to manage emerging insect–pest problems."
 "Upland Intensive Mixed",EAP,"High prevalence of weeds","Is mitigated by","Integrated weed management","Adopt integrated weed management (IWM) practices to manage emerging weed problems. Rainfed rice cultivation requires strict weed control to achieve reasonable yields. On newly cleared land, two successive crops can be obtained but then weed infestation can become a major constraint. "
-"Upland Intensive Mixed",EAP," "," "," "," "
+"Upland Intensive Mixed",EAP,,,,
 "Upland Intensive Mixed",EAP,"Low access to agricultural extension services","Is mitigated by","Improve access to agricultural extension services","There is substantial knowledge and technologies available for sustainable farming in the uplands but it rarely reaches the farmers. Extension agents are needed to strengthen the capabilities of farmers to improve their agricultural production and sustainably use forests. Network approaches where farmers, extension agents and researchers collaborate are more beneficial as they are more responsive to the needs of the farming communities than traditional top-down approaches. Developing a bond between the farmers and extension staff is also important for expanding the use of farming technologies. Participatory approaches such as farmer trainers’ can ensure widespread and rapid agricultural knowledge diffusion. 
 "
 "Upland Intensive Mixed",EAP,"Low levels of climate change awareness at the farmer level","Is mitigated by","Improve access to climate information services","Timely access to climate information can be improved through media channels such as television and radio. Communicating climate change information is one of the best strategies to effect change."
@@ -516,23 +516,23 @@ are being substituted with high value cash crops such as fruit orchards, spices,
 "Coastal plantation and mixed ",LAC,"Rising sea levels","Leads to","Beach erosion","As global sea level rises, the action of waves at higher elevations increases the likelihood for extensive coastal beach erosion. Beach erosion damage the housing and fisheries landing sites."
 "Coastal plantation and mixed ",LAC,"Ocean acidification","Leads to","Biodiversity loss","Some of the most degraded ecosystems in LAC are mangroves, wetlands and coral reefs, resulting in the loss of valuable ecosystem. Almost two thirds of the Caribbean
 coral reefs are threatened by water acidification, coastal urbanization, sedimentation, contamination by toxic substances, and overfishing. Over the past 10 years the marine and coastal ecosystems of the region have provided between 15 and 30% of the world’s total fish supply. GEO Uruguay reports that in 30 years’ time 90% of fisheries will be overexploited or at maximum capacity. "
-"Coastal plantation and mixed ",LAC," "," "," "," "
-"Coastal plantation and mixed ",LAC," "," "," "," "
-"Coastal plantation and mixed ",LAC," "," "," "," "
-"Coastal plantation and mixed ",LAC," "," "," "," "
-"Coastal plantation and mixed ",LAC," "," "," "," "
-"Coastal plantation and mixed ",LAC," "," "," "," "
-"Coastal plantation and mixed ",LAC," "," "," "," "
+"Coastal plantation and mixed ",LAC,,,,
+"Coastal plantation and mixed ",LAC,,,,
+"Coastal plantation and mixed ",LAC,,,,
+"Coastal plantation and mixed ",LAC,,,,
+"Coastal plantation and mixed ",LAC,,,,
+"Coastal plantation and mixed ",LAC,,,,
+"Coastal plantation and mixed ",LAC,,,,
 "Coastal plantation and mixed ",LAC,"Increase in drought events","Leads to","Increase in food insecurity","Widespread drought across Latin America and the Caribbean has had significant impacts, including reduced crop yields and food production, leading to worsening food insecurity in many areas."
 "Coastal plantation and mixed ",LAC,"Increase in extreme heat (no. of hot days)","Leads to","Decrease in labour productivity","Increase of outdoor and indoor heat loads will have a negative impact on the  health  and  productivity  of  millions  of working  people "
 "Coastal plantation and mixed ",LAC,"Decrease in average precipitation","Leads to","Increase in food prices","Decrease in precipitation contributes to a decreases in food production, food quality and revenues, rising prices, dependency on imports and pressure on ecosystems."
 "Coastal plantation and mixed ",LAC,"Increase in tropical cyclones/hurricanes","Leads to","Increase in migration","Hurricanes have devastating effects on human lives. For example, Hurricane Mitch of 1998, devastated Honduras with over 11,000 fatalities. Similarly,  there is significant human migration from Central American countries to the United States as an aftermath to landfalling TCs in the region"
-"Coastal plantation and mixed ",LAC," "," "," "," "
-"Coastal plantation and mixed ",LAC," "," "," "," "
-"Coastal plantation and mixed ",LAC," "," "," "," "
-"Coastal plantation and mixed ",LAC," "," "," "," "
-"Coastal plantation and mixed ",LAC," "," "," "," "
-"Coastal plantation and mixed ",LAC," "," "," "," "
+"Coastal plantation and mixed ",LAC,,,,
+"Coastal plantation and mixed ",LAC,,,,
+"Coastal plantation and mixed ",LAC,,,,
+"Coastal plantation and mixed ",LAC,,,,
+"Coastal plantation and mixed ",LAC,,,,
+"Coastal plantation and mixed ",LAC,,,,
 "Coastal plantation and mixed ",LAC,"Increased flooding
 ","Leads to","Landslide events","Rampant cases of landslides have been experienced. For example,  Towards the end of 2020, intense rainfall events brought landslides, floods and flash floods to rural and urban areas in Central and South America"
 "Coastal plantation and mixed ",LAC,"Coastal inundation","Leads to","Damage to infrastructure","Coastal inundation leads to massive flooding in the coastal neighbouring leading to destruction of infrastructure."
@@ -542,8 +542,8 @@ coral reefs are threatened by water acidification, coastal urbanization, sedimen
 "Coastal plantation and mixed ",LAC,"Loss of production of fish","Leads to","Reduction in tax collection by the government","Loss of critical habitats will result in decreased fish production and reduced sustainable fishery yields, particularly of reef- associated fisheries hence leading to reduction in tax collection by the government."
 "Coastal plantation and mixed ",LAC,"Loss of income","Leads to","Increase in poverty","It is estimated that in 2020, some 491 million people in the farming system were living with income of up to three times the poverty line."
 "Coastal plantation and mixed ",LAC,"Increase in food insecurity","Leads to","Increase in malnutrition","The region is facing a pandemic of malnutrition due to the increasing food insecurity."
-"Coastal plantation and mixed ",LAC," "," "," "," "
-"Coastal plantation and mixed ",LAC," "," "," "," "
+"Coastal plantation and mixed ",LAC,,,,
+"Coastal plantation and mixed ",LAC,,,,
 "Coastal plantation and mixed ",LAC,"Reliance on rainfed agriculture","Leads to","Reduced crop productivity/failure","Smallholder Arabica and Robusta coffee farmers are particularly vulnerable to climate change given their reliance on rain-fed agriculture."
 "Coastal plantation and mixed ",LAC,"Predominantly small-scale subsistence farming","Leads to","Increase in poverty","Hunger, poverty and lack of opportunities in the farming system remain concentrated in rural areas, among small-scale subsistence farmers and especially among indigenous peoples,women and youth. While 26 per cent of the region’s urban population is poor,46 per cent of the region’s rural population lives under the poverty line, almost double. "
 "Coastal plantation and mixed ",LAC,"High illiteracy rates ","Leads to","Increase in poverty","Education is another factor which is shown to be closely linked to the incidence of poverty. The poor are more likely to be illiterate in the farming system."
@@ -555,28 +555,28 @@ coral reefs are threatened by water acidification, coastal urbanization, sedimen
 
 
 ","Leads to","Increase in malnutrition"," Around 66 million people in LAC  are  living in extreme poverty leading to increased malnutrition."
-"Coastal plantation and mixed ",LAC," "," "," "," "
-"Coastal plantation and mixed ",LAC," "," "," "," "
-"Coastal plantation and mixed ",LAC," "," "," "," "
-"Coastal plantation and mixed ",LAC," "," "," "," "
-"Coastal plantation and mixed ",LAC," "," "," "," "
-"Coastal plantation and mixed ",LAC," "," "," "," "
+"Coastal plantation and mixed ",LAC,,,,
+"Coastal plantation and mixed ",LAC,,,,
+"Coastal plantation and mixed ",LAC,,,,
+"Coastal plantation and mixed ",LAC,,,,
+"Coastal plantation and mixed ",LAC,,,,
+"Coastal plantation and mixed ",LAC,,,,
 "Coastal plantation and mixed ",LAC,"Weak land tenure ","Leads to","Competition for resources","The region faces major challenges in land tenure informality and overlapping mandates for titling, mapping, and registration leading to competition for resources such as land."
 "Coastal plantation and mixed ",LAC,"Conflict prone area","Leads to","Conflict over resources","There exist social and political conflict. There are also conflicts around access to  resources such as water resources."
-"Coastal plantation and mixed ",LAC," "," "," "," "
-"Coastal plantation and mixed ",LAC," "," "," "," "
-"Coastal plantation and mixed ",LAC," "," "," "," "
+"Coastal plantation and mixed ",LAC,,,,
+"Coastal plantation and mixed ",LAC,,,,
+"Coastal plantation and mixed ",LAC,,,,
 "Coastal plantation and mixed ",LAC,"Low access to markets","Leads to","Loss of income","Coffee producers in the farming system are vulnerable to low market access hence leading to loss of income. "
 "Coastal plantation and mixed ",LAC,"Barriers to trade","Leads to","Reduction in tax collection by the government","Trade restrictions that promote special interests in the region leads to reduction in tax collection by the government."
-"Coastal plantation and mixed ",LAC," "," "," "," "
-"Coastal plantation and mixed ",LAC," "," "," "," "
-"Coastal plantation and mixed ",LAC," "," "," "," "
+"Coastal plantation and mixed ",LAC,,,,
+"Coastal plantation and mixed ",LAC,,,,
+"Coastal plantation and mixed ",LAC,,,,
 "Coastal plantation and mixed ",LAC,"Frequent bushfires","Leads to","Increased incidence of bushfires","Latin America and the Caribbean (LAC), Coastal plantationmixed specifically, continues to be impacted by wildfires with an average of 33 million hectares of land estimated to have been affected each year for the period 2009-2019."
 "Coastal plantation and mixed ",LAC,"Water scarce area","Leads to","Reduced crop productivity/failure","Water scarcity is expected to increase in several areas due to climate change, leading to reduced coffee and fish production  in the farming system."
 "Coastal plantation and mixed ",LAC,"Water scarce area","Leads to","Water scarcity","Rapid urbanization over the past 50 years, lack of infrastructure (including rehabilitation of existing facilities) and more importantly weak governance are crucial factors that affect scarcity in a water rich region."
 "Coastal plantation and mixed ",LAC,"High prevalence of land degradation","Leads to","Increase in food insecurity","About 45% of croplands in South America and 74% in Meso-America are degraded. The arid lands are threatened by desertification and very often by droughts leading to increased food insecurity."
-"Coastal plantation and mixed ",LAC," "," "," "," "
-"Coastal plantation and mixed ",LAC," "," "," "," "
+"Coastal plantation and mixed ",LAC,,,,
+"Coastal plantation and mixed ",LAC,,,,
 "Coastal plantation and mixed ",LAC,"High poverty levels 
 
 
@@ -589,7 +589,7 @@ coral reefs are threatened by water acidification, coastal urbanization, sedimen
 "Coastal plantation and mixed ",LAC,"Reliance on rainfed agriculture","Leads to","Increase in food insecurity","Rainfed agriculture is prone to climate change impacts such as droughts hence leading to increased food insecurity."
 "Coastal plantation and mixed ",LAC,"Predominantly small-scale subsistence farming","Leads to","Loss of income","Subsistence small-scale farming is characterized by these identified challenges i.e high cost of borrowing, lack of entrepreneurship skills, inadequate infrastructure, insufficient markets, adverse climate changes and socio-cultural constraint hence leading to loss of income in the farming region."
 "Coastal plantation and mixed ",LAC,"Low level of education","Leads to","Increase in poverty","Education improves food security and reduces malnutrition. By educating citizens on agriculture and farming techniques, they become capable of growing and selling their own food. This creates a source of income as well as healthy living."
-"Coastal plantation and mixed ",LAC," "," "," "," "
+"Coastal plantation and mixed ",LAC,,,,
 "Coastal plantation and mixed ",LAC,"High poverty levels 
 
 
@@ -602,30 +602,30 @@ consumption risks associated with primary agricultural production. "
 "Coastal plantation and mixed ",LAC,"High illiteracy rates ","Is mitigated by","Improve networking and knowledge exchange","High literacy level is mitigated by improving knowledge exchange through increasing the capacity of Latin American developing countries to quantify greenhouse gas emissions and develop low emissions agriculture options."
 "Coastal plantation and mixed ",LAC,"Reliance on rainfed agriculture","Is mitigated by","Invest in irrigation infrastructure","Rainfed agriculture is prone to climate change impacts such as droughts hence the need to invest in irrigation infrastructure in the farming system."
 "Coastal plantation and mixed ",LAC,"Predominantly small-scale subsistence farming","Is mitigated by","Capacity building on sustainable agricultural practices","Small scale farming should be trained on sustainable agricultural practices."
-"Coastal plantation and mixed ",LAC," "," "," "," "
+"Coastal plantation and mixed ",LAC,,,,
 "Coastal plantation and mixed ",LAC,"Reliance on rainfed agriculture","Is mitigated by","Implement conservation agriculture practices","Conservation agriculture (CA) such as soil and water conservation practices i.e minimum tillage has been adopted successfully in the Southern Cone region of South America to conserve water because the region is majorly dependent on rainfed agriculture. "
 "Coastal plantation and mixed ",LAC,"Reliance on rainfed agriculture","Is mitigated by","Implement soil and water conservation practices","Over-reliance on rainfed agriculture needs conservation practices such as minimum or no tillage. "
-"Coastal plantation and mixed ",LAC," "," "," "," "
-"Coastal plantation and mixed ",LAC," "," "," "," "
-"Coastal plantation and mixed ",LAC," "," "," "," "
+"Coastal plantation and mixed ",LAC,,,,
+"Coastal plantation and mixed ",LAC,,,,
+"Coastal plantation and mixed ",LAC,,,,
 "Coastal plantation and mixed ",LAC,"Weak land tenure ","Is mitigated by","Land tenure reform","Strengthening land governance is critically needed in the farming system  to protect the environment and achieve gender equality."
 "Coastal plantation and mixed ",LAC,"Conflict prone area","Is mitigated by","Build capacity on advocacy","Social conflicts routinely show up as news headlines in the press throughout Latin America and the Caribbean. So, due to their prominence in the region, conflict prevention and democratic dialogue should be put at the center of the agendas of national, regional, and municipal governments."
-"Coastal plantation and mixed ",LAC," "," "," "," "
-"Coastal plantation and mixed ",LAC," "," "," "," "
-"Coastal plantation and mixed ",LAC," "," "," "," "
+"Coastal plantation and mixed ",LAC,,,,
+"Coastal plantation and mixed ",LAC,,,,
+"Coastal plantation and mixed ",LAC,,,,
 "Coastal plantation and mixed ",LAC,"Low access to markets","Is mitigated by","Improve access to markets","Access to the markets should be improved by investing in roads connecting the rural farmers."
 "Coastal plantation and mixed ",LAC,"Barriers to trade","Is mitigated by","Build capacity on advocacy","Regional trade agreements should be made through advocacy so as to reduce trade barriers."
-"Coastal plantation and mixed ",LAC," "," "," "," "
-"Coastal plantation and mixed ",LAC," "," "," "," "
-"Coastal plantation and mixed ",LAC," "," "," "," "
+"Coastal plantation and mixed ",LAC,,,,
+"Coastal plantation and mixed ",LAC,,,,
+"Coastal plantation and mixed ",LAC,,,,
 "Coastal plantation and mixed ",LAC,"High prevalence of land degradation","Is mitigated by","Implement reforestation practices","Land degradation is a globally recognized problem and restoration of degraded land is currently high on the international agenda."
 "Coastal plantation and mixed ",LAC,"Frequent bushfires","Is mitigated by","Develop/improve early warning systems","Wildfires are becoming more intense and more frequent, ravaging communities and ecosystems in their path. And therefore,assessment of existing monitoring/early warning systems (EWS) organized according to type of environmental threats should be put in place."
 "Coastal plantation and mixed ",LAC,"Water scarce area","Is mitigated by","Invest in water harvesting and storage infrastructure","Making more rainwater available to crops when most needed (capture water -rainwater harvesting, soil and water conservation-, and using it -deficit irrigation; supplementary irrigation etc."
 "Coastal plantation and mixed ",LAC,"High disease prevalence","Is mitigated by","Apply integrated pest and diseases management","High disease prevalence should be mitigated by implementing the intergrated pest and disease management practices. "
 "Coastal plantation and mixed ",LAC,"Frequent bushfires","Is mitigated by","Improve climate change awareness
 ","World Food Programme are building the capacities of communities and governments in Central and South America to adapt to the growing challenges of climate change such as the catastrophic wildfires that  have become more frequent and impactful  as a result of environmental stressors and prolonged dry seasons."
-"Coastal plantation and mixed ",LAC," "," "," "," "
-"Coastal plantation and mixed ",LAC," "," "," "," "
+"Coastal plantation and mixed ",LAC,,,,
+"Coastal plantation and mixed ",LAC,,,,
 "Coastal plantation and mixed ",LAC,"Lack of irrigation infrastructure ","Is mitigated by","Invest in irrigation infrastructure","Expanding the use of irrigation can thus increase LAC's food production, but it will require substantial additional infrastructure and capital."
 "Coastal plantation and mixed ",LAC,"High poverty levels 
 
@@ -919,9 +919,9 @@ skilled livelihoods."
 "Forest based Livestock ",LAC,"Increase in drought events","Leads to","Water scarcity","Decreased rainfall, increased temperatures and drought will impact water availability in the Amazon. It is projected that river flow and runoff in the northernmost region of the Amazon, and the river mouth area, will decrease by 2045-2065."
 "Forest based Livestock ",LAC,"Increase in average temperatures","Leads to","Water scarcity","Decreased rainfall, increased temperatures and drought will impact water availability in the Amazon. It is projected that river flow and runoff in the northernmost region of the Amazon, and the river mouth area, will decrease by 2045-2065."
 "Forest based Livestock ",LAC,"Decrease in average precipitation","Leads to","Water scarcity","Decreased rainfall, increased temperatures and drought will impact water availability in the Amazon. It is projected that river flow and runoff in the northernmost region of the Amazon, and the river mouth area, will decrease by 2045-2065."
-"Forest based Livestock ",LAC," "," "," "," "
-"Forest based Livestock ",LAC," "," "," "," "
-"Forest based Livestock ",LAC," "," "," "," "
+"Forest based Livestock ",LAC,,,,
+"Forest based Livestock ",LAC,,,,
+"Forest based Livestock ",LAC,,,,
 "Forest based Livestock ",LAC,"Increased flooding
 ","Leads to","Crop stress/damage/mortality","Cultivated areas are damaged by pluvial flooding due to submergence and/or waterlogging, for example, in the Middle Rio Solimões in Brazil, 45% of crops in the floodplain were affected. "
 "Forest based Livestock ",LAC,"Increased flooding
@@ -969,7 +969,7 @@ larger than 100 ha to early migrant farmers, as well as credit and food allowanc
 "Forest based Livestock ",LAC,"High levels of deforestation","Leads to","Land degradation","Deforestation can impact soil functioning such as nutrient and carbon storage and recycling, water drainage and filtration, and increase soil erosion in the long term. Reforestation can reverse many of these effects, but can take decades to be realised."
 "Forest based Livestock ",LAC,"Unfavourable soil conditions","Leads to","Reduced crop productivity/failure","Soils in the Amazon rainforest are poorly suited to growing crops for extended periods of time as they tend to be nutrient deficient, acidic soils, and in some areas are eroded due to poor land use management practices. Where subsistence farmers engaged in shifting cultivation do not leave land fallow for long periods of time the soil nutrients tend to become depleted leading to reduced crop productivity."
 "Forest based Livestock ",LAC,"Frequent forest fires","Leads to","Land degradation","Fires used for clearing vegetation or burning agricultural fields or pastures often result in unintended wildfires that spread into adjacent forests, degrading them."
-"Forest based Livestock ",LAC," "," "," "," "
+"Forest based Livestock ",LAC,,,,
 "Forest based Livestock ",LAC,"Low access to agricultural extension services","Leads to","Reduced crop productivity/failure","Farmers in remote areas of the Amazon lack access to agricultural extension agents. This restricts their access to new technology and practices thereby limiting their potential for improved agricultural productivity."
 "Forest based Livestock ",LAC,"Low access to agricultural extension services","Leads to","Reduced livestock productivity","Farmers in remote areas of the Amazon lack access to agricultural extension agents. This restricts their access to new technology and practices thereby limiting their potential for improved agricultural productivity."
 "Forest based Livestock ",LAC,"Low access to markets","Leads to","Loss of income","In remote areas of the Amazon, smallholder farmers have limited access to markets due to inadequate road infrastructure, which in turn, restricts their income earning potential.  "
@@ -1005,14 +1005,14 @@ larger than 100 ha to early migrant farmers, as well as credit and food allowanc
 ","The adoption of integrated crop-livestock-forest systems such as soybean production in cattle ranching improves soil nitrogen content and reduces soil erosion. Soil quality can be further improved through manure management. The inclusion of trees in the farming system also improves soil fertility, increases water availability and reduces soil erosion. "
 "Forest based Livestock ",LAC,"Frequent forest fires","Is mitigated by","Policy reform
 ","Flexible fire management strategies are required to adapt to climate change. Fire management policy and strategy should be informed by robust data. Forecasting, monitoring and early warning systems are fundamental for fire management."
-"Forest based Livestock ",LAC," "," "," "," "
+"Forest based Livestock ",LAC,,,,
 "Forest based Livestock ",LAC,"Low access to agricultural extension services","Is mitigated by","Improve access to agricultural extension services","Through agricultural extension agents, the adoption of new technology and practices by farmers can reduce pressure on forested areas by improving agricultural productivity."
 "Forest based Livestock ",LAC,"Inadequate agri research and development","Is mitigated by","Invest in agricultural research and development","Government agencies, researchers and civil society need to collaborate and hold dialogue on drivers of deforestation and forest degradation addressing climate change impacts and land use types. Rigorous research is needed to understand the impacts of climate change on forest-based agricultural systems and when and why producers adopt sustainable practices. For successful implementation of national interventions, land users must be engaged in data collection, policy formulation, implementation and monitoring. "
-"Forest based Livestock ",LAC," "," "," "," "
+"Forest based Livestock ",LAC,,,,
 "Forest based Livestock ",LAC,"Farmers engaged in agri system","Exposed to","Loss of livelihoods ","Small scale subsistence agriculture, the primary livelihood of most indigenous communities in the Amazon region, is threatened by increasing temperatures and aridity arising from climate change."
 "Forest based Livestock ",LAC,"Farmers engaged in agri system","Exposed to","Chronic poverty 
 ","In most Amazonian municipalities, poverty rates are well above national averages. As the vast majority of people living in rural areas of the Amazon are poor smallholder farmers, losses in income incurred as a result of climate change will force them further into poverty."
-"Forest based Livestock ",LAC," "," "," "," "
+"Forest based Livestock ",LAC,,,,
 "High Altitude Mixed (C. Andes)",LAC,"Decrease in average precipitation","Leads to","Water scarcity","Decrease in average precipitation over time impacts on the water cycle altering nearly every stage putting pressure on drinking water supplies, food production"
 "High Altitude Mixed (C. Andes)",LAC,"Increase in extreme rainfall events","Leads to","Increased flooding
 ","Intense storms and/or rapid glacier melting during the spring-summer of the
@@ -1048,12 +1048,12 @@ basin, producing dry events over the Peruvian Andes."
 "High Altitude Mixed (C. Andes)",LAC,"Decrease in average precipitation","Leads to","Increase in soil water deficit","Changes in precipitation levels are projected at between -22% and 7% for Central America by the end of the twenty-first century, which has an impact on the soil water deficit."
 "High Altitude Mixed (C. Andes)",LAC,"Increase in frost events","Leads to","Reduced crop productivity/failure","Northern Tropical Andes​​ The occurrence of intense frosts events causes large economic losses to agricultural communities in the Andes by destroying crops."
 "High Altitude Mixed (C. Andes)",LAC,"Increase in frost events","Leads to","Reduced livestock productivity","Extreme frost events could restrict animal access to pastures and create larger disruptions to feed production hence leading to reduced livestock production."
-"High Altitude Mixed (C. Andes)",LAC,"Increase in frost events","Leads to"," "," "
+"High Altitude Mixed (C. Andes)",LAC,"Increase in frost events","Leads to",,
 "High Altitude Mixed (C. Andes)",LAC,"Increase in heavy snowfall events","Leads to","Reduced livestock productivity","Due to the long cold season with heavy snow, forage shortage induced a dramatic body weight loss leading to reduced li vestock productivity."
 "High Altitude Mixed (C. Andes)",LAC,"Increase in heavy snowfall events","Leads to","Livestock mortalities","Prolonged long cold season with heavy snow, forage shortage induced a dramatic body weight loss hence increased livestock mortalities. "
 "High Altitude Mixed (C. Andes)",LAC,"Increase in tropical cyclones/hurricanes","Leads to","Damage to infrastructure","The World Meteorological Organization (WMO) State of the Climate in Latin America and the Caribbean 2021 highlighted that, hydrometeorological hazards, including tropical cyclones and floods, have unfortunately led to  severe damages to infrastructure and human displacement."
 "High Altitude Mixed (C. Andes)",LAC,"Increase in tropical cyclones/hurricanes","Leads to","Reduced crop productivity/failure","The WMO report shows that hydrometeorological hazards such as tropical cyclones and floods, have unfortunately led to severe damages to crop production."
-"High Altitude Mixed (C. Andes)",LAC," "," "," "," "
+"High Altitude Mixed (C. Andes)",LAC,,,,
 "High Altitude Mixed (C. Andes)",LAC,"Increase in drought events","Leads to","Increase in food insecurity","ENSO is a major driver of droughts in various regions of South America  affecting agricultural productivity and water supply including the southern and central peruvian andes. In particular El Niño is associated with droughts over large parts of Colombia, Venezuela, some regions of the high Andes of Ecuador, Peru and Bolivia. At the same time, La Niña is associated with droughts in other regions of Ecuador, Bolivia, Chile and Argentina."
 "High Altitude Mixed (C. Andes)",LAC,"Increase in extreme rainfall events","Leads to","Loss of income","Etreme rainfall events causes flooding, which impacts negatively on communities in the andes region causing destrcution of properties and loss of agricutlural produce leading to loss of income and associated poverty."
 "High Altitude Mixed (C. Andes)",LAC,"Increase in tropical cyclones/hurricanes","Leads to","Increase in migration","In 2020, the Atlantic basin cyclone season registered a total of 30 storms, beating the previous record of 28 storms in 2005. Eight had direct or indirect impacts in the region: Tropical storm Amanda/Cristobal, and Hurricanes Gamma, Marco, Nana, Delta, Zeta, Eta and Iota"
@@ -1071,7 +1071,7 @@ basin, producing dry events over the Peruvian Andes."
 "High Altitude Mixed (C. Andes)",LAC,"Increase in dry days","Leads to","Increase in food insecurity","2020 was a dry year, with an estimated national anomaly of −16.7% in relation to the 1981–2010 average, placing 2020 as one of the driest years on record since 1961 and as the driest since 1995. For the north-eastern region of Argentina, 2020 was the fifth driest year since 1961  leading to increased food insecurity."
 "High Altitude Mixed (C. Andes)",LAC,"Increase in heavy snowfall events","Leads to","Increase in food insecurity","Glaciers in the tropical Andes have been retreating for the past several decades, leading to a temporary increase in dry season water supply, hence contributing to increase in food insecurity due to poor agricultural production."
 "High Altitude Mixed (C. Andes)",LAC,"Increase in tropical cyclones/hurricanes","Leads to","Increase in food insecurity","A total of 7.7 million people, in Guatemala, El Salvador and Nicaragua, experienced high levels of food insecurity in 2021, with contributing factors including continuing impacts from hurricanes Eta and Iota in late 2020 and COVID-19 pandemic economic impacts."
-"High Altitude Mixed (C. Andes)",LAC," "," "," "," "
+"High Altitude Mixed (C. Andes)",LAC,,,,
 "High Altitude Mixed (C. Andes)",LAC,"Increased flooding
 ","Leads to","Leaching of soil nutrients","Flooding events in the region contribute to the leaching of soil nutrients where surface run off carries the nutirnts downwards."
 "High Altitude Mixed (C. Andes)",LAC,"Flash floods","Leads to","Damage to infrastructure","Highly intense and short storms regularly trigger severe flash
@@ -1083,8 +1083,8 @@ et al., 2016; Younes-Cárdenas and Erazo-Mera, 2016"
 "High Altitude Mixed (C. Andes)",LAC,"Reduced crop productivity/failure","Leads to","Dependence on food aid","The increase climate hazards impacting on agriculture in Colombia, Ecuador, Peru and Bolivia has lead to an increase in food insecurity. Food insecurity in the Andes is therefore a persistent and serious problem. Many smallholder farmers produce staple crops at a subsistence level, enough to feed themselves and their families. However, with less water, it has been difficult for them to uphold this, leading to them vulnerable and dependent on food aid."
 "High Altitude Mixed (C. Andes)",LAC,"Emergence of new pests","Leads to","Reduced crop productivity/failure","There has been an emergence of new pest and diseases in the central andes owing to climate hazards for example, outbreaks of a new mating type (A2) of late blight (Phythopthora infestans) and the spread of bacterial wilt (Ralstonia solanacearum) were the most notable events among fungi and bacteria during the last 10 to 15 years in the Andes"
 "High Altitude Mixed (C. Andes)",LAC,"Shorter growing season","Leads to","Increase in food insecurity","Changes in the length of growing seasons have an impact on food insecurity. "
-"High Altitude Mixed (C. Andes)",LAC," "," "," "," "
-"High Altitude Mixed (C. Andes)",LAC," "," "," "," "
+"High Altitude Mixed (C. Andes)",LAC,,,,
+"High Altitude Mixed (C. Andes)",LAC,,,,
 "High Altitude Mixed (C. Andes)",LAC,"Reliance on rainfed agriculture","Leads to","Lack of willingness to invest in sustainable agricultural practices","High rainfal dependamce on agriculture by farmers in the farming system makes that highly susceptible to dry spells and drought events that are recurring. This limits the farmers to investing in sustainable agricultural practices such as water harvesting and conservation."
 "High Altitude Mixed (C. Andes)",LAC,"High poverty levels 
 
@@ -1095,31 +1095,31 @@ et al., 2016; Younes-Cárdenas and Erazo-Mera, 2016"
 
 ","Leads to","Dependence on food aid","Mountain communities in the Tropical Andes are particularly vulnerable and exposed to climate hazards, partly due to their disproportionate poverty and the specific features of mountain environments. Agricultural problems affect some of the poorest and most vulnerable to food insecurity, with substantial negative effects on human health. With a lock of capacity to cope and adapt, they end up depending largely on food aid."
 "High Altitude Mixed (C. Andes)",LAC,"Demographic pressure on land","Leads to","Increase in migration","Population growth and international and internal migration are key factors in determining vulnerability to climate change. Migration (including temporary) often constitutes an essential element of adaptation for families and communities. Meanwhile, changes in land use, population growth and unsustainable exploitation of resources are, in combination with climate change, threatening the capacity of the Andes Mountains to provide ecosystem services needed in both the high and lowlands."
-"High Altitude Mixed (C. Andes)",LAC," "," "," "," "
-"High Altitude Mixed (C. Andes)",LAC," "," "," "," "
-"High Altitude Mixed (C. Andes)",LAC," "," "," "," "
-"High Altitude Mixed (C. Andes)",LAC," "," "," "," "
-"High Altitude Mixed (C. Andes)",LAC," "," "," "," "
-"High Altitude Mixed (C. Andes)",LAC," "," "," "," "
-"High Altitude Mixed (C. Andes)",LAC," "," "," "," "
-"High Altitude Mixed (C. Andes)",LAC," "," "," "," "
-"High Altitude Mixed (C. Andes)",LAC," "," "," "," "
-"High Altitude Mixed (C. Andes)",LAC," "," "," "," "
-"High Altitude Mixed (C. Andes)",LAC," "," "," "," "
-"High Altitude Mixed (C. Andes)",LAC," "," "," "," "
-"High Altitude Mixed (C. Andes)",LAC," "," "," "," "
+"High Altitude Mixed (C. Andes)",LAC,,,,
+"High Altitude Mixed (C. Andes)",LAC,,,,
+"High Altitude Mixed (C. Andes)",LAC,,,,
+"High Altitude Mixed (C. Andes)",LAC,,,,
+"High Altitude Mixed (C. Andes)",LAC,,,,
+"High Altitude Mixed (C. Andes)",LAC,,,,
+"High Altitude Mixed (C. Andes)",LAC,,,,
+"High Altitude Mixed (C. Andes)",LAC,,,,
+"High Altitude Mixed (C. Andes)",LAC,,,,
+"High Altitude Mixed (C. Andes)",LAC,,,,
+"High Altitude Mixed (C. Andes)",LAC,,,,
+"High Altitude Mixed (C. Andes)",LAC,,,,
+"High Altitude Mixed (C. Andes)",LAC,,,,
 "High Altitude Mixed (C. Andes)",LAC,"High prevalence of land degradation","Leads to","Change in production zone suitability","Intensive human activities such as agricultural producution over long period of time exercebated by climatic hazards have led to land degradation and change in production zone suitability . Therefore, production quality and quantity of certain crops that used to be favourable in certain areas decreases significantly"
-"High Altitude Mixed (C. Andes)",LAC," "," "," "," "
-"High Altitude Mixed (C. Andes)",LAC," "," "," "," "
-"High Altitude Mixed (C. Andes)",LAC," "," "," "," "
-"High Altitude Mixed (C. Andes)",LAC," "," "," "," "
-"High Altitude Mixed (C. Andes)",LAC," "," "," "," "
+"High Altitude Mixed (C. Andes)",LAC,,,,
+"High Altitude Mixed (C. Andes)",LAC,,,,
+"High Altitude Mixed (C. Andes)",LAC,,,,
+"High Altitude Mixed (C. Andes)",LAC,,,,
+"High Altitude Mixed (C. Andes)",LAC,,,,
 "High Altitude Mixed (C. Andes)",LAC,"Low access to credit","Leads to","Increase in poverty","Lack of access to credit to purchase agricultural inputs and other farm resources used in climate change interventions limits the farmers ability to cope and adapt. Oportunities to invest in sustainable agriculture are lost leading to an increase in poverty."
 "High Altitude Mixed (C. Andes)",LAC,"Low level of education","Leads to","Lack of willingness to invest in sustainable agricultural practices","Education and training plays a huge role in the uptake of modern technologies and sustainable agricultural practices and this should be a priority for governments."
 "High Altitude Mixed (C. Andes)",LAC,"Lack of road infrastructure","Leads to","Increase in food spoilage/wastage","Poor road infrastructure limits the transportation of farm produce from the farm to the market in time leading to post harvest losses/ food spoilage/ wastage"
 "High Altitude Mixed (C. Andes)",LAC,"Lack of road infrastructure","Leads to","Increase in food prices","The challenges and hardships experienced on poor roads by transporters and farmers to get the agricultural produce to the market is factored in and contributes to increase in food prices "
-"High Altitude Mixed (C. Andes)",LAC," "," "," "," "
-"High Altitude Mixed (C. Andes)",LAC," "," "," "," "
+"High Altitude Mixed (C. Andes)",LAC,,,,
+"High Altitude Mixed (C. Andes)",LAC,,,,
 "High Altitude Mixed (C. Andes)",LAC,"Reliance on rainfed agriculture","Is mitigated by","Invest in irrigation infrastructure","There has been support to farmers from various stakeholders on the Improvement of irrigation systems, infrastructure and water management efficiency. Research, development and field promotion of new varieties, breeding and biotechnological alternatives, including more drought-resistant crop varieties."
 "High Altitude Mixed (C. Andes)",LAC,"Crop is highly susceptible to pests ","Is mitigated by","Apply integrated pest and diseases management","Promotion of agroecological management alternatives (e.g., biological pest and disease control, biofertilizers and organic fertilisers, community gardens, etc.)."
 "High Altitude Mixed (C. Andes)",LAC,"Poor water use efficiency and management","Is mitigated by","Implement efficient water management","Technological alternatives for more efficient water management, such as improved irrigation reservoirs, storage and canalisation infrastructures, etc. are being implemented."
@@ -1128,25 +1128,25 @@ et al., 2016; Younes-Cárdenas and Erazo-Mera, 2016"
 "High Altitude Mixed (C. Andes)",LAC,"Unequal opportunities for women ","Is mitigated by","Build women's  capacity ","Women have a profound knowledge of their environment and often play a greater role than men in the management of natural resources. Through their experiences, responsibilities and strength, women are a primary resource for adaptation and their roles should be strengthened by government."
 "High Altitude Mixed (C. Andes)",LAC,"Demographic pressure on land","Is mitigated by","Implement reforestation practices","Demographic pressure on land can be avoided, reduced or reversed by implementing reforestation practices. "
 "High Altitude Mixed (C. Andes)",LAC,"Predominantly small-scale subsistence farming","Is mitigated by","Diversify livelihoods","Small scale farmers should be strenghthened to diversify their livelihoods . "
-"High Altitude Mixed (C. Andes)",LAC," "," "," "," "
-"High Altitude Mixed (C. Andes)",LAC," "," "," "," "
+"High Altitude Mixed (C. Andes)",LAC,,,,
+"High Altitude Mixed (C. Andes)",LAC,,,,
 "High Altitude Mixed (C. Andes)",LAC,"Inadequate climate information services","Is mitigated by","Improve access to climate information services","There is progress in improving access to climate information for example Agroclimatic modelling and analysis of crop distribution, phenology and productivity under CC scenarios for the implementation of adjustments to the agricultural calendar, locations or planting practices, etc.; for example, the International Center for Tropical Agriculture (CIAT) and the Food and Agriculture Organization (FAO)."
 "High Altitude Mixed (C. Andes)",LAC,"Inconsistencies in policy implementation","Is mitigated by","Develop policies for building climate change resilience","There has been inconsistencies in policy implementation affecting climate hence the need to develop Policies for climate change adaptation and resilience in the reion. "
 "High Altitude Mixed (C. Andes)",LAC,"Weak land tenure and access rights for women","Is mitigated by","Increase awareness of gender equality ","Women have a greater role in farming and therefore, there is need to create awareness on the need to allow women access land rights."
-"High Altitude Mixed (C. Andes)",LAC," "," "," "," "
-"High Altitude Mixed (C. Andes)",LAC," "," "," "," "
+"High Altitude Mixed (C. Andes)",LAC,,,,
+"High Altitude Mixed (C. Andes)",LAC,,,,
 "High Altitude Mixed (C. Andes)",LAC,"Lack of access to risk insurance","Is mitigated by","Improve access to risk insurance schemes","There has been development of rural funds, agricultural insurance and other financing schemes that consider climate risk (especially in the face of extreme events)."
 "High Altitude Mixed (C. Andes)",LAC,"Low access to markets","Is mitigated by","Improve access to markets","Structural changes that enable access to international markets are being implemeted to tackle oversupply of commodities in the region"
-"High Altitude Mixed (C. Andes)",LAC," "," "," "," "
-"High Altitude Mixed (C. Andes)",LAC," "," "," "," "
-"High Altitude Mixed (C. Andes)",LAC," "," "," "," "
+"High Altitude Mixed (C. Andes)",LAC,,,,
+"High Altitude Mixed (C. Andes)",LAC,,,,
+"High Altitude Mixed (C. Andes)",LAC,,,,
 "High Altitude Mixed (C. Andes)",LAC,"Unfavourable soil conditions","Is mitigated by","Undertake soil rehabilitation "," Strategies on conserving soil are being undertaken on reducing soil erosion
 losses, increasing access to irrigation for buffering of short-term droughts, and improving the functions of soil to conserve crop-available water and nutrients. Available technologies include: physical soil conservation measures (contour planting, barriers, and terraces), con- servation tillage and improved crop residue management, cover crop agriculture, and increased organic amendments through the incorporation of animal manures and composting, water harvesting and micro-irrigation, and alternative multi-use plants for fallow periods. "
 "High Altitude Mixed (C. Andes)",LAC,"High prevalence of land degradation","Is mitigated by","Implement reforestation practices","Acción Andina (Andes Action), powered by Global Forest Generation, is scaling up a time-tested, 19-year, community reforestation model to mitigate the land degradation impacts."
 "High Altitude Mixed (C. Andes)",LAC,"High prevalence of land degradation","Is mitigated by","Capacity building on sustainable agricultural practices","The  Peruvian Agency of international Cooperation came up with a strategy on the sustainable use and protection of natural resources in Peru from 2013 to 2021. "
 "High Altitude Mixed (C. Andes)",LAC,"High prevalence of land degradation","Is mitigated by","Implement disaster recovery strategies","National System for Disaster Risk Management (SINAGERD) is in charge of pre-and-post disaster actions in Peru and is supported at the highest political level to mitigate land degradation serious knock-on effects for humans, such as malnutrition, disease, forced migration, cultural damage, and even war."
-"High Altitude Mixed (C. Andes)",LAC," "," "," "," "
-"High Altitude Mixed (C. Andes)",LAC," "," "," "," "
+"High Altitude Mixed (C. Andes)",LAC,,,,
+"High Altitude Mixed (C. Andes)",LAC,,,,
 "High Altitude Mixed (C. Andes)",LAC,"Lack of irrigation infrastructure ","Is mitigated by","Invest in water harvesting and storage infrastructure","Using a combination of indigenous methods and existing modern water harvesting and storage infrastructure could potentially reduce the challenge of water scarcity in the farming system"
 "High Altitude Mixed (C. Andes)",LAC,"Lack of access to improved crop varieties","Is mitigated by","Adopt drought tolerant varieties
 
@@ -1202,7 +1202,7 @@ traditionally been a boundary zone, where the severity of the disease has been l
 "Irrigated",LAC,"Increase in drought events","Leads to","Increase in food insecurity","Drought is expected to have an adverse impact on agricultural production and food security in the irrigated drylands of Central and South America. For example, in Chile, drought is projected to have a significant impact on the production of fruit farmers. In Mexico, farmers highlighted drought as the main cause for agricultural losses, with Baja California, Sonora, and Sinaloa being badly affected. In Central-West Argentina, drought (2010/2011- 2014/2015) resulted in water shortages reducing grape and seasonal crop production as well as the loss of livestock, resulting in a decrease in regional food security."
 "Irrigated",LAC,"Increase in drought events","Leads to","Loss of income","Drought is expected to have an adverse impact on agricultural production and associated income generation in the irrigated drylands of Central and South America."
 "Irrigated",LAC,"Increase in drought events","Leads to","Increase in poverty","Drought and associated water scarcity challenges impact agricultural production and income generation thereby enhancing poverty, particularly amongst smallholder farmers in the irrigated system."
-"Irrigated",LAC," "," "," "," "
+"Irrigated",LAC,,,,
 "Irrigated",LAC,"Increase in heat stress","Leads to","Reduced crop productivity/failure","Heat stress caused by short term and constantly elevated temperature results in significant reduction in yield and harvest quality in fruit crops. Heat stress results in damage to crop leaves (e.g. burning or scorching), twig burning, leaf senescence and abscission, shoot and root growth inhibition, bark cracking, delayed flowering/fruiting, poor fruit setting due to reduced sterility, fruit drop and fruit discoloration and quality. For example, the banana plant is quite tolerant of prolonged water stress, but the combined effect of soil water deficit with temperatures beyond 35˚C reduces banana production. Temperatures above 35˚C affect fruit set in grape and mango orchards."
 "Irrigated",LAC,"Increase in diseases","Leads to","Reduced livestock productivity","Higher temperatures tend to increase the prevalence and range of livestock diseases, which negatively affect productivity and increase mortality rates."
 "Irrigated",LAC,"Increase in heat stress","Leads to","Reduced produce quality","Heat stress affects the quality of fruit. For example, in the context of the irrigated agricultural system, heat stress affects the taste, texture and colour of apples. It decreases the acid concentration, fruit firmness and water core development. In avocado trees, extreme heat restricts photosynthetic activity affecting productivity and causing sunburn damage in fruit.  Higher temperatures affect grape quality, by increasing sugar concentrations, lowering acidity and altering aroma compounds. This in turn affects wine colour, aroma and taste. "
@@ -1237,7 +1237,7 @@ traditionally been a boundary zone, where the severity of the disease has been l
 "Irrigated",LAC,"Inadequate regulation of water resources","Leads to","Water scarcity","Poor water use regulation has led to an overexploitation of water resources in the irrigated agricultural system. For example, Chile’s hydrological regulation capacity lacks coordination between institutions and is challenged by data deficits. The number of groundwater rights granted increased by 4,350% between 2001 and 2017 which resulted in decreases in groundwater levels. Furthermore, the expansion of irrigated agriculture in Mexico has led to aquifer overexploitation and declines in regional groundwater levels."
 "Irrigated",LAC,"Inadequate climate information services","Leads to","Reduced crop productivity/failure","A lack of access to climate information services limits farmers' abilities to make informed decisions which can lead to reduced crop productivity or failure. "
 "Irrigated",LAC,"Low access to credit","Leads to","Lack of willingness to invest in sustainable agricultural practices","A lack of access to credit was highlighted as a key vulnerability by farmers in Mexico and Chile. A lack of access to credit limits farmers' access to improved technology and practices and therefore their resilience to climate change. "
-"Irrigated",LAC," "," "," "," "
+"Irrigated",LAC,,,,
 "Irrigated",LAC,"Water scarce area","Leads to","Loss of income","Water scarcity at critical points in crop development results in plant stunting and reduced yields. For example, water stress decreases the quantity and quality of harvested grapes, reduces wine production, and results in a loss of income."
 "Irrigated",LAC,"Water scarce area","Leads to","Reduced crop productivity/failure","Water scarcity at critical points in crop development results in plant stunting and reduced yields. For example, water stress decreases the quantity and quality of harvested grapes."
 "Irrigated",LAC,"Limited uptake of modern technologies","Leads to","Reduced crop productivity/failure","In general, there is a low level of adoption of improved irrigation technology contributing to water use inefficiencies and potential yield losses in the face of climate change."
@@ -1250,10 +1250,10 @@ traditionally been a boundary zone, where the severity of the disease has been l
 "Irrigated",LAC,"Inadequate climate information services","Is mitigated by","Build climate information services","There is a need to improve agroclimatic information and early warning systems, especially in areas of greatest vulnerability. Accurate forecasts of hydrometeorological events and early warning systems improve farmers' decision making and reduce agricultural losses. For example, in Central-West Argentina the need for an effective hydrological drought monitoring system, together with an improved snow accumulation forecast, was highlighted."
 "Irrigated",LAC,"Inadequate regulation of water resources","Is mitigated by","Improve networking and knowledge exchange","Collaboration between researchers and national water authorities is key to improving water management decision making. For example, groundwater modelling can inform extraction limits in irrigated agricultural systems to reduce future challenges surrounding overexploitation and water scarcity."
 "Irrigated",LAC,"Low access to credit","Is mitigated by","Improve access to credit","Improving access to credit will enable farmers to adopt modern technology. In Chile, a lack of access to credit was identified as the main factor influencing the adoption of new technology. "
-"Irrigated",LAC," "," "," "," "
+"Irrigated",LAC,,,,
 "Irrigated",LAC,"Water scarce area","Is mitigated by","Improve regulation of groundwater extraction","There is a need for improved regulation of groundwater extraction for irrigated agricultural production. For example, in Chile, regulations focused on surface water extraction, which lead to an overextraction of groundwater and significant reductions in groundwater levels. Groundwater regulation in Chile can be  improved by bettering horizontal and vertical inter-institutional coordination as well as strengthening the institutions themselves."
 "Irrigated",LAC,"Water scarce area","Is mitigated by","Incentivise sustainable natural resource use","Economic incentive mechanisms can be used to improve water use efficiency in the irrigated agricultural system. "
-"Irrigated",LAC," "," "," "," "
+"Irrigated",LAC,,,,
 "Irrigated",LAC,"Limited uptake of modern technologies","Is mitigated by","Invest in water harvesting and storage infrastructure","There is a need to invest in rainwater harvesting and storage infrastructure to guarantee the availability of water during critical periods of consumption for plants, e.g. the flowering stage, as well as to provide drinking water for cattle. Water storage structures should be closed to prevent water loss by evaporation. "
 "Irrigated",LAC,"Poor water use efficiency and management","Is mitigated by","Implement efficient water management","There is a need to implement efficient water resources planning and management in the irrigated agricultural sector to ensure sustainable use that does not exceed replenishment cycles in the face of climate change. "
 "Irrigated",LAC,"Poor water use efficiency and management","Is mitigated by","Implement water conservation irrigation","Water conservation irrigation such as drip irrigation, micro sprinkling, irrigation scheduling, furrow flooding, amongst other techniques, are important in ensuring crops are watered efficiently. Practices should be tailored to the local context.
@@ -1308,15 +1308,15 @@ traditionally been a boundary zone, where the severity of the disease has been l
 "Maize-beans (Mesoamerica)",LAC,"Increase in pests ","Leads to","Reduced crop productivity/failure","Changing climatic conditions can indirectly affect crop production by altering the incidence and severity of pest and disease outbreaks. A survey of 860 smallholder farmers in Central America attributed reductions in crop yields to changing precipitation patterns and rising temperatures, causing outbreaks of pests such as fall armyworm. "
 "Maize-beans (Mesoamerica)",LAC,"Increase in diseases","Leads to","Reduced crop productivity/failure","Changing climatic conditions can indirectly affect crop production by altering the incidence and severity of pest and disease outbreaks. A survey of 860 smallholder farmers in Central America attributed reductions in crop yields to changing precipitation patterns and rising temperatures, causing outbreaks of diseases such as coffee leaf rust (Hemileia vastatrix).  In 2012 and 2013, a coffee leaf rust outbreak had major economic and social impacts across the region affecting 51.2% of the cultivated coffee area, causing the loss of > 264,000 jobs, and resulting in economic losses of USD 479.2 million. "
 "Maize-beans (Mesoamerica)",LAC,"Increase in soil water deficit","Leads to","Reduced crop productivity/failure","As warming progresses and rainfall events become less frequent, evaporative losses are increasing and soil moisture is declining. Soil water deficit can have a negative impact on the biomass production, flowering and yields of maize and beans. Unrecoverable yield losses can occur if maize is exposed to severe and extended water stress events during the seedling stage. "
-"Maize-beans (Mesoamerica)",LAC," "," "," "," "
-"Maize-beans (Mesoamerica)",LAC," "," "," "," "
-"Maize-beans (Mesoamerica)",LAC," "," "," "," "
-"Maize-beans (Mesoamerica)",LAC," "," "," "," "
+"Maize-beans (Mesoamerica)",LAC,,,,
+"Maize-beans (Mesoamerica)",LAC,,,,
+"Maize-beans (Mesoamerica)",LAC,,,,
+"Maize-beans (Mesoamerica)",LAC,,,,
 "Maize-beans (Mesoamerica)",LAC,"Weak land tenure ","Leads to","Lack of willingness to invest in sustainable agricultural practices","In Nicaragua, Honduras and El Salvador, weak land tenure schemes hamper investment in sustainable land use.  Smallholder farmers with insecure land tenure are less likely to implement adaptation strategies than farmers who own their land, because they were unwilling to make long-term investments in practices that yield longterm benefits. "
-"Maize-beans (Mesoamerica)",LAC," "," "," "," "
-"Maize-beans (Mesoamerica)",LAC," "," "," "," "
-"Maize-beans (Mesoamerica)",LAC," "," "," "," "
-"Maize-beans (Mesoamerica)",LAC," "," "," "," "
+"Maize-beans (Mesoamerica)",LAC,,,,
+"Maize-beans (Mesoamerica)",LAC,,,,
+"Maize-beans (Mesoamerica)",LAC,,,,
+"Maize-beans (Mesoamerica)",LAC,,,,
 "Maize-beans (Mesoamerica)",LAC,"Water scarce area","Leads to","Reduced crop productivity/failure","Maize is highly sensitive to water scarcity. Across Central America, soil degradation is reducing the capacity of soil to retain water and nutrients. With more severe water stress projected for the future, improved soil management will be critical for enhancing crop resilience and minimising yield reductions. In Honduras and El Salvador, maize yields in all current production areas are expected to decline by 2025. Projected production losses by 2025 and their associated values are 120,000 tonnes/annum valued at USD 40 million for Honduras, 136,000 tonnes/annum valued at USD 45 million for El Salvador and 34,000 tonnes/annum at USD 10 million for Nicaragua. On the contrary, Guatemala is expected to experience small changes in average production due to its highland areas becoming more suitable for maize–bean production. "
 "Maize-beans (Mesoamerica)",LAC,"Water scarce area","Leads to","Dependence on food aid","Water scarcity such as that induced by drought or decreasing average precipitation has adverse effects on smallholder farmers’ livelihoods, impacting their food security. Drought has a considerable impact on maize and bean yields at the household level, especially in terms of access to food and the stability of food supplies. For example, the 2014-2016 droughts in the dry Pacific region of Central America resulted in 1.6 million people becoming food insecure and 3.5 million requiring humanitarian assistance. The Government of Guatemala distributed food aid to over 290,000 affected families in 2014  and programmes were reinstated in 2015. The drought resulted in losses in agricultural production which affected the availability and access to staple crops, primarily maize and beans, enhancing the vulnerabilities of a country where almost a third of the population (30.7%) was already food insecure. Furthermore, studies in Guatemala suggest that there is a close relationship between precipitation extremes, crop failure and hunger, particularly in children under five years of age."
 "Maize-beans (Mesoamerica)",LAC,"Water scarce area","Leads to","Reduced post-harvest processing","Recurring drought and decreasing average precipitation reduces the amount of water available for post-harvest processing."
@@ -1335,7 +1335,7 @@ families grow maize and beans for subsistence. A study of smallholder farmers in
 ","Smallholder farmers in Central America are largely dependent on rainfed agriculture. Grain farmers in Honduras, Guatemala and Costa Rica adjusted their agricultural calendars as a means of adaptation to changing rainfall patterns."
 "Maize-beans (Mesoamerica)",LAC,"Low awareness of climate change","Is mitigated by","Roll out climate change awareness campaigns","In areas with low levels of awareness, strong mass media strategies are needed to inform all producers (literate and illiterate) about the challenges and opportunities for maize and bean production in the face of climate change."
 "Maize-beans (Mesoamerica)",LAC,"Inadequate climate information services","Is mitigated by","Invest in agricultural research and development","Enhance research to better understand climate trends and identify the most effective climate change adaptation options."
-"Maize-beans (Mesoamerica)",LAC," "," "," "," "
+"Maize-beans (Mesoamerica)",LAC,,,,
 "Maize-beans (Mesoamerica)",LAC,"Low access to markets","Is mitigated by","Establish farmer organisations","Of 188 coffee farmers surveyed in Central America, 17% requested improved access to markets. Farmer organisations can play an important role in fostering cooperation between farmers and in linking them to markets and extension services. "
 "Maize-beans (Mesoamerica)",LAC,"Low access to credit","Is mitigated by","Policy reform
 ","Of 188 coffee farmers surveyed in Central America, 14.4% requested better access to finance. Policies that allow maize and bean and coffee farmers to access credit and other financing mechanisms are critical for climate change adaptation as well as for enabling farmers to escape the poverty trap."
@@ -1395,7 +1395,7 @@ families grow maize and beans for subsistence. A study of smallholder farmers in
 "Maize-beans (Mesoamerica)",LAC,"Low access to agricultural extension services","Is mitigated by","Establish farmer organisations","A survey of 188 coffee farmers in Central America highlighted the need for technical support (requested by 40.4% of farmers)  and training (requested by 18% of farmers). In the same study, basic grain farmers were found have lower access to technical support than coffee farmers with only 13.1% of basic grain farmers having been visited by agronomists in the last two years, as opposed to 31.3% of coffee farmers. Farmer organisations play an important role in fostering cooperation amongst farmers and in linking them to markets and extension services. "
 "Maize-beans (Mesoamerica)",LAC,"Farmers engaged in agri system","Exposed to","Chronic poverty 
 ","Climate change impacts will translate into significant losses for the smallholder farmers whose livelihoods depend on maize and bean cultivation. Rural poverty is already high (>30% of the population in Nicaragua and Honduras, 25% in Guatemala, and 20% in El Salvador) and will be exacerbated by declining incomes from maize and bean crops."
-"Maize-beans (Mesoamerica)",LAC," "," "," "," "
+"Maize-beans (Mesoamerica)",LAC,,,,
 "Dryland mixed",MENA,"Decrease in average precipitation","Leads to","Change in production zone suitability","As the rainfed agricultural system is vulnerable to reduced precipitation, it is projected that the demand for irrigation will increase, and some areas will revert to rangeland."
 "Dryland mixed",MENA,"Decrease in average precipitation","Leads to","Reduced crop productivity/failure","Dry conditions during planting cause crop failure due to a lack of water for seed germination. "
 "Dryland mixed",MENA,"Increase in average temperatures","Leads to","Shorter growing season","Higher temperatures have shortened the growing season by ten days."
@@ -1424,7 +1424,7 @@ decrease in most parts of the region throughout the twenty-first century."
 "Dryland mixed",MENA,"Increase in average temperatures","Leads to","Increase in migration","Climate change has influenced migration patterns in the region and displacement is expected to increase as conditions become hotter and drier. By 2015, over six million refugees worldwide originated in the Middle East and North Africa (4.9 million from Syria alone), and the region accounted for 40% of the world’s Internally Displaced People."
 "Dryland mixed",MENA,"Reduced crop productivity/failure","Leads to","Increase in food insecurity","Lower agricultural productivity will cause many dryland countries to become even more dependent on costly food imports increasing their vulnerability to changes in global market systems."
 "Dryland mixed",MENA,"Reduced crop productivity/failure","Leads to","Increase in poverty","Land degradation causes reduced agricultural productivity and thereby enhances poverty."
-"Dryland mixed",MENA," "," "," "," "
+"Dryland mixed",MENA,,,,
 "Dryland mixed",MENA,"Increase in soil water deficit","Leads to","Reduced crop productivity/failure","Winter crops are dependent on soil moisture which is negatively impacted by drought, declining rainfall patterns and increasing temperatures. Dry conditions during planting cause crop failure due to a lack of water for seed germination. "
 "Dryland mixed",MENA,"Increase in pests ","Leads to","Reduced crop productivity/failure","Damage to crops by agricultural pests results in a decline in yields."
 "Dryland mixed",MENA,"Increase in pests ","Leads to","Reduced livestock productivity","Livestock pests directly reduce animal productivity as well as contribute to increasing production costs and/or missed marketing opportunities."
@@ -1451,20 +1451,20 @@ decrease in most parts of the region throughout the twenty-first century."
 "Dryland mixed",MENA,"Unsustainable land management practices","Leads to","Reduced crop productivity/failure","Unsustainable land management practices such as conventional tillage coupled with monocropping, limited recycling of crop residues, overgrazing, and unsustainable harvesting of fuelwood have contributed to land degradation and reduced crop productivity. "
 "Dryland mixed",MENA,"Unsustainable land management practices","Leads to","Reduced livestock productivity","Rangeland mismanagement such as overgrazing has contributed to reduced livestock productivity and land degradation. "
 "Dryland mixed",MENA,"Poor livestock management","Leads to","Reduced livestock productivity","Livestock productivity is adversely affected by poor management of animal health and feed. "
-"Dryland mixed",MENA," "," "," "," "
+"Dryland mixed",MENA,,,,
 "Dryland mixed",MENA,"Inadequate policy","Leads to","Land degradation","Government subsidies for cheap animal feed and the modification of land tenure and use rights have lead to a significant increase in sheep numbers and a loss of traditional land management tools contributing to land degradation. "
 "Dryland mixed",MENA,"Weak land tenure ","Leads to","Reduced livestock productivity","Regulatory measures for access and use of land and water resources needs to be improved in the dryland mixed system. Unfair land tenure and use right allocations limit livestock production. "
-"Dryland mixed",MENA," "," "," "," "
+"Dryland mixed",MENA,,,,
 "Dryland mixed",MENA,"Low access to markets","Leads to","Loss of income","Income generated by livestock productivity in the Middle East and North Africa region is affected by inadequate marketing facilities and market information."
 "Dryland mixed",MENA,"Low access to credit","Leads to","Reduced livestock productivity","Livestock productivity in the Middle East and North Africa region is affected by a lack of access to credit."
 "Dryland mixed",MENA,"Large contributor to national/regional GDP","Leads to","Loss of livelihoods","The region is heavily dependent on agricultural production, for example, in Algeria, rangelands cover 39% of the country, support 38% of the human population and 48% of sheep units, and contribute about half of the country's GDP. A loss in productivity due to climate change will negatively affect rural livelihoods and household incomes. "
-"Dryland mixed",MENA," "," "," "," "
+"Dryland mixed",MENA,,,,
 "Dryland mixed",MENA,"High prevalence of land degradation","Leads to","Reduced crop productivity/failure","There is a high prevalence of degraded land due to wind and water erosion, a loss of biodiversity and unsustainable farming practices, which is adversely impacting agricultural productivity. Furthermore, intensive cultivation practices to feed growing populations exacerbates land degradation causing reduced agricultural productivity and poverty."
 "Dryland mixed",MENA,"Unfavourable soil conditions","Leads to","Reduced crop productivity/failure","Farmed soils are severely degraded in the region, resulting in declines in productivity of 30%-35% of their potential. "
 "Dryland mixed",MENA,"Water scarce area","Leads to","Reduced crop productivity/failure","The region is a water scarce area and projected increases in temperature and reduced precipitation will cause further declines in rainfed crop yields which already have below average productivity. By 2100, it is projected that total agricultural production in the region could decrease by up to 21% (2000 baseline). "
 "Dryland mixed",MENA,"High prevalence of land degradation","Leads to","Increase in migration","Land degradation has led to land abandonment and increased migration to urban areas in the drylands of the Middle East and North Africa. "
 "Dryland mixed",MENA,"Unsuitable crop varieties","Leads to","Reduced crop productivity/failure","Unsuitable wheat varieties are highly affected by water stress leading to decreased yields. Drought tolerant varieties can improve crop productivity and yield stability under soil moisture deficient conditions."
-"Dryland mixed",MENA," "," "," "," "
+"Dryland mixed",MENA,,,,
 "Dryland mixed",MENA,"Major source of employment","Leads to","Increase in poverty","Agriculture (both crops and livestock) is a critical source of employment in the region. The livelihoods of poor smallholder farmers in remote areas of the dryland mixed agricultural system are particularly vulnerable to climatic hazards, thereby increasing the likelihood of chronic poverty in rural areas."
 "Dryland mixed",MENA,"Low access to agricultural extension services","Leads to","Reduced crop productivity/failure","Extension services in the Middle East and North Africa region are typically inadequate, they do not meet the needs of farmers and therefore have limited impact on agricultural productivity."
 "Dryland mixed",MENA,"Low access to agricultural extension services","Leads to","Reduced livestock productivity","Extension services in the Middle East and North Africa region are typically inadequate, they do not meet the needs of farmers and therefore have limited impact on agricultural productivity."
@@ -1474,7 +1474,7 @@ decrease in most parts of the region throughout the twenty-first century."
 "Dryland mixed",MENA,"Low level of education","Leads to","Low adoption of modern technology and practices","The complexity of conservation agriculture systems pose a challenge for uneducated farmers to comprehend and adopt."
 "Dryland mixed",MENA,"Lack of access to improved crop varieties","Leads to","Reduced crop productivity/failure","The development and adoption of crop varieties resilient to drought, pests and diseases could improve yields and enhance resilience to climate change. "
 "Dryland mixed",MENA,"Low access to markets","Leads to","Loss of income","There is potential to increase livestock production and associated income in the region through improved marketing facilities and better access to market information. "
-"Dryland mixed",MENA," "," "," "," "
+"Dryland mixed",MENA,,,,
 "Dryland mixed",MENA,"Unsustainable land management practices","Is mitigated by","Undertake crop rotation","Crop rotation with legumes enhances soil nitrogen content reducing the need for nitrogen-based fertilisers and increases income. For example, the adoption of faba bean-wheat rotations in Morocco's rainfed areas resulted in a two-year average gross margin 48% higher than wheat monocropping.  "
 "Dryland mixed",MENA,"Unsustainable land management practices","Is mitigated by","Plant multiple crop types","In intercropping, the main cereal and a secondary crop are cultivated at the same time and in close proximity to each other. This enables a more efficient use of water and soil nutrients. Relay cropping with a combination of secondary crops (lentil/bean, lentil/chickpea, lentil/quinoa and lentil/onion) in Morocco increased farm revenues per hectare more than the common wheat-lentil system."
 "Dryland mixed",MENA,"Unsustainable land management practices","Is mitigated by","Provide incentives for sustainable land management practices","To increase the productivity of dryland wheat-based systems incentive mechanisms should be developed to encourage farmers to adopt no-tillage and legume-based rotations."
@@ -1485,10 +1485,10 @@ decrease in most parts of the region throughout the twenty-first century."
 ","Current policy encourages the modernisation of agriculture, involving the promotion of large intensively cultivated monoculture on private farms. Small farms are typically excluded from policy and subsequently do not benefit from public support or bank loans, thereby restricting their access to modern technologies and improved practices. There is a need for policy reform that supports smallholder farmers. "
 "Dryland mixed",MENA,"Inadequate policy","Is mitigated by","Invest in agricultural research and development","Evidence generated by agricultural research needs to inform policy and institutional reforms for climate-smart reconstruction, resilience and stabilisation. "
 "Dryland mixed",MENA,"Inadequate policy","Is mitigated by","Develop policies for building climate change resilience","Evidence generated by agricultural research needs to inform policy and institutional reforms for climate-smart reconstruction, resilience and stabilisation. Resource management planning activities should be encouraged and adopted by the provincial and district planning bodies. Such bodies should include diverse stakeholder membership and inclusive engagement."
-"Dryland mixed",MENA," "," "," "," "
+"Dryland mixed",MENA,,,,
 "Dryland mixed",MENA,"Low access to credit","Is mitigated by","Policy reform
 ","Small farms are typically excluded from policy and so have limited access to credit facilities, thereby restricting their adoption of modern technologies and improved practices. There is a need for policy reform that supports smallholder farmers. "
-"Dryland mixed",MENA," "," "," "," "
+"Dryland mixed",MENA,,,,
 "Dryland mixed",MENA,"Water scarce area","Is mitigated by","Invest in water harvesting and storage infrastructure","Water harvesting and storage practices and technologies can be used to supply irrigation and water for livestock in times of scarcity."
 "Dryland mixed",MENA,"Water scarce area","Is mitigated by","Implement efficient water management","Capacity building by extension services on efficient water management could improve farmers' resilience in the face of increasing drought events and decreasing precipitation patterns."
 "Dryland mixed",MENA,"Unsuitable crop varieties","Is mitigated by","Adopt disease tolerant varieties","Barley is affected by over 250 pathogens, one of the worst being powdery mildew which causes
@@ -1503,7 +1503,7 @@ yield losses of up to 50%. Resistance breeding and adoption of improved varietie
 ","The development and adoption of drought tolerant varieties could enhance farmers' resilience in the face of increasing drought events and decreasing precipitation patterns."
 "Dryland mixed",MENA,"Unfavourable soil conditions","Is mitigated by","Implement conservation agriculture practices","The quality of soils can be improved through conservation agriculture practices such as no tillage, mulching, organic fertilisers from integrated livestock-cropping systems, cover crops, and planting of trees. "
 "Dryland mixed",MENA,"High prevalence of land degradation","Is mitigated by","Plant trees/shrubs for windbreaks","Wind erosion can be prevented by planting trees and shrubs as windbreaks. "
-"Dryland mixed",MENA," "," "," "," "
+"Dryland mixed",MENA,,,,
 "Dryland mixed",MENA,"High poverty levels 
 
 
@@ -1583,7 +1583,7 @@ events, causing severe damage to infrastructure and often leading to human losse
 "Highland Mixed",MENA,"Loss of income","Leads to","Increase in poverty","Apart from income inequality, other factors increasing poverty in the region are foreign direct investment, population growth and inflation rate."
 "Highland Mixed",MENA,"Lack of willingness to invest in sustainable agricultural practices","Leads to","Reduced crop productivity/failure","Lack of willingness to invest in sustainable agricultural practices leads to reduced wheat production."
 "Highland Mixed",MENA,"Increase in poverty","Leads to","Increase in malnutrition","Rising food prices as a result of the Russian invasion of Ukraine are increasing the risk of malnutrition for millions of children in the MENA ."
-"Highland Mixed",MENA,"Food health and safety issues"," ","Increase in food insecurity","Developing countries including the Middle East region are expected to be at higher risk of foodborne diseases due to the weakness and fragment of food systems."
+"Highland Mixed",MENA,"Food health and safety issues",,"Increase in food insecurity","Developing countries including the Middle East region are expected to be at higher risk of foodborne diseases due to the weakness and fragment of food systems."
 "Highland Mixed",MENA,"Change in production zone suitability","Leads to","Unpredictable planting period","Change in production zone leads to unpredictable planting periods."
 "Highland Mixed",MENA,"Increase in migration","Leads to","Loss of income","Individuals migrate from their home regions when the ecosystems they’ve relied on are degraded and fragile leading to low agricultural productivity and hence loss of agricultural incomes. "
 "Highland Mixed",MENA,"Damage to infrastructure","Leads to","Loss of income","In Lebanon, economic collapse has had a catastrophic impact on public utilities and people's livelihoods leading to loss of income."
@@ -1922,45 +1922,45 @@ lack of irrigation facilities"
 "Rainfed Mixed",SA,"Rising sea levels","Leads to","Increased flooding
 ","Rising sea level inundates low-lying wetlands and dry land, erodes shorelines, contributes to coastal flooding, and increases the flow of salt water into estuaries and nearby groundwater aquifers. Higher sea level also makes coastal infrastructure more vulnerable to damage from storms"
 "Rainfed Mixed",SA,"Increase in tropical cyclones/hurricanes","Leads to","Damage to infrastructure","The latest evidence of this hazard occurred in May 2020, as the strongest storm recorded in decades in the Bay of Bengal—Cyclone Amphan—hit, forcing several million people to evacuate."
-"Rainfed Mixed",SA,"Rising sea levels"," ","Soil erosion","A recent study referred to by some as a “Doomsday Report” suggests that rising sea levels could flood three times more land than previously predicted. In Southeast Asia, if the study proves accurate, parts of Ho Chi Minh City and Bangkok could be underwater by 2050."
-"Rainfed Mixed",SA,"Increase in drought events"," ","Water scarcity","Increase in drought events lead to water scarcity in the region."
+"Rainfed Mixed",SA,"Rising sea levels",,"Soil erosion","A recent study referred to by some as a “Doomsday Report” suggests that rising sea levels could flood three times more land than previously predicted. In Southeast Asia, if the study proves accurate, parts of Ho Chi Minh City and Bangkok could be underwater by 2050."
+"Rainfed Mixed",SA,"Increase in drought events",,"Water scarcity","Increase in drought events lead to water scarcity in the region."
 "Rainfed Mixed",SA,"Increase in extreme heat (no. of hot days)","Leads to","Crop stress/damage/mortality","Extreme heat exposure can stress plants, stunt development, and cause plant mortality, which often results in reduced quality and lower yield in agricultural crops "
-"Rainfed Mixed",SA,"Rising sea levels"," ","Land degradation","The major physical impacts of a rise in sea level include erosion of beaches, inundation of deltas as well as flooding and loss of many marshes and wetlands, leading to land degradation."
-"Rainfed Mixed",SA,"Increase in extreme heat (no. of hot days)"," ","Reduced crop productivity/failure","Extreme heat has major repercussions for the agricultural sector. Climate related heat stress will increase drought and exacerbate water leading to reduced crop productivity in the region."
-"Rainfed Mixed",SA,"Increase in tropical cyclones/hurricanes"," ","Coastal inundation","South Asia has been hit by two cyclones in as many weeks,  warming also lead to increased storm surges that can inundate coastal areas."
+"Rainfed Mixed",SA,"Rising sea levels",,"Land degradation","The major physical impacts of a rise in sea level include erosion of beaches, inundation of deltas as well as flooding and loss of many marshes and wetlands, leading to land degradation."
+"Rainfed Mixed",SA,"Increase in extreme heat (no. of hot days)",,"Reduced crop productivity/failure","Extreme heat has major repercussions for the agricultural sector. Climate related heat stress will increase drought and exacerbate water leading to reduced crop productivity in the region."
+"Rainfed Mixed",SA,"Increase in tropical cyclones/hurricanes",,"Coastal inundation","South Asia has been hit by two cyclones in as many weeks,  warming also lead to increased storm surges that can inundate coastal areas."
 "Rainfed Mixed",SA,"Increase in extreme rainfall events","Leads to","Increase in post-harvest losses","Extreme rainfall events impact on the already poor road infrastracture inhibiting the transportation of produce to the market in time. This has lead to an increase in post harvest losses."
 "Rainfed Mixed",SA,"Increase in average temperatures","Leads to","Increase in food insecurity","The availability of food can be affected through variations in yields  especially in key producing areas  due to increasing temperatures."
 "Rainfed Mixed",SA,"Increase in average temperatures","Leads to","Loss of income","The impacts of climate change, especially high temperatures are likely to result in huge economic, social, and environmental damage to the South Asian countries, compromising their growth."
 "Rainfed Mixed",SA,"Increase in average temperatures","Leads to","Competition for resources","Climate change such as increase in high temperatures leads to increase in competition for water resources used for irrigation."
 "Rainfed Mixed",SA,"Increasingly erratic rainfall","Leads to","Increase in food insecurity","Erratic rainfall patterns is the main coause for shifting growing seasons which lead to unpredictable planting periods and it reduces food availability per capita and increases the percentage of total undernourished population."
-"Rainfed Mixed",SA,"Increasingly erratic rainfall"," ","Increase in post-harvest losses","A wide range of yield losses due to climate change impacts on wheat, rice, and maize crops in SA is observed."
-"Rainfed Mixed",SA,"Increasingly erratic rainfall"," ","Dependence on food aid","Lower maize production is expected to be driven by ; higher rainfall variability leading to more droughts and floods  hence exposing farmers to  overdependent on food aids."
-"Rainfed Mixed",SA,"Rising sea levels"," ","Increase in food insecurity","Changes in precipitation patterns combined with sea level rise will impact soil salinization and agricultural production, which will result in diminished food and water security."
-"Rainfed Mixed",SA,"Increase in tropical cyclones/hurricanes"," ","Increase in food insecurity"," In many tropical countries, smallholder farmers are highly vulnerable to cyclones and experience significant crop losses and food insecurity."
-"Rainfed Mixed",SA,"Increase in extreme heat (no. of hot days)"," ","Increase in food insecurity","Food insecurity is already being felt in the region. India, the world’s second-largest wheat producer, banned wheat exports to stave off shortages. This decision has reduced wheat supplies and caused a spike in prices around the world, all these are caused by extreme heat being experienced."
-"Rainfed Mixed",SA,"Increase in extreme heat (no. of hot days)"," ","Increase in migration","Temperatures in India’s capital and parts of Pakistan have at times reached close to 50°C, killing dozens of people in both countries and upending the daily lives and livelihoods of students, labourers, and farmers and causing a lot of migrations to safer spaces."
+"Rainfed Mixed",SA,"Increasingly erratic rainfall",,"Increase in post-harvest losses","A wide range of yield losses due to climate change impacts on wheat, rice, and maize crops in SA is observed."
+"Rainfed Mixed",SA,"Increasingly erratic rainfall",,"Dependence on food aid","Lower maize production is expected to be driven by ; higher rainfall variability leading to more droughts and floods  hence exposing farmers to  overdependent on food aids."
+"Rainfed Mixed",SA,"Rising sea levels",,"Increase in food insecurity","Changes in precipitation patterns combined with sea level rise will impact soil salinization and agricultural production, which will result in diminished food and water security."
+"Rainfed Mixed",SA,"Increase in tropical cyclones/hurricanes",,"Increase in food insecurity"," In many tropical countries, smallholder farmers are highly vulnerable to cyclones and experience significant crop losses and food insecurity."
+"Rainfed Mixed",SA,"Increase in extreme heat (no. of hot days)",,"Increase in food insecurity","Food insecurity is already being felt in the region. India, the world’s second-largest wheat producer, banned wheat exports to stave off shortages. This decision has reduced wheat supplies and caused a spike in prices around the world, all these are caused by extreme heat being experienced."
+"Rainfed Mixed",SA,"Increase in extreme heat (no. of hot days)",,"Increase in migration","Temperatures in India’s capital and parts of Pakistan have at times reached close to 50°C, killing dozens of people in both countries and upending the daily lives and livelihoods of students, labourers, and farmers and causing a lot of migrations to safer spaces."
 "Rainfed Mixed",SA,"Increase in tropical cyclones/hurricanes","Leads to","Increase in migration","Tropical Cyclone Idai struck the southeast and will generate 143 million more climate migrants by 2050."
 "Rainfed Mixed",SA,"Increase in soil water deficit","Leads to","Crop stress/damage/mortality","Soil water deficit reduces leaf size, stem extension, and root proliferation, disturbs plant–water relations, and reduces water use efficiency"
 "Rainfed Mixed",SA,"Soil erosion","Leads to","Land degradation","The region has historically been exposed to climatic hazards that have led to soil erosion reducing the productivity of land."
 "Rainfed Mixed",SA,"Reduced groundwater tables","Leads to","Reduced water quality","Extraction of large volumes of groundwater without equivalent replenishment leads to faster depletion of water table, affecting water quality."
 "Rainfed Mixed",SA,"Reduced crop productivity/failure","Leads to","Increase in food insecurity","Large-scale crop yield failures, i.e. failures within a breadbasket or across multiple breadbaskets, threaten food security through losses in yield and rises in food prices. Such crop failures have been associated with extreme weather."
-"Rainfed Mixed",SA,"Flash floods"," ","Increase in food insecurity","The most vulnerable groups in terms of food security during floods in south Asia under climate change will be the poor, women and children."
-"Rainfed Mixed",SA,"Leaching of soil nutrients"," ","Reduced crop productivity/failure","Flooding which is the main hazard impacting the agriculture system causes leaching of soil nutrients , thus leading to reduced crop productivity."
+"Rainfed Mixed",SA,"Flash floods",,"Increase in food insecurity","The most vulnerable groups in terms of food security during floods in south Asia under climate change will be the poor, women and children."
+"Rainfed Mixed",SA,"Leaching of soil nutrients",,"Reduced crop productivity/failure","Flooding which is the main hazard impacting the agriculture system causes leaching of soil nutrients , thus leading to reduced crop productivity."
 "Rainfed Mixed",SA,"Increased flooding
-"," ","Damage to infrastructure","Flooding affects homes, communities, and businesses directly, and also disrupts vital services, resource flows, and transport networks along with many cultural heritage assets."
-"Rainfed Mixed",SA,"Waterlogging"," ","Reduced crop productivity/failure","Waterlogging remains a significant constraint to cereal production across the globe in areas with high rainfall and/or poor drainage."
+",,"Damage to infrastructure","Flooding affects homes, communities, and businesses directly, and also disrupts vital services, resource flows, and transport networks along with many cultural heritage assets."
+"Rainfed Mixed",SA,"Waterlogging",,"Reduced crop productivity/failure","Waterlogging remains a significant constraint to cereal production across the globe in areas with high rainfall and/or poor drainage."
 "Rainfed Mixed",SA,"Shift in growing season","Leads to","Unpredictable planting period","erratic rainfall patterns is the main coause for shifting growing seasons which lead to unpredictable planting periods. Farmers can no longer rely of the historic timing of planting seasons as this will lead to huge losses."
 "Rainfed Mixed",SA,"Land degradation","Leads to","Reduced crop productivity/failure","About 11 million hectares of South Asian cropland suffer from nutrient depletion and land degradation, which has led to stagnation or even crop failure."
 "Rainfed Mixed",SA,"Increase in soil water deficit","Leads to","Reduced crop productivity/failure","Serious water deficits are threatening agricultural sustainability in many regions of the South Asia (SA)."
 "Rainfed Mixed",SA,"Land degradation","Leads to","Increase in migration","As land is degraded desrts expand in some places, water resources are pressured to move to more hospitable areas."
-"Rainfed Mixed",SA,"Crop stress/damage/mortality"," ","Increase in food insecurity","Agriculture in the SAR (South Asian Region) is caught in a low equilibrium trapwith low productivity of staples, supply shortfalls and  high prices caused by crop stress  which leads to increased food insecurity."
+"Rainfed Mixed",SA,"Crop stress/damage/mortality",,"Increase in food insecurity","Agriculture in the SAR (South Asian Region) is caught in a low equilibrium trapwith low productivity of staples, supply shortfalls and  high prices caused by crop stress  which leads to increased food insecurity."
 "Rainfed Mixed",SA,"Soil erosion","Leads to","Increase in food insecurity"," Land becomes degraded due to poor farming practices leading to soil erosion, declining crop yields and a loss of biodiversity;hence increased food insecuritry."
-"Rainfed Mixed",SA,"Water scarcity"," ","Increase in food insecurity","The northwestern region of India is projected to see an increase in droughts in the future and eastern India is expected to see an increase in the length of dry spells leading to water scarcity which causes poor yields and hence food insecurity."
-"Rainfed Mixed",SA,"Unpredictable planting period"," ","Increase in food insecurity","Evidence for climate change impacts in South Asia e.g., declines and stagnation in yields, changes in sowingand harvest dates, increased infestation of pests and disease leads to increased food insecurity."
-"Rainfed Mixed",SA,"Reduced groundwater tables"," ","Desertification","The intensive groundwater exploitation causes the degradation of its quality, soil salinization, and even desertification."
-"Rainfed Mixed",SA,"Desertification"," ","Land degradation","Desertification is characterized by the droughts and arid conditions that the landscape endures as a result of human exploitation of fragile ecosystems , leading to land degradation."
-"Rainfed Mixed",SA,"Damage to infrastructure"," ","Delays in transportation","The lack of adequate transportation infrastructure results in damage, for instance,   FAO  reported that  10%–37% losses in rice in Southeast Asia are experienced due to poor transportation."
-"Rainfed Mixed",SA,"Reduced produce quality"," ","Increase in malnutrition","Crop yields for small land-holders in South Asia are often low by international standards, which leaves many of them food insecure with increased malnutrition due to reduction in both quality and quantity of food."
+"Rainfed Mixed",SA,"Water scarcity",,"Increase in food insecurity","The northwestern region of India is projected to see an increase in droughts in the future and eastern India is expected to see an increase in the length of dry spells leading to water scarcity which causes poor yields and hence food insecurity."
+"Rainfed Mixed",SA,"Unpredictable planting period",,"Increase in food insecurity","Evidence for climate change impacts in South Asia e.g., declines and stagnation in yields, changes in sowingand harvest dates, increased infestation of pests and disease leads to increased food insecurity."
+"Rainfed Mixed",SA,"Reduced groundwater tables",,"Desertification","The intensive groundwater exploitation causes the degradation of its quality, soil salinization, and even desertification."
+"Rainfed Mixed",SA,"Desertification",,"Land degradation","Desertification is characterized by the droughts and arid conditions that the landscape endures as a result of human exploitation of fragile ecosystems , leading to land degradation."
+"Rainfed Mixed",SA,"Damage to infrastructure",,"Delays in transportation","The lack of adequate transportation infrastructure results in damage, for instance,   FAO  reported that  10%–37% losses in rice in Southeast Asia are experienced due to poor transportation."
+"Rainfed Mixed",SA,"Reduced produce quality",,"Increase in malnutrition","Crop yields for small land-holders in South Asia are often low by international standards, which leaves many of them food insecure with increased malnutrition due to reduction in both quality and quantity of food."
 "Rainfed Mixed",SA,"Desertification","Leads to","Soil erosion"," Desertification leads to soil erosion and sterility, and a loss of biodiversity, with huge economic costs for regions in South Asia  where deserts are growing."
 "Rainfed Mixed",SA,"Poor water use efficiency and management","Leads to","Water scarcity","Owing to poor water resource management system and climate change India faces a persistent water shortage. As per OECD environmental outlook 2050, India would face severe water constrains by 2050. Indian agriculture accounts for 90% water use due to fast track ground water depletion and poor irrigation systems."
 "Rainfed Mixed",SA,"Predominantly small-scale subsistence farming","Leads to","Lack of willingness to invest in sustainable agricultural practices","Marginal and smallholder farmers experience immediate hardship in face of any climatic hazard. They are unable to make adequate decisions about when to sow, what to grow, and how-to time inputs. They also find it difficult to cope with the high food price and the fluctuations in the same."
@@ -1975,7 +1975,7 @@ lack of irrigation facilities"
 ","Leads to","Dependence on food aid","People with extremely low incomes, are among the most vulnerable: they have little to no financial capital; so, they have the least capacity to adapt to impacts of climate risks "
 "Rainfed Mixed",SA,"Poor water use efficiency and management","Leads to","Competition for resources","The conflict in this region is not mainly related to the shortage of water but because of the over water use in different levels.Water management is becoming increasingly comprehensive and complicated due to large concentrations of population, commercial activities and industries around."
 "Rainfed Mixed",SA,"Predominantly small-scale subsistence farming","Leads to","Increase in food insecurity","Subsistence agricultural systems are especially vulnerable to these climate changes and events, owing to their frequent reliance on natural resources and ecosystem services, dependence on rain-fed crops, location on marginal lands, and limited adaptation capacity hence at risk of food insecurity."
-"Rainfed Mixed",SA,"Predominantly small-scale subsistence farming"," ","Dependence on food aid","Apart from the endemic poverty and poor nutritional status of South Asian countries, there are signs of deterioration in the agricultural sector of the region leading to over-dependence on food aid."
+"Rainfed Mixed",SA,"Predominantly small-scale subsistence farming",,"Dependence on food aid","Apart from the endemic poverty and poor nutritional status of South Asian countries, there are signs of deterioration in the agricultural sector of the region leading to over-dependence on food aid."
 "Rainfed Mixed",SA,"Unsustainable natural resource use","Leads to","Soil erosion","Poor farmers are led to clear forest, cultivate steep slopes without conservation, overgraze rangelands and make unbalanced fertilizer applications, leading to soil erosion due to degradation."
 "Rainfed Mixed",SA,"High poverty levels 
 
@@ -1992,7 +1992,7 @@ lack of irrigation facilities"
 
 
 
-"," ","Increase in malnutrition","Estimates of food insecurity and related measures, such as poverty has  led to South Asia's unjustifiably high rates of malnutrition among children."
+",,"Increase in malnutrition","Estimates of food insecurity and related measures, such as poverty has  led to South Asia's unjustifiably high rates of malnutrition among children."
 "Rainfed Mixed",SA,"Inability to interpret climate information","Leads to","Increase in food insecurity","Inability to interpret climate information, especially among the smallholder farmers in remote areas causes them to make wrong choices when it comes to production leading to lower yields and hence increased food insecurity."
 "Rainfed Mixed",SA,"Inadequate climate information services","Leads to","Lack of willingness to invest in sustainable agricultural practices","The climate information (CI) provided to smallholder farmers through forecasts in most cases is too general (untailored), with much use of technical terms which farmers find difficult to understand and act on . As a result, farmers fail to properly apply the necessary coping strategies meant to reduce the risk of crop failure and deaths of livestock."
 "Rainfed Mixed",SA,"Weak land tenure ","Leads to","Increase in food insecurity"," Land tenure systems affect agricultural productivity by influencing the
@@ -2049,7 +2049,7 @@ efficient use of inputs and adoption of modern technology. Majority of farmers i
 "Rainfed Mixed",SA,"Poor water use efficiency and management","Is mitigated by","Invest in water harvesting and storage infrastructure","The use of rainwater harvesting leads to a reduction in water costs, ease of water acquisition, and poor use efficicncy in the region."
 "Rainfed Mixed",SA,"Predominantly small-scale subsistence farming","Is mitigated by","Plant multiple crop types","Crop diversification is one of the ways small-scale farmers can use to develop a resilient agricultural system."
 "Rainfed Mixed",SA,"Predominantly small-scale subsistence farming","Is mitigated by","Diversify markets","Strengthening markets is a key strategy to make small farm systems more nutrition-sensitive."
-"Rainfed Mixed",SA,"Reliance on rainfed agriculture"," ","Adopt drought tolerant varieties
+"Rainfed Mixed",SA,"Reliance on rainfed agriculture",,"Adopt drought tolerant varieties
 
 
 
@@ -2064,18 +2064,18 @@ efficient use of inputs and adoption of modern technology. Majority of farmers i
 
 
 
-"," ","Implement climate smart agriculture practices
+",,"Implement climate smart agriculture practices
 
 
 
 
 
 ","Farmers who have adopted CSA reported that the main benefits  were higher yields, greater farm income, and increased food availability. These results indicate that CSA can be a pathway for improving food security, alleviating poverty and building more resilient livelihoods."
-"Rainfed Mixed",SA,"Demographic pressure on land"," ","Implement reforestation practices"," As the human population increases, pressures on habitats are intensifying with unknown consequences hence the need to implement reforestation practices."
-"Rainfed Mixed",SA,"Limited uptake of modern technologies"," ","Improve access to modern processing technologies","There  is limited uptake of modern technology in the agri-system and hence the need for research efforts that respond to farmers' needs and to a number of strategic priority production problems."
-"Rainfed Mixed",SA,"Unsustainable natural resource use"," ","Capacity building on sustainable agricultural practices","The goal of sustainable agricultural practices is to provide resources for the use of present populations without compromising the availability of those resources for future generations, and without causing environmental damage that challenges the survival of other species and natural ecosystems."
-"Rainfed Mixed",SA,"Inability to interpret climate information"," ","Improve networking and knowledge exchange","Networking is an approach to sharing good practices, knowledge , and experiences to mitigate the inability to interpret climate information by farmers. "
-"Rainfed Mixed",SA,"Poor water use efficiency and management"," ","Implement efficient water management","Poor water use efficiency should be mitigated through Efficient use of water so as to  conserve water and reduce pressure over natural sources."
+"Rainfed Mixed",SA,"Demographic pressure on land",,"Implement reforestation practices"," As the human population increases, pressures on habitats are intensifying with unknown consequences hence the need to implement reforestation practices."
+"Rainfed Mixed",SA,"Limited uptake of modern technologies",,"Improve access to modern processing technologies","There  is limited uptake of modern technology in the agri-system and hence the need for research efforts that respond to farmers' needs and to a number of strategic priority production problems."
+"Rainfed Mixed",SA,"Unsustainable natural resource use",,"Capacity building on sustainable agricultural practices","The goal of sustainable agricultural practices is to provide resources for the use of present populations without compromising the availability of those resources for future generations, and without causing environmental damage that challenges the survival of other species and natural ecosystems."
+"Rainfed Mixed",SA,"Inability to interpret climate information",,"Improve networking and knowledge exchange","Networking is an approach to sharing good practices, knowledge , and experiences to mitigate the inability to interpret climate information by farmers. "
+"Rainfed Mixed",SA,"Poor water use efficiency and management",,"Implement efficient water management","Poor water use efficiency should be mitigated through Efficient use of water so as to  conserve water and reduce pressure over natural sources."
 "Rainfed Mixed",SA,"Unsustainable natural resource use","Is mitigated by","Establish payment for ecosystem services schemes","These payment for ecosystem services schemes provide a new source of income for land management, restoration, conservation, and sustainable- use activities."
 "Rainfed Mixed",SA,"Weak land tenure ","Is mitigated by","Build capacity on advocacy","Capacity building is increasingly seen as a key component of land disputes , because it enhances land reforms leading to investments and sustainable land use intensification."
 "Rainfed Mixed",SA,"Weak land tenure ","Is mitigated by","Land tenure reform","Weak land tenure should be mitigated through the adjustment of the terms of contracts between land owners and tenants, or  arather the conversion of more informal tenancy into formal property rights through land reforms."
@@ -2140,9 +2140,9 @@ production by 2050 as a result of heat stress."
 "Rice-Wheat",SA,"Increase in extreme heat (no. of hot days)","Leads to","Reduced crop productivity/failure","Season-long heat stress can reduce photosynthesis and accelerate senescence in rice and wheat. If extreme heat stress is experienced during flowering, both rice and wheat experience decreased pollen viability and stigma deposition, leading to increased grain sterility. Wheat is more sensitive to heat stress than rice, with damage to the photosynthetic apparatus at temperatures >30˚C. Temperatures >33.7˚C at anthesis causes panicle sterility due to poor anther dehiscence and >34˚C during grain formation substantially reduces grain yields. Temperatures >35˚C (above optimal) during reproductive development affect flowering and grain formation in rice."
 "Rice-Wheat",SA,"Increase in drought events","Leads to","Reduced crop productivity/failure","Severe drought in the Terai region in 2006 resulted in a 13% reduction in the rice area planted and decreased rice and wheat production by 2.0% and 3.3%, respectively."
 "Rice-Wheat",SA,"Increase in extreme rainfall events","Leads to","Flash floods","Extreme rainfall events increase the incidence of flash floods."
-"Rice-Wheat",SA," "," "," "," "
-"Rice-Wheat",SA," "," "," "," "
-"Rice-Wheat",SA," "," "," "," "
+"Rice-Wheat",SA,,,,
+"Rice-Wheat",SA,,,,
+"Rice-Wheat",SA,,,,
 "Rice-Wheat",SA,"Emergence of new pests","Leads to","Reduced crop productivity/failure","Higher temperatures and changes to precipitation will exacerbate the spread of insects, pests and diseases causing a loss of yields. "
 "Rice-Wheat",SA,"Increase in pests ","Leads to","Reduced crop productivity/failure","Crop pests and diseases are a major threat to agricultural livelihoods in Asia. In some instances they can result in total crop failure."
 "Rice-Wheat",SA,"Emergence of new diseases","Leads to","Reduced crop productivity/failure","Higher temperatures and changes to precipitation will exacerbate the spread of insects, pests and diseases causing a loss of yields. Sheath blight was previously only found at the borders of rice production areas but now affects the entire system. Bacterial leaf blight in rice, and powdery mildew and rusts in wheat, are also contributing to stagnated/reduced rice yields."
@@ -2161,10 +2161,10 @@ production by 2050 as a result of heat stress."
 "Rice-Wheat",SA,"Poor efficiency of farming","Leads to","Reduced crop productivity/failure","Traditional crop management practices such as conventional wet tillage in rice-wheat cropping systems entail higher production costs and lead to degradation of the natural resource base causing reduced yields in subsequent cropping seasons."
 "Rice-Wheat",SA,"Major component of local diet","Leads to","Increase in food insecurity","There is a high dependence on rice and wheat to meet the nutritional needs of over a billion people in South Asia. Reductions in crop yields due to climatic hazards therefore have serious implications for regional food security. "
 "Rice-Wheat",SA,"Inadequate natural resource management policy","Leads to","Water scarcity","In general, water management policies are inadequate due to a lack of robust data on the regional water balance. This has led to overextraction and decreasing groundwater tables. "
-"Rice-Wheat",SA," "," "," "," "
-"Rice-Wheat",SA," "," "," "," "
+"Rice-Wheat",SA,,,,
+"Rice-Wheat",SA,,,,
 "Rice-Wheat",SA,"Lack of access to risk insurance","Leads to","Reduced crop productivity/failure","Farmers in South Asia typically lack access to crop insurance and so are less inclined to take risks such as adopting new agricultural technology and practices. This affects their ability to adapt to climate change and improve crop yields."
-"Rice-Wheat",SA," "," "," "," "
+"Rice-Wheat",SA,,,,
 "Rice-Wheat",SA,"Unfavourable soil conditions","Leads to","Reduced crop productivity/failure","Poor soil health (i.e. structural, low organic matter, macro- and micro-nutrient imbalances) is prevalent in the rice-wheat cropping system largely due to conventional farming practices and monocropping. Soil degradation is recognised as a key contributor to the stagnant and decreasing crop yields."
 "Rice-Wheat",SA,"Declining groundwater levels","Leads to","Reduced crop productivity/failure","The rice-wheat agricultural system has contributed to declining groundwater tables (particularly due to the high water demand of rice production) resulting in water scarcity and decreased crop yields. "
 "Rice-Wheat",SA,"Poor water quality","Leads to","Reduced produce quality","Use of polluted groundwater leads to a decrease in grain quality which ultimately affects human health."
@@ -2191,12 +2191,12 @@ stress-tolerant varieties/genotypes, adoption of improved water management techn
 "Rice-Wheat",SA,"Unsustainable land management practices","Is mitigated by","Develop policies for building climate change resilience","Strong policy support is needed for the upscaling and adoption of sustainable land management practices. "
 "Rice-Wheat",SA,"Unsustainable land management practices","Is mitigated by","Capacity building on sustainable agricultural practices","Capacity building of farmers through training programmes is needed to improve the adoption of sustainable land management practices. For example, regional-level government departments in India are organising awareness campaigns through demonstrations, information dissemination, school curriculum, and information and communications technology to educate farmers on the effective management of crop residues. "
 "Rice-Wheat",SA,"Limited uptake of modern technologies","Is mitigated by","Build the capacity of agricultural extension agents","Agricultural extension agents need to be trained on conservation agriculture technologies and practices and the establishment of demonstration plots to improve uptake by farmers."
-"Rice-Wheat",SA," "," "," "," "
+"Rice-Wheat",SA,,,,
 "Rice-Wheat",SA,"Inadequate natural resource management policy","Is mitigated by","Invest in agricultural research and development","There is a lack of shared data on the components of the regional water balance and the impacts of resource-conservation technologies. Integrated research approaches are needed to measure the components of local and regional water balance and quantify regional hydrology outcomes over a large temporal scale. This will allow for the development of appropriate water management policy."
-"Rice-Wheat",SA," "," "," "," "
+"Rice-Wheat",SA,,,,
 "Rice-Wheat",SA,"Lack of access to risk insurance","Is mitigated by","Improve access to risk insurance schemes","Improving farmers' access to risk insurance schemes grants them the opportunity to adopt modern technologies and practices that may have previously been perceived by the farmers as being too risky."
-"Rice-Wheat",SA," "," "," "," "
-"Rice-Wheat",SA," "," "," "," "
+"Rice-Wheat",SA,,,,
+"Rice-Wheat",SA,,,,
 "Rice-Wheat",SA,"High prevalence of weeds","Is mitigated by","Implement integrated weed management","Integrated weed management is considered the best adaptation option for controlling weeds in a sustainable way."
 "Rice-Wheat",SA,"Unsuitable crop varieties","Is mitigated by","Adopt heat tolerant varieties","An adaptation option for heat stress includes breeding for heat-tolerant 
 genotypes."
@@ -2265,7 +2265,7 @@ and poor rice grain quality. An increase in temperature of 2.5˚C during the veg
 "Rice",SA,"Rising sea levels","Leads to","Coastal inundation","Although rice is a semiaquatic plant it is not tolerant to long-periods of complete submergence. For example, in the Khulna region of Bangladesh, losses of 10% of Aus and Aman rice and 18% Boro rice are expected in the 2050s, largely due to sea level rise. "
 "Rice",SA,"Rising sea levels","Leads to","Saline intrusion","Rising sea levels will contaminate surface and groundwater resources with salt in Bangladesh, India and Sri Lanka. "
 "Rice",SA,"Rising sea levels","Leads to","Soil salinisation","Rising sea levels will cause soil salinisation in coastal rice production areas in Bangladesh, India and Sri Lanka."
-"Rice",SA," "," "," "," "
+"Rice",SA,,,,
 "Rice",SA,"Increase in pests ","Leads to","Reduced crop productivity/failure","In South Asia, leaf and stem pests represents 4.5% of total rice yield losses. For example, in India, an increase of 0.4˚C average surface temperature over the past century has led to increases in rice insect pest losses from 10% to 25%. Outbreaks of rice insect pests such as the green leaf hopper and brown planthopper are said to be the result of changing weather patterns. "
 "Rice",SA,"Saline intrusion","Leads to","Reduced crop productivity/failure","Saltwater intrusion from sea-level rise in low-lying rice production areas will decrease crop productivity. Research has shown that for every unit of salinity increase, a 12% reduction in rice yield can result. Rice production in the coastal areas of Bangladesh has already declined due to an increase in salinity."
 "Rice",SA,"Soil salinisation","Leads to","Reduced crop productivity/failure","Rice is a moderately salt sensitive crop, with its photosynthesis, protein synthesis, and metabolism affected under high salinity conditions. Salinisation causes osmotic stress and Na+ toxicity in rice. For example, in India, salinity stress affects nearly 6.7 million ha of rice cultivated land which constitutes about 15.8% of the total harvested area. In Bangladesh, soil salinity is expected to affect 20% of the total paddy cultivation area, leading to a potential loss of 395,000 tonnes of rice."
@@ -2296,14 +2296,14 @@ change on the rice agricultural system. Pathogen life cycles, developmental rate
 women in rural areas, and extension and advisory services have been unsuccessful in reaching women in general. This impedes their ability to adopt new climate-smart practices and technologies to improve their rice yields. "
 "Rice",SA,"Unsustainable land management practices","Leads to","Reduced soil fertility","The rice-based cropping system is low yielding and nutrient exhaustive leading to poor soil fertility. Tillage intensive rice cropping practices have deteriorated the physical quality of soils and decreased soil organic carbon levels. The use of agro-chemicals has resulted in a growth in rice production but at the cost of soil health. This is exacerbated by a lack of crop diversification. "
 "Rice",SA,"Lack of coherent policy","Leads to","Reduced crop productivity/failure","There is a need for improved understanding of linkages between policy on rice production and the wider food system. "
-"Rice",SA," "," "," "," "
+"Rice",SA,,,,
 "Rice",SA,"Low access to markets","Leads to","Loss of income","The livelihoods of smallholder rice farmers in remote areas of India, Sri Lanka and Bangladesh are limited by poor infrastructure, physical isolation and limited access to markets."
 "Rice",SA,,,,
 "Rice",SA,"Low access to credit","Leads to","Reduced crop productivity/failure","Most smallholder farmers in South Asia have limited to no access to credit facilities and other inputs  thereby restricting their ability to adopt new climate-smart practices and technologies to respond to climate change and enhance their yields."
-"Rice",SA," "," "," "," "
+"Rice",SA,,,,
 "Rice",SA,"Water scarce area","Leads to","Reduced crop productivity/failure","In the next few decades, rice farmers in South Asia will have to produce about 25% more rice using 10-15% less water. In rice cultivation systems, moisture stress during the active tillering phase and reproductive phase reduces yield by 30% and 50-60%, respectively.   "
 "Rice",SA,"Unsuitable crop varieties","Leads to","Reduced crop productivity/failure","Traditional rice varieties are typically not suited to climate change trends and if improved varieties are not adopted could lead to reduced crop productivity and a loss of potential income. Households that grow hybrid or improved as well as traditional varieties of rice are significantly more efficient than those who cultivate traditional varieties only.  "
-"Rice",SA," "," "," "," "
+"Rice",SA,,,,
 "Rice",SA,"Lack of road infrastructure","Leads to","Loss of income","The livelihoods of smallholder rice farmers in remote areas of India, Sri Lanka and Bangladesh are limited by poor infrastructure, physical isolation and limited access to markets."
 "Rice",SA,"Dependent on a single crop type","Leads to","Increase in poverty","South Asia's population is heavily dependent on rice production. For example, rice cultivation in Bangladesh occupies 77% of all cropland and employs 65% of the country’s labour force. It is therefore expected that climate change impacts on rice productivity will reduce incomes and enhance poverty for rice value chain actors. "
 "Rice",SA,"Major component of local diet","Leads to","Increase in food insecurity","Rice is a staple food in South Asia, therefore declines in productivity due to climate change will enhance regional food insecurity. "
@@ -2329,12 +2329,12 @@ women in rural areas, and extension and advisory services have been unsuccessful
 stress-tolerant varieties, adoption of improved water management technologies, direct seeded rice, laser-assisted land levelling, permanent raised beds, precision nutrient management, carbon management through residue retention/incorporation, weather forecast technologies, crop insurance, energy saving technologies like zero tillage and information and communication technologies can be used to increase crop productivity and farm profitability when faced with a changing climate. Furthermore, the practice of alternate wetting and drying reduces rice cultivation water requirements by 15-30%."
 "Rice",SA,"Dependent on a single crop type","Is mitigated by","Plant multiple crop types","Crop diversification and the cultivation of high-yielding rice varieties are sustainable adaptation strategies. "
 "Rice",SA,"Unsustainable land management practices","Is mitigated by","Establish farmer organisations","Local farmer cooperatives provide an institutional mechanism for implementing and scaling up climate-smart agricultural practices and increasing rice yields. "
-"Rice",SA," "," "," "," "
-"Rice",SA," "," "," "," "
+"Rice",SA,,,,
+"Rice",SA,,,,
 "Rice",SA,"Low access to credit","Is mitigated by","Improve access to credit","Most smallholder rice farmers need improved access to credit to allow them to make the transaction costs necessary to adopt climate change adaptation measures. "
 "Rice",SA,"Low access to markets","Is mitigated by","Invest in road infrastructure","Maintaining and developing road infrastructure is important for linking rice producing communities with markets."
 "Rice",SA,"Lack of access to risk insurance","Is mitigated by","Improve access to risk insurance schemes","Improved access to insurance for rice farmers will allow them to invest in new climate-smart practices and technologies, thereby improving their yields and income opportunities."
-"Rice",SA," "," "," "," "
+"Rice",SA,,,,
 "Rice",SA,"Unsuitable crop varieties","Is mitigated by","Invest in agricultural research and development","The productivity of the rice agricultural system can be enhanced by investing in research and development to breed improved crop varieties suited to the changing climate."
 "Rice",SA,"Water scarce area","Is mitigated by","Invest in water harvesting and storage infrastructure","The construction of water harvesting and storage infrastructure will allow for supplemental irrigation of rice in times of water scarcity."
 "Rice",SA,"Water scarce area","Is mitigated by","Policy reform
@@ -2364,7 +2364,7 @@ stress-tolerant varieties, adoption of improved water management technologies, d
 "Rice",SA,"Inadequate storage infrastructure","Is mitigated by","Invest in storage infrastructure","Investing in storage infrastructure allows farmers to save rice seed for future cultivation thereby reducing their dependency on seed availability and allowing for reduced input costs."
 "Rice",SA,"Farmers engaged in agri system","Exposed to","Food insecurity","Rice is a food staple in South Asia. Climate change is expected to result in fluctuations in rice production and market prices thereby aggravating food insecurity."
 "Rice",SA,"Farmers engaged in agri system","Exposed to","Loss of livelihoods ","Climate change is reducing rice yields and affecting the livelihoods of millions of farmers in South Asia, particularly smallholders with limited capacity for climate change adaptation."
-"Rice",SA," "," "," "," "
+"Rice",SA,,,,
 "Rice",SA,"Lack of access to risk insurance","Leads to","Lack of willingness to invest in sustainable agricultural practices","In South Asia, the agricultural insurance market is underdeveloped. Barriers to accessing insurance include a lack of awareness, a lack of legal and regulatory frameworks, a lack of financial capability of the providers, a limited range of agricultural product, a lack of technical expertise, the high cost of insurance products and low levels of affordability by farmers. A lack of insurance reduces farmers' willingness to invest in new climate-smart practices and technologies, thereby affecting their yields and income opportunities."
 "Agro-Pastoral Millet/Sorghum",SSA,"Increasingly erratic rainfall","Leads to","Crop stress/damage/mortality","Farmers carry out staggered plantings to deal with the erratic establishment of the rainy season and the occurrence of dry spells. Thay also plant larger areas to compensate for plant mortality and low yields per hectare."
 "Agro-Pastoral Millet/Sorghum",SSA,"Increasingly erratic rainfall","Leads to","Unpredictable planting period","Decreasing and unpredictable rainfall in the system cause crop yield losses and disruption on onset and ceasation of rainfall"
@@ -3034,18 +3034,18 @@ percent) as a result of a decline in production in key areas"
 "Highland Perennial ",SSA,"Unsuitable crop varieties","Is mitigated by","Invest in irrigation infrastructure","Cultivars are sensitive to stress. "
 "Highland Perennial ",SSA,"Unsuitable crop varieties","Is mitigated by","Adopt disease tolerant varieties","Cultivars are sensitive to stress. "
 "Highland Perennial ",SSA,"Unsuitable crop varieties","Is mitigated by","Adopt pest tolerant breeds","Cultivars are sensitive to stress. "
-"Highland Perennial ",SSA,"Water scarce area","Is mitigated by","Invest in water harvesting and storage infrastructure"," "
-"Highland Perennial ",SSA,"High prevalence of land degradation","Is mitigated by","Protect/conserve riparian zones"," "
-"Highland Perennial ",SSA,"Cultivation area prone to frost","Is mitigated by","Undertake pruning to reduce damaged leaves"," "
+"Highland Perennial ",SSA,"Water scarce area","Is mitigated by","Invest in water harvesting and storage infrastructure",
+"Highland Perennial ",SSA,"High prevalence of land degradation","Is mitigated by","Protect/conserve riparian zones",
+"Highland Perennial ",SSA,"Cultivation area prone to frost","Is mitigated by","Undertake pruning to reduce damaged leaves",
 "Highland Perennial ",SSA,"Cultivation area prone to frost","Is mitigated by","Cold air drainage and diversion","Manage frost with cold air drainage and diversion."
-"Highland Perennial ",SSA,"Unsuitable crop varieties","Is mitigated by","Plant multiple varieties"," "
-"Highland Perennial ",SSA,"High levels of deforestation","Is mitigated by","Implement agroforestry practices"," "
+"Highland Perennial ",SSA,"Unsuitable crop varieties","Is mitigated by","Plant multiple varieties",
+"Highland Perennial ",SSA,"High levels of deforestation","Is mitigated by","Implement agroforestry practices",
 "Highland Perennial ",SSA,"Fragmented landscapes","Is mitigated by","Capacity building on sustainable agricultural practices","Strengthening capacity for climate change adaptation in ... is key to sustainable agricultural development in sub-Saharan Africa."
 "Highland Perennial ",SSA,"High prevalence of land degradation","Is mitigated by","Capacity building on sustainable agricultural practices","The high land degradation rate coupled with economic development reflect the tradeoffs involved in clearing forest should be mitigated  by capacity building ."
 "Highland Perennial ",SSA,"High levels of deforestation","Is mitigated by","Improve climate change awareness
 "," Africa's forest cover is on a steady decline, weakening the ability of the continent's ecosystems to withstand climate change, hence the need to create awareness on climate change."
 "Highland Perennial ",SSA,"High levels of deforestation","Is mitigated by","Improve access to climate information services","Africa's forest cover is on a steady decline, hence the need to Improve access to climate information services."
-"Highland Perennial ",SSA,"High levels of deforestation","Is mitigated by","Implement reforestation practices"," "
+"Highland Perennial ",SSA,"High levels of deforestation","Is mitigated by","Implement reforestation practices",
 "Highland Perennial ",SSA,"Limited uptake of modern technologies","Is mitigated by","Improve access to agricultural extension services"," Low uptake of new technology due to low awareness levels.  Low uptake of new technology due to inhibiting costs, especially for small-holder farmers."
 "Highland Perennial ",SSA,"Lack of road infrastructure","Is mitigated by","Invest in road infrastructure","Cultivation in marginal areas."
 "Highland Perennial ",SSA,"Reliance on rainfed agriculture","Is mitigated by","Implement water conservation irrigation","Water efficient irrigation systems e.g. drip."

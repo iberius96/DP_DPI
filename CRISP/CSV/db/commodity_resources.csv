@@ -1,116 +1,116 @@
-"Name","Bibliographic resource","FS name",FS macro region
-"Rice","T. Dinh, & T. Dang, 2022","Lowland Rice",EAP
-"Rice","Cramb et al., 2015","Lowland Rice",EAP
-"Wheat","Nicole D. Jackson et al., 2021","Temperate Mixed",EAP
-"Maize","Nicole D. Jackson et al., 2021","Temperate Mixed",EAP
-"Maize","Du Plessis, 2003","Upland Intensive Mixed",EAP
-"Pulse","K. Zahedi et al., 2020","Temperate Mixed",EAP
-"Rice","FAO, 2018","Upland Intensive Mixed",EAP
-"Rice","Taylor et al., 2016","Upland Intensive Mixed",EAP
-"Pulse (green gram)","Asia Farming, 2021","Upland Intensive Mixed",EAP
-"Sugarcane","DAFF, 2014","Upland Intensive Mixed",EAP
-"Oilseeds (palm oil)","Abubakar et al., 2021","Upland Intensive Mixed",EAP
-"Cacao Tree","Department of Agriculture and Fisheries QLD, 2015","Coastal plantation and mixed ",LAC
-"Cacao Tree","TNAU Agritech portal, 2013","Coastal plantation and mixed ",LAC
-"Cacao Tree","Agri farming, 2018","Coastal plantation and mixed ",LAC
-"Coffee (Coffea arabica)","J. Grabs, 2020","Coastal plantation and mixed ",LAC
-"Coffee (Coffea arabica)","Agri farming, 2018","Coastal plantation and mixed ",LAC
-"Coffee (Coffea robusta)","J. Grabs, 2020","Coastal plantation and mixed ",LAC
-"Coffee (Coffea robusta)","Agri farming, 2018","Coastal plantation and mixed ",LAC
-"Maize","Salhuana et al., 1997","Dryland mixed",LAC
-"Cassava","Howeler et al., 2001","Dryland mixed",LAC
-"Soybean","Department of Agriculture, Forestry and Fisheries, 2010","Forest based Livestock ",LAC
-"Palm (Acai)","Sousa et al., 2022","Forest based Livestock ",LAC
-"Palm (Acai)","CC Grow, 2022","Forest based Livestock ",LAC
-"Avocado","Gruter et al., 2022","Forest based Livestock ",LAC
-"Cattle (Beef)","Diaz et al., 2020","Forest based Livestock ",LAC
-"Potato","Hernandez Bermejo et al., 1994","High Altitude Mixed (C. Andes)",LAC
-"Potato","Yara, 2022","High Altitude Mixed (C. Andes)",LAC
-"Cañihua","Hernandez Bermejo et al., 1994","High Altitude Mixed (C. Andes)",LAC
-"Quinoa","T. B. Katwal, & D. Bazile, 2020","High Altitude Mixed (C. Andes)",LAC
-"Quinoa","Hernandez Bermejo et al., 1994","High Altitude Mixed (C. Andes)",LAC
-"Maize ","Hernandez Bermejo et al., 1994","High Altitude Mixed (C. Andes)",LAC
-"Wheat","Hernandez Bermejo et al., 1994","High Altitude Mixed (C. Andes)",LAC
-"Sheep","Thornton et al., 2021","Dryland mixed",LAC
-"Blueberry","Banados, 2009","Irrigated",LAC
-"Blueberry","Retamales et al., 2014","Irrigated",LAC
-"Blueberry","Lyrene and Munoz, 2008","Irrigated",LAC
-"Banana","FAO, 2022","Irrigated",LAC
-"Grape","Yzarra et al., 2017","Irrigated",LAC
-"Grape","Covarrubias and Thach, 2015","Irrigated",LAC
-"Avocado","Gruter et al., 2022","Irrigated",LAC
-"Asparagus","Walker, 2009","Irrigated",LAC
-"Asparagus","CABI, 2021","Irrigated",LAC
-"Cattle","Diaz et al., 2020","Irrigated",LAC
-"Maize (Zea mays)","Du Plessis, 2003","Maize-beans (Mesoamerica)",LAC
-"Maize (Zea mays)","Ramirez-Cabral et al., 2017","Maize-beans (Mesoamerica)",LAC
-"Dry bean","Kandel & Endres, 2019","Maize-beans (Mesoamerica)",LAC
-"Coffee","Gruter et al., 2022","Forest based Livestock ",LAC
-"Coffee (Coffea arabica)","Ahmed et al., 2021","Maize-beans (Mesoamerica)",LAC
-"Coffee (Coffea arabica)","FAO, 2015","Maize-beans (Mesoamerica)",LAC
-"Coffee (Coffea robusta)","FAO, 2015","Maize-beans (Mesoamerica)",LAC
-"Wheat","Department of Agriculture & Cooperation and Farmers Welfare, 2021b","Dryland mixed",MENA
-"Barley","Department of Agriculture, Forestry and Fisheries, 2009","Dryland mixed",MENA
-"Wheat","Demelash, 2021","Highland Mixed",MENA
-"Rice","JICA, 2018","Highland Mixed",MENA
-"Corn","Your Article Library","Highland Mixed",MENA
-"Lentil","Growth Research and Development Corporation, 2018","Highland Mixed",MENA
-"Chickpea","Gaur et al., 2010 (ICRISAT","Highland Mixed",MENA
-"Olives","Wikifarmer website","Rainfed Mixed",MENA
-"Lentil","Growth Research and Development Corporation, 2018","Rainfed Mixed",MENA
-"Chickpea","Gaur et al., 2010","Rainfed Mixed",MENA
-"Chickpea","ICRISAT","Rainfed Mixed",MENA
-"Rice","Your Article Library and Farmer's Portal","Rainfed Mixed",SA
-"Rice","ICRISAT","Rainfed Mixed",SA
-"Wheat","Your Article Library and Farmer's Portal","Rainfed Mixed",SA
-"Wheat","ICRISAT","Rainfed Mixed",SA
-"Maize","Your Article Library, Farmer's Portal and India Agro Net","Rainfed Mixed",SA
-"Maize","ICRISAT","Rainfed Mixed",SA
-"Chickpea","Gaur et al., 2010","Rainfed Mixed",SA
-"Chickpea","ICRISAT","Rainfed Mixed",SA
-"Groundnut","Prassad, 2010","Rainfed Mixed",SA
-"Groundnut","ICRISAT","Rainfed Mixed",SA
-"Pigeopea","Ikisan AgriInformatics and services","Rainfed Mixed",SA
-"Pigeopea","ICRISAT","Rainfed Mixed",SA
-"Rice (Oryza sativa)","Department of Agriculture & Cooperation and Farmers Welfare, 2021a","Rice-Wheat",SA
-"Wheat (Triticum aestivum)","Department of Agriculture & Cooperation and Farmers Welfare, 2021b","Rice-Wheat",SA
-"Rice (Oryza sativa)","Department of Agriculture & Cooperation and Farmers Welfare, 2021a","Rice",SA
-"Rice (Oryza sativa)","Mainuddin et al., 2022","Rice",SA
-"Ago-pastoral","UNHCR, 2022","Agro-Pastoral Millet/Sorghum",SSA
-"Ago-pastoral","Dixon et al., 2020","Agro-Pastoral Millet/Sorghum",SSA
-"Maize","Concern Worldwide, 2017","Cereal-Root Crop Mixed",SSA
-"Maize","Amir Kassam et al., 2022","Cereal-Root Crop Mixed",SSA
-"Millet","Concern Worldwide, 2017","Cereal-Root Crop Mixed",SSA
-"Millet","Amir Kassam et al., 2022","Cereal-Root Crop Mixed",SSA
-"Sorghum","Concern Worldwide, 2017","Cereal-Root Crop Mixed",SSA
-"Sorghum","Amir Kassam et al., 2022","Cereal-Root Crop Mixed",SSA
-"Cassava","Concern Worldwide, 2017","Cereal-Root Crop Mixed",SSA
-"Cassava","Amir Kassam et al., 2022","Cereal-Root Crop Mixed",SSA
-"Highland livestock-cereal","Dixon et al., 2020","Highland Mixed",SSA
-"Highland wheat-pulse","Dixon et al., 2020","Highland Mixed",SSA
-"Highland maize-based","Dixon et al., 2020","Highland Mixed",SSA
-"Highland mixed North African","Dixon et al., 2020","Highland Mixed",SSA
-"Tea","Muoki et al., 2020","Highland Perennial ",SSA
-"Tea","Cheserek et al., 2015","Highland Perennial ",SSA
-"Tea","CIAT, 2011","Highland Perennial ",SSA
-"Tea","USAID, 2017","Highland Perennial ",SSA
-"Tea","FAO, 2015","Highland Perennial ",SSA
-"Tea","Rigden et al., 2020","Highland Perennial ",SSA
-"Coffee (Coffea arabica)","Lemma and Megersa, 2021","Highland Perennial ",SSA
-"Maize (Zea mays)","du Plessis, 2003","Maize Mixed ",SSA
-"Maize (Zea mays)","Haarhoff et al., 2020","Maize Mixed ",SSA
-"Sahelian subsystem","UNHCR, 2022","Pastoral",SSA
-"Sahelian subsystem","Biaye et al., 2020","Pastoral",SSA
-"Sahelian subsystem","Camara et al., 2018","Pastoral",SSA
-"Sahelian subsystem","Tschakert, 2007","Pastoral",SSA
-"Cassava ","Owusu et al., 2020","Root Crop",SSA
-"Cassava ","USAID, 2017","Root Crop",SSA
-"Cassava ","Sagoe, 2006","Root Crop",SSA
-"Cassava ","Adjei-Nsiah et al., 2019","Root Crop",SSA
-"Cassava ","Ezumah& Okigbo, 1980","Root Crop",SSA
-"Yam","Owusu et al., 2020","Root Crop",SSA
-"Yam","USAID, 2017","Root Crop",SSA
-"Yam","Sagoe, 2006","Root Crop",SSA
-"Yam","Adjei-Nsiah et al., 2019","Root Crop",SSA
-"Yam","Ezumah& Okigbo, 1980","Root Crop",SSA
-"Yam","Kumar et al., 2012","Root Crop",SSA
+"Name","FS name",FS macro region,"Bibliographic resource"
+"Rice","Lowland Rice",EAP,"T. Dinh, & T. Dang, 2022"
+"Rice","Lowland Rice",EAP,"Cramb et al., 2015"
+"Wheat","Temperate Mixed",EAP,"Nicole D. Jackson et al., 2021"
+"Maize","Temperate Mixed",EAP,"Nicole D. Jackson et al., 2021"
+"Maize","Upland Intensive Mixed",EAP,"Du Plessis, 2003"
+"Pulse","Temperate Mixed",EAP,"K. Zahedi et al., 2020"
+"Rice","Upland Intensive Mixed",EAP,"FAO, 2018"
+"Rice","Upland Intensive Mixed",EAP,"Taylor et al., 2016"
+"Pulse (green gram)","Upland Intensive Mixed",EAP,"Asia Farming, 2021"
+"Sugarcane","Upland Intensive Mixed",EAP,"DAFF, 2014"
+"Oilseeds (palm oil)","Upland Intensive Mixed",EAP,"Abubakar et al., 2021"
+"Cacao Tree","Coastal plantation and mixed ",LAC,"Department of Agriculture and Fisheries QLD, 2015"
+"Cacao Tree","Coastal plantation and mixed ",LAC,"TNAU Agritech portal, 2013"
+"Cacao Tree","Coastal plantation and mixed ",LAC,"Agri farming, 2018"
+"Coffee (Coffea arabica)","Coastal plantation and mixed ",LAC,"J. Grabs, 2020"
+"Coffee (Coffea arabica)","Coastal plantation and mixed ",LAC,"Agri farming, 2018"
+"Coffee (Coffea robusta)","Coastal plantation and mixed ",LAC,"J. Grabs, 2020"
+"Coffee (Coffea robusta)","Coastal plantation and mixed ",LAC,"Agri farming, 2018"
+"Maize","Dryland mixed",LAC,"Salhuana et al., 1997"
+"Cassava","Dryland mixed",LAC,"Howeler et al., 2001"
+"Soybean","Forest based Livestock ",LAC,"Department of Agriculture, Forestry and Fisheries, 2010"
+"Palm (Acai)","Forest based Livestock ",LAC,"Sousa et al., 2022"
+"Palm (Acai)","Forest based Livestock ",LAC,"CC Grow, 2022"
+"Avocado","Forest based Livestock ",LAC,"Gruter et al., 2022"
+"Cattle (Beef)","Forest based Livestock ",LAC,"Diaz et al., 2020"
+"Potato","High Altitude Mixed (C. Andes)",LAC,"Hernandez Bermejo et al., 1994"
+"Potato","High Altitude Mixed (C. Andes)",LAC,"Yara, 2022"
+"Cañihua","High Altitude Mixed (C. Andes)",LAC,"Hernandez Bermejo et al., 1994"
+"Quinoa","High Altitude Mixed (C. Andes)",LAC,"T. B. Katwal, & D. Bazile, 2020"
+"Quinoa","High Altitude Mixed (C. Andes)",LAC,"Hernandez Bermejo et al., 1994"
+"Maize ","High Altitude Mixed (C. Andes)",LAC,"Hernandez Bermejo et al., 1994"
+"Wheat","High Altitude Mixed (C. Andes)",LAC,"Hernandez Bermejo et al., 1994"
+"Sheep","Dryland mixed",LAC,"Thornton et al., 2021"
+"Blueberry","Irrigated",LAC,"Banados, 2009"
+"Blueberry","Irrigated",LAC,"Retamales et al., 2014"
+"Blueberry","Irrigated",LAC,"Lyrene and Munoz, 2008"
+"Banana","Irrigated",LAC,"FAO, 2022"
+"Grape","Irrigated",LAC,"Yzarra et al., 2017"
+"Grape","Irrigated",LAC,"Covarrubias and Thach, 2015"
+"Avocado","Irrigated",LAC,"Gruter et al., 2022"
+"Asparagus","Irrigated",LAC,"Walker, 2009"
+"Asparagus","Irrigated",LAC,"CABI, 2021"
+"Cattle","Irrigated",LAC,"Diaz et al., 2020"
+"Maize (Zea mays)","Maize-beans (Mesoamerica)",LAC,"Du Plessis, 2003"
+"Maize (Zea mays)","Maize-beans (Mesoamerica)",LAC,"Ramirez-Cabral et al., 2017"
+"Dry bean","Maize-beans (Mesoamerica)",LAC,"Kandel & Endres, 2019"
+"Coffee","Forest based Livestock ",LAC,"Gruter et al., 2022"
+"Coffee (Coffea arabica)","Maize-beans (Mesoamerica)",LAC,"Ahmed et al., 2021"
+"Coffee (Coffea arabica)","Maize-beans (Mesoamerica)",LAC,"FAO, 2015"
+"Coffee (Coffea robusta)","Maize-beans (Mesoamerica)",LAC,"FAO, 2015"
+"Wheat","Dryland mixed",MENA,"Department of Agriculture & Cooperation and Farmers Welfare, 2021b"
+"Barley","Dryland mixed",MENA,"Department of Agriculture, Forestry and Fisheries, 2009"
+"Wheat","Highland Mixed",MENA,"Demelash, 2021"
+"Rice","Highland Mixed",MENA,"JICA, 2018"
+"Corn","Highland Mixed",MENA,"Your Article Library"
+"Lentil","Highland Mixed",MENA,"Growth Research and Development Corporation, 2018"
+"Chickpea","Highland Mixed",MENA,"Gaur et al., 2010 (ICRISAT"
+"Olives","Rainfed Mixed",MENA,"Wikifarmer website"
+"Lentil","Rainfed Mixed",MENA,"Growth Research and Development Corporation, 2018"
+"Chickpea","Rainfed Mixed",MENA,"Gaur et al., 2010"
+"Chickpea","Rainfed Mixed",MENA,"ICRISAT"
+"Rice","Rainfed Mixed",SA,"Your Article Library and Farmer's Portal"
+"Rice","Rainfed Mixed",SA,"ICRISAT"
+"Wheat","Rainfed Mixed",SA,"Your Article Library and Farmer's Portal"
+"Wheat","Rainfed Mixed",SA,"ICRISAT"
+"Maize","Rainfed Mixed",SA,"Your Article Library, Farmer's Portal and India Agro Net"
+"Maize","Rainfed Mixed",SA,"ICRISAT"
+"Chickpea","Rainfed Mixed",SA,"Gaur et al., 2010"
+"Chickpea","Rainfed Mixed",SA,"ICRISAT"
+"Groundnut","Rainfed Mixed",SA,"Prassad, 2010"
+"Groundnut","Rainfed Mixed",SA,"ICRISAT"
+"Pigeopea","Rainfed Mixed",SA,"Ikisan AgriInformatics and services"
+"Pigeopea","Rainfed Mixed",SA,"ICRISAT"
+"Rice (Oryza sativa)","Rice-Wheat",SA,"Department of Agriculture & Cooperation and Farmers Welfare, 2021a"
+"Wheat (Triticum aestivum)","Rice-Wheat",SA,"Department of Agriculture & Cooperation and Farmers Welfare, 2021b"
+"Rice (Oryza sativa)","Rice",SA,"Department of Agriculture & Cooperation and Farmers Welfare, 2021a"
+"Rice (Oryza sativa)","Rice",SA,"Mainuddin et al., 2022"
+"Ago-pastoral","Agro-Pastoral Millet/Sorghum",SSA,"UNHCR, 2022"
+"Ago-pastoral","Agro-Pastoral Millet/Sorghum",SSA,"Dixon et al., 2020"
+"Maize","Cereal-Root Crop Mixed",SSA,"Concern Worldwide, 2017"
+"Maize","Cereal-Root Crop Mixed",SSA,"Amir Kassam et al., 2022"
+"Millet","Cereal-Root Crop Mixed",SSA,"Concern Worldwide, 2017"
+"Millet","Cereal-Root Crop Mixed",SSA,"Amir Kassam et al., 2022"
+"Sorghum","Cereal-Root Crop Mixed",SSA,"Concern Worldwide, 2017"
+"Sorghum","Cereal-Root Crop Mixed",SSA,"Amir Kassam et al., 2022"
+"Cassava","Cereal-Root Crop Mixed",SSA,"Concern Worldwide, 2017"
+"Cassava","Cereal-Root Crop Mixed",SSA,"Amir Kassam et al., 2022"
+"Highland livestock-cereal","Highland Mixed",SSA,"Dixon et al., 2020"
+"Highland wheat-pulse","Highland Mixed",SSA,"Dixon et al., 2020"
+"Highland maize-based","Highland Mixed",SSA,"Dixon et al., 2020"
+"Highland mixed North African","Highland Mixed",SSA,"Dixon et al., 2020"
+"Tea","Highland Perennial ",SSA,"Muoki et al., 2020"
+"Tea","Highland Perennial ",SSA,"Cheserek et al., 2015"
+"Tea","Highland Perennial ",SSA,"CIAT, 2011"
+"Tea","Highland Perennial ",SSA,"USAID, 2017"
+"Tea","Highland Perennial ",SSA,"FAO, 2015"
+"Tea","Highland Perennial ",SSA,"Rigden et al., 2020"
+"Coffee (Coffea arabica)","Highland Perennial ",SSA,"Lemma and Megersa, 2021"
+"Maize (Zea mays)","Maize Mixed ",SSA,"du Plessis, 2003"
+"Maize (Zea mays)","Maize Mixed ",SSA,"Haarhoff et al., 2020"
+"Sahelian subsystem","Pastoral",SSA,"UNHCR, 2022"
+"Sahelian subsystem","Pastoral",SSA,"Biaye et al., 2020"
+"Sahelian subsystem","Pastoral",SSA,"Camara et al., 2018"
+"Sahelian subsystem","Pastoral",SSA,"Tschakert, 2007"
+"Cassava ","Root Crop",SSA,"Owusu et al., 2020"
+"Cassava ","Root Crop",SSA,"USAID, 2017"
+"Cassava ","Root Crop",SSA,"Sagoe, 2006"
+"Cassava ","Root Crop",SSA,"Adjei-Nsiah et al., 2019"
+"Cassava ","Root Crop",SSA,"Ezumah& Okigbo, 1980"
+"Yam","Root Crop",SSA,"Owusu et al., 2020"
+"Yam","Root Crop",SSA,"USAID, 2017"
+"Yam","Root Crop",SSA,"Sagoe, 2006"
+"Yam","Root Crop",SSA,"Adjei-Nsiah et al., 2019"
+"Yam","Root Crop",SSA,"Ezumah& Okigbo, 1980"
+"Yam","Root Crop",SSA,"Kumar et al., 2012"
