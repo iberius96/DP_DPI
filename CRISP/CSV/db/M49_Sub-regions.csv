@@ -1,18 +1,18 @@
-"Region Code";"Sub-region Code";"Sub-region Name"
-"2";"15";"Northern Africa"
-"2";"202";"Sub-Saharan Africa"
-"19";"419";"Latin America and the Caribbean"
-"19";"21";"Northern America"
-"142";"143";"Central Asia"
-"142";"30";"Eastern Asia"
-"142";"35";"South-eastern Asia"
-"142";"34";"Southern Asia"
-"142";"145";"Western Asia"
-"150";"151";"Eastern Europe"
-"150";"154";"Northern Europe"
-"150";"39";"Southern Europe"
-"150";"155";"Western Europe"
-"9";"53";"Australia and New Zealand"
-"9";"54";"Melanesia"
-"9";"57";"Micronesia"
-"9";"61";"Polynesia"
+Sub-region Code,Region Code,Sub-region Name
+15,2,Northern Africa
+202,2,Sub-Saharan Africa
+53,9,Australia and New Zealand
+54,9,Melanesia
+57,9,Micronesia
+61,9,Polynesia
+419,19,Latin America and the Caribbean
+21,19,Northern America
+143,142,Central Asia
+30,142,Eastern Asia
+35,142,South-eastern Asia
+34,142,Southern Asia
+145,142,Western Asia
+151,150,Eastern Europe
+154,150,Northern Europe
+39,150,Southern Europe
+155,150,Western Europe

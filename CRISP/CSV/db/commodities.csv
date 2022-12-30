@@ -1,74 +1,74 @@
-"Name","NCBITaxonID","Max THI","Min temperature  (°C)","Max temperature (°C)","Average temperature  (°C)","Min precipitation (mm)","Max precipitation (mm)","Average precipitation (mm)","Min elevation (masl)","Max elevation (masl)","FS name",FS macro region
-"Ago-pastoral",,,,,,,"450","800","200","400","Agro-Pastoral Millet/Sorghum",SSA
-"Asparagus","4685",,"15","26",,"60","100",,,,"Irrigated",LAC
-"Avocado","3435",,"16",,"22",,,"1500",,,"Forest based Livestock ",LAC
-"Avocado","3435",,"16",,"22",,,"1.600",,,"Irrigated",LAC
-"Banana","89151",,"16","38","19.5","1.2","2.2",,,,"Irrigated",LAC
-"Barley","4513",,"5","27","16","390","430",,,,"Dryland mixed",MENA
-"Blueberry",,,"-3","30",,"250","1",,"100","625","Irrigated",LAC
-"Cacao Tree","3641",,"18","32","25","1000","2","1500",,"1.2","Coastal plantation and mixed ",LAC
-"Cassava","3983",,"25","29","20","500","1500","1000","1000","1000","Dryland mixed",LAC
-"Cassava","3983",,"22","33",,"300","500",,,,"Cereal-Root Crop Mixed",SSA
-"Cassava ",,,"25","30","27.5",,,"1.000","500","2","Root Crop",SSA
-"Cattle","9913","74",,,,,,,,,"Irrigated",LAC
-"Cattle (Beef)","9913","74",,,,,,,,,"Forest based Livestock ",LAC
-"Cañihua",,,"10","28","19","500","800","650","3800","4.5","High Altitude Mixed (C. Andes)",LAC
-"Chickpea","3827",,"24","30","27","650","950","800","1500","2500","Highland Mixed",MENA
-"Chickpea","3827",,"24","30","27","650","950","800","1.5","2.5","Rainfed Mixed",MENA
-"Chickpea",,,"24","30","27","650","950","800","1500","2500","Rainfed Mixed",SA
-"Coffee","13442",,"10",,"19.5",,,"1.600",,,"Forest based Livestock ",LAC
-"Coffee (Coffea arabica)","13443",,"15","24","20","1500","2","1750","1000","2","Coastal plantation and mixed ",LAC
-"Coffee (Coffea arabica)","13443",,"14","26",,"1","2.7",,"1","2.1","Maize-beans (Mesoamerica)",LAC
-"Coffee (Coffea arabica)",,,"18","23","20.5","1500","2000","1750","1000","2","Highland Perennial ",SSA
-"Coffee (Coffea robusta)","49390",,"22","26","24",,,"2000","800","800","Coastal plantation and mixed ",LAC
-"Coffee (Coffea robusta)","49390",,"21","25",,"2","3",,"200","300","Maize-beans (Mesoamerica)",LAC
-"Corn","381124",,"18","27","23","600","1.1","850","1.5","3.6","Highland Mixed",MENA
-"Dry bean",,,"18","24",,"600","650",,"600","2","Maize-beans (Mesoamerica)",LAC
-"Grape","3602",,"14","29","21","75","100",,,,"Irrigated",LAC
-"Groundnut",,,"20","30","25","200","1","600","1000","1.5","Rainfed Mixed",SA
-"Highland livestock-cereal",,,,,"14",,,"2200",,,"Highland Mixed",SSA
-"Highland maize-based",,,,,,"600","1.3",,"1.7","2.2","Highland Mixed",SSA
-"Highland mixed North African",,,,,,,,,,"1700","Highland Mixed",SSA
-"Highland wheat-pulse",,,"6","24",,"600","800",,"2200","3","Highland Mixed",SSA
-"Inshore fishing",,,,,,,,,,,"Coastal plantation and mixed ",LAC
-"Lentil","3864",,"18","30","24","350","550","450","1500","3500","Highland Mixed",MENA
-"Lentil","3864",,"18","30","24","350","550","450","1500","3.5","Rainfed Mixed",MENA
-"Livestock",,,,,,,,,,,"Dryland mixed",LAC
-"Maize","4577",,"6.2","42","30.8","300","550",,"700","1.4","Temperate Mixed",EAP
-"Maize","4577",,"10","32","19","450","600",,,,"Upland Intensive Mixed",EAP
-"Maize","4577",,"13.5","18.5","16","600","1.2","900","940","3.4","Dryland mixed",LAC
-"Maize",,,"22","30","26","500","900","700","1.5","2.5","Rainfed Mixed",SA
-"Maize","4577",,"18","32","23","300","1.2","650",,"3.8","Cereal-Root Crop Mixed",SSA
-"Maize ","4577",,"18","27","23","600","1.1","850","2800","3300","High Altitude Mixed (C. Andes)",LAC
-"Maize (Zea mays)","4577",,"10","32","19","200","2",,"0","3.8","Maize-beans (Mesoamerica)",LAC
-"Maize (Zea mays)",,,"10","32","19","450","600","525",,,"Maize Mixed ",SSA
-"Millet",,,"25","35",,"250","700",,,,"Cereal-Root Crop Mixed",SSA
-"Oilseeds (palm oil)",,,"22","33",,,"2","2.5",,,"Upland Intensive Mixed",EAP
-"Olive","4145",,"15","20","18","400","1","700","800","1","Rainfed Mixed",MENA
-"Palm (Acai)",,,"11","33","25",,,"2050",,,"Forest based Livestock ",LAC
-"Pigeopea",,,"17","22","20","600","1.4","1000","50","2","Rainfed Mixed",SA
-"Potato","4113",,"7","30","20","400","600","500","3300","3.8","High Altitude Mixed (C. Andes)",LAC
-"Pulse",,,"20","25","30","350","600",,"0","1.6","Temperate Mixed",EAP
-"Pulse (green gram)","3916",,"30","40",,"600","1",,"0","2","Upland Intensive Mixed",EAP
-"Quinoa","63459",,"-8","38","15","250","1.5","875","3.8","4.5","High Altitude Mixed (C. Andes)",LAC
-"Rice","4530",,"26.5","29.3","27.9","1287.60","2832.80","2060.20",,"250","Lowland Rice",EAP
-"Rice","4530",,"10","38","22","1","1.7",,"700","1.1","Upland Intensive Mixed",EAP
-"Rice","4530",,"20","27","24","1150","3000","2075","1500","3","Highland Mixed",MENA
-"Rice",,,"21","30","26","1000","2","1500","2500","3","Rainfed Mixed",SA
-"Rice (Oryza sativa)","4530",,"10","42","24","1","3",,"0","3","Rice-Wheat",SA
-"Rice (Oryza sativa)","4530",,"10","42","24","1","3",,"0","3","Rice",SA
-"Sahelian subsystem",,,"21","35",,"100","200","150","200","400","Pastoral",SSA
-"Sheep","9940",,,,,,,,,,"High Altitude Mixed (C. Andes)",LAC
-"Sheep","9940","93",,,,,,,,,"Dryland mixed",MENA
-"Sheep","9940",,,,,,,,,,"Highland Mixed",MENA
-"Sorghum","4557",,"23","37",,"250","800","500",,"2","Cereal-Root Crop Mixed",SSA
-"Soybean","3847",,"13","30","25","500","900",,"0","2","Forest based Livestock ",LAC
-"Sugarcane","128810",,"20","35",,"1.1","1.5",,"0","3","Upland Intensive Mixed",EAP
-"Tea",,,"13","30","26.5","1.15","1.4",,"1500","2100","Highland Perennial ",SSA
-"Wheat","4565",,"6.4","21.6","28.7","300","550",,"1500","2.9","Temperate Mixed",EAP
-"Wheat","4565",,"21","26","24","750","1000","875","2800","3300","High Altitude Mixed (C. Andes)",LAC
-"Wheat","4565",,"3.5","35",,"500","1","750","0","3.3","Dryland mixed",MENA
-"Wheat","4565",,"15","25","20","500","1.3","900","1500","3","Highland Mixed",MENA
-"Wheat",,,"21","26","24","750","1000","880","1500","3","Rainfed Mixed",SA
-"Wheat (Triticum aestivum)","4565",,"3.5","35",,"500","1","750","0","3.3","Rice-Wheat",SA
-"Yam",,,,,"26.8",,,"1150","500","2","Root Crop",SSA
+"FS name","FS macro region","Name","NCBITaxonID","Max THI","Min temperature  (°C)","Max temperature (°C)","Average temperature  (°C)","Min precipitation (mm)","Max precipitation (mm)","Average precipitation (mm)","Min elevation (masl)","Max elevation (masl)"
+"Agro-Pastoral Millet/Sorghum","SSA","Ago-pastoral","","","","","","","450","800","200","400"
+"Irrigated","LAC","Asparagus","4685","","15","26","","60","100","","",""
+"Forest based Livestock","LAC","Avocado","3435","","16","","22","","","1500","",""
+"Irrigated","LAC","Avocado","3435","","16","","22","","","1.6","",""
+"Irrigated","LAC","Banana","89151","","16","38","19.5","1.2","2.2","","",""
+"Dryland mixed","MENA","Barley","4513","","5","27","16","390","430","","",""
+"Irrigated","LAC","Blueberry","","","-3","30","","250","1","","100","625"
+"Coastal plantation and mixed","LAC","Cacao Tree","3641","","18","32","25","1000","2","1500","","1.2"
+"Dryland mixed","LAC","Cassava","3983","","25","29","20","500","1500","1000","1000","1000"
+"Cereal-Root Crop Mixed","SSA","Cassava","3983","","22","33","","300","500","","",""
+"Root Crop","SSA","Cassava","","","25","30","27.5","","","1","500","2"
+"Irrigated","LAC","Cattle","9913","74","","","","","","","",""
+"Forest based Livestock","LAC","Cattle (Beef)","9913","74","","","","","","","",""
+"High Altitude Mixed (C. Andes)","LAC","Cañihua","","","10","28","19","500","800","650","3800","4.5"
+"Highland Mixed","MENA","Chickpea","3827","","24","30","27","650","950","800","1500","2500"
+"Rainfed Mixed","MENA","Chickpea","3827","","24","30","27","650","950","800","1.5","2.5"
+"Rainfed Mixed","SA","Chickpea","","","24","30","27","650","950","800","1500","2500"
+"Forest based Livestock","LAC","Coffee","13442","","10","","19.5","","","1.6","",""
+"Coastal plantation and mixed","LAC","Coffee (Coffea arabica)","13443","","15","24","20","1500","2","1750","1000","2"
+"Maize-beans (Mesoamerica)","LAC","Coffee (Coffea arabica)","13443","","14","26","","1","2.7","","1","2.1"
+"Highland Perennial","SSA","Coffee (Coffea arabica)","","","18","23","20.5","1500","2000","1750","1000","2"
+"Coastal plantation and mixed","LAC","Coffee (Coffea robusta)","49390","","22","26","24","","","2000","800","800"
+"Maize-beans (Mesoamerica)","LAC","Coffee (Coffea robusta)","49390","","21","25","","2","3","","200","300"
+"Highland Mixed","MENA","Corn","381124","","18","27","23","600","1.1","850","1.5","3.6"
+"Maize-beans (Mesoamerica)","LAC","Dry bean","","","18","24","","600","650","","600","2"
+"Irrigated","LAC","Grape","3602","","14","29","21","75","100","","",""
+"Rainfed Mixed","SA","Groundnut","","","20","30","25","200","1","600","1000","1.5"
+"Highland Mixed","SSA","Highland livestock-cereal","","","","","14","","","2200","",""
+"Highland Mixed","SSA","Highland maize-based","","","","","","600","1.3","","1.7","2.2"
+"Highland Mixed","SSA","Highland mixed North African","","","","","","","","","","1700"
+"Highland Mixed","SSA","Highland wheat-pulse","","","6","24","","600","800","","2200","3"
+"Coastal plantation and mixed","LAC","Inshore fishing","","","","","","","","","",""
+"Highland Mixed","MENA","Lentil","3864","","18","30","24","350","550","450","1500","3500"
+"Rainfed Mixed","MENA","Lentil","3864","","18","30","24","350","550","450","1500","3.5"
+"Dryland mixed","LAC","Livestock","","","","","","","","","",""
+"Temperate Mixed","EAP","Maize","4577","","6.2","42","30.8","300","550","","700","1.4"
+"Upland Intensive Mixed","EAP","Maize","4577","","10","32","19","450","600","","",""
+"Dryland mixed","LAC","Maize","4577","","13.5","18.5","16","600","1.2","900","940","3.4"
+"Rainfed Mixed","SA","Maize","","","22","30","26","500","900","700","1.5","2.5"
+"Cereal-Root Crop Mixed","SSA","Maize","4577","","18","32","23","300","1.2","650","","3.8"
+"High Altitude Mixed (C. Andes)","LAC","Maize","4577","","18","27","23","600","1.1","850","2800","3300"
+"Maize-beans (Mesoamerica)","LAC","Maize (Zea mays)","4577","","10","32","19","200","2","","0","3.8"
+"Maize Mixed","SSA","Maize (Zea mays)","","","10","32","19","450","600","525","",""
+"Cereal-Root Crop Mixed","SSA","Millet","","","25","35","","250","700","","",""
+"Upland Intensive Mixed","EAP","Oilseeds (palm oil)","","","22","33","","","2","2.5","",""
+"Rainfed Mixed","MENA","Olive","4145","","15","20","18","400","1","700","800","1"
+"Forest based Livestock","LAC","Palm (Acai)","","","11","33","25","","","2050","",""
+"Rainfed Mixed","SA","Pigeopea","","","17","22","20","600","1.4","1000","50","2"
+"High Altitude Mixed (C. Andes)","LAC","Potato","4113","","7","30","20","400","600","500","3300","3.8"
+"Temperate Mixed","EAP","Pulse","","","20","25","30","350","600","","0","1.6"
+"Upland Intensive Mixed","EAP","Pulse (green gram)","3916","","30","40","","600","1","","0","2"
+"High Altitude Mixed (C. Andes)","LAC","Quinoa","63459","","-8","38","15","250","1.5","875","3.8","4.5"
+"Lowland Rice","EAP","Rice","4530","","26.5","29.3","27.9","1287.6","2832.8","2060.2","","250"
+"Upland Intensive Mixed","EAP","Rice","4530","","10","38","22","1","1.7","","700","1.1"
+"Highland Mixed","MENA","Rice","4530","","20","27","24","1150","3000","2075","1500","3"
+"Rainfed Mixed","SA","Rice","","","21","30","26","1000","2","1500","2500","3"
+"Rice-Wheat","SA","Rice (Oryza sativa)","4530","","10","42","24","1","3","","0","3"
+"Rice","SA","Rice (Oryza sativa)","4530","","10","42","24","1","3","","0","3"
+"Pastoral","SSA","Sahelian subsystem","","","21","35","","100","200","150","200","400"
+"High Altitude Mixed (C. Andes)","LAC","Sheep","9940","","","","","","","","",""
+"Dryland mixed","MENA","Sheep","9940","93","","","","","","","",""
+"Highland Mixed","MENA","Sheep","9940","","","","","","","","",""
+"Cereal-Root Crop Mixed","SSA","Sorghum","4557","","23","37","","250","800","500","","2"
+"Forest based Livestock","LAC","Soybean","3847","","13","30","25","500","900","","0","2"
+"Upland Intensive Mixed","EAP","Sugarcane","128810","","20","35","","1.1","1.5","","0","3"
+"Highland Perennial","SSA","Tea","","","13","30","26.5","1.15","1.4","","1500","2100"
+"Temperate Mixed","EAP","Wheat","4565","","6.4","21.6","28.7","300","550","","1500","2.9"
+"High Altitude Mixed (C. Andes)","LAC","Wheat","4565","","21","26","24","750","1000","875","2800","3300"
+"Dryland mixed","MENA","Wheat","4565","","3.5","35","","500","1","750","0","3.3"
+"Highland Mixed","MENA","Wheat","4565","","15","25","20","500","1.3","900","1500","3"
+"Rainfed Mixed","SA","Wheat","","","21","26","24","750","1000","880","1500","3"
+"Rice-Wheat","SA","Wheat (Triticum aestivum)","4565","","3.5","35","","500","1","750","0","3.3"
+"Root Crop","SSA","Yam","","","","","26.8","","","1150","500","2"

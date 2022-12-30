@@ -1,9 +1,9 @@
-"Sub-region Code";"Intermediate Region Code";"Intermediate Region Name"
-"202";"14";"Eastern Africa"
-"202";"17";"Middle Africa"
-"202";"18";"Southern Africa"
-"202";"11";"Western Africa"
-"419";"29";"Caribbean"
-"419";"13";"Central America"
-"419";"5";"South America"
-"154";"830";"Channel Islands"
+Intermediate Region Code,Sub-region Code,Intermediate Region Name
+14,202,Eastern Africa
+17,202,Middle Africa
+18,202,Southern Africa
+11,202,Western Africa
+29,419,Caribbean
+13,419,Central America
+5,419,South America
+830,154,Channel Islands
