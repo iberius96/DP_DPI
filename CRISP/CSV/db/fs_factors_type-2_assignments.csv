@@ -1,0 +1,1818 @@
+ID,Type2
+1,Temperature related
+2,Maritime related
+3,Rainfall related
+4,Rainfall related
+5,Rainfall related
+6,Biophysical
+7,Biophysical
+8,Biophysical
+9,Biophysical
+10,Biophysical
+11,Biophysical
+12,Biophysical
+13,Biophysical
+14,Biophysical
+15,Biophysical
+16,Biophysical
+17,Biophysical
+18,Biophysical
+19,Biophysical
+20,Socio-economic
+21,Socio-economic
+22,Socio-economic
+23,Human capital
+23,Gender and agricultural knowledge
+24,Human capital
+24,Gender and agricultural knowledge
+25,Human capital
+25,Gender and agricultural knowledge
+26,Human capital
+26,Gender and agricultural knowledge
+27,Human capital
+27,Gender and agricultural knowledge
+28,Institutions and policies
+29,Economic
+29,Finance and markets
+30,Economic
+30,Finance and markets
+31,Sensitivity and susceptibility to harm
+32,Sensitivity and susceptibility to harm
+33,Sensitivity and susceptibility to harm
+34,Lack of capacity to cope and adapt
+35,Lack of capacity to cope and adapt
+36,Lack of capacity to cope and adapt
+37,Lack of capacity to cope and adapt
+38,Lack of capacity to cope and adapt
+39,Lack of capacity to cope and adapt
+40,Lack of capacity to cope and adapt
+41,Lack of capacity to cope and adapt
+42,Physical capital
+43,Physical capital
+44,Physical capital
+45,Human capital
+46,Human capital
+47,Human capital
+48,Human capital
+49,Human capital
+50,Human capital
+51,Human capital
+52,Human capital
+53,Human capital
+54,Political capital
+55,Political capital
+56,Political capital
+57,Political capital
+58,Political capital
+59,Political capital
+60,Financial capital
+66,Maritime related
+67,Season Related
+68,Rainfall related
+69,Maritime related
+70,Maritime related
+71,Maritime related
+72,Season Related
+73,Wind related
+75,Biophysical
+76,Biophysical
+77,Biophysical
+78,Biophysical
+79,Biophysical
+80,Biophysical
+81,Biophysical
+82,Biophysical
+83,Biophysical
+84,Biophysical
+85,Biophysical
+86,Biophysical
+87,Biophysical
+88,Biophysical
+89,Biophysical
+90,Biophysical
+91,Socio-economic
+92,Socio-economic
+93,Socio-economic
+94,Socio-economic
+95,Socio-economic
+96,Socio-economic
+97,Socio-economic
+98,Socio-economic
+99,Human capital
+99,Gender and agricultural knowledge
+100,Human capital
+100,Gender and agricultural knowledge
+101,Human capital
+101,Gender and agricultural knowledge
+102,Human capital
+102,Gender and agricultural knowledge
+103,Institutions and policies
+104,Economic
+104,Finance and markets
+105,Economic
+105,Finance and markets
+106,Sensitivity and susceptibility to harm
+107,Sensitivity and susceptibility to harm
+108,Sensitivity and susceptibility to harm
+109,Lack of capacity to cope and adapt
+110,Lack of capacity to cope and adapt
+111,Lack of capacity to cope and adapt
+112,Lack of capacity to cope and adapt
+113,Lack of capacity to cope and adapt
+114,Lack of capacity to cope and adapt
+115,Natural capital
+116,Physical capital
+117,Physical capital
+118,Physical capital
+119,Physical capital
+120,Human capital
+121,Human capital
+122,Human capital
+123,Human capital
+124,Human capital
+125,Human capital
+126,Human capital
+127,Human capital
+128,Human capital
+129,Human capital
+130,Human capital
+131,Human capital
+132,Human capital
+133,Social capital
+134,Social capital
+135,Social capital
+136,Social capital
+137,Political capital
+138,Political capital
+139,Political capital
+140,Financial capital
+141,Financial capital
+142,Financial capital
+143,Financial capital
+149,Rainfall related
+150,Rainfall related
+151,Rainfall related
+152,Temperature related
+153,Rainfall related
+154,Wind related
+155,Temperature related
+156,Rainfall related
+157,Rainfall related
+158,Rainfall related
+159,Season Related
+160,Biophysical
+161,Biophysical
+162,Biophysical
+163,Biophysical
+164,Biophysical
+165,Biophysical
+166,Biophysical
+167,Biophysical
+168,Biophysical
+169,Biophysical
+170,Biophysical
+171,Biophysical
+172,Biophysical
+173,Socio-economic
+174,Socio-economic
+175,Socio-economic
+176,Socio-economic
+177,Socio-economic
+178,Human capital
+178,Gender and agricultural knowledge
+179,Human capital
+179,Gender and agricultural knowledge
+180,Human capital
+180,Gender and agricultural knowledge
+181,Institutions and policies
+182,Institutions and policies
+183,Economic
+183,Finance and markets
+184,Economic
+184,Finance and markets
+185,Economic
+185,Finance and markets
+186,Sensitivity and susceptibility to harm
+187,Sensitivity and susceptibility to harm
+188,Sensitivity and susceptibility to harm
+189,Sensitivity and susceptibility to harm
+190,Sensitivity and susceptibility to harm
+191,Lack of capacity to cope and adapt
+192,Lack of capacity to cope and adapt
+193,Lack of capacity to cope and adapt
+194,Lack of capacity to cope and adapt
+195,Lack of capacity to cope and adapt
+196,Lack of capacity to cope and adapt
+197,Lack of capacity to cope and adapt
+198,Lack of capacity to cope and adapt
+199,Lack of capacity to cope and adapt
+200,Lack of capacity to cope and adapt
+201,Lack of capacity to cope and adapt
+202,Natural capital
+203,Physical capital
+204,Physical capital
+205,Human capital
+206,Human capital
+207,Human capital
+208,Human capital
+209,Human capital
+210,Human capital
+211,Human capital
+212,Human capital
+213,Human capital
+214,Human capital
+215,Human capital
+216,Human capital
+217,Human capital
+218,Human capital
+219,Social capital
+220,Political capital
+221,Political capital
+222,Political capital
+223,Political capital
+224,Political capital
+225,Political capital
+226,Financial capital
+227,Financial capital
+228,Financial capital
+229,Financial capital
+233,Temperature related
+234,Rainfall related
+235,Maritime related
+236,Maritime related
+237,Rainfall related
+238,Rainfall related
+239,Maritime related
+240,Temperature related
+241,Biophysical
+242,Biophysical
+243,Biophysical
+244,Biophysical
+245,Biophysical
+246,Biophysical
+247,Biophysical
+248,Biophysical
+249,Biophysical
+250,Biophysical
+251,Biophysical
+252,Biophysical
+253,Biophysical
+254,Biophysical
+255,Socio-economic
+256,Socio-economic
+257,Socio-economic
+258,Socio-economic
+259,Socio-economic
+260,Socio-economic
+261,Socio-economic
+262,Socio-economic
+263,Socio-economic
+264,Socio-economic
+265,Socio-economic
+266,Socio-economic
+267,Socio-economic
+268,Socio-economic
+269,Human capital
+269,Gender and agricultural knowledge
+270,Human capital
+270,Gender and agricultural knowledge
+271,Human capital
+271,Gender and agricultural knowledge
+272,Human capital
+272,Gender and agricultural knowledge
+273,Institutions and policies
+274,Institutions and policies
+275,Economic
+275,Finance and markets
+276,Economic
+276,Finance and markets
+277,Sensitivity and susceptibility to harm
+278,Sensitivity and susceptibility to harm
+279,Sensitivity and susceptibility to harm
+280,Sensitivity and susceptibility to harm
+281,Lack of capacity to cope and adapt
+282,Lack of capacity to cope and adapt
+283,Lack of capacity to cope and adapt
+284,Lack of capacity to cope and adapt
+285,Lack of capacity to cope and adapt
+286,Natural capital
+287,Natural capital
+288,Natural capital
+289,Physical capital
+290,Physical capital
+291,Physical capital
+292,Human capital
+293,Human capital
+294,Human capital
+295,Human capital
+296,Human capital
+297,Human capital
+298,Human capital
+299,Human capital
+300,Human capital
+301,Human capital
+302,Human capital
+303,Human capital
+304,Human capital
+305,Social capital
+306,Social capital
+307,Political capital
+308,Political capital
+309,Political capital
+310,Political capital
+311,Financial capital
+317,Rainfall related
+318,Temperature related
+319,Temperature related
+320,Rainfall related
+321,Rainfall related
+322,Rainfall related
+323,Maritime related
+324,Temperature related
+325,Rainfall related
+326,Biophysical
+327,Biophysical
+328,Biophysical
+329,Biophysical
+330,Biophysical
+331,Biophysical
+332,Biophysical
+333,Biophysical
+334,Biophysical
+335,Biophysical
+336,Biophysical
+337,Biophysical
+338,Biophysical
+339,Biophysical
+340,Biophysical
+341,Biophysical
+342,Biophysical
+343,Biophysical
+344,Biophysical
+345,Biophysical
+346,Biophysical
+347,Socio-economic
+348,Socio-economic
+349,Socio-economic
+350,Socio-economic
+351,Socio-economic
+352,Socio-economic
+353,Socio-economic
+354,Socio-economic
+355,Socio-economic
+356,Socio-economic
+357,Socio-economic
+358,Human capital
+358,Gender and agricultural knowledge
+359,Human capital
+359,Gender and agricultural knowledge
+360,Human capital
+360,Gender and agricultural knowledge
+361,Human capital
+361,Gender and agricultural knowledge
+362,Human capital
+362,Gender and agricultural knowledge
+363,Human capital
+363,Gender and agricultural knowledge
+364,Human capital
+364,Gender and agricultural knowledge
+365,Human capital
+365,Gender and agricultural knowledge
+366,Human capital
+366,Gender and agricultural knowledge
+367,Institutions and policies
+368,Institutions and policies
+369,Institutions and policies
+370,Economic
+370,Finance and markets
+371,Economic
+371,Finance and markets
+372,Economic
+372,Finance and markets
+373,Economic
+373,Finance and markets
+374,Sensitivity and susceptibility to harm
+375,Sensitivity and susceptibility to harm
+376,Sensitivity and susceptibility to harm
+377,Sensitivity and susceptibility to harm
+378,Sensitivity and susceptibility to harm
+379,Sensitivity and susceptibility to harm
+380,Lack of capacity to cope and adapt
+381,Lack of capacity to cope and adapt
+382,Lack of capacity to cope and adapt
+383,Lack of capacity to cope and adapt
+384,Lack of capacity to cope and adapt
+385,Lack of capacity to cope and adapt
+386,Lack of capacity to cope and adapt
+387,Natural capital
+388,Physical capital
+389,Physical capital
+390,Physical capital
+391,Human capital
+392,Human capital
+393,Human capital
+394,Human capital
+395,Human capital
+396,Human capital
+397,Human capital
+398,Human capital
+399,Human capital
+400,Human capital
+401,Human capital
+402,Human capital
+403,Social capital
+404,Social capital
+405,Political capital
+406,Political capital
+407,Political capital
+408,Political capital
+409,Political capital
+410,Political capital
+411,Political capital
+412,Financial capital
+413,Financial capital
+414,Financial capital
+420,Rainfall related
+421,Temperature related
+422,Rainfall related
+423,Rainfall related
+424,Temperature related
+425,Biophysical
+426,Biophysical
+427,Biophysical
+428,Biophysical
+429,Biophysical
+430,Biophysical
+431,Biophysical
+432,Biophysical
+433,Biophysical
+434,Biophysical
+435,Biophysical
+436,Biophysical
+437,Biophysical
+438,Socio-economic
+439,Socio-economic
+440,Socio-economic
+441,Socio-economic
+442,Socio-economic
+443,Socio-economic
+444,Socio-economic
+445,Socio-economic
+446,Human capital
+446,Gender and agricultural knowledge
+447,Human capital
+447,Gender and agricultural knowledge
+448,Institutions and policies
+449,Institutions and policies
+450,Institutions and policies
+451,Economic
+451,Finance and markets
+452,Economic
+452,Finance and markets
+453,Sensitivity and susceptibility to harm
+454,Sensitivity and susceptibility to harm
+455,Sensitivity and susceptibility to harm
+456,Lack of capacity to cope and adapt
+457,Lack of capacity to cope and adapt
+458,Lack of capacity to cope and adapt
+459,Physical capital
+460,Human capital
+461,Human capital
+462,Human capital
+463,Human capital
+464,Human capital
+465,Social capital
+466,Political capital
+467,Political capital
+468,Political capital
+469,Political capital
+470,Financial capital
+471,Financial capital
+472,Financial capital
+476,Rainfall related
+477,Rainfall related
+478,Temperature related
+479,Temperature related
+480,Season Related
+481,Rainfall related
+482,Temperature related
+483,Temperature related
+484,Temperature related
+485,Rainfall related
+486,Rainfall related
+487,Biophysical
+488,Biophysical
+489,Biophysical
+490,Biophysical
+491,Biophysical
+492,Biophysical
+493,Biophysical
+494,Biophysical
+495,Biophysical
+496,Biophysical
+497,Biophysical
+498,Biophysical
+499,Biophysical
+500,Biophysical
+501,Biophysical
+502,Biophysical
+503,Biophysical
+504,Biophysical
+505,Socio-economic
+506,Socio-economic
+507,Socio-economic
+508,Socio-economic
+509,Socio-economic
+510,Socio-economic
+511,Socio-economic
+512,Socio-economic
+513,Socio-economic
+514,Human capital
+514,Gender and agricultural knowledge
+515,Human capital
+515,Gender and agricultural knowledge
+516,Human capital
+516,Gender and agricultural knowledge
+517,Human capital
+517,Gender and agricultural knowledge
+518,Human capital
+518,Gender and agricultural knowledge
+519,Human capital
+519,Gender and agricultural knowledge
+520,Institutions and policies
+521,Institutions and policies
+522,Institutions and policies
+523,Economic
+523,Finance and markets
+524,Economic
+524,Finance and markets
+525,Sensitivity and susceptibility to harm
+526,Sensitivity and susceptibility to harm
+527,Lack of capacity to cope and adapt
+528,Lack of capacity to cope and adapt
+529,Lack of capacity to cope and adapt
+530,Lack of capacity to cope and adapt
+531,Lack of capacity to cope and adapt
+532,Lack of capacity to cope and adapt
+533,Lack of capacity to cope and adapt
+534,Lack of capacity to cope and adapt
+535,Natural capital
+536,Physical capital
+537,Physical capital
+538,Human capital
+539,Human capital
+540,Human capital
+541,Human capital
+542,Human capital
+543,Human capital
+544,Human capital
+545,Human capital
+546,Human capital
+547,Social capital
+548,Political capital
+549,Political capital
+550,Political capital
+551,Political capital
+552,Political capital
+553,Financial capital
+554,Financial capital
+555,Financial capital
+561,Rainfall related
+562,Rainfall related
+563,Temperature related
+564,Temperature related
+565,Rainfall related
+566,Maritime related
+567,Temperature related
+568,Biophysical
+569,Biophysical
+570,Biophysical
+571,Biophysical
+572,Biophysical
+573,Biophysical
+574,Biophysical
+575,Biophysical
+576,Biophysical
+577,Biophysical
+578,Biophysical
+579,Biophysical
+580,Biophysical
+581,Biophysical
+582,Biophysical
+583,Biophysical
+584,Socio-economic
+585,Socio-economic
+586,Socio-economic
+587,Socio-economic
+588,Institutions and policies
+589,Institutions and policies
+590,Human capital
+590,Gender and agricultural knowledge
+591,Institutions and policies
+592,Institutions and policies
+593,Economic
+593,Finance and markets
+594,Sensitivity and susceptibility to harm
+595,Human capital
+595,Gender and agricultural knowledge
+596,Human capital
+596,Gender and agricultural knowledge
+597,Human capital
+597,Gender and agricultural knowledge
+598,Human capital
+598,Gender and agricultural knowledge
+599,Physical capital
+600,Human capital
+601,Human capital
+602,Human capital
+603,Human capital
+604,Human capital
+605,Social capital
+606,Social capital
+607,Political capital
+608,Political capital
+609,Political capital
+610,Political capital
+611,Political capital
+612,Financial capital
+616,Temperature related
+617,Rainfall related
+618,Rainfall related
+619,Rainfall related
+620,Rainfall related
+621,Rainfall related
+622,Biophysical
+623,Biophysical
+624,Biophysical
+625,Biophysical
+626,Biophysical
+627,Biophysical
+628,Biophysical
+629,Biophysical
+630,Biophysical
+631,Biophysical
+632,Biophysical
+633,Biophysical
+634,Socio-economic
+635,Socio-economic
+636,Socio-economic
+637,Socio-economic
+638,Socio-economic
+639,Socio-economic
+640,Socio-economic
+641,Socio-economic
+642,Human capital
+642,Gender and agricultural knowledge
+643,Institutions and policies
+644,Institutions and policies
+645,Economic
+645,Finance and markets
+646,Economic
+646,Finance and markets
+647,Sensitivity and susceptibility to harm
+648,Sensitivity and susceptibility to harm
+649,Sensitivity and susceptibility to harm
+650,Sensitivity and susceptibility to harm
+651,Lack of capacity to cope and adapt
+652,Lack of capacity to cope and adapt
+653,Lack of capacity to cope and adapt
+654,Lack of capacity to cope and adapt
+655,Lack of capacity to cope and adapt
+656,Lack of capacity to cope and adapt
+657,Lack of capacity to cope and adapt
+658,Lack of capacity to cope and adapt
+659,Human capital
+659,Gender and agricultural knowledge
+660,Human capital
+660,Gender and agricultural knowledge
+661,Human capital
+661,Gender and agricultural knowledge
+662,Human capital
+662,Gender and agricultural knowledge
+663,Human capital
+663,Gender and agricultural knowledge
+664,Lack of capacity to cope and adapt
+665,Physical capital
+666,Human capital
+667,Human capital
+668,Human capital
+669,Human capital
+670,Human capital
+671,Human capital
+672,Human capital
+673,Human capital
+674,Human capital
+675,Human capital
+676,Human capital
+677,Human capital
+678,Human capital
+679,Social capital
+680,Social capital
+681,Social capital
+682,Political capital
+683,Political capital
+684,Political capital
+685,Political capital
+686,Political capital
+687,Financial capital
+688,Financial capital
+689,Financial capital
+692,Rainfall related
+693,Maritime related
+694,Rainfall related
+695,Temperature related
+696,Temperature related
+697,Biophysical
+698,Biophysical
+699,Biophysical
+700,Biophysical
+701,Biophysical
+702,Biophysical
+703,Biophysical
+704,Biophysical
+705,Biophysical
+706,Biophysical
+707,Biophysical
+708,Biophysical
+709,Biophysical
+710,Biophysical
+711,Biophysical
+712,Biophysical
+713,Socio-economic
+714,Socio-economic
+715,Socio-economic
+716,Socio-economic
+717,Socio-economic
+718,Socio-economic
+719,Human capital
+719,Gender and agricultural knowledge
+720,Human capital
+720,Gender and agricultural knowledge
+721,Institutions and policies
+722,Institutions and policies
+723,Economic
+723,Finance and markets
+724,Economic
+724,Finance and markets
+725,Economic
+725,Finance and markets
+726,Sensitivity and susceptibility to harm
+727,Sensitivity and susceptibility to harm
+728,Sensitivity and susceptibility to harm
+729,Sensitivity and susceptibility to harm
+730,Lack of capacity to cope and adapt
+731,Lack of capacity to cope and adapt
+732,Lack of capacity to cope and adapt
+733,Lack of capacity to cope and adapt
+734,Lack of capacity to cope and adapt
+735,Lack of capacity to cope and adapt
+736,Lack of capacity to cope and adapt
+737,Lack of capacity to cope and adapt
+738,Lack of capacity to cope and adapt
+739,Lack of capacity to cope and adapt
+740,Natural capital
+741,Physical capital
+742,Human capital
+743,Human capital
+744,Human capital
+745,Human capital
+746,Human capital
+747,Human capital
+748,Human capital
+749,Human capital
+750,Human capital
+751,Political capital
+752,Political capital
+753,Political capital
+754,Political capital
+755,Political capital
+756,Financial capital
+761,Rainfall related
+762,Rainfall related
+763,Temperature related
+764,Rainfall related
+765,Rainfall related
+766,Wind related
+767,Maritime related
+768,Maritime related
+769,Biophysical
+770,Biophysical
+771,Biophysical
+772,Biophysical
+773,Biophysical
+774,Biophysical
+775,Biophysical
+776,Biophysical
+777,Biophysical
+778,Biophysical
+779,Biophysical
+780,Biophysical
+781,Biophysical
+782,Biophysical
+783,Biophysical
+784,Biophysical
+785,Biophysical
+786,Socio-economic
+787,Socio-economic
+788,Socio-economic
+789,Socio-economic
+790,Socio-economic
+791,Socio-economic
+792,Socio-economic
+793,Socio-economic
+794,Socio-economic
+795,Socio-economic
+796,Socio-economic
+797,Socio-economic
+798,Socio-economic
+799,Socio-economic
+800,Human capital
+800,Gender and agricultural knowledge
+801,Human capital
+801,Gender and agricultural knowledge
+802,Human capital
+802,Gender and agricultural knowledge
+803,Human capital
+803,Gender and agricultural knowledge
+804,Human capital
+804,Gender and agricultural knowledge
+805,Human capital
+805,Gender and agricultural knowledge
+806,Human capital
+806,Gender and agricultural knowledge
+807,Human capital
+807,Gender and agricultural knowledge
+808,Institutions and policies
+809,Institutions and policies
+810,Institutions and policies
+811,Economic
+811,Finance and markets
+812,Economic
+812,Finance and markets
+813,Economic
+813,Finance and markets
+814,Economic
+814,Finance and markets
+815,Sensitivity and susceptibility to harm
+816,Sensitivity and susceptibility to harm
+817,Sensitivity and susceptibility to harm
+818,Lack of capacity to cope and adapt
+819,Lack of capacity to cope and adapt
+820,Lack of capacity to cope and adapt
+821,Lack of capacity to cope and adapt
+822,Lack of capacity to cope and adapt
+823,Lack of capacity to cope and adapt
+824,Lack of capacity to cope and adapt
+825,Natural capital
+826,Physical capital
+827,Physical capital
+828,Human capital
+829,Human capital
+830,Human capital
+831,Human capital
+832,Social capital
+833,Social capital
+834,Social capital
+835,Political capital
+836,Political capital
+837,Political capital
+838,Financial capital
+839,Financial capital
+840,Financial capital
+841,Financial capital
+847,Temperature related
+848,Rainfall related
+849,Wind related
+850,Maritime related
+851,Rainfall related
+852,Temperature related
+853,Rainfall related
+854,Rainfall related
+855,Rainfall related
+856,Biophysical
+857,Biophysical
+858,Biophysical
+859,Biophysical
+860,Biophysical
+861,Biophysical
+862,Biophysical
+863,Biophysical
+864,Biophysical
+865,Biophysical
+866,Biophysical
+867,Biophysical
+868,Biophysical
+869,Biophysical
+870,Biophysical
+871,Biophysical
+872,Biophysical
+873,Biophysical
+874,Biophysical
+875,Socio-economic
+876,Socio-economic
+877,Socio-economic
+878,Socio-economic
+879,Socio-economic
+880,Socio-economic
+881,Socio-economic
+882,Socio-economic
+883,Socio-economic
+884,Human capital
+884,Gender and agricultural knowledge
+885,Human capital
+885,Gender and agricultural knowledge
+886,Human capital
+886,Gender and agricultural knowledge
+887,Human capital
+887,Gender and agricultural knowledge
+888,Human capital
+888,Gender and agricultural knowledge
+889,Institutions and policies
+890,Institutions and policies
+891,Economic
+891,Finance and markets
+892,Economic
+892,Finance and markets
+893,Sensitivity and susceptibility to harm
+894,Sensitivity and susceptibility to harm
+895,Sensitivity and susceptibility to harm
+896,Lack of capacity to cope and adapt
+897,Lack of capacity to cope and adapt
+898,Lack of capacity to cope and adapt
+899,Lack of capacity to cope and adapt
+900,Lack of capacity to cope and adapt
+901,Natural capital
+902,Physical capital
+903,Physical capital
+904,Human capital
+905,Human capital
+906,Human capital
+907,Human capital
+908,Human capital
+909,Human capital
+910,Human capital
+911,Human capital
+912,Human capital
+913,Social capital
+914,Social capital
+915,Political capital
+916,Political capital
+917,Political capital
+918,Financial capital
+924,Temperature related
+925,Rainfall related
+926,Maritime related
+927,Rainfall related
+928,Rainfall related
+929,Wind related
+930,Temperature related
+931,Rainfall related
+932,Biophysical
+933,Biophysical
+934,Biophysical
+935,Biophysical
+936,Biophysical
+937,Biophysical
+938,Biophysical
+939,Biophysical
+940,Biophysical
+941,Biophysical
+942,Biophysical
+943,Biophysical
+944,Biophysical
+945,Biophysical
+946,Biophysical
+947,Biophysical
+948,Biophysical
+949,Biophysical
+950,Biophysical
+951,Biophysical
+952,Biophysical
+953,Biophysical
+954,Socio-economic
+955,Socio-economic
+956,Socio-economic
+957,Socio-economic
+958,Socio-economic
+959,Socio-economic
+960,Socio-economic
+961,Socio-economic
+962,Socio-economic
+963,Human capital
+963,Gender and agricultural knowledge
+964,Human capital
+964,Gender and agricultural knowledge
+965,Human capital
+965,Gender and agricultural knowledge
+966,Human capital
+966,Gender and agricultural knowledge
+967,Human capital
+967,Gender and agricultural knowledge
+968,Human capital
+968,Gender and agricultural knowledge
+969,Human capital
+969,Gender and agricultural knowledge
+970,Human capital
+970,Gender and agricultural knowledge
+971,Institutions and policies
+972,Institutions and policies
+973,Economic
+973,Finance and markets
+974,Sensitivity and susceptibility to harm
+975,Sensitivity and susceptibility to harm
+976,Sensitivity and susceptibility to harm
+977,Lack of capacity to cope and adapt
+978,Lack of capacity to cope and adapt
+979,Lack of capacity to cope and adapt
+980,Lack of capacity to cope and adapt
+981,Lack of capacity to cope and adapt
+982,Lack of capacity to cope and adapt
+983,Lack of capacity to cope and adapt
+984,Natural capital
+985,Natural capital
+986,Natural capital
+987,Physical capital
+988,Physical capital
+989,Physical capital
+990,Human capital
+991,Human capital
+992,Human capital
+993,Human capital
+994,Human capital
+995,Human capital
+996,Human capital
+997,Human capital
+998,Human capital
+999,Human capital
+1000,Human capital
+1001,Human capital
+1002,Human capital
+1003,Human capital
+1004,Social capital
+1005,Social capital
+1006,Political capital
+1007,Political capital
+1008,Political capital
+1009,Political capital
+1010,Political capital
+1011,Political capital
+1012,Political capital
+1013,Political capital
+1014,Political capital
+1015,Financial capital
+1016,Financial capital
+1017,Financial capital
+1018,Financial capital
+1024,Temperature related
+1025,Temperature related
+1026,Rainfall related
+1027,Rainfall related
+1028,Rainfall related
+1029,Biophysical
+1030,Biophysical
+1031,Biophysical
+1032,Biophysical
+1033,Biophysical
+1034,Biophysical
+1035,Biophysical
+1036,Biophysical
+1037,Biophysical
+1038,Biophysical
+1039,Biophysical
+1040,Socio-economic
+1041,Socio-economic
+1042,Socio-economic
+1043,Socio-economic
+1044,Socio-economic
+1045,Human capital
+1045,Gender and agricultural knowledge
+1046,Human capital
+1046,Gender and agricultural knowledge
+1047,Human capital
+1047,Gender and agricultural knowledge
+1048,Institutions and policies
+1049,Economic
+1049,Finance and markets
+1050,Sensitivity and susceptibility to harm
+1051,Sensitivity and susceptibility to harm
+1052,Sensitivity and susceptibility to harm
+1053,Sensitivity and susceptibility to harm
+1054,Sensitivity and susceptibility to harm
+1055,Sensitivity and susceptibility to harm
+1056,Sensitivity and susceptibility to harm
+1057,Lack of capacity to cope and adapt
+1058,Lack of capacity to cope and adapt
+1059,Lack of capacity to cope and adapt
+1060,Lack of capacity to cope and adapt
+1061,Lack of capacity to cope and adapt
+1062,Lack of capacity to cope and adapt
+1063,Physical capital
+1064,Human capital
+1065,Human capital
+1066,Human capital
+1067,Human capital
+1068,Human capital
+1069,Human capital
+1070,Human capital
+1071,Human capital
+1072,Human capital
+1073,Human capital
+1074,Human capital
+1075,Human capital
+1076,Human capital
+1077,Human capital
+1078,Social capital
+1079,Political capital
+1080,Political capital
+1081,Political capital
+1082,Financial capital
+1083,Financial capital
+1087,Temperature related
+1088,Rainfall related
+1089,Rainfall related
+1090,Rainfall related
+1091,Maritime related
+1092,Rainfall related
+1093,Temperature related
+1094,Temperature related
+1095,Biophysical
+1096,Biophysical
+1097,Biophysical
+1098,Biophysical
+1099,Biophysical
+1100,Biophysical
+1101,Biophysical
+1102,Biophysical
+1103,Biophysical
+1104,Biophysical
+1105,Biophysical
+1106,Biophysical
+1107,Biophysical
+1108,Biophysical
+1109,Biophysical
+1110,Biophysical
+1111,Socio-economic
+1112,Socio-economic
+1113,Socio-economic
+1114,Socio-economic
+1115,Socio-economic
+1116,Socio-economic
+1117,Human capital
+1117,Gender and agricultural knowledge
+1118,Human capital
+1118,Gender and agricultural knowledge
+1119,Institutions and policies
+1120,Economic
+1120,Finance and markets
+1121,Economic
+1121,Finance and markets
+1122,Economic
+1122,Finance and markets
+1123,Sensitivity and susceptibility to harm
+1124,Sensitivity and susceptibility to harm
+1125,Lack of capacity to cope and adapt
+1126,Lack of capacity to cope and adapt
+1127,Lack of capacity to cope and adapt
+1128,Lack of capacity to cope and adapt
+1129,Lack of capacity to cope and adapt
+1130,Lack of capacity to cope and adapt
+1131,Lack of capacity to cope and adapt
+1132,Lack of capacity to cope and adapt
+1133,Physical capital
+1134,Physical capital
+1135,Physical capital
+1136,Physical capital
+1137,Human capital
+1138,Human capital
+1139,Human capital
+1140,Human capital
+1141,Human capital
+1142,Human capital
+1143,Human capital
+1144,Human capital
+1145,Human capital
+1146,Human capital
+1147,Human capital
+1148,Human capital
+1149,Human capital
+1150,Human capital
+1151,Human capital
+1152,Social capital
+1153,Social capital
+1154,Social capital
+1155,Political capital
+1156,Financial capital
+1157,Financial capital
+1161,Rainfall related
+1162,Rainfall related
+1163,Rainfall related
+1164,Temperature related
+1165,Rainfall related
+1166,Rainfall related
+1167,Rainfall related
+1168,Biophysical
+1169,Biophysical
+1170,Biophysical
+1171,Biophysical
+1172,Biophysical
+1173,Biophysical
+1174,Biophysical
+1175,Biophysical
+1176,Biophysical
+1177,Biophysical
+1178,Biophysical
+1179,Biophysical
+1180,Biophysical
+1181,Biophysical
+1182,Biophysical
+1183,Biophysical
+1184,Biophysical
+1185,Socio-economic
+1186,Socio-economic
+1187,Socio-economic
+1188,Socio-economic
+1189,Socio-economic
+1190,Socio-economic
+1191,Socio-economic
+1192,Socio-economic
+1193,Socio-economic
+1194,Human capital
+1194,Gender and agricultural knowledge
+1195,Human capital
+1195,Gender and agricultural knowledge
+1196,Human capital
+1196,Gender and agricultural knowledge
+1197,Human capital
+1197,Gender and agricultural knowledge
+1198,Human capital
+1198,Gender and agricultural knowledge
+1199,Institutions and policies
+1200,Institutions and policies
+1201,Institutions and policies
+1202,Economic
+1202,Finance and markets
+1203,Economic
+1203,Finance and markets
+1204,Economic
+1204,Finance and markets
+1205,Economic
+1205,Finance and markets
+1206,Economic
+1206,Finance and markets
+1207,Sensitivity and susceptibility to harm
+1208,Sensitivity and susceptibility to harm
+1209,Sensitivity and susceptibility to harm
+1210,Sensitivity and susceptibility to harm
+1211,Lack of capacity to cope and adapt
+1212,Lack of capacity to cope and adapt
+1213,Lack of capacity to cope and adapt
+1214,Lack of capacity to cope and adapt
+1215,Lack of capacity to cope and adapt
+1216,Lack of capacity to cope and adapt
+1217,Lack of capacity to cope and adapt
+1218,Lack of capacity to cope and adapt
+1219,Lack of capacity to cope and adapt
+1220,Lack of capacity to cope and adapt
+1221,Lack of capacity to cope and adapt
+1222,Lack of capacity to cope and adapt
+1223,Lack of capacity to cope and adapt
+1224,Lack of capacity to cope and adapt
+1225,Lack of capacity to cope and adapt
+1226,Natural capital
+1227,Physical capital
+1228,Human capital
+1229,Human capital
+1230,Human capital
+1231,Human capital
+1232,Human capital
+1233,Human capital
+1234,Human capital
+1235,Human capital
+1236,Human capital
+1237,Human capital
+1238,Human capital
+1239,Human capital
+1240,Human capital
+1241,Human capital
+1242,Human capital
+1243,Human capital
+1244,Human capital
+1245,Human capital
+1246,Human capital
+1247,Human capital
+1248,Social capital
+1249,Political capital
+1250,Political capital
+1251,Political capital
+1252,Political capital
+1253,Political capital
+1254,Political capital
+1255,Political capital
+1256,Political capital
+1257,Political capital
+1258,Political capital
+1259,Financial capital
+1260,Financial capital
+1261,Financial capital
+1262,Financial capital
+1263,Financial capital
+1269,Rainfall related
+1270,Rainfall related
+1271,Temperature related
+1272,Rainfall related
+1273,Rainfall related
+1274,Maritime related
+1275,Biophysical
+1276,Biophysical
+1277,Biophysical
+1278,Biophysical
+1279,Biophysical
+1280,Biophysical
+1281,Biophysical
+1282,Biophysical
+1283,Biophysical
+1284,Biophysical
+1285,Biophysical
+1286,Socio-economic
+1287,Socio-economic
+1288,Socio-economic
+1289,Socio-economic
+1290,Socio-economic
+1291,Socio-economic
+1292,Socio-economic
+1293,Human capital
+1293,Gender and agricultural knowledge
+1294,Human capital
+1294,Gender and agricultural knowledge
+1295,Human capital
+1295,Gender and agricultural knowledge
+1296,Human capital
+1296,Gender and agricultural knowledge
+1297,Human capital
+1297,Gender and agricultural knowledge
+1298,Human capital
+1298,Gender and agricultural knowledge
+1299,Institutions and policies
+1300,Institutions and policies
+1301,Institutions and policies
+1302,Economic
+1302,Finance and markets
+1303,Economic
+1303,Finance and markets
+1304,Economic
+1304,Finance and markets
+1305,Sensitivity and susceptibility to harm
+1306,Sensitivity and susceptibility to harm
+1307,Sensitivity and susceptibility to harm
+1308,Sensitivity and susceptibility to harm
+1309,Lack of capacity to cope and adapt
+1310,Lack of capacity to cope and adapt
+1311,Lack of capacity to cope and adapt
+1312,Lack of capacity to cope and adapt
+1313,Lack of capacity to cope and adapt
+1314,Lack of capacity to cope and adapt
+1315,Lack of capacity to cope and adapt
+1316,Natural capital
+1317,Physical capital
+1318,Physical capital
+1319,Physical capital
+1320,Human capital
+1321,Human capital
+1322,Human capital
+1323,Human capital
+1324,Human capital
+1325,Human capital
+1326,Human capital
+1327,Human capital
+1328,Human capital
+1329,Human capital
+1330,Social capital
+1331,Social capital
+1332,Political capital
+1333,Political capital
+1334,Political capital
+1335,Political capital
+1336,Financial capital
+1337,Financial capital
+1343,Temperature related
+1344,Temperature related
+1345,Temperature related
+1346,Rainfall related
+1347,Wind related
+1348,Rainfall related
+1349,Rainfall related
+1350,Biophysical
+1351,Biophysical
+1352,Biophysical
+1353,Biophysical
+1354,Biophysical
+1355,Biophysical
+1356,Biophysical
+1357,Biophysical
+1358,Biophysical
+1359,Biophysical
+1360,Biophysical
+1361,Biophysical
+1362,Biophysical
+1363,Biophysical
+1364,Biophysical
+1365,Biophysical
+1366,Biophysical
+1367,Biophysical
+1368,Socio-economic
+1369,Socio-economic
+1370,Socio-economic
+1371,Socio-economic
+1372,Socio-economic
+1373,Socio-economic
+1374,Human capital
+1374,Gender and agricultural knowledge
+1375,Human capital
+1375,Gender and agricultural knowledge
+1376,Human capital
+1376,Gender and agricultural knowledge
+1377,Human capital
+1377,Gender and agricultural knowledge
+1378,Human capital
+1378,Gender and agricultural knowledge
+1379,Human capital
+1379,Gender and agricultural knowledge
+1380,Human capital
+1380,Gender and agricultural knowledge
+1381,Human capital
+1381,Gender and agricultural knowledge
+1382,Institutions and policies
+1383,Institutions and policies
+1384,Institutions and policies
+1385,Economic
+1385,Finance and markets
+1386,Economic
+1386,Finance and markets
+1387,Economic
+1387,Finance and markets
+1388,Economic
+1388,Finance and markets
+1389,Sensitivity and susceptibility to harm
+1390,Sensitivity and susceptibility to harm
+1391,Sensitivity and susceptibility to harm
+1392,Sensitivity and susceptibility to harm
+1393,Lack of capacity to cope and adapt
+1394,Lack of capacity to cope and adapt
+1395,Lack of capacity to cope and adapt
+1396,Lack of capacity to cope and adapt
+1397,Lack of capacity to cope and adapt
+1398,Lack of capacity to cope and adapt
+1399,Lack of capacity to cope and adapt
+1400,Lack of capacity to cope and adapt
+1401,Natural capital
+1402,Physical capital
+1403,Physical capital
+1404,Human capital
+1405,Human capital
+1406,Human capital
+1407,Human capital
+1408,Human capital
+1409,Human capital
+1410,Human capital
+1411,Human capital
+1412,Human capital
+1413,Social capital
+1414,Social capital
+1415,Political capital
+1416,Political capital
+1417,Financial capital
+1418,Financial capital
+1419,Financial capital
+1420,Financial capital
+1425,Rainfall related
+1426,Rainfall related
+1427,Rainfall related
+1428,Rainfall related
+1429,Temperature related
+1430,Temperature related
+1431,Rainfall related
+1432,Rainfall related
+1433,Temperature related
+1434,Biophysical
+1435,Biophysical
+1436,Biophysical
+1437,Biophysical
+1438,Biophysical
+1439,Biophysical
+1440,Biophysical
+1441,Biophysical
+1442,Biophysical
+1443,Biophysical
+1444,Biophysical
+1445,Biophysical
+1446,Biophysical
+1447,Biophysical
+1448,Socio-economic
+1449,Socio-economic
+1450,Socio-economic
+1451,Socio-economic
+1452,Socio-economic
+1453,Human capital
+1453,Gender and agricultural knowledge
+1454,Human capital
+1454,Gender and agricultural knowledge
+1455,Human capital
+1455,Gender and agricultural knowledge
+1456,Human capital
+1456,Gender and agricultural knowledge
+1457,Economic
+1457,Finance and markets
+1458,Economic
+1458,Finance and markets
+1459,Economic
+1459,Finance and markets
+1460,Economic
+1460,Finance and markets
+1461,Sensitivity and susceptibility to harm
+1462,Sensitivity and susceptibility to harm
+1463,Sensitivity and susceptibility to harm
+1464,Sensitivity and susceptibility to harm
+1465,Sensitivity and susceptibility to harm
+1466,Sensitivity and susceptibility to harm
+1467,Lack of capacity to cope and adapt
+1468,Lack of capacity to cope and adapt
+1469,Lack of capacity to cope and adapt
+1470,Lack of capacity to cope and adapt
+1471,Lack of capacity to cope and adapt
+1472,Natural capital
+1473,Natural capital
+1474,Physical capital
+1475,Physical capital
+1476,Physical capital
+1477,Human capital
+1478,Human capital
+1479,Human capital
+1480,Human capital
+1481,Human capital
+1482,Human capital
+1483,Human capital
+1484,Human capital
+1485,Human capital
+1486,Human capital
+1487,Human capital
+1488,Human capital
+1489,Human capital
+1490,Human capital
+1491,Human capital
+1492,Political capital
+1493,Political capital
+1494,Political capital
+1495,Financial capital
+1501,Rainfall related
+1502,Rainfall related
+1503,Rainfall related
+1504,Rainfall related
+1505,Temperature related
+1506,Wind related
+1507,Temperature related
+1508,Biophysical
+1509,Biophysical
+1510,Biophysical
+1511,Biophysical
+1512,Biophysical
+1513,Biophysical
+1514,Biophysical
+1515,Biophysical
+1516,Biophysical
+1517,Biophysical
+1518,Biophysical
+1519,Biophysical
+1520,Biophysical
+1521,Socio-economic
+1522,Socio-economic
+1523,Socio-economic
+1524,Socio-economic
+1525,Socio-economic
+1526,Human capital
+1526,Gender and agricultural knowledge
+1527,Human capital
+1527,Gender and agricultural knowledge
+1528,Human capital
+1528,Gender and agricultural knowledge
+1529,Human capital
+1529,Gender and agricultural knowledge
+1530,Human capital
+1530,Gender and agricultural knowledge
+1531,Human capital
+1531,Gender and agricultural knowledge
+1532,Human capital
+1532,Gender and agricultural knowledge
+1533,Human capital
+1533,Gender and agricultural knowledge
+1534,Institutions and policies
+1535,Institutions and policies
+1536,Economic
+1536,Finance and markets
+1537,Economic
+1537,Finance and markets
+1538,Economic
+1538,Finance and markets
+1539,Economic
+1539,Finance and markets
+1540,Economic
+1540,Finance and markets
+1541,Lack of capacity to cope and adapt
+1542,Lack of capacity to cope and adapt
+1543,Lack of capacity to cope and adapt
+1544,Physical capital
+1545,Physical capital
+1546,Human capital
+1547,Human capital
+1548,Human capital
+1549,Human capital
+1550,Human capital
+1551,Human capital
+1552,Human capital
+1553,Human capital
+1554,Human capital
+1555,Human capital
+1556,Human capital
+1557,Human capital
+1558,Political capital
+1559,Political capital
+1560,Political capital
+1561,Financial capital
+1562,Financial capital
+1563,Financial capital
+1564,Financial capital
+1570,Rainfall related
+1571,Rainfall related
+1572,Rainfall related
+1573,Rainfall related
+1574,Temperature related
+1575,Temperature related
+1576,Wind related
+1577,Biophysical
+1578,Biophysical
+1579,Biophysical
+1580,Biophysical
+1581,Biophysical
+1582,Biophysical
+1583,Biophysical
+1584,Biophysical
+1585,Biophysical
+1586,Biophysical
+1587,Biophysical
+1588,Biophysical
+1589,Biophysical
+1590,Biophysical
+1591,Socio-economic
+1592,Socio-economic
+1593,Socio-economic
+1594,Socio-economic
+1595,Socio-economic
+1596,Socio-economic
+1597,Socio-economic
+1598,Socio-economic
+1599,Human capital
+1599,Gender and agricultural knowledge
+1600,Human capital
+1600,Gender and agricultural knowledge
+1601,Human capital
+1601,Gender and agricultural knowledge
+1602,Institutions and policies
+1603,Institutions and policies
+1604,Institutions and policies
+1605,Economic
+1605,Finance and markets
+1606,Economic
+1606,Finance and markets
+1607,Sensitivity and susceptibility to harm
+1608,Sensitivity and susceptibility to harm
+1609,Sensitivity and susceptibility to harm
+1610,Lack of capacity to cope and adapt
+1611,Lack of capacity to cope and adapt
+1612,Lack of capacity to cope and adapt
+1613,Lack of capacity to cope and adapt
+1614,Lack of capacity to cope and adapt
+1615,Lack of capacity to cope and adapt
+1616,Lack of capacity to cope and adapt
+1617,Lack of capacity to cope and adapt
+1618,Lack of capacity to cope and adapt
+1619,Natural capital
+1620,Physical capital
+1621,Physical capital
+1622,Human capital
+1623,Human capital
+1624,Human capital
+1625,Human capital
+1626,Human capital
+1627,Human capital
+1628,Human capital
+1629,Human capital
+1630,Human capital
+1631,Social capital
+1632,Social capital
+1633,Political capital
+1634,Political capital
+1635,Political capital
+1636,Political capital
+1637,Political capital
+1638,Political capital
+1639,Political capital
+1640,Political capital
+1641,Financial capital
+1642,Financial capital
+1643,Financial capital
+1649,Rainfall related
+1650,Rainfall related
+1651,Rainfall related
+1652,Rainfall related
+1653,Temperature related
+1654,Temperature related
+1655,Maritime related
+1656,Season Related
+1657,Biophysical
+1658,Biophysical
+1659,Biophysical
+1660,Biophysical
+1661,Biophysical
+1662,Biophysical
+1663,Biophysical
+1664,Biophysical
+1665,Biophysical
+1666,Biophysical
+1667,Biophysical
+1668,Biophysical
+1669,Biophysical
+1670,Biophysical
+1671,Biophysical
+1672,Biophysical
+1673,Biophysical
+1674,Biophysical
+1675,Biophysical
+1676,Socio-economic
+1677,Socio-economic
+1678,Human capital
+1678,Gender and agricultural knowledge
+1679,Human capital
+1679,Gender and agricultural knowledge
+1680,Human capital
+1680,Gender and agricultural knowledge
+1681,Human capital
+1681,Gender and agricultural knowledge
+1682,Human capital
+1682,Gender and agricultural knowledge
+1683,Human capital
+1683,Gender and agricultural knowledge
+1684,Human capital
+1684,Gender and agricultural knowledge
+1685,Human capital
+1685,Gender and agricultural knowledge
+1686,Human capital
+1686,Gender and agricultural knowledge
+1687,Economic
+1687,Finance and markets
+1688,Economic
+1688,Finance and markets
+1689,Economic
+1689,Finance and markets
+1690,Sensitivity and susceptibility to harm
+1691,Sensitivity and susceptibility to harm
+1692,Sensitivity and susceptibility to harm
+1693,Sensitivity and susceptibility to harm
+1694,Lack of capacity to cope and adapt
+1695,Lack of capacity to cope and adapt
+1696,Lack of capacity to cope and adapt
+1697,Lack of capacity to cope and adapt
+1698,Lack of capacity to cope and adapt
+1699,Physical capital
+1700,Physical capital
+1701,Human capital
+1702,Human capital
+1703,Human capital
+1704,Human capital
+1705,Human capital
+1706,Human capital
+1707,Human capital
+1708,Human capital
+1709,Human capital
+1710,Human capital
+1711,Human capital
+1712,Human capital
+1713,Human capital
+1714,Human capital
+1715,Human capital
+1716,Human capital
+1717,Human capital
+1718,Human capital
+1719,Social capital
+1720,Social capital
+1721,Political capital
+1722,Political capital
+1723,Political capital
+1724,Political capital
+1725,Political capital
+1726,Political capital
+1727,Political capital
+1728,Political capital
+1729,Financial capital
+1730,Financial capital
+1731,Financial capital
+1732,Financial capital
+1733,Financial capital
