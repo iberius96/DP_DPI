@@ -1,24 +1,24 @@
-"Farming system","FS macro region","Landscape","Position","Description"
-"Lowland Rice","EAP","Flat","1",
-"Temperate Mixed","EAP","Hilly terrain","1",
-"Upland Intensive Mixed","EAP","Upland","1",
-"Coastal plantation and mixed","LAC","Rich agricultural land","1",
-"Coastal plantation and mixed","LAC","Mangrove swamps","1",
-"Coastal plantation and mixed","LAC","Tropical forest","1","Isolated areas"
-"Dryland mixed","LAC","Dense Forest","1",
-"Dryland mixed","LAC","Dry grasslands","2",
-"Dryland mixed","LAC","Long Coastal plain","3","For Northern Brazil"
-"Dryland mixed","LAC","Karst","4","Dominated by limestone bedrock in The Yucatan peninsula of Mexico extending to the Northern Peten zone of Guatemala"
-"High Altitude Mixed (C. Andes)","LAC","Interwoven ranges dissected by longitudinal valleys","1","In the north a series of interwoven ranges dissected by longitudinal valleys make up the Peruvian Sierra. Further south, at about latitude 14°South, the Andes divide into two major ranges, enclosing the plateau or altiplano of Peru, Bolivia and Northern Chile and Argentina."
-"Maize-beans (Mesoamerica)","LAC","Upland areas","1",
-"High Altitude Mixed (C. Andes)","LAC","Mountainous and rugged terrains","1",
-"High Altitude Mixed (C. Andes)","LAC","Valley bottoms","2","With steep farming practices"
-"Rainfed Mixed","MENA","Vast deserts","1",
-"Rainfed Mixed","SA","Mountainous topography","1",
-"Rice-Wheat","SA","Floodplains","1",
-"Rice","SA","Varies","1",
-"Agro-Pastoral Millet/Sorghum","SSA","Extensive","1",
-"Cereal-Root Crop Mixed","SSA","Savannah","1",
-"Cereal-Root Crop Mixed","SSA","Grasslands with scattered trees","2",
-"Highland Mixed","SSA","Highland","1",
-"Maize Mixed","SSA","Eastern, central and southern Africa","1",
+"Farming system","FS macro region","Landscape","Description"
+"Lowland Rice","EAP","Flat",
+"Temperate Mixed","EAP","Hilly terrain",
+"Upland Intensive Mixed","EAP","Upland",
+"Coastal plantation and mixed","LAC","Rich agricultural land",
+"Coastal plantation and mixed","LAC","Mangrove swamps",
+"Coastal plantation and mixed","LAC","Tropical forest","Isolated areas"
+"Dryland mixed","LAC","Dense Forest",
+"Dryland mixed","LAC","Dry grasslands",
+"Dryland mixed","LAC","Long Coastal plain","For Northern Brazil"
+"Dryland mixed","LAC","Karst","Dominated by limestone bedrock in The Yucatan peninsula of Mexico extending to the Northern Peten zone of Guatemala"
+"High Altitude Mixed (C. Andes)","LAC","Interwoven ranges dissected by longitudinal valleys","In the north a series of interwoven ranges dissected by longitudinal valleys make up the Peruvian Sierra. Further south, at about latitude 14°South, the Andes divide into two major ranges, enclosing the plateau or altiplano of Peru, Bolivia and Northern Chile and Argentina."
+"Maize-beans (Mesoamerica)","LAC","Upland areas",
+"High Altitude Mixed (C. Andes)","LAC","Mountainous and rugged terrains",
+"High Altitude Mixed (C. Andes)","LAC","Valley bottoms","With steep farming practices"
+"Rainfed Mixed","MENA","Vast deserts",
+"Rainfed Mixed","SA","Mountainous topography",
+"Rice-Wheat","SA","Floodplains",
+"Rice","SA","Varies",
+"Agro-Pastoral Millet/Sorghum","SSA","Extensive",
+"Cereal-Root Crop Mixed","SSA","Savannah",
+"Cereal-Root Crop Mixed","SSA","Grasslands with scattered trees",
+"Highland Mixed","SSA","Highland",
+"Maize Mixed","SSA","Eastern, central and southern Africa",

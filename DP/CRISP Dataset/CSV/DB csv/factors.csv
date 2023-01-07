@@ -1,336 +1,336 @@
-Label,Type-1,Type-2
-Increase in average temperatures,Hazard,Temperature related
-Rising sea levels,Hazard,Maritime related
-Increase in drought events,Hazard,Rainfall related
-Increase in average precipitation,Hazard,Rainfall related
-Decrease in average precipitation,Hazard,Rainfall related
-Saline intrusion,Impact,Biophysical
-Shorter growing seasons,Impact,Biophysical
-Increased flooding,Impact,Biophysical
-Water scarcity,Impact,Biophysical
-Reduced crop productivity/failure,Impact,Biophysical
-Soil salinisation,Impact,Biophysical
-Siltation/sedimentation of rivers,Impact,Biophysical
-Change in production zone suitability,Impact,Biophysical
-Reduced water quality,Impact,Biophysical
-Elevation loss,Impact,Biophysical
-Land degradation,Impact,Biophysical
-Reduced produce quality,Impact,Biophysical
-Sediment starvation,Impact,Biophysical
-Coastal inundation,Impact,Biophysical
-Increase in food spoilage/wastage,Impact,Socioeconomic
-Increase in food insecurity,Impact,Socioeconomic
-Dependence on food aid,Impact,Socioeconomic
-Limited uptake of modern technologies,Vulnerability,"Human capital, gender and agricultural knowledge"
-Unsustainable natural resource use,Vulnerability,"Human capital, gender and agricultural knowledge"
-Unsustainable land management practices,Vulnerability,"Human capital, gender and agricultural knowledge"
-Dependence on groundwater,Vulnerability,"Human capital, gender and agricultural knowledge"
-Major component of local diet,Vulnerability,"Human capital, gender and agricultural knowledge"
-Inconsistencies in policy implementation,Vulnerability,Institutions and policies
-Large contributor to national GDP,Vulnerability,"Economic, financial and markets"
-Low access to markets,Vulnerability,"Economic, financial and markets"
-Unfavourable soil conditions,Vulnerability,Sensitivity/susceptibility to harm
-Water scarce area,Vulnerability,Sensitivity/susceptibility to harm
-Fragmented landscapes,Vulnerability,Sensitivity/susceptibility to harm
-"Lack of irrigation infrastructure ",Vulnerability,Lack of capacity to cope and adapt
-"Barrier to natural flows due to  infrastructure ",Vulnerability,Lack of capacity to cope and adapt
-Lack of access to improved crop varieties,Vulnerability,Lack of capacity to cope and adapt
-Inadequate climate information services,Vulnerability,Lack of capacity to cope and adapt
-Poor efficiency of farming,Vulnerability,Lack of capacity to cope and adapt
-Dependent on a single crop type,Vulnerability,Lack of capacity to cope and adapt
-Small farm size,Vulnerability,Lack of capacity to cope and adapt
-Invest in irrigation infrastructure,Adaptation option,Physical capital
-Structural adjustments,Adaptation option,Physical capital
-Invest in water harvesting and storage infrastructure,Adaptation option,Physical capital
-Diversify livelihoods,Adaptation option,Human capital
-Implement water conservation irrigation,Adaptation option,Human capital
-Implement climate smart agriculture practices,Adaptation option,Human capital
-Adopt drought tolerant varieties,Adaptation option,Human capital
-Improve climate change awareness,Adaptation option,Human capital
-Adjust crop calendar,Adaptation option,Human capital
-Invest in agricultural research and development,Adaptation option,Human capital
-Plant multiple varieties,Adaptation option,Human capital
-Implement efficient water management,Adaptation option,Human capital
-Build the capacity of agricultural extension agents,Adaptation option,"Political capital "
-Improve access to climate information services,Adaptation option,"Political capital "
-Develop/improve early warning systems,Adaptation option,"Political capital "
-Build capacity on usage of climate information,Adaptation option,"Political capital "
-Improve interprovincial interventions,Adaptation option,"Political capital "
-Develop policies for building climate change resilience,Adaptation option,"Political capital "
-Improve access to input/output markets,Adaptation option,Financial capital
-Farmers engaged in agri system,"Exposure ",
-Area of land used,"Exposure ",
-Food insecurity,Risk,
-"Loss of livelihoods ",Risk,
-"Chronic poverty ",Risk,
-Increase in frost events,Hazard,Maritime related
-Shorter growing season,Hazard,Season related
-Increase in extreme rainfall events,Hazard,Rainfall related
-Increase in hailstorms,Hazard,Maritime related
-Increase in tropical cyclones/hurricanes,Hazard,Maritime related
-Increase in drought events,Hazard,Season related
-Increase in strong winds,Hazard,Wind related
-Increase in average temperatures,Hazard,
-Increase in crop productivity/yields,Impact,Biophysical
-Increased incidence of bushfires,Impact,Biophysical
-Flash floods,Impact,Biophysical
-Reduced livestock productivity,Impact,Biophysical
-Livestock mortalities,Impact,Biophysical
-Unpredictable planting period,Impact,Biophysical
-Increase in diseases,Impact,Biophysical
-Crop stress/damage/mortality,Impact,Biophysical
-Soil erosion,Impact,Biophysical
-Landslide events,Impact,Biophysical
-Damage to infrastructure,Impact,Biophysical
-Increase in food prices,Impact,Socioeconomic
-Loss of income,Impact,Socioeconomic
-Increase in poverty,Impact,Socioeconomic
-Increase in migration,Impact,Socioeconomic
-Increase in malnutrition,Impact,Socioeconomic
-Competition for resources,Impact,Socioeconomic
-Increase in livestock mobility,Impact,Socioeconomic
-"High poverty levels ",Vulnerability,"Human capital, gender and agricultural knowledge"
-"Crop is highly susceptible to diseases ",Vulnerability,"Human capital, gender and agricultural knowledge"
-"Animal/breed is highly susceptible to diseases ",Vulnerability,"Human capital, gender and agricultural knowledge"
-Reliance on rainfed agriculture,Vulnerability,"Human capital, gender and agricultural knowledge"
-Inadequate climate information services,Vulnerability,Institutions and policies
-Unstable commodity prices,Vulnerability,"Economic, financial and markets"
-High prevalence of land degradation,Vulnerability,Sensitivity/susceptibility to harm
-Cultivation area prone to frost,Vulnerability,Sensitivity/susceptibility to harm
-Frequent bushfires,Vulnerability,Sensitivity/susceptibility to harm
-"High poverty levels ",Vulnerability,Lack of capacity to cope and adapt
-Reliance on rainfed agriculture,Vulnerability,Lack of capacity to cope and adapt
-Low access to credit,Vulnerability,Lack of capacity to cope and adapt
-Lack of willingness to invest in sustainable agricultural practices,Vulnerability,Lack of capacity to cope and adapt
-Animal/breed is highly susceptible to pests,Vulnerability,Lack of capacity to cope and adapt
-Implement reforestation practices,Adaptation option,Natural capital
-Invest in road infrastructure,Adaptation option,Physical capital
-Migration,Adaptation option,Human capital
-"Diversify livestock ",Adaptation option,Human capital
-Capacity building on sustainable agricultural practices,Adaptation option,Human capital
-Livestock mobility to semi-arid/sub-humid zones,Adaptation option,Human capital
-Adopt disease tolerant breeds,Adaptation option,Human capital
-Adopt disease tolerant varieties,Adaptation option,Human capital
-Apply integrated pest and diseases management,Adaptation option,Human capital
-Establish farmer organisations,Adaptation option,Social capital
-Establish water user associations,Adaptation option,Social capital
-Improve networking and knowledge exchange,Adaptation option,Social capital
-Build capacity on advocacy,Adaptation option,Social capital
-Invest in agricultural research and development,Adaptation option,"Political capital "
-Implement disaster recovery strategies,Adaptation option,"Political capital "
-Improve access to credit,Adaptation option,Financial capital
-Diversify markets,Adaptation option,Financial capital
-Improve access to markets,Adaptation option,Financial capital
-Support local value chains,Adaptation option,Financial capital
-Risk to farmers of food insecurity due to Climate Change,Risk,
-Risk to farmers of loss of livelihoods due to Climate Change,Risk,
-"Risk to farmers of chronic poverty due to Climate Change ",Risk,
-Increase in tropical cyclones/hurricanes,Hazard,Rainfall related
-Increase in humidity,Hazard,Rainfall related
-Increase in extreme heat (no. of hot days),Hazard,Temperature related
-Increasingly erratic rainfall,Hazard,Rainfall related
-Increase in weeds,Impact,Biophysical
-"Increase in pests ",Impact,Biophysical
-Increase in soil water deficit,Impact,Biophysical
-Poor seed production,Impact,Biophysical
-Biodiversity loss,Impact,Biophysical
-Lack of willingness to invest in sustainable agricultural practices,Impact,Socioeconomic
-"Unequal opportunities for women ",Vulnerability,"Human capital, gender and agricultural knowledge"
-"Weak land tenure ",Vulnerability,Institutions and policies
-Weak land tenure and access rights for women,Vulnerability,Institutions and policies
-Low access to credit,Vulnerability,"Economic, financial and markets"
-Large contributor to national/regional GDP,Vulnerability,"Economic, financial and markets"
-Lack of access to risk insurance,Vulnerability,"Economic, financial and markets"
-High levels of deforestation,Vulnerability,Sensitivity/susceptibility to harm
-High prevalence of pests,Vulnerability,Sensitivity/susceptibility to harm
-High prevalence of weeds,Vulnerability,Sensitivity/susceptibility to harm
-Inadequate agri research and development,Vulnerability,Lack of capacity to cope and adapt
-Low access to agricultural extension services,Vulnerability,Lack of capacity to cope and adapt
-"Lack of access to  inputs ",Vulnerability,Lack of capacity to cope and adapt
-Low level of education,Vulnerability,Lack of capacity to cope and adapt
-Low levels of climate change awareness at the farmer level,Vulnerability,Lack of capacity to cope and adapt
-Demographic pressure on land,Vulnerability,Lack of capacity to cope and adapt
-Lack of road infrastructure,Vulnerability,Lack of capacity to cope and adapt
-Limited uptake of modern technologies,Vulnerability,Lack of capacity to cope and adapt
-"Weak land tenure and access rights, particularly for women",Vulnerability,Lack of capacity to cope and adapt
-Implement agroforestry practices,Adaptation option,Human capital
-Plant multiple crop types,Adaptation option,Human capital
-Integrated weed management,Adaptation option,Human capital
-"Build women's  capacity ",Adaptation option,Human capital
-Plant cash crops,Adaptation option,Human capital
-Diversify to livestock value chains,Adaptation option,Human capital
-Implement conservation agriculture practices,Adaptation option,Human capital
-Adopt early maturing varieties,Adaptation option,Human capital
-Improve access to agricultural extension services,Adaptation option,"Political capital "
-Policy reform,Adaptation option,"Political capital "
-Land tenure reform,Adaptation option,"Political capital "
-Facilitate access to loans,Adaptation option,Financial capital
-Establish payment for ecosystem services schemes,Adaptation option,Financial capital
-Improve access to risk insurance schemes,Adaptation option,Financial capital
-Ocean acidification,Hazard,Maritime related
-Loss of production of fish,Impact,Biophysical
-Beach erosion,Impact,Biophysical
-Glacier melt,Impact,Biophysical
-Increase in malnutrition/ Reduced calorie intake,Impact,Socioeconomic
-Reduction in tax collection by the government,Impact,Socioeconomic
-Decrease in labour productivity,Impact,Socioeconomic
-Increase in food imports,Impact,Socioeconomic
-Conflict over resources,Impact,Socioeconomic
-Predominantly small-scale subsistence farming,Vulnerability,"Human capital, gender and agricultural knowledge"
-"High illiteracy rates ",Vulnerability,"Human capital, gender and agricultural knowledge"
-Conflict prone area,Vulnerability,Institutions and policies
-Barriers to trade,Vulnerability,"Economic, financial and markets"
-High disease prevalence,Vulnerability,Sensitivity/susceptibility to harm
-Predominantly small-scale subsistence farming,Vulnerability,Lack of capacity to cope and adapt
-Implement marine conservation practices,Adaptation option,Natural capital
-Implement wetland restoration,Adaptation option,Natural capital
-Implement soil and water conservation practices,Adaptation option,Human capital
-Build climate information services,Adaptation option,"Political capital "
-Increase in dry days,Hazard,Rainfall related
-Rising sea levels,Hazard,Rainfall related
-Decrease in average precipitation,Hazard,Temperature related
-Increase in heat stress,Impact,Biophysical
-Delays in transportation,Impact,Biophysical
-unpredictable planting period,Impact,Biophysical
-water scarcity,Impact,Biophysical
-Leaching of soil nutrients,Impact,Biophysical
-Increase in invasive plant species,Impact,Biophysical
-Shorter growing season,Impact,Biophysical
-Waterlogging,Impact,Biophysical
-Desertification,Impact,Biophysical
-Increase in women's workload,Impact,Socioeconomic
-Increase in post-harvest losses,Impact,Socioeconomic
-Inability to interpret climate information,Vulnerability,"Human capital, gender and agricultural knowledge"
-"Crop is highly susceptible to pests ",Vulnerability,"Human capital, gender and agricultural knowledge"
-Demographic pressure on land,Vulnerability,"Human capital, gender and agricultural knowledge"
-Poor water use efficiency and management,Vulnerability,"Human capital, gender and agricultural knowledge"
-Low levels of climate change awareness at the farmer level,Vulnerability,"Human capital, gender and agricultural knowledge"
-Lack of willingness to invest in sustainable agricultural practices,Vulnerability,"Economic, financial and markets"
-Lack of access to market information,Vulnerability,"Economic, financial and markets"
-Lack of access to improved livestock breeds,Vulnerability,Lack of capacity to cope and adapt
-Implement erosion control measures,Adaptation option,Human capital
-Improve access to modern processing technologies,Adaptation option,Human capital
-"Undertake soil rehabilitation ",Adaptation option,Human capital
-Improve access to market information,Adaptation option,Financial capital
-Increased incidence of forest fires,Impact,Biophysical
-Increase in deforestation/land clearing,Impact,Biophysical
-Reduced fodder availability,Impact,Biophysical
-Low adoption of sustainable agricultural practices,Impact,Socioeconomic
-Limited access to modern technologies,Impact,Socioeconomic
-Limited access to markets,Impact,Socioeconomic
-Unsustainable livestock management systems,Vulnerability,"Human capital, gender and agricultural knowledge"
-Lack of coordination between national and local levels of government,Vulnerability,Institutions and policies
-"Policy promotes unsustainable land use ",Vulnerability,Institutions and policies
-Lack of incentives for sustainable production,Vulnerability,"Economic, financial and markets"
-Frequent forest fires,Vulnerability,Sensitivity/susceptibility to harm
-Low access to markets,Vulnerability,Lack of capacity to cope and adapt
-Diversify to horticulture,Adaptation option,Human capital
-Devolve forest conservation and management,Adaptation option,"Political capital "
-Increase in frost events,Hazard,Temperature related
-Increase in drought events,Hazard,Temperature related
-Increase in heavy snowfall events,Hazard,Season related
-Rising sea levels,Hazard,Temperature related
-Increase in cold spells (no. of cold days),Hazard,Temperature related
-Emergence of new pests,Impact,Biophysical
-Shift in growing season,Impact,Biophysical
-"Unequal opportunities for women ",Vulnerability,Lack of capacity to cope and adapt
-"Increase awareness of gender equality ",Adaptation option,"Political capital "
-Decrease in snowfall,Hazard,Temperature related
-Reduced forage availability,Impact,Biophysical
-Limited water available for irrigation,Impact,Biophysical
-Reduced groundwater tables,Impact,Biophysical
-Inadequate regulation of water resources,Vulnerability,Institutions and policies
-High demand for irrigation water,Vulnerability,"Human capital, gender and agricultural knowledge"
-Build capacity on water use efficiency,Adaptation option,Human capital
-Improve regulation of groundwater extraction,Adaptation option,"Political capital "
-Incentivise sustainable natural resource use,Adaptation option,"Political capital "
-Reduced post-harvest processing,Impact,Socioeconomic
-Low awareness of climate change,Vulnerability,"Human capital, gender and agricultural knowledge"
-Unsuitable crop varieties,Vulnerability,Sensitivity/susceptibility to harm
-Major component of local diet,Vulnerability,Lack of capacity to cope and adapt
-Dependent on a single crop type,Vulnerability,"Human capital, gender and agricultural knowledge"
-Adopt heat tolerant varieties,Adaptation option,Human capital
-Adopt pest tolerant varieties,Adaptation option,Human capital
-Roll out climate change awareness campaigns,Adaptation option,"Political capital "
-Reduced availability of fresh water,Impact,Biophysical
-Low adoption of modern technology and practices,Impact,Socioeconomic
-Poor livestock management,Vulnerability,"Human capital, gender and agricultural knowledge"
-Inadequate policy,Vulnerability,Institutions and policies
-Major source of employment,Vulnerability,Lack of capacity to cope and adapt
-Conflict prone area,Vulnerability,Lack of capacity to cope and adapt
-Limited off-farm income opportunities,Vulnerability,Lack of capacity to cope and adapt
-Plant trees/shrubs for windbreaks,Adaptation option,Natural capital
-Improve veterinary care,Adaptation option,Human capital
-Adopt hardy livestock breeds,Adaptation option,Human capital
-Undertake crop rotation,Adaptation option,Human capital
-Provide incentives for sustainable land management practices,Adaptation option,Human capital
-Improve opportunities for off-farm income generation,Adaptation option,Financial capital
-Increasingly erratic rainfall,Hazard,Maritime related
-Food health and safety issues,Impact,Socioeconomic
-"High illiteracy rates ",Vulnerability,Lack of capacity to cope and adapt
-"Risk to farmers of loss of livelihoods due to Climate Change ",Risk,
-Increase in tropical cyclones/hurricanes,Hazard,Wind related
-Shorter growing season,Hazard,Rainfall related
-Riverine flooding,Impact,Biophysical
-Adopt post-harvest technologies,Adaptation option,Human capital
-Target niche markets,Adaptation option,Financial capital
-Lack of access to risk insurance,Vulnerability,Lack of capacity to cope and adapt
-Implement agroforestry practices,Adaptation option,Natural capital
-Implement conservation agriculture practices,Adaptation option,Natural capital
-"Crop diversification, cropping system optimization, and managemen",Adaptation option,Human capital
-Establish links to NDC and NAP,Adaptation option,"Political capital "
-Risk to farmers of chronic poverty due to Climate Change,Risk,
-Emergence of new diseases,Impact,Biophysical
-Increase in income,Impact,Socioeconomic
-Poor efficiency of farming,Vulnerability,"Human capital, gender and agricultural knowledge"
-Inadequate natural resource management policy,Vulnerability,Institutions and policies
-Declining groundwater levels,Vulnerability,Sensitivity/susceptibility to harm
-Poor water quality,Vulnerability,Sensitivity/susceptibility to harm
-Labour shortages,Vulnerability,Lack of capacity to cope and adapt
-Build the capacity of agricultural extension agents,Adaptation option,Human capital
-Implement integrated weed management,Adaptation option,Human capital
-Adopt high yielding varieties,Adaptation option,Human capital
-Increase in tropical cyclones/hurricanes,Hazard,Temperature related
-Reduced soil fertility,Impact,Biophysical
-Reduced borehole water availability,Impact,Biophysical
-Lack of coherent policy,Vulnerability,Institutions and policies
-Inadequate storage infrastructure,Vulnerability,Lack of capacity to cope and adapt
-Invest in storage infrastructure,Adaptation option,Physical capital
-Adopt salinity tolerant varieties,Adaptation option,Human capital
-Adopt submergence tolerant varieties,Adaptation option,Human capital
-Adopt an integrated farming system approach,Adaptation option,Human capital
-Increase in extreme heat (no. of hot days),Hazard,Rainfall related
-Reduced herd size,Impact,Biophysical
-Reduced forage quality,Impact,Biophysical
-Reduced fodder quality,Impact,Biophysical
-Decrease in diseases,Impact,Biophysical
-Decrease in livestock mobility,Impact,Socioeconomic
-Land fragmentation,Vulnerability,Sensitivity/susceptibility to harm
-Lack of knowledge on processing/value addition,Vulnerability,Lack of capacity to cope and adapt
-Large contributor to national GDP,Vulnerability,Lack of capacity to cope and adapt
-"Promote literacy ",Adaptation option,Human capital
-Implement fodder management,Adaptation option,Human capital
-Build capacity on value addition,Adaptation option,Human capital
-"Crop is highly susceptible to diseases ",Vulnerability,Lack of capacity to cope and adapt
-Inability to interpret climate information,Vulnerability,Lack of capacity to cope and adapt
-Increase in dry days,Hazard,Temperature related
-Animal/breed is highly susceptible to pests,Vulnerability,"Human capital, gender and agricultural knowledge"
-Diversify livestock e.g. include small ruminants or poultry,Adaptation option,Human capital
-Increase in hailstorms,Hazard,Rainfall related
-Protect/conserve riparian zones,Adaptation option,Natural capital
-Undertake pruning to reduce damaged leaves,Adaptation option,Human capital
-Cold air drainage and diversion,Adaptation option,Human capital
-Adopt pest tolerant breeds,Adaptation option,Human capital
-Lodging of plants,Impact,Biophysical
-"Weak land tenure and access rights, particularly for women",Vulnerability,Institutions and policies
-"High interest rates ",Vulnerability,"Economic, financial and markets"
-"Use of machinery ",Adaptation option,Human capital
-Integrated pest and diseases management,Adaptation option,Human capital
-Change of livelihoods,Impact,Socioeconomic
-Unstable commodity prices,Vulnerability,Lack of capacity to cope and adapt
-Intensify and sedentarise livestock production,Adaptation option,Human capital
-Implement integrated soil fertility management,Adaptation option,Human capital
-Gender inequality,Vulnerability,"Human capital, gender and agricultural knowledge"
-Educate on bushfires,Adaptation option,Human capital
-"Remove barriers to women's access to credit ",Adaptation option,Financial capital
-Remove barriers to women's access to markets,Adaptation option,Financial capital
+Label
+Increase in average temperatures
+Rising sea levels
+Increase in drought events
+Increase in average precipitation
+Decrease in average precipitation
+Saline intrusion
+Shorter growing seasons
+Increased flooding
+Water scarcity
+Reduced crop productivity/failure
+Soil salinisation
+Siltation/sedimentation of rivers
+Change in production zone suitability
+Reduced water quality
+Elevation loss
+Land degradation
+Reduced produce quality
+Sediment starvation
+Coastal inundation
+Increase in food spoilage/wastage
+Increase in food insecurity
+Dependence on food aid
+Limited uptake of modern technologies
+Unsustainable natural resource use
+Unsustainable land management practices
+Dependence on groundwater
+Major component of local diet
+Inconsistencies in policy implementation
+Large contributor to national GDP
+Low access to markets
+Unfavourable soil conditions
+Water scarce area
+Fragmented landscapes
+"Lack of irrigation infrastructure "
+"Barrier to natural flows due to  infrastructure "
+Lack of access to improved crop varieties
+Inadequate climate information services
+Poor efficiency of farming
+Dependent on a single crop type
+Small farm size
+Invest in irrigation infrastructure
+Structural adjustments
+Invest in water harvesting and storage infrastructure
+Diversify livelihoods
+Implement water conservation irrigation
+Implement climate smart agriculture practices
+Adopt drought tolerant varieties
+Improve climate change awareness
+Adjust crop calendar
+Invest in agricultural research and development
+Plant multiple varieties
+Implement efficient water management
+Build the capacity of agricultural extension agents
+Improve access to climate information services
+Develop/improve early warning systems
+Build capacity on usage of climate information
+Improve interprovincial interventions
+Develop policies for building climate change resilience
+Improve access to input/output markets
+Farmers engaged in agri system
+Area of land used
+Food insecurity
+"Loss of livelihoods "
+"Chronic poverty "
+Increase in frost events
+Shorter growing season
+Increase in extreme rainfall events
+Increase in hailstorms
+Increase in tropical cyclones/hurricanes
+Increase in drought events
+Increase in strong winds
+Increase in average temperatures
+Increase in crop productivity/yields
+Increased incidence of bushfires
+Flash floods
+Reduced livestock productivity
+Livestock mortalities
+Unpredictable planting period
+Increase in diseases
+Crop stress/damage/mortality
+Soil erosion
+Landslide events
+Damage to infrastructure
+Increase in food prices
+Loss of income
+Increase in poverty
+Increase in migration
+Increase in malnutrition
+Competition for resources
+Increase in livestock mobility
+"High poverty levels "
+"Crop is highly susceptible to diseases "
+"Animal/breed is highly susceptible to diseases "
+Reliance on rainfed agriculture
+Inadequate climate information services
+Unstable commodity prices
+High prevalence of land degradation
+Cultivation area prone to frost
+Frequent bushfires
+"High poverty levels "
+Reliance on rainfed agriculture
+Low access to credit
+Lack of willingness to invest in sustainable agricultural practices
+Animal/breed is highly susceptible to pests
+Implement reforestation practices
+Invest in road infrastructure
+Migration
+"Diversify livestock "
+Capacity building on sustainable agricultural practices
+Livestock mobility to semi-arid/sub-humid zones
+Adopt disease tolerant breeds
+Adopt disease tolerant varieties
+Apply integrated pest and diseases management
+Establish farmer organisations
+Establish water user associations
+Improve networking and knowledge exchange
+Build capacity on advocacy
+Invest in agricultural research and development
+Implement disaster recovery strategies
+Improve access to credit
+Diversify markets
+Improve access to markets
+Support local value chains
+Risk to farmers of food insecurity due to Climate Change
+Risk to farmers of loss of livelihoods due to Climate Change
+"Risk to farmers of chronic poverty due to Climate Change "
+Increase in tropical cyclones/hurricanes
+Increase in humidity
+Increase in extreme heat (no. of hot days)
+Increasingly erratic rainfall
+Increase in weeds
+"Increase in pests "
+Increase in soil water deficit
+Poor seed production
+Biodiversity loss
+Lack of willingness to invest in sustainable agricultural practices
+"Unequal opportunities for women "
+"Weak land tenure "
+Weak land tenure and access rights for women
+Low access to credit
+Large contributor to national/regional GDP
+Lack of access to risk insurance
+High levels of deforestation
+High prevalence of pests
+High prevalence of weeds
+Inadequate agri research and development
+Low access to agricultural extension services
+"Lack of access to  inputs "
+Low level of education
+Low levels of climate change awareness at the farmer level
+Demographic pressure on land
+Lack of road infrastructure
+Limited uptake of modern technologies
+"Weak land tenure and access rights, particularly for women"
+Implement agroforestry practices
+Plant multiple crop types
+Integrated weed management
+"Build women's  capacity "
+Plant cash crops
+Diversify to livestock value chains
+Implement conservation agriculture practices
+Adopt early maturing varieties
+Improve access to agricultural extension services
+Policy reform
+Land tenure reform
+Facilitate access to loans
+Establish payment for ecosystem services schemes
+Improve access to risk insurance schemes
+Ocean acidification
+Loss of production of fish
+Beach erosion
+Glacier melt
+Increase in malnutrition/ Reduced calorie intake
+Reduction in tax collection by the government
+Decrease in labour productivity
+Increase in food imports
+Conflict over resources
+Predominantly small-scale subsistence farming
+"High illiteracy rates "
+Conflict prone area
+Barriers to trade
+High disease prevalence
+Predominantly small-scale subsistence farming
+Implement marine conservation practices
+Implement wetland restoration
+Implement soil and water conservation practices
+Build climate information services
+Increase in dry days
+Rising sea levels
+Decrease in average precipitation
+Increase in heat stress
+Delays in transportation
+unpredictable planting period
+water scarcity
+Leaching of soil nutrients
+Increase in invasive plant species
+Shorter growing season
+Waterlogging
+Desertification
+Increase in women's workload
+Increase in post-harvest losses
+Inability to interpret climate information
+"Crop is highly susceptible to pests "
+Demographic pressure on land
+Poor water use efficiency and management
+Low levels of climate change awareness at the farmer level
+Lack of willingness to invest in sustainable agricultural practices
+Lack of access to market information
+Lack of access to improved livestock breeds
+Implement erosion control measures
+Improve access to modern processing technologies
+"Undertake soil rehabilitation "
+Improve access to market information
+Increased incidence of forest fires
+Increase in deforestation/land clearing
+Reduced fodder availability
+Low adoption of sustainable agricultural practices
+Limited access to modern technologies
+Limited access to markets
+Unsustainable livestock management systems
+Lack of coordination between national and local levels of government
+"Policy promotes unsustainable land use "
+Lack of incentives for sustainable production
+Frequent forest fires
+Low access to markets
+Diversify to horticulture
+Devolve forest conservation and management
+Increase in frost events
+Increase in drought events
+Increase in heavy snowfall events
+Rising sea levels
+Increase in cold spells (no. of cold days)
+Emergence of new pests
+Shift in growing season
+"Unequal opportunities for women "
+"Increase awareness of gender equality "
+Decrease in snowfall
+Reduced forage availability
+Limited water available for irrigation
+Reduced groundwater tables
+Inadequate regulation of water resources
+High demand for irrigation water
+Build capacity on water use efficiency
+Improve regulation of groundwater extraction
+Incentivise sustainable natural resource use
+Reduced post-harvest processing
+Low awareness of climate change
+Unsuitable crop varieties
+Major component of local diet
+Dependent on a single crop type
+Adopt heat tolerant varieties
+Adopt pest tolerant varieties
+Roll out climate change awareness campaigns
+Reduced availability of fresh water
+Low adoption of modern technology and practices
+Poor livestock management
+Inadequate policy
+Major source of employment
+Conflict prone area
+Limited off-farm income opportunities
+Plant trees/shrubs for windbreaks
+Improve veterinary care
+Adopt hardy livestock breeds
+Undertake crop rotation
+Provide incentives for sustainable land management practices
+Improve opportunities for off-farm income generation
+Increasingly erratic rainfall
+Food health and safety issues
+"High illiteracy rates "
+"Risk to farmers of loss of livelihoods due to Climate Change "
+Increase in tropical cyclones/hurricanes
+Shorter growing season
+Riverine flooding
+Adopt post-harvest technologies
+Target niche markets
+Lack of access to risk insurance
+Implement agroforestry practices
+Implement conservation agriculture practices
+"Crop diversification, cropping system optimization, and managemen"
+Establish links to NDC and NAP
+Risk to farmers of chronic poverty due to Climate Change
+Emergence of new diseases
+Increase in income
+Poor efficiency of farming
+Inadequate natural resource management policy
+Declining groundwater levels
+Poor water quality
+Labour shortages
+Build the capacity of agricultural extension agents
+Implement integrated weed management
+Adopt high yielding varieties
+Increase in tropical cyclones/hurricanes
+Reduced soil fertility
+Reduced borehole water availability
+Lack of coherent policy
+Inadequate storage infrastructure
+Invest in storage infrastructure
+Adopt salinity tolerant varieties
+Adopt submergence tolerant varieties
+Adopt an integrated farming system approach
+Increase in extreme heat (no. of hot days)
+Reduced herd size
+Reduced forage quality
+Reduced fodder quality
+Decrease in diseases
+Decrease in livestock mobility
+Land fragmentation
+Lack of knowledge on processing/value addition
+Large contributor to national GDP
+"Promote literacy "
+Implement fodder management
+Build capacity on value addition
+"Crop is highly susceptible to diseases "
+Inability to interpret climate information
+Increase in dry days
+Animal/breed is highly susceptible to pests
+Diversify livestock e.g. include small ruminants or poultry
+Increase in hailstorms
+Protect/conserve riparian zones
+Undertake pruning to reduce damaged leaves
+Cold air drainage and diversion
+Adopt pest tolerant breeds
+Lodging of plants
+"Weak land tenure and access rights, particularly for women"
+"High interest rates "
+"Use of machinery "
+Integrated pest and diseases management
+Change of livelihoods
+Unstable commodity prices
+Intensify and sedentarise livestock production
+Implement integrated soil fertility management
+Gender inequality
+Educate on bushfires
+"Remove barriers to women's access to credit "
+Remove barriers to women's access to markets
