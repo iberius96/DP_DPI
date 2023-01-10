@@ -1,0 +1,1739 @@
+,FS name,FS macro region,Factor,Type-1
+0,Lowland Rice,EAP,Increase in average temperatures,Hazard
+1,Lowland Rice,EAP,Rising sea levels,Hazard
+2,Lowland Rice,EAP,Increase in drought events,Hazard
+3,Lowland Rice,EAP,Increase in average precipitation,Hazard
+4,Lowland Rice,EAP,Decrease in average precipitation,Hazard
+5,Lowland Rice,EAP,Saline intrusion,Impact
+6,Lowland Rice,EAP,Shorter growing seasons,Impact
+7,Lowland Rice,EAP,Increased flooding,Impact
+8,Lowland Rice,EAP,Water scarcity,Impact
+9,Lowland Rice,EAP,Reduced crop productivity/failure,Impact
+10,Lowland Rice,EAP,Soil salinisation,Impact
+11,Lowland Rice,EAP,Siltation/sedimentation of rivers,Impact
+12,Lowland Rice,EAP,Change in production zone suitability,Impact
+13,Lowland Rice,EAP,Reduced water quality,Impact
+14,Lowland Rice,EAP,Elevation loss,Impact
+15,Lowland Rice,EAP,Land degradation,Impact
+16,Lowland Rice,EAP,Reduced produce quality,Impact
+17,Lowland Rice,EAP,Sediment starvation,Impact
+18,Lowland Rice,EAP,Coastal inundation,Impact
+19,Lowland Rice,EAP,Increase in food spoilage/wastage,Impact
+20,Lowland Rice,EAP,Increase in food insecurity,Impact
+21,Lowland Rice,EAP,Dependence on food aid,Impact
+22,Lowland Rice,EAP,Limited uptake of modern technologies,Vulnerability
+23,Lowland Rice,EAP,Unsustainable natural resource use,Vulnerability
+24,Lowland Rice,EAP,Unsustainable land management practices,Vulnerability
+25,Lowland Rice,EAP,Dependence on groundwater,Vulnerability
+26,Lowland Rice,EAP,Major component of local diet,Vulnerability
+27,Lowland Rice,EAP,Inconsistencies in policy implementation,Vulnerability
+28,Lowland Rice,EAP,Large contributor to national GDP,Vulnerability
+29,Lowland Rice,EAP,Low access to markets,Vulnerability
+30,Lowland Rice,EAP,Unfavourable soil conditions,Vulnerability
+31,Lowland Rice,EAP,Water scarce area,Vulnerability
+32,Lowland Rice,EAP,Fragmented landscapes,Vulnerability
+33,Lowland Rice,EAP,Lack of irrigation infrastructure,Vulnerability
+34,Lowland Rice,EAP,Barrier to natural flows due to  infrastructure,Vulnerability
+35,Lowland Rice,EAP,Lack of access to improved crop varieties,Vulnerability
+36,Lowland Rice,EAP,Lack of access to improved crop varieties,Vulnerability
+37,Lowland Rice,EAP,Inadequate climate information services,Vulnerability
+38,Lowland Rice,EAP,Poor efficiency of farming,Vulnerability
+39,Lowland Rice,EAP,Dependent on a single crop type,Vulnerability
+40,Lowland Rice,EAP,Small farm size,Vulnerability
+41,Lowland Rice,EAP,Invest in irrigation infrastructure,Adaptation option
+42,Lowland Rice,EAP,Structural adjustments,Adaptation option
+43,Lowland Rice,EAP,Invest in water harvesting and storage infrastructure,Adaptation option
+44,Lowland Rice,EAP,Diversify livelihoods,Adaptation option
+45,Lowland Rice,EAP,Implement water conservation irrigation,Adaptation option
+46,Lowland Rice,EAP,Implement climate smart agriculture practices,Adaptation option
+47,Lowland Rice,EAP,Adopt drought tolerant varieties,Adaptation option
+48,Lowland Rice,EAP,Improve climate change awareness,Adaptation option
+49,Lowland Rice,EAP,Adjust crop calendar,Adaptation option
+50,Lowland Rice,EAP,Invest in agricultural research and development,Adaptation option
+51,Lowland Rice,EAP,Plant multiple varieties,Adaptation option
+52,Lowland Rice,EAP,Implement efficient water management,Adaptation option
+53,Lowland Rice,EAP,Build the capacity of agricultural extension agents,Adaptation option
+54,Lowland Rice,EAP,Improve access to climate information services,Adaptation option
+55,Lowland Rice,EAP,Develop/improve early warning systems,Adaptation option
+56,Lowland Rice,EAP,Build capacity on usage of climate information,Adaptation option
+57,Lowland Rice,EAP,Improve interprovincial interventions,Adaptation option
+58,Lowland Rice,EAP,Develop policies for building climate change resilience,Adaptation option
+59,Lowland Rice,EAP,Improve access to input/output markets,Adaptation option
+60,Lowland Rice,EAP,Farmers engaged in agri system,Exposure
+61,Lowland Rice,EAP,Area of land used,Exposure
+62,Lowland Rice,EAP,Food insecurity,Risk
+63,Lowland Rice,EAP,Loss of livelihoods,Risk
+64,Lowland Rice,EAP,Chronic poverty,Risk
+65,Temperate Mixed,EAP,Increase in frost events,Hazard
+66,Temperate Mixed,EAP,Shorter growing season,Hazard
+67,Temperate Mixed,EAP,Increase in extreme rainfall events,Hazard
+68,Temperate Mixed,EAP,Increase in hailstorms,Hazard
+69,Temperate Mixed,EAP,Increase in tropical cyclones/hurricanes,Hazard
+70,Temperate Mixed,EAP,Rising sea levels,Hazard
+71,Temperate Mixed,EAP,Increase in drought events,Hazard
+72,Temperate Mixed,EAP,Increase in strong winds,Hazard
+73,Temperate Mixed,EAP,Increase in average temperatures,Hazard
+74,Temperate Mixed,EAP,Land degradation,Impact
+75,Temperate Mixed,EAP,Reduced crop productivity/failure,Impact
+76,Temperate Mixed,EAP,Shorter growing seasons,Impact
+77,Temperate Mixed,EAP,Increase in crop productivity/yields,Impact
+78,Temperate Mixed,EAP,Increased flooding,Impact
+79,Temperate Mixed,EAP,Increased incidence of bushfires,Impact
+80,Temperate Mixed,EAP,Flash floods,Impact
+81,Temperate Mixed,EAP,Reduced livestock productivity,Impact
+82,Temperate Mixed,EAP,Livestock mortalities,Impact
+83,Temperate Mixed,EAP,Unpredictable planting period,Impact
+84,Temperate Mixed,EAP,Shorter growing seasons,Impact
+85,Temperate Mixed,EAP,Increase in diseases,Impact
+86,Temperate Mixed,EAP,Crop stress/damage/mortality,Impact
+87,Temperate Mixed,EAP,Soil erosion,Impact
+88,Temperate Mixed,EAP,Landslide events,Impact
+89,Temperate Mixed,EAP,Damage to infrastructure,Impact
+90,Temperate Mixed,EAP,Increase in food insecurity,Impact
+91,Temperate Mixed,EAP,Increase in food prices,Impact
+92,Temperate Mixed,EAP,Loss of income,Impact
+93,Temperate Mixed,EAP,Increase in poverty,Impact
+94,Temperate Mixed,EAP,Increase in migration,Impact
+95,Temperate Mixed,EAP,Increase in malnutrition,Impact
+96,Temperate Mixed,EAP,Competition for resources,Impact
+97,Temperate Mixed,EAP,Increase in livestock mobility,Impact
+98,Temperate Mixed,EAP,High poverty levels,Vulnerability
+99,Temperate Mixed,EAP,Crop is highly susceptible to diseases,Vulnerability
+100,Temperate Mixed,EAP,Animal/breed is highly susceptible to diseases,Vulnerability
+101,Temperate Mixed,EAP,Reliance on rainfed agriculture,Vulnerability
+102,Temperate Mixed,EAP,Inadequate climate information services,Vulnerability
+103,Temperate Mixed,EAP,Low access to markets,Vulnerability
+104,Temperate Mixed,EAP,Unstable commodity prices,Vulnerability
+105,Temperate Mixed,EAP,High prevalence of land degradation,Vulnerability
+106,Temperate Mixed,EAP,Cultivation area prone to frost,Vulnerability
+107,Temperate Mixed,EAP,Frequent bushfires,Vulnerability
+108,Temperate Mixed,EAP,Lack of irrigation infrastructure,Vulnerability
+109,Temperate Mixed,EAP,High poverty levels,Vulnerability
+110,Temperate Mixed,EAP,Reliance on rainfed agriculture,Vulnerability
+111,Temperate Mixed,EAP,Low access to credit,Vulnerability
+112,Temperate Mixed,EAP,Lack of willingness to invest in sustainable agricultural practices,Vulnerability
+113,Temperate Mixed,EAP,Animal/breed is highly susceptible to pests,Vulnerability
+114,Temperate Mixed,EAP,Implement reforestation practices,Adaptation option
+115,Temperate Mixed,EAP,Structural adjustments,Adaptation option
+116,Temperate Mixed,EAP,Invest in road infrastructure,Adaptation option
+117,Temperate Mixed,EAP,Invest in irrigation infrastructure,Adaptation option
+118,Temperate Mixed,EAP,Invest in water harvesting and storage infrastructure,Adaptation option
+119,Temperate Mixed,EAP,Improve climate change awareness,Adaptation option
+120,Temperate Mixed,EAP,Diversify livelihoods,Adaptation option
+121,Temperate Mixed,EAP,Migration,Adaptation option
+122,Temperate Mixed,EAP,Invest in agricultural research and development,Adaptation option
+123,Temperate Mixed,EAP,Diversify livestock,Adaptation option
+124,Temperate Mixed,EAP,Capacity building on sustainable agricultural practices,Adaptation option
+125,Temperate Mixed,EAP,Implement climate smart agriculture practices,Adaptation option
+126,Temperate Mixed,EAP,Livestock mobility to semi-arid/sub-humid zones,Adaptation option
+127,Temperate Mixed,EAP,Adopt disease tolerant breeds,Adaptation option
+128,Temperate Mixed,EAP,Adopt disease tolerant varieties,Adaptation option
+129,Temperate Mixed,EAP,Adjust crop calendar,Adaptation option
+130,Temperate Mixed,EAP,Adopt drought tolerant varieties,Adaptation option
+131,Temperate Mixed,EAP,Apply integrated pest and diseases management,Adaptation option
+132,Temperate Mixed,EAP,Establish farmer organisations,Adaptation option
+133,Temperate Mixed,EAP,Establish water user associations,Adaptation option
+134,Temperate Mixed,EAP,Improve networking and knowledge exchange,Adaptation option
+135,Temperate Mixed,EAP,Build capacity on advocacy,Adaptation option
+136,Temperate Mixed,EAP,Invest in agricultural research and development,Adaptation option
+137,Temperate Mixed,EAP,Develop/improve early warning systems,Adaptation option
+138,Temperate Mixed,EAP,Implement disaster recovery strategies,Adaptation option
+139,Temperate Mixed,EAP,Improve access to credit,Adaptation option
+140,Temperate Mixed,EAP,Diversify markets,Adaptation option
+141,Temperate Mixed,EAP,Improve access to markets,Adaptation option
+142,Temperate Mixed,EAP,Support local value chains,Adaptation option
+143,Temperate Mixed,EAP,Farmers engaged in agri system,Exposure
+144,Temperate Mixed,EAP,Area of land used,Exposure
+145,Temperate Mixed,EAP,Risk to farmers of food insecurity due to Climate Change,Risk
+146,Temperate Mixed,EAP,Risk to farmers of loss of livelihoods due to Climate Change,Risk
+147,Temperate Mixed,EAP,Risk to farmers of chronic poverty due to Climate Change,Risk
+148,Upland Intensive Mixed,EAP,Increase in drought events,Hazard
+149,Upland Intensive Mixed,EAP,Increase in tropical cyclones/hurricanes,Hazard
+150,Upland Intensive Mixed,EAP,Increase in extreme rainfall events,Hazard
+151,Upland Intensive Mixed,EAP,Increase in average temperatures,Hazard
+152,Upland Intensive Mixed,EAP,Increase in humidity,Hazard
+153,Upland Intensive Mixed,EAP,Increase in strong winds,Hazard
+154,Upland Intensive Mixed,EAP,Increase in extreme heat (no. of hot days),Hazard
+155,Upland Intensive Mixed,EAP,Increase in average precipitation,Hazard
+156,Upland Intensive Mixed,EAP,Decrease in average precipitation,Hazard
+157,Upland Intensive Mixed,EAP,Increasingly erratic rainfall,Hazard
+158,Upland Intensive Mixed,EAP,Shorter growing season,Hazard
+159,Upland Intensive Mixed,EAP,Increased flooding,Impact
+160,Upland Intensive Mixed,EAP,Reduced crop productivity/failure,Impact
+161,Upland Intensive Mixed,EAP,Increase in weeds,Impact
+162,Upland Intensive Mixed,EAP,Increase in pests,Impact
+163,Upland Intensive Mixed,EAP,Increase in diseases,Impact
+164,Upland Intensive Mixed,EAP,Increase in soil water deficit,Impact
+165,Upland Intensive Mixed,EAP,Crop stress/damage/mortality,Impact
+166,Upland Intensive Mixed,EAP,Landslide events,Impact
+167,Upland Intensive Mixed,EAP,Land degradation,Impact
+168,Upland Intensive Mixed,EAP,Poor seed production,Impact
+169,Upland Intensive Mixed,EAP,Siltation/sedimentation of rivers,Impact
+170,Upland Intensive Mixed,EAP,Biodiversity loss,Impact
+171,Upland Intensive Mixed,EAP,Damage to infrastructure,Impact
+172,Upland Intensive Mixed,EAP,Increase in food prices,Impact
+173,Upland Intensive Mixed,EAP,Increase in food insecurity,Impact
+174,Upland Intensive Mixed,EAP,Lack of willingness to invest in sustainable agricultural practices,Impact
+175,Upland Intensive Mixed,EAP,Increase in poverty,Impact
+176,Upland Intensive Mixed,EAP,Loss of income,Impact
+177,Upland Intensive Mixed,EAP,Limited uptake of modern technologies,Vulnerability
+178,Upland Intensive Mixed,EAP,Unsustainable land management practices,Vulnerability
+179,Upland Intensive Mixed,EAP,Unequal opportunities for women,Vulnerability
+180,Upland Intensive Mixed,EAP,Weak land tenure,Vulnerability
+181,Upland Intensive Mixed,EAP,Weak land tenure and access rights for women,Vulnerability
+182,Upland Intensive Mixed,EAP,Low access to credit,Vulnerability
+183,Upland Intensive Mixed,EAP,Large contributor to national/regional GDP,Vulnerability
+184,Upland Intensive Mixed,EAP,Lack of access to risk insurance,Vulnerability
+185,Upland Intensive Mixed,EAP,High levels of deforestation,Vulnerability
+186,Upland Intensive Mixed,EAP,Frequent bushfires,Vulnerability
+187,Upland Intensive Mixed,EAP,High prevalence of land degradation,Vulnerability
+188,Upland Intensive Mixed,EAP,High prevalence of pests,Vulnerability
+189,Upland Intensive Mixed,EAP,High prevalence of weeds,Vulnerability
+190,Upland Intensive Mixed,EAP,Inadequate agri research and development,Vulnerability
+191,Upland Intensive Mixed,EAP,Low access to agricultural extension services,Vulnerability
+192,Upland Intensive Mixed,EAP,Lack of access to  inputs,Vulnerability
+193,Upland Intensive Mixed,EAP,Low level of education,Vulnerability
+194,Upland Intensive Mixed,EAP,Low levels of climate change awareness at the farmer level,Vulnerability
+195,Upland Intensive Mixed,EAP,Demographic pressure on land,Vulnerability
+196,Upland Intensive Mixed,EAP,Reliance on rainfed agriculture,Vulnerability
+197,Upland Intensive Mixed,EAP,Lack of road infrastructure,Vulnerability
+198,Upland Intensive Mixed,EAP,Limited uptake of modern technologies,Vulnerability
+199,Upland Intensive Mixed,EAP,"Weak land tenure and access rights, particularly for women",Vulnerability
+200,Upland Intensive Mixed,EAP,High poverty levels,Vulnerability
+201,Upland Intensive Mixed,EAP,Implement reforestation practices,Adaptation option
+202,Upland Intensive Mixed,EAP,Invest in road infrastructure,Adaptation option
+203,Upland Intensive Mixed,EAP,Invest in water harvesting and storage infrastructure,Adaptation option
+204,Upland Intensive Mixed,EAP,Improve climate change awareness,Adaptation option
+205,Upland Intensive Mixed,EAP,Capacity building on sustainable agricultural practices,Adaptation option
+206,Upland Intensive Mixed,EAP,Implement agroforestry practices,Adaptation option
+207,Upland Intensive Mixed,EAP,Plant multiple crop types,Adaptation option
+208,Upland Intensive Mixed,EAP,Invest in agricultural research and development,Adaptation option
+209,Upland Intensive Mixed,EAP,Integrated weed management,Adaptation option
+210,Upland Intensive Mixed,EAP,Build women's  capacity,Adaptation option
+211,Upland Intensive Mixed,EAP,Plant cash crops,Adaptation option
+212,Upland Intensive Mixed,EAP,Diversify to livestock value chains,Adaptation option
+213,Upland Intensive Mixed,EAP,Diversify livelihoods,Adaptation option
+214,Upland Intensive Mixed,EAP,Implement conservation agriculture practices,Adaptation option
+215,Upland Intensive Mixed,EAP,Apply integrated pest and diseases management,Adaptation option
+216,Upland Intensive Mixed,EAP,Adjust crop calendar,Adaptation option
+217,Upland Intensive Mixed,EAP,Adopt early maturing varieties,Adaptation option
+218,Upland Intensive Mixed,EAP,Improve networking and knowledge exchange,Adaptation option
+219,Upland Intensive Mixed,EAP,Improve access to agricultural extension services,Adaptation option
+220,Upland Intensive Mixed,EAP,Improve access to climate information services,Adaptation option
+221,Upland Intensive Mixed,EAP,Policy reform,Adaptation option
+222,Upland Intensive Mixed,EAP,Develop/improve early warning systems,Adaptation option
+223,Upland Intensive Mixed,EAP,Build the capacity of agricultural extension agents,Adaptation option
+224,Upland Intensive Mixed,EAP,Land tenure reform,Adaptation option
+225,Upland Intensive Mixed,EAP,Facilitate access to loans,Adaptation option
+226,Upland Intensive Mixed,EAP,Improve access to credit,Adaptation option
+227,Upland Intensive Mixed,EAP,Establish payment for ecosystem services schemes,Adaptation option
+228,Upland Intensive Mixed,EAP,Improve access to risk insurance schemes,Adaptation option
+229,Upland Intensive Mixed,EAP,Farmers engaged in agri system,Exposure
+230,Upland Intensive Mixed,EAP,Chronic poverty,Risk
+231,Upland Intensive Mixed,EAP,Food insecurity,Risk
+232,Coastal plantation and mixed,LAC,Increase in average temperatures,Hazard
+233,Coastal plantation and mixed,LAC,Increase in drought events,Hazard
+234,Coastal plantation and mixed,LAC,Rising sea levels,Hazard
+235,Coastal plantation and mixed,LAC,Increase in tropical cyclones/hurricanes,Hazard
+236,Coastal plantation and mixed,LAC,Increase in extreme rainfall events,Hazard
+237,Coastal plantation and mixed,LAC,Decrease in average precipitation,Hazard
+238,Coastal plantation and mixed,LAC,Ocean acidification,Hazard
+239,Coastal plantation and mixed,LAC,Increase in extreme heat (no. of hot days),Hazard
+240,Coastal plantation and mixed,LAC,Loss of production of fish,Impact
+241,Coastal plantation and mixed,LAC,Saline intrusion,Impact
+242,Coastal plantation and mixed,LAC,Reduced crop productivity/failure,Impact
+243,Coastal plantation and mixed,LAC,Coastal inundation,Impact
+244,Coastal plantation and mixed,LAC,Beach erosion,Impact
+245,Coastal plantation and mixed,LAC,Biodiversity loss,Impact
+246,Coastal plantation and mixed,LAC,Water scarcity,Impact
+247,Coastal plantation and mixed,LAC,Landslide events,Impact
+248,Coastal plantation and mixed,LAC,Damage to infrastructure,Impact
+249,Coastal plantation and mixed,LAC,Glacier melt,Impact
+250,Coastal plantation and mixed,LAC,Flash floods,Impact
+251,Coastal plantation and mixed,LAC,Increased flooding,Impact
+252,Coastal plantation and mixed,LAC,Increased incidence of bushfires,Impact
+253,Coastal plantation and mixed,LAC,Crop stress/damage/mortality,Impact
+254,Coastal plantation and mixed,LAC,Increase in malnutrition/ Reduced calorie intake,Impact
+255,Coastal plantation and mixed,LAC,Loss of income,Impact
+256,Coastal plantation and mixed,LAC,Reduction in tax collection by the government,Impact
+257,Coastal plantation and mixed,LAC,Increase in malnutrition/ Reduced calorie intake,Impact
+258,Coastal plantation and mixed,LAC,Increase in migration,Impact
+259,Coastal plantation and mixed,LAC,Increase in food prices,Impact
+260,Coastal plantation and mixed,LAC,Decrease in labour productivity,Impact
+261,Coastal plantation and mixed,LAC,Increase in food imports,Impact
+262,Coastal plantation and mixed,LAC,Increase in food insecurity,Impact
+263,Coastal plantation and mixed,LAC,Increase in malnutrition,Impact
+264,Coastal plantation and mixed,LAC,Competition for resources,Impact
+265,Coastal plantation and mixed,LAC,Conflict over resources,Impact
+266,Coastal plantation and mixed,LAC,Dependence on food aid,Impact
+267,Coastal plantation and mixed,LAC,Increase in poverty,Impact
+268,Coastal plantation and mixed,LAC,High poverty levels,Vulnerability
+269,Coastal plantation and mixed,LAC,Predominantly small-scale subsistence farming,Vulnerability
+270,Coastal plantation and mixed,LAC,High illiteracy rates,Vulnerability
+271,Coastal plantation and mixed,LAC,Reliance on rainfed agriculture,Vulnerability
+272,Coastal plantation and mixed,LAC,Weak land tenure,Vulnerability
+273,Coastal plantation and mixed,LAC,Conflict prone area,Vulnerability
+274,Coastal plantation and mixed,LAC,Low access to markets,Vulnerability
+275,Coastal plantation and mixed,LAC,Barriers to trade,Vulnerability
+276,Coastal plantation and mixed,LAC,Frequent bushfires,Vulnerability
+277,Coastal plantation and mixed,LAC,Water scarce area,Vulnerability
+278,Coastal plantation and mixed,LAC,High prevalence of land degradation,Vulnerability
+279,Coastal plantation and mixed,LAC,High disease prevalence,Vulnerability
+280,Coastal plantation and mixed,LAC,High poverty levels,Vulnerability
+281,Coastal plantation and mixed,LAC,Lack of irrigation infrastructure,Vulnerability
+282,Coastal plantation and mixed,LAC,Reliance on rainfed agriculture,Vulnerability
+283,Coastal plantation and mixed,LAC,Predominantly small-scale subsistence farming,Vulnerability
+284,Coastal plantation and mixed,LAC,Low level of education,Vulnerability
+285,Coastal plantation and mixed,LAC,Implement marine conservation practices,Adaptation option
+286,Coastal plantation and mixed,LAC,Implement wetland restoration,Adaptation option
+287,Coastal plantation and mixed,LAC,Implement reforestation practices,Adaptation option
+288,Coastal plantation and mixed,LAC,Invest in water harvesting and storage infrastructure,Adaptation option
+289,Coastal plantation and mixed,LAC,Structural adjustments,Adaptation option
+290,Coastal plantation and mixed,LAC,Invest in irrigation infrastructure,Adaptation option
+291,Coastal plantation and mixed,LAC,Implement soil and water conservation practices,Adaptation option
+292,Coastal plantation and mixed,LAC,Adopt drought tolerant varieties,Adaptation option
+293,Coastal plantation and mixed,LAC,Invest in agricultural research and development,Adaptation option
+294,Coastal plantation and mixed,LAC,Plant multiple crop types,Adaptation option
+295,Coastal plantation and mixed,LAC,Implement efficient water management,Adaptation option
+296,Coastal plantation and mixed,LAC,Implement climate smart agriculture practices,Adaptation option
+297,Coastal plantation and mixed,LAC,Implement conservation agriculture practices,Adaptation option
+298,Coastal plantation and mixed,LAC,Apply integrated pest and diseases management,Adaptation option
+299,Coastal plantation and mixed,LAC,Adopt drought tolerant varieties,Adaptation option
+300,Coastal plantation and mixed,LAC,Improve climate change awareness,Adaptation option
+301,Coastal plantation and mixed,LAC,Diversify livelihoods,Adaptation option
+302,Coastal plantation and mixed,LAC,Capacity building on sustainable agricultural practices,Adaptation option
+303,Coastal plantation and mixed,LAC,Plant multiple varieties,Adaptation option
+304,Coastal plantation and mixed,LAC,Improve networking and knowledge exchange,Adaptation option
+305,Coastal plantation and mixed,LAC,Build capacity on advocacy,Adaptation option
+306,Coastal plantation and mixed,LAC,Build climate information services,Adaptation option
+307,Coastal plantation and mixed,LAC,Develop policies for building climate change resilience,Adaptation option
+308,Coastal plantation and mixed,LAC,Develop/improve early warning systems,Adaptation option
+309,Coastal plantation and mixed,LAC,Land tenure reform,Adaptation option
+310,Coastal plantation and mixed,LAC,Improve access to markets,Adaptation option
+311,Coastal plantation and mixed,LAC,Farmers engaged in agri system,Exposure
+312,Coastal plantation and mixed,LAC,Area of land used,Exposure
+313,Coastal plantation and mixed,LAC,Food insecurity,Risk
+314,Coastal plantation and mixed,LAC,Chronic poverty,Risk
+315,Coastal plantation and mixed,LAC,Loss of livelihoods,Risk
+316,Dryland mixed,LAC,Increase in drought events,Hazard
+317,Dryland mixed,LAC,Increase in extreme heat (no. of hot days),Hazard
+318,Dryland mixed,LAC,Increase in average temperatures,Hazard
+319,Dryland mixed,LAC,Increase in average precipitation,Hazard
+320,Dryland mixed,LAC,Increase in dry days,Hazard
+321,Dryland mixed,LAC,Rising sea levels,Hazard
+322,Dryland mixed,LAC,Increase in tropical cyclones/hurricanes,Hazard
+323,Dryland mixed,LAC,Decrease in average precipitation,Hazard
+324,Dryland mixed,LAC,Increase in extreme rainfall events,Hazard
+325,Dryland mixed,LAC,Soil erosion,Impact
+326,Dryland mixed,LAC,Soil salinisation,Impact
+327,Dryland mixed,LAC,Increase in soil water deficit,Impact
+328,Dryland mixed,LAC,Reduced crop productivity/failure,Impact
+329,Dryland mixed,LAC,Land degradation,Impact
+330,Dryland mixed,LAC,Livestock mortalities,Impact
+331,Dryland mixed,LAC,Damage to infrastructure,Impact
+332,Dryland mixed,LAC,Increase in heat stress,Impact
+333,Dryland mixed,LAC,Reduced livestock productivity,Impact
+334,Dryland mixed,LAC,Delays in transportation,Impact
+335,Dryland mixed,LAC,unpredictable planting period,Impact
+336,Dryland mixed,LAC,water scarcity,Impact
+337,Dryland mixed,LAC,Increased flooding,Impact
+338,Dryland mixed,LAC,Leaching of soil nutrients,Impact
+339,Dryland mixed,LAC,Increase in diseases,Impact
+340,Dryland mixed,LAC,Increase in invasive plant species,Impact
+341,Dryland mixed,LAC,Shorter growing season,Impact
+342,Dryland mixed,LAC,Waterlogging,Impact
+343,Dryland mixed,LAC,Crop stress/damage/mortality,Impact
+344,Dryland mixed,LAC,Landslide events,Impact
+345,Dryland mixed,LAC,Desertification,Impact
+346,Dryland mixed,LAC,Increase in food insecurity,Impact
+347,Dryland mixed,LAC,Loss of income,Impact
+348,Dryland mixed,LAC,Increase in women's workload,Impact
+349,Dryland mixed,LAC,Competition for resources,Impact
+350,Dryland mixed,LAC,Increase in food imports,Impact
+351,Dryland mixed,LAC,Increase in migration,Impact
+352,Dryland mixed,LAC,Increase in poverty,Impact
+353,Dryland mixed,LAC,Dependence on food aid,Impact
+354,Dryland mixed,LAC,Increase in post-harvest losses,Impact
+355,Dryland mixed,LAC,Increase in food spoilage/wastage,Impact
+356,Dryland mixed,LAC,Increase in food prices,Impact
+357,Dryland mixed,LAC,Reliance on rainfed agriculture,Vulnerability
+358,Dryland mixed,LAC,Inability to interpret climate information,Vulnerability
+359,Dryland mixed,LAC,Crop is highly susceptible to pests,Vulnerability
+360,Dryland mixed,LAC,Animal/breed is highly susceptible to diseases,Vulnerability
+361,Dryland mixed,LAC,High poverty levels,Vulnerability
+362,Dryland mixed,LAC,Demographic pressure on land,Vulnerability
+363,Dryland mixed,LAC,Poor water use efficiency and management,Vulnerability
+364,Dryland mixed,LAC,Low levels of climate change awareness at the farmer level,Vulnerability
+365,Dryland mixed,LAC,Crop is highly susceptible to diseases,Vulnerability
+366,Dryland mixed,LAC,Weak land tenure,Vulnerability
+367,Dryland mixed,LAC,Inadequate climate information services,Vulnerability
+368,Dryland mixed,LAC,Weak land tenure and access rights for women,Vulnerability
+369,Dryland mixed,LAC,Low access to markets,Vulnerability
+370,Dryland mixed,LAC,Unstable commodity prices,Vulnerability
+371,Dryland mixed,LAC,Lack of willingness to invest in sustainable agricultural practices,Vulnerability
+372,Dryland mixed,LAC,Lack of access to market information,Vulnerability
+373,Dryland mixed,LAC,Water scarce area,Vulnerability
+374,Dryland mixed,LAC,High disease prevalence,Vulnerability
+375,Dryland mixed,LAC,High prevalence of land degradation,Vulnerability
+376,Dryland mixed,LAC,Unfavourable soil conditions,Vulnerability
+377,Dryland mixed,LAC,Frequent bushfires,Vulnerability
+378,Dryland mixed,LAC,High levels of deforestation,Vulnerability
+379,Dryland mixed,LAC,Lack of road infrastructure,Vulnerability
+380,Dryland mixed,LAC,Lack of access to improved livestock breeds,Vulnerability
+381,Dryland mixed,LAC,High poverty levels,Vulnerability
+382,Dryland mixed,LAC,Reliance on rainfed agriculture,Vulnerability
+383,Dryland mixed,LAC,Lack of access to improved crop varieties,Vulnerability
+384,Dryland mixed,LAC,Inadequate agri research and development,Vulnerability
+385,Dryland mixed,LAC,Lack of irrigation infrastructure,Vulnerability
+386,Dryland mixed,LAC,Implement reforestation practices,Adaptation option
+387,Dryland mixed,LAC,Invest in road infrastructure,Adaptation option
+388,Dryland mixed,LAC,Invest in irrigation infrastructure,Adaptation option
+389,Dryland mixed,LAC,Invest in water harvesting and storage infrastructure,Adaptation option
+390,Dryland mixed,LAC,Diversify livelihoods,Adaptation option
+391,Dryland mixed,LAC,Implement climate smart agriculture practices,Adaptation option
+392,Dryland mixed,LAC,Implement soil and water conservation practices,Adaptation option
+393,Dryland mixed,LAC,Adopt drought tolerant varieties,Adaptation option
+394,Dryland mixed,LAC,Adopt disease tolerant breeds,Adaptation option
+395,Dryland mixed,LAC,Build women's  capacity,Adaptation option
+396,Dryland mixed,LAC,Diversify livestock,Adaptation option
+397,Dryland mixed,LAC,Implement erosion control measures,Adaptation option
+398,Dryland mixed,LAC,Improve access to modern processing technologies,Adaptation option
+399,Dryland mixed,LAC,Implement agroforestry practices,Adaptation option
+400,Dryland mixed,LAC,Undertake soil rehabilitation,Adaptation option
+401,Dryland mixed,LAC,Adopt disease tolerant varieties,Adaptation option
+402,Dryland mixed,LAC,Improve networking and knowledge exchange,Adaptation option
+403,Dryland mixed,LAC,Establish water user associations,Adaptation option
+404,Dryland mixed,LAC,Policy reform,Adaptation option
+405,Dryland mixed,LAC,Invest in agricultural research and development,Adaptation option
+406,Dryland mixed,LAC,Develop/improve early warning systems,Adaptation option
+407,Dryland mixed,LAC,Build capacity on usage of climate information,Adaptation option
+408,Dryland mixed,LAC,Improve access to agricultural extension services,Adaptation option
+409,Dryland mixed,LAC,Land tenure reform,Adaptation option
+410,Dryland mixed,LAC,Improve access to climate information services,Adaptation option
+411,Dryland mixed,LAC,Improve access to markets,Adaptation option
+412,Dryland mixed,LAC,Support local value chains,Adaptation option
+413,Dryland mixed,LAC,Improve access to market information,Adaptation option
+414,Dryland mixed,LAC,Farmers engaged in agri system,Exposure
+415,Dryland mixed,LAC,Area of land used,Exposure
+416,Dryland mixed,LAC,Chronic poverty,Risk
+417,Dryland mixed,LAC,Food insecurity,Risk
+418,Dryland mixed,LAC,Loss of livelihoods,Risk
+419,Forest based Livestock,LAC,Decrease in average precipitation,Hazard
+420,Forest based Livestock,LAC,Increase in average temperatures,Hazard
+421,Forest based Livestock,LAC,Increase in drought events,Hazard
+422,Forest based Livestock,LAC,Increase in extreme rainfall events,Hazard
+423,Forest based Livestock,LAC,Increase in extreme heat (no. of hot days),Hazard
+424,Forest based Livestock,LAC,Increased incidence of forest fires,Impact
+425,Forest based Livestock,LAC,Increased flooding,Impact
+426,Forest based Livestock,LAC,Water scarcity,Impact
+427,Forest based Livestock,LAC,Reduced crop productivity/failure,Impact
+428,Forest based Livestock,LAC,Increase in pests,Impact
+429,Forest based Livestock,LAC,Increase in heat stress,Impact
+430,Forest based Livestock,LAC,Crop stress/damage/mortality,Impact
+431,Forest based Livestock,LAC,Livestock mortalities,Impact
+432,Forest based Livestock,LAC,Increase in deforestation/land clearing,Impact
+433,Forest based Livestock,LAC,Reduced fodder availability,Impact
+434,Forest based Livestock,LAC,Damage to infrastructure,Impact
+435,Forest based Livestock,LAC,Reduced livestock productivity,Impact
+436,Forest based Livestock,LAC,Land degradation,Impact
+437,Forest based Livestock,LAC,Competition for resources,Impact
+438,Forest based Livestock,LAC,Increase in food insecurity,Impact
+439,Forest based Livestock,LAC,Low adoption of sustainable agricultural practices,Impact
+440,Forest based Livestock,LAC,Loss of income,Impact
+441,Forest based Livestock,LAC,Lack of willingness to invest in sustainable agricultural practices,Impact
+442,Forest based Livestock,LAC,Increase in poverty,Impact
+443,Forest based Livestock,LAC,Limited access to modern technologies,Impact
+444,Forest based Livestock,LAC,Limited access to markets,Impact
+445,Forest based Livestock,LAC,Unsustainable land management practices,Vulnerability
+446,Forest based Livestock,LAC,Unsustainable livestock management systems,Vulnerability
+447,Forest based Livestock,LAC,Weak land tenure,Vulnerability
+448,Forest based Livestock,LAC,Lack of coordination between national and local levels of government,Vulnerability
+449,Forest based Livestock,LAC,Policy promotes unsustainable land use,Vulnerability
+450,Forest based Livestock,LAC,Low access to credit,Vulnerability
+451,Forest based Livestock,LAC,Lack of incentives for sustainable production,Vulnerability
+452,Forest based Livestock,LAC,High levels of deforestation,Vulnerability
+453,Forest based Livestock,LAC,Unfavourable soil conditions,Vulnerability
+454,Forest based Livestock,LAC,Frequent forest fires,Vulnerability
+455,Forest based Livestock,LAC,Low access to markets,Vulnerability
+456,Forest based Livestock,LAC,Inadequate agri research and development,Vulnerability
+457,Forest based Livestock,LAC,Low access to agricultural extension services,Vulnerability
+458,Forest based Livestock,LAC,Invest in road infrastructure,Adaptation option
+459,Forest based Livestock,LAC,Implement agroforestry practices,Adaptation option
+460,Forest based Livestock,LAC,Implement climate smart agriculture practices,Adaptation option
+461,Forest based Livestock,LAC,Diversify to horticulture,Adaptation option
+462,Forest based Livestock,LAC,Invest in agricultural research and development,Adaptation option
+463,Forest based Livestock,LAC,Capacity building on sustainable agricultural practices,Adaptation option
+464,Forest based Livestock,LAC,Improve networking and knowledge exchange,Adaptation option
+465,Forest based Livestock,LAC,Policy reform,Adaptation option
+466,Forest based Livestock,LAC,Land tenure reform,Adaptation option
+467,Forest based Livestock,LAC,Devolve forest conservation and management,Adaptation option
+468,Forest based Livestock,LAC,Improve access to agricultural extension services,Adaptation option
+469,Forest based Livestock,LAC,Establish payment for ecosystem services schemes,Adaptation option
+470,Forest based Livestock,LAC,Improve access to credit,Adaptation option
+471,Forest based Livestock,LAC,Improve access to markets,Adaptation option
+472,Forest based Livestock,LAC,Farmers engaged in agri system,Exposure
+473,Forest based Livestock,LAC,Loss of livelihoods,Risk
+474,Forest based Livestock,LAC,Chronic poverty,Risk
+475,High Altitude Mixed (C. Andes),LAC,Decrease in average precipitation,Hazard
+476,High Altitude Mixed (C. Andes),LAC,Increase in extreme rainfall events,Hazard
+477,High Altitude Mixed (C. Andes),LAC,Increase in frost events,Hazard
+478,High Altitude Mixed (C. Andes),LAC,Increase in drought events,Hazard
+479,High Altitude Mixed (C. Andes),LAC,Increase in heavy snowfall events,Hazard
+480,High Altitude Mixed (C. Andes),LAC,Increasingly erratic rainfall,Hazard
+481,High Altitude Mixed (C. Andes),LAC,Rising sea levels,Hazard
+482,High Altitude Mixed (C. Andes),LAC,Increase in average temperatures,Hazard
+483,High Altitude Mixed (C. Andes),LAC,Increase in cold spells (no. of cold days),Hazard
+484,High Altitude Mixed (C. Andes),LAC,Increase in dry days,Hazard
+485,High Altitude Mixed (C. Andes),LAC,Increase in tropical cyclones/hurricanes,Hazard
+486,High Altitude Mixed (C. Andes),LAC,Increased flooding,Impact
+487,High Altitude Mixed (C. Andes),LAC,Flash floods,Impact
+488,High Altitude Mixed (C. Andes),LAC,Landslide events,Impact
+489,High Altitude Mixed (C. Andes),LAC,Reduced livestock productivity,Impact
+490,High Altitude Mixed (C. Andes),LAC,Reduced crop productivity/failure,Impact
+491,High Altitude Mixed (C. Andes),LAC,Emergence of new pests,Impact
+492,High Altitude Mixed (C. Andes),LAC,Shorter growing season,Impact
+493,High Altitude Mixed (C. Andes),LAC,Desertification,Impact
+494,High Altitude Mixed (C. Andes),LAC,Water scarcity,Impact
+495,High Altitude Mixed (C. Andes),LAC,Crop stress/damage/mortality,Impact
+496,High Altitude Mixed (C. Andes),LAC,Shift in growing season,Impact
+497,High Altitude Mixed (C. Andes),LAC,Elevation loss,Impact
+498,High Altitude Mixed (C. Andes),LAC,Leaching of soil nutrients,Impact
+499,High Altitude Mixed (C. Andes),LAC,Damage to infrastructure,Impact
+500,High Altitude Mixed (C. Andes),LAC,Change in production zone suitability,Impact
+501,High Altitude Mixed (C. Andes),LAC,Increase in soil water deficit,Impact
+502,High Altitude Mixed (C. Andes),LAC,Livestock mortalities,Impact
+503,High Altitude Mixed (C. Andes),LAC,Unpredictable planting period,Impact
+504,High Altitude Mixed (C. Andes),LAC,Increase in food insecurity,Impact
+505,High Altitude Mixed (C. Andes),LAC,Loss of income,Impact
+506,High Altitude Mixed (C. Andes),LAC,Increase in migration,Impact
+507,High Altitude Mixed (C. Andes),LAC,Increase in poverty,Impact
+508,High Altitude Mixed (C. Andes),LAC,Dependence on food aid,Impact
+509,High Altitude Mixed (C. Andes),LAC,Lack of willingness to invest in sustainable agricultural practices,Impact
+510,High Altitude Mixed (C. Andes),LAC,Increase in food spoilage/wastage,Impact
+511,High Altitude Mixed (C. Andes),LAC,Increase in food prices,Impact
+512,High Altitude Mixed (C. Andes),LAC,Competition for resources,Impact
+513,High Altitude Mixed (C. Andes),LAC,Reliance on rainfed agriculture,Vulnerability
+514,High Altitude Mixed (C. Andes),LAC,High poverty levels,Vulnerability
+515,High Altitude Mixed (C. Andes),LAC,Crop is highly susceptible to pests,Vulnerability
+516,High Altitude Mixed (C. Andes),LAC,Poor water use efficiency and management,Vulnerability
+517,High Altitude Mixed (C. Andes),LAC,Predominantly small-scale subsistence farming,Vulnerability
+518,High Altitude Mixed (C. Andes),LAC,Unsustainable natural resource use,Vulnerability
+519,High Altitude Mixed (C. Andes),LAC,Weak land tenure and access rights for women,Vulnerability
+520,High Altitude Mixed (C. Andes),LAC,Inadequate climate information services,Vulnerability
+521,High Altitude Mixed (C. Andes),LAC,Inconsistencies in policy implementation,Vulnerability
+522,High Altitude Mixed (C. Andes),LAC,Lack of access to risk insurance,Vulnerability
+523,High Altitude Mixed (C. Andes),LAC,Low access to markets,Vulnerability
+524,High Altitude Mixed (C. Andes),LAC,High prevalence of land degradation,Vulnerability
+525,High Altitude Mixed (C. Andes),LAC,Unfavourable soil conditions,Vulnerability
+526,High Altitude Mixed (C. Andes),LAC,Low access to credit,Vulnerability
+527,High Altitude Mixed (C. Andes),LAC,Low level of education,Vulnerability
+528,High Altitude Mixed (C. Andes),LAC,Lack of road infrastructure,Vulnerability
+529,High Altitude Mixed (C. Andes),LAC,High poverty levels,Vulnerability
+530,High Altitude Mixed (C. Andes),LAC,Unequal opportunities for women,Vulnerability
+531,High Altitude Mixed (C. Andes),LAC,Demographic pressure on land,Vulnerability
+532,High Altitude Mixed (C. Andes),LAC,Lack of access to improved crop varieties,Vulnerability
+533,High Altitude Mixed (C. Andes),LAC,Lack of irrigation infrastructure,Vulnerability
+534,High Altitude Mixed (C. Andes),LAC,Implement reforestation practices,Adaptation option
+535,High Altitude Mixed (C. Andes),LAC,Invest in irrigation infrastructure,Adaptation option
+536,High Altitude Mixed (C. Andes),LAC,Invest in water harvesting and storage infrastructure,Adaptation option
+537,High Altitude Mixed (C. Andes),LAC,Capacity building on sustainable agricultural practices,Adaptation option
+538,High Altitude Mixed (C. Andes),LAC,Diversify livelihoods,Adaptation option
+539,High Altitude Mixed (C. Andes),LAC,Implement efficient water management,Adaptation option
+540,High Altitude Mixed (C. Andes),LAC,Apply integrated pest and diseases management,Adaptation option
+541,High Altitude Mixed (C. Andes),LAC,Implement agroforestry practices,Adaptation option
+542,High Altitude Mixed (C. Andes),LAC,Build women's  capacity,Adaptation option
+543,High Altitude Mixed (C. Andes),LAC,Undertake soil rehabilitation,Adaptation option
+544,High Altitude Mixed (C. Andes),LAC,Adopt drought tolerant varieties,Adaptation option
+545,High Altitude Mixed (C. Andes),LAC,Apply integrated pest and diseases management,Adaptation option
+546,High Altitude Mixed (C. Andes),LAC,Improve networking and knowledge exchange,Adaptation option
+547,High Altitude Mixed (C. Andes),LAC,Increase awareness of gender equality,Adaptation option
+548,High Altitude Mixed (C. Andes),LAC,Develop policies for building climate change resilience,Adaptation option
+549,High Altitude Mixed (C. Andes),LAC,Implement disaster recovery strategies,Adaptation option
+550,High Altitude Mixed (C. Andes),LAC,Increase awareness of gender equality,Adaptation option
+551,High Altitude Mixed (C. Andes),LAC,Improve access to climate information services,Adaptation option
+552,High Altitude Mixed (C. Andes),LAC,Improve access to risk insurance schemes,Adaptation option
+553,High Altitude Mixed (C. Andes),LAC,Establish payment for ecosystem services schemes,Adaptation option
+554,High Altitude Mixed (C. Andes),LAC,Improve access to markets,Adaptation option
+555,High Altitude Mixed (C. Andes),LAC,Farmers engaged in agri system,Exposure
+556,High Altitude Mixed (C. Andes),LAC,Area of land used,Exposure
+557,High Altitude Mixed (C. Andes),LAC,Food insecurity,Risk
+558,High Altitude Mixed (C. Andes),LAC,Loss of livelihoods,Risk
+559,High Altitude Mixed (C. Andes),LAC,Chronic poverty,Risk
+560,Irrigated,LAC,Increase in drought events,Hazard
+561,Irrigated,LAC,Decrease in average precipitation,Hazard
+562,Irrigated,LAC,Increase in average temperatures,Hazard
+563,Irrigated,LAC,Increase in extreme heat (no. of hot days),Hazard
+564,Irrigated,LAC,Increase in extreme rainfall events,Hazard
+565,Irrigated,LAC,Rising sea levels,Hazard
+566,Irrigated,LAC,Decrease in snowfall,Hazard
+567,Irrigated,LAC,Reduced crop productivity/failure,Impact
+568,Irrigated,LAC,Increase in pests,Impact
+569,Irrigated,LAC,Increased flooding,Impact
+570,Irrigated,LAC,Increase in diseases,Impact
+571,Irrigated,LAC,Soil salinisation,Impact
+572,Irrigated,LAC,Saline intrusion,Impact
+573,Irrigated,LAC,Reduced produce quality,Impact
+574,Irrigated,LAC,Reduced livestock productivity,Impact
+575,Irrigated,LAC,Reduced fodder availability,Impact
+576,Irrigated,LAC,Reduced forage availability,Impact
+577,Irrigated,LAC,Land degradation,Impact
+578,Irrigated,LAC,Limited water available for irrigation,Impact
+579,Irrigated,LAC,Water scarcity,Impact
+580,Irrigated,LAC,Increase in soil water deficit,Impact
+581,Irrigated,LAC,Increase in heat stress,Impact
+582,Irrigated,LAC,Reduced groundwater tables,Impact
+583,Irrigated,LAC,Increase in food insecurity,Impact
+584,Irrigated,LAC,Loss of income,Impact
+585,Irrigated,LAC,Increase in poverty,Impact
+586,Irrigated,LAC,Lack of willingness to invest in sustainable agricultural practices,Impact
+587,Irrigated,LAC,Weak land tenure and access rights for women,Vulnerability
+588,Irrigated,LAC,Inadequate regulation of water resources,Vulnerability
+589,Irrigated,LAC,Unequal opportunities for women,Vulnerability
+590,Irrigated,LAC,Inadequate climate information services,Vulnerability
+591,Irrigated,LAC,Weak land tenure,Vulnerability
+592,Irrigated,LAC,Low access to credit,Vulnerability
+593,Irrigated,LAC,Water scarce area,Vulnerability
+594,Irrigated,LAC,Limited uptake of modern technologies,Vulnerability
+595,Irrigated,LAC,Poor water use efficiency and management,Vulnerability
+596,Irrigated,LAC,Unsustainable land management practices,Vulnerability
+597,Irrigated,LAC,High demand for irrigation water,Vulnerability
+598,Irrigated,LAC,Invest in water harvesting and storage infrastructure,Adaptation option
+599,Irrigated,LAC,Invest in agricultural research and development,Adaptation option
+600,Irrigated,LAC,Implement efficient water management,Adaptation option
+601,Irrigated,LAC,Implement water conservation irrigation,Adaptation option
+602,Irrigated,LAC,Implement climate smart agriculture practices,Adaptation option
+603,Irrigated,LAC,Build capacity on water use efficiency,Adaptation option
+604,Irrigated,LAC,Establish water user associations,Adaptation option
+605,Irrigated,LAC,Improve networking and knowledge exchange,Adaptation option
+606,Irrigated,LAC,Land tenure reform,Adaptation option
+607,Irrigated,LAC,Improve regulation of groundwater extraction,Adaptation option
+608,Irrigated,LAC,Incentivise sustainable natural resource use,Adaptation option
+609,Irrigated,LAC,Build climate information services,Adaptation option
+610,Irrigated,LAC,Develop policies for building climate change resilience,Adaptation option
+611,Irrigated,LAC,Improve access to credit,Adaptation option
+612,Irrigated,LAC,Farmers engaged in agri system,Exposure
+613,Irrigated,LAC,Food insecurity,Risk
+614,Irrigated,LAC,Loss of livelihoods,Risk
+615,Maize-beans (Mesoamerica),LAC,Increase in average temperatures,Hazard
+616,Maize-beans (Mesoamerica),LAC,Decrease in average precipitation,Hazard
+617,Maize-beans (Mesoamerica),LAC,Increase in drought events,Hazard
+618,Maize-beans (Mesoamerica),LAC,Increase in extreme rainfall events,Hazard
+619,Maize-beans (Mesoamerica),LAC,Increase in tropical cyclones/hurricanes,Hazard
+620,Maize-beans (Mesoamerica),LAC,Increasingly erratic rainfall,Hazard
+621,Maize-beans (Mesoamerica),LAC,Increased flooding,Impact
+622,Maize-beans (Mesoamerica),LAC,Increase in pests,Impact
+623,Maize-beans (Mesoamerica),LAC,Increase in diseases,Impact
+624,Maize-beans (Mesoamerica),LAC,Increase in soil water deficit,Impact
+625,Maize-beans (Mesoamerica),LAC,Reduced crop productivity/failure,Impact
+626,Maize-beans (Mesoamerica),LAC,Damage to infrastructure,Impact
+627,Maize-beans (Mesoamerica),LAC,Crop stress/damage/mortality,Impact
+628,Maize-beans (Mesoamerica),LAC,Reduced produce quality,Impact
+629,Maize-beans (Mesoamerica),LAC,Unpredictable planting period,Impact
+630,Maize-beans (Mesoamerica),LAC,Water scarcity,Impact
+631,Maize-beans (Mesoamerica),LAC,Increase in heat stress,Impact
+632,Maize-beans (Mesoamerica),LAC,Change in production zone suitability,Impact
+633,Maize-beans (Mesoamerica),LAC,Increase in food insecurity,Impact
+634,Maize-beans (Mesoamerica),LAC,Loss of income,Impact
+635,Maize-beans (Mesoamerica),LAC,Increase in migration,Impact
+636,Maize-beans (Mesoamerica),LAC,Reduced post-harvest processing,Impact
+637,Maize-beans (Mesoamerica),LAC,Lack of willingness to invest in sustainable agricultural practices,Impact
+638,Maize-beans (Mesoamerica),LAC,Increase in poverty,Impact
+639,Maize-beans (Mesoamerica),LAC,Limited access to markets,Impact
+640,Maize-beans (Mesoamerica),LAC,Dependence on food aid,Impact
+641,Maize-beans (Mesoamerica),LAC,Low awareness of climate change,Vulnerability
+642,Maize-beans (Mesoamerica),LAC,Weak land tenure,Vulnerability
+643,Maize-beans (Mesoamerica),LAC,Inadequate climate information services,Vulnerability
+644,Maize-beans (Mesoamerica),LAC,Low access to credit,Vulnerability
+645,Maize-beans (Mesoamerica),LAC,Large contributor to national/regional GDP,Vulnerability
+646,Maize-beans (Mesoamerica),LAC,High levels of deforestation,Vulnerability
+647,Maize-beans (Mesoamerica),LAC,Water scarce area,Vulnerability
+648,Maize-beans (Mesoamerica),LAC,Unfavourable soil conditions,Vulnerability
+649,Maize-beans (Mesoamerica),LAC,Unsuitable crop varieties,Vulnerability
+650,Maize-beans (Mesoamerica),LAC,Low level of education,Vulnerability
+651,Maize-beans (Mesoamerica),LAC,Low access to agricultural extension services,Vulnerability
+652,Maize-beans (Mesoamerica),LAC,Small farm size,Vulnerability
+653,Maize-beans (Mesoamerica),LAC,Lack of road infrastructure,Vulnerability
+654,Maize-beans (Mesoamerica),LAC,Lack of irrigation infrastructure,Vulnerability
+655,Maize-beans (Mesoamerica),LAC,Low access to markets,Vulnerability
+656,Maize-beans (Mesoamerica),LAC,Major component of local diet,Vulnerability
+657,Maize-beans (Mesoamerica),LAC,Limited uptake of modern technologies,Vulnerability
+658,Maize-beans (Mesoamerica),LAC,Reliance on rainfed agriculture,Vulnerability
+659,Maize-beans (Mesoamerica),LAC,High poverty levels,Vulnerability
+660,Maize-beans (Mesoamerica),LAC,Dependent on a single crop type,Vulnerability
+661,Maize-beans (Mesoamerica),LAC,Crop is highly susceptible to pests,Vulnerability
+662,Maize-beans (Mesoamerica),LAC,Crop is highly susceptible to diseases,Vulnerability
+663,Maize-beans (Mesoamerica),LAC,Lack of access to  inputs,Vulnerability
+664,Maize-beans (Mesoamerica),LAC,Invest in water harvesting and storage infrastructure,Adaptation option
+665,Maize-beans (Mesoamerica),LAC,Implement soil and water conservation practices,Adaptation option
+666,Maize-beans (Mesoamerica),LAC,Plant multiple crop types,Adaptation option
+667,Maize-beans (Mesoamerica),LAC,Adjust crop calendar,Adaptation option
+668,Maize-beans (Mesoamerica),LAC,Adopt drought tolerant varieties,Adaptation option
+669,Maize-beans (Mesoamerica),LAC,Adopt heat tolerant varieties,Adaptation option
+670,Maize-beans (Mesoamerica),LAC,Adopt pest tolerant varieties,Adaptation option
+671,Maize-beans (Mesoamerica),LAC,Adopt disease tolerant breeds,Adaptation option
+672,Maize-beans (Mesoamerica),LAC,Implement agroforestry practices,Adaptation option
+673,Maize-beans (Mesoamerica),LAC,Diversify to livestock value chains,Adaptation option
+674,Maize-beans (Mesoamerica),LAC,Diversify livelihoods,Adaptation option
+675,Maize-beans (Mesoamerica),LAC,Implement conservation agriculture practices,Adaptation option
+676,Maize-beans (Mesoamerica),LAC,Apply integrated pest and diseases management,Adaptation option
+677,Maize-beans (Mesoamerica),LAC,Adopt disease tolerant varieties,Adaptation option
+678,Maize-beans (Mesoamerica),LAC,Improve networking and knowledge exchange,Adaptation option
+679,Maize-beans (Mesoamerica),LAC,Establish farmer organisations,Adaptation option
+680,Maize-beans (Mesoamerica),LAC,Establish water user associations,Adaptation option
+681,Maize-beans (Mesoamerica),LAC,Roll out climate change awareness campaigns,Adaptation option
+682,Maize-beans (Mesoamerica),LAC,Invest in agricultural research and development,Adaptation option
+683,Maize-beans (Mesoamerica),LAC,Policy reform,Adaptation option
+684,Maize-beans (Mesoamerica),LAC,Build climate information services,Adaptation option
+685,Maize-beans (Mesoamerica),LAC,Improve access to agricultural extension services,Adaptation option
+686,Maize-beans (Mesoamerica),LAC,Improve access to credit,Adaptation option
+687,Maize-beans (Mesoamerica),LAC,Establish payment for ecosystem services schemes,Adaptation option
+688,Maize-beans (Mesoamerica),LAC,Improve access to input/output markets,Adaptation option
+689,Maize-beans (Mesoamerica),LAC,Farmers engaged in agri system,Exposure
+690,Maize-beans (Mesoamerica),LAC,Chronic poverty,Risk
+691,Dryland mixed,MENA,Increase in drought events,Hazard
+692,Dryland mixed,MENA,Rising sea levels,Hazard
+693,Dryland mixed,MENA,Decrease in average precipitation,Hazard
+694,Dryland mixed,MENA,Increase in extreme heat (no. of hot days),Hazard
+695,Dryland mixed,MENA,Increase in average temperatures,Hazard
+696,Dryland mixed,MENA,Reduced crop productivity/failure,Impact
+697,Dryland mixed,MENA,Increase in pests,Impact
+698,Dryland mixed,MENA,Increase in diseases,Impact
+699,Dryland mixed,MENA,Desertification,Impact
+700,Dryland mixed,MENA,Change in production zone suitability,Impact
+701,Dryland mixed,MENA,Increase in soil water deficit,Impact
+702,Dryland mixed,MENA,Reduced fodder availability,Impact
+703,Dryland mixed,MENA,Reduced availability of fresh water,Impact
+704,Dryland mixed,MENA,Reduced forage availability,Impact
+705,Dryland mixed,MENA,Reduced livestock productivity,Impact
+706,Dryland mixed,MENA,Increase in heat stress,Impact
+707,Dryland mixed,MENA,Livestock mortalities,Impact
+708,Dryland mixed,MENA,Saline intrusion,Impact
+709,Dryland mixed,MENA,Water scarcity,Impact
+710,Dryland mixed,MENA,Land degradation,Impact
+711,Dryland mixed,MENA,Shorter growing season,Impact
+712,Dryland mixed,MENA,Increase in migration,Impact
+713,Dryland mixed,MENA,Increase in food insecurity,Impact
+714,Dryland mixed,MENA,Competition for resources,Impact
+715,Dryland mixed,MENA,Loss of income,Impact
+716,Dryland mixed,MENA,Increase in poverty,Impact
+717,Dryland mixed,MENA,Low adoption of modern technology and practices,Impact
+718,Dryland mixed,MENA,Unsustainable land management practices,Vulnerability
+719,Dryland mixed,MENA,Poor livestock management,Vulnerability
+720,Dryland mixed,MENA,Inadequate policy,Vulnerability
+721,Dryland mixed,MENA,Weak land tenure,Vulnerability
+722,Dryland mixed,MENA,Large contributor to national/regional GDP,Vulnerability
+723,Dryland mixed,MENA,Low access to markets,Vulnerability
+724,Dryland mixed,MENA,Low access to credit,Vulnerability
+725,Dryland mixed,MENA,Water scarce area,Vulnerability
+726,Dryland mixed,MENA,High prevalence of land degradation,Vulnerability
+727,Dryland mixed,MENA,Unfavourable soil conditions,Vulnerability
+728,Dryland mixed,MENA,Unsuitable crop varieties,Vulnerability
+729,Dryland mixed,MENA,Major source of employment,Vulnerability
+730,Dryland mixed,MENA,High poverty levels,Vulnerability
+731,Dryland mixed,MENA,Lack of access to improved crop varieties,Vulnerability
+732,Dryland mixed,MENA,Reliance on rainfed agriculture,Vulnerability
+733,Dryland mixed,MENA,Low access to markets,Vulnerability
+734,Dryland mixed,MENA,Conflict prone area,Vulnerability
+735,Dryland mixed,MENA,Limited off-farm income opportunities,Vulnerability
+736,Dryland mixed,MENA,Low access to agricultural extension services,Vulnerability
+737,Dryland mixed,MENA,Inadequate agri research and development,Vulnerability
+738,Dryland mixed,MENA,Low level of education,Vulnerability
+739,Dryland mixed,MENA,Plant trees/shrubs for windbreaks,Adaptation option
+740,Dryland mixed,MENA,Invest in water harvesting and storage infrastructure,Adaptation option
+741,Dryland mixed,MENA,Adopt drought tolerant varieties,Adaptation option
+742,Dryland mixed,MENA,Implement conservation agriculture practices,Adaptation option
+743,Dryland mixed,MENA,Improve veterinary care,Adaptation option
+744,Dryland mixed,MENA,Adopt hardy livestock breeds,Adaptation option
+745,Dryland mixed,MENA,Undertake crop rotation,Adaptation option
+746,Dryland mixed,MENA,Plant multiple crop types,Adaptation option
+747,Dryland mixed,MENA,Provide incentives for sustainable land management practices,Adaptation option
+748,Dryland mixed,MENA,Adopt disease tolerant varieties,Adaptation option
+749,Dryland mixed,MENA,Implement efficient water management,Adaptation option
+750,Dryland mixed,MENA,Land tenure reform,Adaptation option
+751,Dryland mixed,MENA,Invest in agricultural research and development,Adaptation option
+752,Dryland mixed,MENA,Policy reform,Adaptation option
+753,Dryland mixed,MENA,Develop policies for building climate change resilience,Adaptation option
+754,Dryland mixed,MENA,Improve access to agricultural extension services,Adaptation option
+755,Dryland mixed,MENA,Improve opportunities for off-farm income generation,Adaptation option
+756,Dryland mixed,MENA,Farmers engaged in agri system,Exposure
+757,Dryland mixed,MENA,Loss of livelihoods,Risk
+758,Dryland mixed,MENA,Food insecurity,Risk
+759,Dryland mixed,MENA,Chronic poverty,Risk
+760,Highland Mixed,MENA,Decrease in average precipitation,Hazard
+761,Highland Mixed,MENA,Increase in extreme rainfall events,Hazard
+762,Highland Mixed,MENA,Increase in average temperatures,Hazard
+763,Highland Mixed,MENA,Increase in average precipitation,Hazard
+764,Highland Mixed,MENA,Increase in drought events,Hazard
+765,Highland Mixed,MENA,Increase in strong winds,Hazard
+766,Highland Mixed,MENA,Rising sea levels,Hazard
+767,Highland Mixed,MENA,Increasingly erratic rainfall,Hazard
+768,Highland Mixed,MENA,Soil erosion,Impact
+769,Highland Mixed,MENA,Reduced water quality,Impact
+770,Highland Mixed,MENA,Water scarcity,Impact
+771,Highland Mixed,MENA,Land degradation,Impact
+772,Highland Mixed,MENA,Reduced crop productivity/failure,Impact
+773,Highland Mixed,MENA,Reduced water quality,Impact
+774,Highland Mixed,MENA,Reduced groundwater tables,Impact
+775,Highland Mixed,MENA,Unpredictable planting period,Impact
+776,Highland Mixed,MENA,Desertification,Impact
+777,Highland Mixed,MENA,Increased flooding,Impact
+778,Highland Mixed,MENA,Change in production zone suitability,Impact
+779,Highland Mixed,MENA,Damage to infrastructure,Impact
+780,Highland Mixed,MENA,Livestock mortalities,Impact
+781,Highland Mixed,MENA,Soil salinisation,Impact
+782,Highland Mixed,MENA,Coastal inundation,Impact
+783,Highland Mixed,MENA,Landslide events,Impact
+784,Highland Mixed,MENA,Crop stress/damage/mortality,Impact
+785,Highland Mixed,MENA,Increase in food imports,Impact
+786,Highland Mixed,MENA,Increase in migration,Impact
+787,Highland Mixed,MENA,Lack of willingness to invest in sustainable agricultural practices,Impact
+788,Highland Mixed,MENA,Loss of income,Impact
+789,Highland Mixed,MENA,Increase in food imports,Impact
+790,Highland Mixed,MENA,Increase in food insecurity,Impact
+791,Highland Mixed,MENA,Food health and safety issues,Impact
+792,Highland Mixed,MENA,Increase in poverty,Impact
+793,Highland Mixed,MENA,Dependence on food aid,Impact
+794,Highland Mixed,MENA,Increase in malnutrition/ Reduced calorie intake,Impact
+795,Highland Mixed,MENA,Competition for resources,Impact
+796,Highland Mixed,MENA,Increase in malnutrition,Impact
+797,Highland Mixed,MENA,Increase in food spoilage/wastage,Impact
+798,Highland Mixed,MENA,Increase in post-harvest losses,Impact
+799,Highland Mixed,MENA,Unsustainable natural resource use,Vulnerability
+800,Highland Mixed,MENA,High poverty levels,Vulnerability
+801,Highland Mixed,MENA,Demographic pressure on land,Vulnerability
+802,Highland Mixed,MENA,Dependent on a single crop type,Vulnerability
+803,Highland Mixed,MENA,Unsustainable land management practices,Vulnerability
+804,Highland Mixed,MENA,Dependence on groundwater,Vulnerability
+805,Highland Mixed,MENA,Reliance on rainfed agriculture,Vulnerability
+806,Highland Mixed,MENA,Poor water use efficiency and management,Vulnerability
+807,Highland Mixed,MENA,Weak land tenure,Vulnerability
+808,Highland Mixed,MENA,Conflict prone area,Vulnerability
+809,Highland Mixed,MENA,Weak land tenure and access rights for women,Vulnerability
+810,Highland Mixed,MENA,Low access to markets,Vulnerability
+811,Highland Mixed,MENA,Low access to credit,Vulnerability
+812,Highland Mixed,MENA,Barriers to trade,Vulnerability
+813,Highland Mixed,MENA,Unstable commodity prices,Vulnerability
+814,Highland Mixed,MENA,High prevalence of land degradation,Vulnerability
+815,Highland Mixed,MENA,Unfavourable soil conditions,Vulnerability
+816,Highland Mixed,MENA,Water scarce area,Vulnerability
+817,Highland Mixed,MENA,Predominantly small-scale subsistence farming,Vulnerability
+818,Highland Mixed,MENA,Low access to markets,Vulnerability
+819,Highland Mixed,MENA,Low access to agricultural extension services,Vulnerability
+820,Highland Mixed,MENA,Lack of irrigation infrastructure,Vulnerability
+821,Highland Mixed,MENA,High illiteracy rates,Vulnerability
+822,Highland Mixed,MENA,"Weak land tenure and access rights, particularly for women",Vulnerability
+823,Highland Mixed,MENA,Inadequate agri research and development,Vulnerability
+824,Highland Mixed,MENA,Implement reforestation practices,Adaptation option
+825,Highland Mixed,MENA,Invest in road infrastructure,Adaptation option
+826,Highland Mixed,MENA,Invest in water harvesting and storage infrastructure,Adaptation option
+827,Highland Mixed,MENA,Implement efficient water management,Adaptation option
+828,Highland Mixed,MENA,Diversify livelihoods,Adaptation option
+829,Highland Mixed,MENA,Adopt drought tolerant varieties,Adaptation option
+830,Highland Mixed,MENA,Capacity building on sustainable agricultural practices,Adaptation option
+831,Highland Mixed,MENA,Improve networking and knowledge exchange,Adaptation option
+832,Highland Mixed,MENA,Establish farmer organisations,Adaptation option
+833,Highland Mixed,MENA,Build capacity on advocacy,Adaptation option
+834,Highland Mixed,MENA,Policy reform,Adaptation option
+835,Highland Mixed,MENA,Develop policies for building climate change resilience,Adaptation option
+836,Highland Mixed,MENA,Invest in agricultural research and development,Adaptation option
+837,Highland Mixed,MENA,Improve access to markets,Adaptation option
+838,Highland Mixed,MENA,Diversify markets,Adaptation option
+839,Highland Mixed,MENA,Support local value chains,Adaptation option
+840,Highland Mixed,MENA,Improve access to credit,Adaptation option
+841,Highland Mixed,MENA,Area of land used,Exposure
+842,Highland Mixed,MENA,Farmers engaged in agri system,Exposure
+843,Highland Mixed,MENA,Risk to farmers of chronic poverty due to Climate Change,Risk
+844,Highland Mixed,MENA,Risk to farmers of food insecurity due to Climate Change,Risk
+845,Highland Mixed,MENA,Risk to farmers of loss of livelihoods due to Climate Change,Risk
+846,Rainfed Mixed,MENA,Increase in average temperatures,Hazard
+847,Rainfed Mixed,MENA,Increase in drought events,Hazard
+848,Rainfed Mixed,MENA,Increase in tropical cyclones/hurricanes,Hazard
+849,Rainfed Mixed,MENA,Rising sea levels,Hazard
+850,Rainfed Mixed,MENA,Shorter growing season,Hazard
+851,Rainfed Mixed,MENA,Increase in extreme heat (no. of hot days),Hazard
+852,Rainfed Mixed,MENA,Decrease in average precipitation,Hazard
+853,Rainfed Mixed,MENA,Increase in extreme rainfall events,Hazard
+854,Rainfed Mixed,MENA,Increasingly erratic rainfall,Hazard
+855,Rainfed Mixed,MENA,Soil erosion,Impact
+856,Rainfed Mixed,MENA,Change in production zone suitability,Impact
+857,Rainfed Mixed,MENA,Shorter growing seasons,Impact
+858,Rainfed Mixed,MENA,Reduced crop productivity/failure,Impact
+859,Rainfed Mixed,MENA,Reduced livestock productivity,Impact
+860,Rainfed Mixed,MENA,Reduced groundwater tables,Impact
+861,Rainfed Mixed,MENA,Desertification,Impact
+862,Rainfed Mixed,MENA,Land degradation,Impact
+863,Rainfed Mixed,MENA,Crop stress/damage/mortality,Impact
+864,Rainfed Mixed,MENA,Water scarcity,Impact
+865,Rainfed Mixed,MENA,Increased flooding,Impact
+866,Rainfed Mixed,MENA,Unpredictable planting period,Impact
+867,Rainfed Mixed,MENA,Damage to infrastructure,Impact
+868,Rainfed Mixed,MENA,Riverine flooding,Impact
+869,Rainfed Mixed,MENA,Reduced water quality,Impact
+870,Rainfed Mixed,MENA,Reduced forage availability,Impact
+871,Rainfed Mixed,MENA,Landslide events,Impact
+872,Rainfed Mixed,MENA,Increase in soil water deficit,Impact
+873,Rainfed Mixed,MENA,Biodiversity loss,Impact
+874,Rainfed Mixed,MENA,Increase in migration,Impact
+875,Rainfed Mixed,MENA,Competition for resources,Impact
+876,Rainfed Mixed,MENA,Conflict over resources,Impact
+877,Rainfed Mixed,MENA,Increase in food insecurity,Impact
+878,Rainfed Mixed,MENA,Increase in food imports,Impact
+879,Rainfed Mixed,MENA,Increase in food prices,Impact
+880,Rainfed Mixed,MENA,Increase in women's workload,Impact
+881,Rainfed Mixed,MENA,Lack of willingness to invest in sustainable agricultural practices,Impact
+882,Rainfed Mixed,MENA,Loss of income,Impact
+883,Rainfed Mixed,MENA,Demographic pressure on land,Vulnerability
+884,Rainfed Mixed,MENA,Unequal opportunities for women,Vulnerability
+885,Rainfed Mixed,MENA,High poverty levels,Vulnerability
+886,Rainfed Mixed,MENA,Poor water use efficiency and management,Vulnerability
+887,Rainfed Mixed,MENA,Unsustainable natural resource use,Vulnerability
+888,Rainfed Mixed,MENA,Inconsistencies in policy implementation,Vulnerability
+889,Rainfed Mixed,MENA,Conflict prone area,Vulnerability
+890,Rainfed Mixed,MENA,Unstable commodity prices,Vulnerability
+891,Rainfed Mixed,MENA,Low access to markets,Vulnerability
+892,Rainfed Mixed,MENA,High prevalence of land degradation,Vulnerability
+893,Rainfed Mixed,MENA,Water scarce area,Vulnerability
+894,Rainfed Mixed,MENA,High levels of deforestation,Vulnerability
+895,Rainfed Mixed,MENA,High poverty levels,Vulnerability
+896,Rainfed Mixed,MENA,Reliance on rainfed agriculture,Vulnerability
+897,Rainfed Mixed,MENA,Lack of irrigation infrastructure,Vulnerability
+898,Rainfed Mixed,MENA,Inadequate agri research and development,Vulnerability
+899,Rainfed Mixed,MENA,Dependent on a single crop type,Vulnerability
+900,Rainfed Mixed,MENA,Implement reforestation practices,Adaptation option
+901,Rainfed Mixed,MENA,Invest in irrigation infrastructure,Adaptation option
+902,Rainfed Mixed,MENA,Invest in water harvesting and storage infrastructure,Adaptation option
+903,Rainfed Mixed,MENA,Diversify livelihoods,Adaptation option
+904,Rainfed Mixed,MENA,Invest in agricultural research and development,Adaptation option
+905,Rainfed Mixed,MENA,Implement efficient water management,Adaptation option
+906,Rainfed Mixed,MENA,Build women's  capacity,Adaptation option
+907,Rainfed Mixed,MENA,Adopt post-harvest technologies,Adaptation option
+908,Rainfed Mixed,MENA,Implement conservation agriculture practices,Adaptation option
+909,Rainfed Mixed,MENA,Build women's  capacity,Adaptation option
+910,Rainfed Mixed,MENA,Adopt drought tolerant varieties,Adaptation option
+911,Rainfed Mixed,MENA,Capacity building on sustainable agricultural practices,Adaptation option
+912,Rainfed Mixed,MENA,Improve networking and knowledge exchange,Adaptation option
+913,Rainfed Mixed,MENA,Build capacity on advocacy,Adaptation option
+914,Rainfed Mixed,MENA,Policy reform,Adaptation option
+915,Rainfed Mixed,MENA,Develop policies for building climate change resilience,Adaptation option
+916,Rainfed Mixed,MENA,Develop/improve early warning systems,Adaptation option
+917,Rainfed Mixed,MENA,Target niche markets,Adaptation option
+918,Rainfed Mixed,MENA,Farmers engaged in agri system,Exposure
+919,Rainfed Mixed,MENA,Area of land used,Exposure
+920,Rainfed Mixed,MENA,Risk to farmers of food insecurity due to Climate Change,Risk
+921,Rainfed Mixed,MENA,Risk to farmers of loss of livelihoods due to Climate Change,Risk
+922,Rainfed Mixed,MENA,Risk to farmers of chronic poverty due to Climate Change,Risk
+923,Rainfed Mixed,SA,Increase in average temperatures,Hazard
+924,Rainfed Mixed,SA,Increase in extreme rainfall events,Hazard
+925,Rainfed Mixed,SA,Rising sea levels,Hazard
+926,Rainfed Mixed,SA,Increase in drought events,Hazard
+927,Rainfed Mixed,SA,Increase in extreme rainfall events,Hazard
+928,Rainfed Mixed,SA,Increase in tropical cyclones/hurricanes,Hazard
+929,Rainfed Mixed,SA,Increase in extreme heat (no. of hot days),Hazard
+930,Rainfed Mixed,SA,Increasingly erratic rainfall,Hazard
+931,Rainfed Mixed,SA,Reduced crop productivity/failure,Impact
+932,Rainfed Mixed,SA,Shift in growing season,Impact
+933,Rainfed Mixed,SA,Soil erosion,Impact
+934,Rainfed Mixed,SA,Reduced livestock productivity,Impact
+935,Rainfed Mixed,SA,Leaching of soil nutrients,Impact
+936,Rainfed Mixed,SA,Land degradation,Impact
+937,Rainfed Mixed,SA,Water scarcity,Impact
+938,Rainfed Mixed,SA,Increase in soil water deficit,Impact
+939,Rainfed Mixed,SA,Reduced water quality,Impact
+940,Rainfed Mixed,SA,Increase in diseases,Impact
+941,Rainfed Mixed,SA,Crop stress/damage/mortality,Impact
+942,Rainfed Mixed,SA,Reduced groundwater tables,Impact
+943,Rainfed Mixed,SA,Waterlogging,Impact
+944,Rainfed Mixed,SA,Flash floods,Impact
+945,Rainfed Mixed,SA,Increased flooding,Impact
+946,Rainfed Mixed,SA,Unpredictable planting period,Impact
+947,Rainfed Mixed,SA,Change in production zone suitability,Impact
+948,Rainfed Mixed,SA,Reduced produce quality,Impact
+949,Rainfed Mixed,SA,Delays in transportation,Impact
+950,Rainfed Mixed,SA,Desertification,Impact
+951,Rainfed Mixed,SA,Coastal inundation,Impact
+952,Rainfed Mixed,SA,Damage to infrastructure,Impact
+953,Rainfed Mixed,SA,Increase in post-harvest losses,Impact
+954,Rainfed Mixed,SA,Lack of willingness to invest in sustainable agricultural practices,Impact
+955,Rainfed Mixed,SA,Increase in food insecurity,Impact
+956,Rainfed Mixed,SA,Dependence on food aid,Impact
+957,Rainfed Mixed,SA,Loss of income,Impact
+958,Rainfed Mixed,SA,Increase in malnutrition,Impact
+959,Rainfed Mixed,SA,Competition for resources,Impact
+960,Rainfed Mixed,SA,Increase in migration,Impact
+961,Rainfed Mixed,SA,Increase in food imports,Impact
+962,Rainfed Mixed,SA,High poverty levels,Vulnerability
+963,Rainfed Mixed,SA,Reliance on rainfed agriculture,Vulnerability
+964,Rainfed Mixed,SA,Demographic pressure on land,Vulnerability
+965,Rainfed Mixed,SA,Limited uptake of modern technologies,Vulnerability
+966,Rainfed Mixed,SA,Demographic pressure on land,Vulnerability
+967,Rainfed Mixed,SA,Unsustainable natural resource use,Vulnerability
+968,Rainfed Mixed,SA,Inability to interpret climate information,Vulnerability
+969,Rainfed Mixed,SA,Poor water use efficiency and management,Vulnerability
+970,Rainfed Mixed,SA,Weak land tenure,Vulnerability
+971,Rainfed Mixed,SA,Inadequate climate information services,Vulnerability
+972,Rainfed Mixed,SA,Lack of access to risk insurance,Vulnerability
+973,Rainfed Mixed,SA,High prevalence of land degradation,Vulnerability
+974,Rainfed Mixed,SA,High disease prevalence,Vulnerability
+975,Rainfed Mixed,SA,Unfavourable soil conditions,Vulnerability
+976,Rainfed Mixed,SA,Lack of irrigation infrastructure,Vulnerability
+977,Rainfed Mixed,SA,Predominantly small-scale subsistence farming,Vulnerability
+978,Rainfed Mixed,SA,Lack of road infrastructure,Vulnerability
+979,Rainfed Mixed,SA,Low access to agricultural extension services,Vulnerability
+980,Rainfed Mixed,SA,Lack of access to risk insurance,Vulnerability
+981,Rainfed Mixed,SA,High poverty levels,Vulnerability
+982,Rainfed Mixed,SA,Low access to credit,Vulnerability
+983,Rainfed Mixed,SA,Implement reforestation practices,Adaptation option
+984,Rainfed Mixed,SA,Implement agroforestry practices,Adaptation option
+985,Rainfed Mixed,SA,Implement conservation agriculture practices,Adaptation option
+986,Rainfed Mixed,SA,Invest in irrigation infrastructure,Adaptation option
+987,Rainfed Mixed,SA,Invest in water harvesting and storage infrastructure,Adaptation option
+988,Rainfed Mixed,SA,Invest in road infrastructure,Adaptation option
+989,Rainfed Mixed,SA,Invest in agricultural research and development,Adaptation option
+990,Rainfed Mixed,SA,Diversify livelihoods,Adaptation option
+991,Rainfed Mixed,SA,Capacity building on sustainable agricultural practices,Adaptation option
+992,Rainfed Mixed,SA,Improve climate change awareness,Adaptation option
+993,Rainfed Mixed,SA,"Crop diversification, cropping system optimization, and managemen",Adaptation option
+994,Rainfed Mixed,SA,Plant multiple crop types,Adaptation option
+995,Rainfed Mixed,SA,Apply integrated pest and diseases management,Adaptation option
+996,Rainfed Mixed,SA,Implement soil and water conservation practices,Adaptation option
+997,Rainfed Mixed,SA,Adopt disease tolerant varieties,Adaptation option
+998,Rainfed Mixed,SA,Undertake soil rehabilitation,Adaptation option
+999,Rainfed Mixed,SA,Implement climate smart agriculture practices,Adaptation option
+1000,Rainfed Mixed,SA,Adopt drought tolerant varieties,Adaptation option
+1001,Rainfed Mixed,SA,Improve access to modern processing technologies,Adaptation option
+1002,Rainfed Mixed,SA,Implement efficient water management,Adaptation option
+1003,Rainfed Mixed,SA,Improve networking and knowledge exchange,Adaptation option
+1004,Rainfed Mixed,SA,Build capacity on advocacy,Adaptation option
+1005,Rainfed Mixed,SA,Invest in agricultural research and development,Adaptation option
+1006,Rainfed Mixed,SA,Develop policies for building climate change resilience,Adaptation option
+1007,Rainfed Mixed,SA,Establish links to NDC and NAP,Adaptation option
+1008,Rainfed Mixed,SA,Build climate information services,Adaptation option
+1009,Rainfed Mixed,SA,Build capacity on usage of climate information,Adaptation option
+1010,Rainfed Mixed,SA,Improve access to climate information services,Adaptation option
+1011,Rainfed Mixed,SA,Land tenure reform,Adaptation option
+1012,Rainfed Mixed,SA,Policy reform,Adaptation option
+1013,Rainfed Mixed,SA,Implement disaster recovery strategies,Adaptation option
+1014,Rainfed Mixed,SA,Improve access to risk insurance schemes,Adaptation option
+1015,Rainfed Mixed,SA,Establish payment for ecosystem services schemes,Adaptation option
+1016,Rainfed Mixed,SA,Diversify markets,Adaptation option
+1017,Rainfed Mixed,SA,Improve access to credit,Adaptation option
+1018,Rainfed Mixed,SA,Farmers engaged in agri system,Exposure
+1019,Rainfed Mixed,SA,Area of land used,Exposure
+1020,Rainfed Mixed,SA,Risk to farmers of food insecurity due to Climate Change,Risk
+1021,Rainfed Mixed,SA,Risk to farmers of loss of livelihoods due to Climate Change,Risk
+1022,Rainfed Mixed,SA,Risk to farmers of chronic poverty due to Climate Change,Risk
+1023,Rice-Wheat,SA,Increase in average temperatures,Hazard
+1024,Rice-Wheat,SA,Increase in extreme heat (no. of hot days),Hazard
+1025,Rice-Wheat,SA,Increase in extreme rainfall events,Hazard
+1026,Rice-Wheat,SA,Increase in drought events,Hazard
+1027,Rice-Wheat,SA,Increasingly erratic rainfall,Hazard
+1028,Rice-Wheat,SA,Emergence of new pests,Impact
+1029,Rice-Wheat,SA,Increase in pests,Impact
+1030,Rice-Wheat,SA,Reduced crop productivity/failure,Impact
+1031,Rice-Wheat,SA,Increase in heat stress,Impact
+1032,Rice-Wheat,SA,Water scarcity,Impact
+1033,Rice-Wheat,SA,Change in production zone suitability,Impact
+1034,Rice-Wheat,SA,Increase in crop productivity/yields,Impact
+1035,Rice-Wheat,SA,Flash floods,Impact
+1036,Rice-Wheat,SA,Reduced produce quality,Impact
+1037,Rice-Wheat,SA,Increase in weeds,Impact
+1038,Rice-Wheat,SA,Emergence of new diseases,Impact
+1039,Rice-Wheat,SA,Increase in food insecurity,Impact
+1040,Rice-Wheat,SA,Loss of income,Impact
+1041,Rice-Wheat,SA,Increase in income,Impact
+1042,Rice-Wheat,SA,Increase in poverty,Impact
+1043,Rice-Wheat,SA,Increase in food prices,Impact
+1044,Rice-Wheat,SA,Unsustainable land management practices,Vulnerability
+1045,Rice-Wheat,SA,Poor water use efficiency and management,Vulnerability
+1046,Rice-Wheat,SA,Poor efficiency of farming,Vulnerability
+1047,Rice-Wheat,SA,Inadequate natural resource management policy,Vulnerability
+1048,Rice-Wheat,SA,Lack of access to risk insurance,Vulnerability
+1049,Rice-Wheat,SA,Unfavourable soil conditions,Vulnerability
+1050,Rice-Wheat,SA,Declining groundwater levels,Vulnerability
+1051,Rice-Wheat,SA,Poor water quality,Vulnerability
+1052,Rice-Wheat,SA,High disease prevalence,Vulnerability
+1053,Rice-Wheat,SA,High prevalence of weeds,Vulnerability
+1054,Rice-Wheat,SA,Unsuitable crop varieties,Vulnerability
+1055,Rice-Wheat,SA,High prevalence of pests,Vulnerability
+1056,Rice-Wheat,SA,Major component of local diet,Vulnerability
+1057,Rice-Wheat,SA,Labour shortages,Vulnerability
+1058,Rice-Wheat,SA,High poverty levels,Vulnerability
+1059,Rice-Wheat,SA,Low access to agricultural extension services,Vulnerability
+1060,Rice-Wheat,SA,Limited uptake of modern technologies,Vulnerability
+1061,Rice-Wheat,SA,Lack of access to  inputs,Vulnerability
+1062,Rice-Wheat,SA,Invest in irrigation infrastructure,Adaptation option
+1063,Rice-Wheat,SA,Adopt heat tolerant varieties,Adaptation option
+1064,Rice-Wheat,SA,Adopt early maturing varieties,Adaptation option
+1065,Rice-Wheat,SA,Implement climate smart agriculture practices,Adaptation option
+1066,Rice-Wheat,SA,Implement conservation agriculture practices,Adaptation option
+1067,Rice-Wheat,SA,Capacity building on sustainable agricultural practices,Adaptation option
+1068,Rice-Wheat,SA,Invest in agricultural research and development,Adaptation option
+1069,Rice-Wheat,SA,Build the capacity of agricultural extension agents,Adaptation option
+1070,Rice-Wheat,SA,Implement integrated weed management,Adaptation option
+1071,Rice-Wheat,SA,Undertake crop rotation,Adaptation option
+1072,Rice-Wheat,SA,Plant multiple crop types,Adaptation option
+1073,Rice-Wheat,SA,Implement water conservation irrigation,Adaptation option
+1074,Rice-Wheat,SA,Adjust crop calendar,Adaptation option
+1075,Rice-Wheat,SA,Adopt disease tolerant varieties,Adaptation option
+1076,Rice-Wheat,SA,Adopt high yielding varieties,Adaptation option
+1077,Rice-Wheat,SA,Establish farmer organisations,Adaptation option
+1078,Rice-Wheat,SA,Develop policies for building climate change resilience,Adaptation option
+1079,Rice-Wheat,SA,Policy reform,Adaptation option
+1080,Rice-Wheat,SA,Improve access to agricultural extension services,Adaptation option
+1081,Rice-Wheat,SA,Improve access to risk insurance schemes,Adaptation option
+1082,Rice-Wheat,SA,Improve access to credit,Adaptation option
+1083,Rice-Wheat,SA,Farmers engaged in agri system,Exposure
+1084,Rice-Wheat,SA,Loss of livelihoods,Risk
+1085,Rice-Wheat,SA,Food insecurity,Risk
+1086,Rice,SA,Increase in average temperatures,Hazard
+1087,Rice,SA,Increase in drought events,Hazard
+1088,Rice,SA,Increase in extreme rainfall events,Hazard
+1089,Rice,SA,Decrease in average precipitation,Hazard
+1090,Rice,SA,Rising sea levels,Hazard
+1091,Rice,SA,Increase in average precipitation,Hazard
+1092,Rice,SA,Increase in tropical cyclones/hurricanes,Hazard
+1093,Rice,SA,Increase in extreme heat (no. of hot days),Hazard
+1094,Rice,SA,Flash floods,Impact
+1095,Rice,SA,Increased flooding,Impact
+1096,Rice,SA,Coastal inundation,Impact
+1097,Rice,SA,Increase in pests,Impact
+1098,Rice,SA,Reduced crop productivity/failure,Impact
+1099,Rice,SA,Increase in crop productivity/yields,Impact
+1100,Rice,SA,Increase in diseases,Impact
+1101,Rice,SA,Saline intrusion,Impact
+1102,Rice,SA,Soil salinisation,Impact
+1103,Rice,SA,Increase in soil water deficit,Impact
+1104,Rice,SA,Reduced soil fertility,Impact
+1105,Rice,SA,Reduced groundwater tables,Impact
+1106,Rice,SA,Reduced borehole water availability,Impact
+1107,Rice,SA,Increase in heat stress,Impact
+1108,Rice,SA,Water scarcity,Impact
+1109,Rice,SA,Soil erosion,Impact
+1110,Rice,SA,Increase in food insecurity,Impact
+1111,Rice,SA,Increase in food prices,Impact
+1112,Rice,SA,Increase in women's workload,Impact
+1113,Rice,SA,Loss of income,Impact
+1114,Rice,SA,Increase in income,Impact
+1115,Rice,SA,Increase in poverty,Impact
+1116,Rice,SA,Unequal opportunities for women,Vulnerability
+1117,Rice,SA,Unsustainable land management practices,Vulnerability
+1118,Rice,SA,Lack of coherent policy,Vulnerability
+1119,Rice,SA,Low access to markets,Vulnerability
+1120,Rice,SA,Low access to credit,Vulnerability
+1121,Rice,SA,Lack of access to risk insurance,Vulnerability
+1122,Rice,SA,Water scarce area,Vulnerability
+1123,Rice,SA,Unsuitable crop varieties,Vulnerability
+1124,Rice,SA,Lack of road infrastructure,Vulnerability
+1125,Rice,SA,Inadequate storage infrastructure,Vulnerability
+1126,Rice,SA,Dependent on a single crop type,Vulnerability
+1127,Rice,SA,Major component of local diet,Vulnerability
+1128,Rice,SA,Inadequate agri research and development,Vulnerability
+1129,Rice,SA,Lack of willingness to invest in sustainable agricultural practices,Vulnerability
+1130,Rice,SA,High poverty levels,Vulnerability
+1131,Rice,SA,Small farm size,Vulnerability
+1132,Rice,SA,Invest in water harvesting and storage infrastructure,Adaptation option
+1133,Rice,SA,Invest in storage infrastructure,Adaptation option
+1134,Rice,SA,Invest in road infrastructure,Adaptation option
+1135,Rice,SA,Invest in irrigation infrastructure,Adaptation option
+1136,Rice,SA,Adopt heat tolerant varieties,Adaptation option
+1137,Rice,SA,Adopt drought tolerant varieties,Adaptation option
+1138,Rice,SA,Adopt pest tolerant varieties,Adaptation option
+1139,Rice,SA,Adopt early maturing varieties,Adaptation option
+1140,Rice,SA,Adopt salinity tolerant varieties,Adaptation option
+1141,Rice,SA,Plant multiple varieties,Adaptation option
+1142,Rice,SA,Adopt submergence tolerant varieties,Adaptation option
+1143,Rice,SA,Plant multiple crop types,Adaptation option
+1144,Rice,SA,Implement conservation agriculture practices,Adaptation option
+1145,Rice,SA,Implement climate smart agriculture practices,Adaptation option
+1146,Rice,SA,Diversify livelihoods,Adaptation option
+1147,Rice,SA,Adopt an integrated farming system approach,Adaptation option
+1148,Rice,SA,Adopt disease tolerant varieties,Adaptation option
+1149,Rice,SA,Implement efficient water management,Adaptation option
+1150,Rice,SA,Invest in agricultural research and development,Adaptation option
+1151,Rice,SA,Establish farmer organisations,Adaptation option
+1152,Rice,SA,Improve networking and knowledge exchange,Adaptation option
+1153,Rice,SA,Establish water user associations,Adaptation option
+1154,Rice,SA,Policy reform,Adaptation option
+1155,Rice,SA,Improve access to credit,Adaptation option
+1156,Rice,SA,Improve access to risk insurance schemes,Adaptation option
+1157,Rice,SA,Farmers engaged in agri system,Exposure
+1158,Rice,SA,Food insecurity,Risk
+1159,Rice,SA,Loss of livelihoods,Risk
+1160,Agro-Pastoral Millet/Sorghum,SSA,Increasingly erratic rainfall,Hazard
+1161,Agro-Pastoral Millet/Sorghum,SSA,Increase in drought events,Hazard
+1162,Agro-Pastoral Millet/Sorghum,SSA,Decrease in average precipitation,Hazard
+1163,Agro-Pastoral Millet/Sorghum,SSA,Increase in average temperatures,Hazard
+1164,Agro-Pastoral Millet/Sorghum,SSA,Increase in extreme heat (no. of hot days),Hazard
+1165,Agro-Pastoral Millet/Sorghum,SSA,Increase in average precipitation,Hazard
+1166,Agro-Pastoral Millet/Sorghum,SSA,Increase in extreme rainfall events,Hazard
+1167,Agro-Pastoral Millet/Sorghum,SSA,Increased flooding,Impact
+1168,Agro-Pastoral Millet/Sorghum,SSA,Increase in diseases,Impact
+1169,Agro-Pastoral Millet/Sorghum,SSA,Reduced crop productivity/failure,Impact
+1170,Agro-Pastoral Millet/Sorghum,SSA,Reduced herd size,Impact
+1171,Agro-Pastoral Millet/Sorghum,SSA,Reduced fodder availability,Impact
+1172,Agro-Pastoral Millet/Sorghum,SSA,Reduced forage quality,Impact
+1173,Agro-Pastoral Millet/Sorghum,SSA,Change in production zone suitability,Impact
+1174,Agro-Pastoral Millet/Sorghum,SSA,Water scarcity,Impact
+1175,Agro-Pastoral Millet/Sorghum,SSA,Increased incidence of bushfires,Impact
+1176,Agro-Pastoral Millet/Sorghum,SSA,Increase in pests,Impact
+1177,Agro-Pastoral Millet/Sorghum,SSA,Crop stress/damage/mortality,Impact
+1178,Agro-Pastoral Millet/Sorghum,SSA,Unpredictable planting period,Impact
+1179,Agro-Pastoral Millet/Sorghum,SSA,Reduced livestock productivity,Impact
+1180,Agro-Pastoral Millet/Sorghum,SSA,Reduced fodder quality,Impact
+1181,Agro-Pastoral Millet/Sorghum,SSA,Increase in heat stress,Impact
+1182,Agro-Pastoral Millet/Sorghum,SSA,Land degradation,Impact
+1183,Agro-Pastoral Millet/Sorghum,SSA,Decrease in diseases,Impact
+1184,Agro-Pastoral Millet/Sorghum,SSA,Increase in livestock mobility,Impact
+1185,Agro-Pastoral Millet/Sorghum,SSA,Competition for resources,Impact
+1186,Agro-Pastoral Millet/Sorghum,SSA,Increase in migration,Impact
+1187,Agro-Pastoral Millet/Sorghum,SSA,Conflict over resources,Impact
+1188,Agro-Pastoral Millet/Sorghum,SSA,Decrease in livestock mobility,Impact
+1189,Agro-Pastoral Millet/Sorghum,SSA,Dependence on food aid,Impact
+1190,Agro-Pastoral Millet/Sorghum,SSA,Loss of income,Impact
+1191,Agro-Pastoral Millet/Sorghum,SSA,Increase in food insecurity,Impact
+1192,Agro-Pastoral Millet/Sorghum,SSA,Increase in poverty,Impact
+1193,Agro-Pastoral Millet/Sorghum,SSA,Unsustainable natural resource use,Vulnerability
+1194,Agro-Pastoral Millet/Sorghum,SSA,Demographic pressure on land,Vulnerability
+1195,Agro-Pastoral Millet/Sorghum,SSA,Reliance on rainfed agriculture,Vulnerability
+1196,Agro-Pastoral Millet/Sorghum,SSA,High illiteracy rates,Vulnerability
+1197,Agro-Pastoral Millet/Sorghum,SSA,Unequal opportunities for women,Vulnerability
+1198,Agro-Pastoral Millet/Sorghum,SSA,Weak land tenure and access rights for women,Vulnerability
+1199,Agro-Pastoral Millet/Sorghum,SSA,Weak land tenure,Vulnerability
+1200,Agro-Pastoral Millet/Sorghum,SSA,Inadequate climate information services,Vulnerability
+1201,Agro-Pastoral Millet/Sorghum,SSA,Low access to markets,Vulnerability
+1202,Agro-Pastoral Millet/Sorghum,SSA,Barriers to trade,Vulnerability
+1203,Agro-Pastoral Millet/Sorghum,SSA,Lack of access to market information,Vulnerability
+1204,Agro-Pastoral Millet/Sorghum,SSA,Low access to credit,Vulnerability
+1205,Agro-Pastoral Millet/Sorghum,SSA,Unstable commodity prices,Vulnerability
+1206,Agro-Pastoral Millet/Sorghum,SSA,Water scarce area,Vulnerability
+1207,Agro-Pastoral Millet/Sorghum,SSA,High prevalence of land degradation,Vulnerability
+1208,Agro-Pastoral Millet/Sorghum,SSA,Unfavourable soil conditions,Vulnerability
+1209,Agro-Pastoral Millet/Sorghum,SSA,Land fragmentation,Vulnerability
+1210,Agro-Pastoral Millet/Sorghum,SSA,Small farm size,Vulnerability
+1211,Agro-Pastoral Millet/Sorghum,SSA,Limited uptake of modern technologies,Vulnerability
+1212,Agro-Pastoral Millet/Sorghum,SSA,High poverty levels,Vulnerability
+1213,Agro-Pastoral Millet/Sorghum,SSA,Unequal opportunities for women,Vulnerability
+1214,Agro-Pastoral Millet/Sorghum,SSA,Limited uptake of modern technologies,Vulnerability
+1215,Agro-Pastoral Millet/Sorghum,SSA,Lack of knowledge on processing/value addition,Vulnerability
+1216,Agro-Pastoral Millet/Sorghum,SSA,Predominantly small-scale subsistence farming,Vulnerability
+1217,Agro-Pastoral Millet/Sorghum,SSA,Conflict prone area,Vulnerability
+1218,Agro-Pastoral Millet/Sorghum,SSA,Unequal opportunities for women,Vulnerability
+1219,Agro-Pastoral Millet/Sorghum,SSA,Lack of willingness to invest in sustainable agricultural practices,Vulnerability
+1220,Agro-Pastoral Millet/Sorghum,SSA,Reliance on rainfed agriculture,Vulnerability
+1221,Agro-Pastoral Millet/Sorghum,SSA,Large contributor to national GDP,Vulnerability
+1222,Agro-Pastoral Millet/Sorghum,SSA,Reliance on rainfed agriculture,Vulnerability
+1223,Agro-Pastoral Millet/Sorghum,SSA,Dependent on a single crop type,Vulnerability
+1224,Agro-Pastoral Millet/Sorghum,SSA,Demographic pressure on land,Vulnerability
+1225,Agro-Pastoral Millet/Sorghum,SSA,Implement reforestation practices,Adaptation option
+1226,Agro-Pastoral Millet/Sorghum,SSA,Invest in water harvesting and storage infrastructure,Adaptation option
+1227,Agro-Pastoral Millet/Sorghum,SSA,Diversify livelihoods,Adaptation option
+1228,Agro-Pastoral Millet/Sorghum,SSA,Promote literacy,Adaptation option
+1229,Agro-Pastoral Millet/Sorghum,SSA,Build women's  capacity,Adaptation option
+1230,Agro-Pastoral Millet/Sorghum,SSA,Implement fodder management,Adaptation option
+1231,Agro-Pastoral Millet/Sorghum,SSA,Implement efficient water management,Adaptation option
+1232,Agro-Pastoral Millet/Sorghum,SSA,Diversify livestock,Adaptation option
+1233,Agro-Pastoral Millet/Sorghum,SSA,Implement fodder management,Adaptation option
+1234,Agro-Pastoral Millet/Sorghum,SSA,Adopt drought tolerant varieties,Adaptation option
+1235,Agro-Pastoral Millet/Sorghum,SSA,Plant multiple varieties,Adaptation option
+1236,Agro-Pastoral Millet/Sorghum,SSA,Implement efficient water management,Adaptation option
+1237,Agro-Pastoral Millet/Sorghum,SSA,Implement agroforestry practices,Adaptation option
+1238,Agro-Pastoral Millet/Sorghum,SSA,Improve climate change awareness,Adaptation option
+1239,Agro-Pastoral Millet/Sorghum,SSA,Implement conservation agriculture practices,Adaptation option
+1240,Agro-Pastoral Millet/Sorghum,SSA,Adjust crop calendar,Adaptation option
+1241,Agro-Pastoral Millet/Sorghum,SSA,Livestock mobility to semi-arid/sub-humid zones,Adaptation option
+1242,Agro-Pastoral Millet/Sorghum,SSA,Plant multiple crop types,Adaptation option
+1243,Agro-Pastoral Millet/Sorghum,SSA,Plant multiple crop types,Adaptation option
+1244,Agro-Pastoral Millet/Sorghum,SSA,Capacity building on sustainable agricultural practices,Adaptation option
+1245,Agro-Pastoral Millet/Sorghum,SSA,Build capacity on value addition,Adaptation option
+1246,Agro-Pastoral Millet/Sorghum,SSA,Undertake crop rotation,Adaptation option
+1247,Agro-Pastoral Millet/Sorghum,SSA,Establish farmer organisations,Adaptation option
+1248,Agro-Pastoral Millet/Sorghum,SSA,Increase awareness of gender equality,Adaptation option
+1249,Agro-Pastoral Millet/Sorghum,SSA,Build the capacity of agricultural extension agents,Adaptation option
+1250,Agro-Pastoral Millet/Sorghum,SSA,Invest in agricultural research and development,Adaptation option
+1251,Agro-Pastoral Millet/Sorghum,SSA,Invest in agricultural research and development,Adaptation option
+1252,Agro-Pastoral Millet/Sorghum,SSA,Land tenure reform,Adaptation option
+1253,Agro-Pastoral Millet/Sorghum,SSA,Improve access to climate information services,Adaptation option
+1254,Agro-Pastoral Millet/Sorghum,SSA,Improve access to agricultural extension services,Adaptation option
+1255,Agro-Pastoral Millet/Sorghum,SSA,Policy reform,Adaptation option
+1256,Agro-Pastoral Millet/Sorghum,SSA,Develop/improve early warning systems,Adaptation option
+1257,Agro-Pastoral Millet/Sorghum,SSA,Build climate information services,Adaptation option
+1258,Agro-Pastoral Millet/Sorghum,SSA,Improve access to markets,Adaptation option
+1259,Agro-Pastoral Millet/Sorghum,SSA,Improve access to credit,Adaptation option
+1260,Agro-Pastoral Millet/Sorghum,SSA,Facilitate access to loans,Adaptation option
+1261,Agro-Pastoral Millet/Sorghum,SSA,Improve access to market information,Adaptation option
+1262,Agro-Pastoral Millet/Sorghum,SSA,Improve access to risk insurance schemes,Adaptation option
+1263,Agro-Pastoral Millet/Sorghum,SSA,Farmers engaged in agri system,Exposure
+1264,Agro-Pastoral Millet/Sorghum,SSA,Area of land used,Exposure
+1265,Agro-Pastoral Millet/Sorghum,SSA,Risk to farmers of loss of livelihoods due to Climate Change,Risk
+1266,Agro-Pastoral Millet/Sorghum,SSA,Risk to farmers of food insecurity due to Climate Change,Risk
+1267,Agro-Pastoral Millet/Sorghum,SSA,Risk to farmers of chronic poverty due to Climate Change,Risk
+1268,Cereal-Root Crop Mixed,SSA,Increase in drought events,Hazard
+1269,Cereal-Root Crop Mixed,SSA,Increasingly erratic rainfall,Hazard
+1270,Cereal-Root Crop Mixed,SSA,Increase in average temperatures,Hazard
+1271,Cereal-Root Crop Mixed,SSA,Increase in extreme rainfall events,Hazard
+1272,Cereal-Root Crop Mixed,SSA,Rising sea levels,Hazard
+1273,Cereal-Root Crop Mixed,SSA,Increase in tropical cyclones/hurricanes,Hazard
+1274,Cereal-Root Crop Mixed,SSA,Soil erosion,Impact
+1275,Cereal-Root Crop Mixed,SSA,Landslide events,Impact
+1276,Cereal-Root Crop Mixed,SSA,Shift in growing season,Impact
+1277,Cereal-Root Crop Mixed,SSA,Flash floods,Impact
+1278,Cereal-Root Crop Mixed,SSA,Damage to infrastructure,Impact
+1279,Cereal-Root Crop Mixed,SSA,Leaching of soil nutrients,Impact
+1280,Cereal-Root Crop Mixed,SSA,Siltation/sedimentation of rivers,Impact
+1281,Cereal-Root Crop Mixed,SSA,Reduced crop productivity/failure,Impact
+1282,Cereal-Root Crop Mixed,SSA,Increase in diseases,Impact
+1283,Cereal-Root Crop Mixed,SSA,Land degradation,Impact
+1284,Cereal-Root Crop Mixed,SSA,Delays in transportation,Impact
+1285,Cereal-Root Crop Mixed,SSA,Loss of income,Impact
+1286,Cereal-Root Crop Mixed,SSA,Increase in food insecurity,Impact
+1287,Cereal-Root Crop Mixed,SSA,Increase in poverty,Impact
+1288,Cereal-Root Crop Mixed,SSA,Increase in food prices,Impact
+1289,Cereal-Root Crop Mixed,SSA,Increase in food spoilage/wastage,Impact
+1290,Cereal-Root Crop Mixed,SSA,Increase in malnutrition/ Reduced calorie intake,Impact
+1291,Cereal-Root Crop Mixed,SSA,Conflict over resources,Impact
+1292,Cereal-Root Crop Mixed,SSA,Reliance on rainfed agriculture,Vulnerability
+1293,Cereal-Root Crop Mixed,SSA,Limited uptake of modern technologies,Vulnerability
+1294,Cereal-Root Crop Mixed,SSA,Crop is highly susceptible to diseases,Vulnerability
+1295,Cereal-Root Crop Mixed,SSA,High poverty levels,Vulnerability
+1296,Cereal-Root Crop Mixed,SSA,Low levels of climate change awareness at the farmer level,Vulnerability
+1297,Cereal-Root Crop Mixed,SSA,Unsustainable natural resource use,Vulnerability
+1298,Cereal-Root Crop Mixed,SSA,Weak land tenure and access rights for women,Vulnerability
+1299,Cereal-Root Crop Mixed,SSA,Inconsistencies in policy implementation,Vulnerability
+1300,Cereal-Root Crop Mixed,SSA,Conflict prone area,Vulnerability
+1301,Cereal-Root Crop Mixed,SSA,Low access to credit,Vulnerability
+1302,Cereal-Root Crop Mixed,SSA,Unstable commodity prices,Vulnerability
+1303,Cereal-Root Crop Mixed,SSA,Low access to markets,Vulnerability
+1304,Cereal-Root Crop Mixed,SSA,High prevalence of land degradation,Vulnerability
+1305,Cereal-Root Crop Mixed,SSA,Unfavourable soil conditions,Vulnerability
+1306,Cereal-Root Crop Mixed,SSA,High disease prevalence,Vulnerability
+1307,Cereal-Root Crop Mixed,SSA,Water scarce area,Vulnerability
+1308,Cereal-Root Crop Mixed,SSA,Reliance on rainfed agriculture,Vulnerability
+1309,Cereal-Root Crop Mixed,SSA,Lack of irrigation infrastructure,Vulnerability
+1310,Cereal-Root Crop Mixed,SSA,Crop is highly susceptible to diseases,Vulnerability
+1311,Cereal-Root Crop Mixed,SSA,Inadequate agri research and development,Vulnerability
+1312,Cereal-Root Crop Mixed,SSA,High poverty levels,Vulnerability
+1313,Cereal-Root Crop Mixed,SSA,Low access to markets,Vulnerability
+1314,Cereal-Root Crop Mixed,SSA,Inability to interpret climate information,Vulnerability
+1315,Cereal-Root Crop Mixed,SSA,Implement reforestation practices,Adaptation option
+1316,Cereal-Root Crop Mixed,SSA,Invest in water harvesting and storage infrastructure,Adaptation option
+1317,Cereal-Root Crop Mixed,SSA,Invest in irrigation infrastructure,Adaptation option
+1318,Cereal-Root Crop Mixed,SSA,Invest in road infrastructure,Adaptation option
+1319,Cereal-Root Crop Mixed,SSA,Adopt drought tolerant varieties,Adaptation option
+1320,Cereal-Root Crop Mixed,SSA,Invest in agricultural research and development,Adaptation option
+1321,Cereal-Root Crop Mixed,SSA,Diversify livelihoods,Adaptation option
+1322,Cereal-Root Crop Mixed,SSA,Build women's  capacity,Adaptation option
+1323,Cereal-Root Crop Mixed,SSA,Implement water conservation irrigation,Adaptation option
+1324,Cereal-Root Crop Mixed,SSA,Implement conservation agriculture practices,Adaptation option
+1325,Cereal-Root Crop Mixed,SSA,Improve climate change awareness,Adaptation option
+1326,Cereal-Root Crop Mixed,SSA,Implement climate smart agriculture practices,Adaptation option
+1327,Cereal-Root Crop Mixed,SSA,Adopt post-harvest technologies,Adaptation option
+1328,Cereal-Root Crop Mixed,SSA,Adopt disease tolerant varieties,Adaptation option
+1329,Cereal-Root Crop Mixed,SSA,Improve networking and knowledge exchange,Adaptation option
+1330,Cereal-Root Crop Mixed,SSA,Build capacity on advocacy,Adaptation option
+1331,Cereal-Root Crop Mixed,SSA,Develop policies for building climate change resilience,Adaptation option
+1332,Cereal-Root Crop Mixed,SSA,Land tenure reform,Adaptation option
+1333,Cereal-Root Crop Mixed,SSA,Invest in agricultural research and development,Adaptation option
+1334,Cereal-Root Crop Mixed,SSA,Implement disaster recovery strategies,Adaptation option
+1335,Cereal-Root Crop Mixed,SSA,Improve access to markets,Adaptation option
+1336,Cereal-Root Crop Mixed,SSA,Improve access to credit,Adaptation option
+1337,Cereal-Root Crop Mixed,SSA,Farmers engaged in agri system,Exposure
+1338,Cereal-Root Crop Mixed,SSA,Area of land used,Exposure
+1339,Cereal-Root Crop Mixed,SSA,Risk to farmers of food insecurity due to Climate Change,Risk
+1340,Cereal-Root Crop Mixed,SSA,Risk to farmers of loss of livelihoods due to Climate Change,Risk
+1341,Cereal-Root Crop Mixed,SSA,Risk to farmers of chronic poverty due to Climate Change,Risk
+1342,Highland Mixed,SSA,Increase in average temperatures,Hazard
+1343,Highland Mixed,SSA,Increase in dry days,Hazard
+1344,Highland Mixed,SSA,Increase in drought events,Hazard
+1345,Highland Mixed,SSA,Increase in average precipitation,Hazard
+1346,Highland Mixed,SSA,Increase in strong winds,Hazard
+1347,Highland Mixed,SSA,Decrease in average precipitation,Hazard
+1348,Highland Mixed,SSA,Increase in extreme rainfall events,Hazard
+1349,Highland Mixed,SSA,Unpredictable planting period,Impact
+1350,Highland Mixed,SSA,Shift in growing season,Impact
+1351,Highland Mixed,SSA,Shorter growing seasons,Impact
+1352,Highland Mixed,SSA,Water scarcity,Impact
+1353,Highland Mixed,SSA,Increase in pests,Impact
+1354,Highland Mixed,SSA,Increase in diseases,Impact
+1355,Highland Mixed,SSA,Increase in crop productivity/yields,Impact
+1356,Highland Mixed,SSA,Land degradation,Impact
+1357,Highland Mixed,SSA,Flash floods,Impact
+1358,Highland Mixed,SSA,Reduced crop productivity/failure,Impact
+1359,Highland Mixed,SSA,Soil erosion,Impact
+1360,Highland Mixed,SSA,Increase in heat stress,Impact
+1361,Highland Mixed,SSA,Reduced crop productivity/failure,Impact
+1362,Highland Mixed,SSA,Reduced produce quality,Impact
+1363,Highland Mixed,SSA,Change in production zone suitability,Impact
+1364,Highland Mixed,SSA,Reduced forage quality,Impact
+1365,Highland Mixed,SSA,Reduced livestock productivity,Impact
+1366,Highland Mixed,SSA,Increased flooding,Impact
+1367,Highland Mixed,SSA,Loss of income,Impact
+1368,Highland Mixed,SSA,Conflict over resources,Impact
+1369,Highland Mixed,SSA,Increase in migration,Impact
+1370,Highland Mixed,SSA,Increase in food insecurity,Impact
+1371,Highland Mixed,SSA,Lack of willingness to invest in sustainable agricultural practices,Impact
+1372,Highland Mixed,SSA,Limited access to markets,Impact
+1373,Highland Mixed,SSA,Demographic pressure on land,Vulnerability
+1374,Highland Mixed,SSA,High illiteracy rates,Vulnerability
+1375,Highland Mixed,SSA,Low levels of climate change awareness at the farmer level,Vulnerability
+1376,Highland Mixed,SSA,Poor efficiency of farming,Vulnerability
+1377,Highland Mixed,SSA,Low awareness of climate change,Vulnerability
+1378,Highland Mixed,SSA,Animal/breed is highly susceptible to pests,Vulnerability
+1379,Highland Mixed,SSA,Animal/breed is highly susceptible to diseases,Vulnerability
+1380,Highland Mixed,SSA,Unsustainable land management practices,Vulnerability
+1381,Highland Mixed,SSA,Inconsistencies in policy implementation,Vulnerability
+1382,Highland Mixed,SSA,Weak land tenure and access rights for women,Vulnerability
+1383,Highland Mixed,SSA,Weak land tenure,Vulnerability
+1384,Highland Mixed,SSA,Low access to markets,Vulnerability
+1385,Highland Mixed,SSA,Barriers to trade,Vulnerability
+1386,Highland Mixed,SSA,Large contributor to national/regional GDP,Vulnerability
+1387,Highland Mixed,SSA,Low access to credit,Vulnerability
+1388,Highland Mixed,SSA,High disease prevalence,Vulnerability
+1389,Highland Mixed,SSA,Fragmented landscapes,Vulnerability
+1390,Highland Mixed,SSA,High prevalence of land degradation,Vulnerability
+1391,Highland Mixed,SSA,High levels of deforestation,Vulnerability
+1392,Highland Mixed,SSA,Reliance on rainfed agriculture,Vulnerability
+1393,Highland Mixed,SSA,Demographic pressure on land,Vulnerability
+1394,Highland Mixed,SSA,Small farm size,Vulnerability
+1395,Highland Mixed,SSA,Lack of road infrastructure,Vulnerability
+1396,Highland Mixed,SSA,Inadequate agri research and development,Vulnerability
+1397,Highland Mixed,SSA,Lack of access to  inputs,Vulnerability
+1398,Highland Mixed,SSA,High poverty levels,Vulnerability
+1399,Highland Mixed,SSA,Lack of access to improved crop varieties,Vulnerability
+1400,Highland Mixed,SSA,Implement reforestation practices,Adaptation option
+1401,Highland Mixed,SSA,Invest in road infrastructure,Adaptation option
+1402,Highland Mixed,SSA,Invest in irrigation infrastructure,Adaptation option
+1403,Highland Mixed,SSA,Diversify livelihoods,Adaptation option
+1404,Highland Mixed,SSA,Improve climate change awareness,Adaptation option
+1405,Highland Mixed,SSA,Diversify livestock,Adaptation option
+1406,Highland Mixed,SSA,Implement climate smart agriculture practices,Adaptation option
+1407,Highland Mixed,SSA,Plant multiple varieties,Adaptation option
+1408,Highland Mixed,SSA,Invest in agricultural research and development,Adaptation option
+1409,Highland Mixed,SSA,Adopt disease tolerant breeds,Adaptation option
+1410,Highland Mixed,SSA,Livestock mobility to semi-arid/sub-humid zones,Adaptation option
+1411,Highland Mixed,SSA,Diversify livestock e.g. include small ruminants or poultry,Adaptation option
+1412,Highland Mixed,SSA,Improve networking and knowledge exchange,Adaptation option
+1413,Highland Mixed,SSA,Establish farmer organisations,Adaptation option
+1414,Highland Mixed,SSA,Land tenure reform,Adaptation option
+1415,Highland Mixed,SSA,Policy reform,Adaptation option
+1416,Highland Mixed,SSA,Improve access to markets,Adaptation option
+1417,Highland Mixed,SSA,Diversify markets,Adaptation option
+1418,Highland Mixed,SSA,Target niche markets,Adaptation option
+1419,Highland Mixed,SSA,Establish payment for ecosystem services schemes,Adaptation option
+1420,Highland Mixed,SSA,Farmers engaged in agri system,Exposure
+1421,Highland Mixed,SSA,Area of land used,Exposure
+1422,Highland Mixed,SSA,Risk to farmers of chronic poverty due to Climate Change,Risk
+1423,Highland Mixed,SSA,Risk to farmers of food insecurity due to Climate Change,Risk
+1424,Highland Perennial,SSA,Increase in extreme rainfall events,Hazard
+1425,Highland Perennial,SSA,Increase in hailstorms,Hazard
+1426,Highland Perennial,SSA,Increase in drought events,Hazard
+1427,Highland Perennial,SSA,Decrease in average precipitation,Hazard
+1428,Highland Perennial,SSA,Increase in average temperatures,Hazard
+1429,Highland Perennial,SSA,Increase in frost events,Hazard
+1430,Highland Perennial,SSA,Increase in average precipitation,Hazard
+1431,Highland Perennial,SSA,Increasingly erratic rainfall,Hazard
+1432,Highland Perennial,SSA,Increase in cold spells (no. of cold days),Hazard
+1433,Highland Perennial,SSA,Leaching of soil nutrients,Impact
+1434,Highland Perennial,SSA,Reduced crop productivity/failure,Impact
+1435,Highland Perennial,SSA,Damage to infrastructure,Impact
+1436,Highland Perennial,SSA,Delays in transportation,Impact
+1437,Highland Perennial,SSA,Reduced produce quality,Impact
+1438,Highland Perennial,SSA,Increase in soil water deficit,Impact
+1439,Highland Perennial,SSA,Increase in pests,Impact
+1440,Highland Perennial,SSA,Change in production zone suitability,Impact
+1441,Highland Perennial,SSA,Soil erosion,Impact
+1442,Highland Perennial,SSA,Landslide events,Impact
+1443,Highland Perennial,SSA,Crop stress/damage/mortality,Impact
+1444,Highland Perennial,SSA,Shift in growing season,Impact
+1445,Highland Perennial,SSA,Water scarcity,Impact
+1446,Highland Perennial,SSA,Emergence of new pests,Impact
+1447,Highland Perennial,SSA,Loss of income,Impact
+1448,Highland Perennial,SSA,Increase in food prices,Impact
+1449,Highland Perennial,SSA,Increase in migration,Impact
+1450,Highland Perennial,SSA,Increase in food insecurity,Impact
+1451,Highland Perennial,SSA,Competition for resources,Impact
+1452,Highland Perennial,SSA,Reliance on rainfed agriculture,Vulnerability
+1453,Highland Perennial,SSA,High illiteracy rates,Vulnerability
+1454,Highland Perennial,SSA,Unsustainable land management practices,Vulnerability
+1455,Highland Perennial,SSA,Poor water use efficiency and management,Vulnerability
+1456,Highland Perennial,SSA,Large contributor to national GDP,Vulnerability
+1457,Highland Perennial,SSA,Barriers to trade,Vulnerability
+1458,Highland Perennial,SSA,Large contributor to national/regional GDP,Vulnerability
+1459,Highland Perennial,SSA,Unstable commodity prices,Vulnerability
+1460,Highland Perennial,SSA,Fragmented landscapes,Vulnerability
+1461,Highland Perennial,SSA,Unsuitable crop varieties,Vulnerability
+1462,Highland Perennial,SSA,High levels of deforestation,Vulnerability
+1463,Highland Perennial,SSA,Water scarce area,Vulnerability
+1464,Highland Perennial,SSA,High prevalence of land degradation,Vulnerability
+1465,Highland Perennial,SSA,Cultivation area prone to frost,Vulnerability
+1466,Highland Perennial,SSA,Small farm size,Vulnerability
+1467,Highland Perennial,SSA,Inadequate agri research and development,Vulnerability
+1468,Highland Perennial,SSA,Limited uptake of modern technologies,Vulnerability
+1469,Highland Perennial,SSA,Lack of road infrastructure,Vulnerability
+1470,Highland Perennial,SSA,Reliance on rainfed agriculture,Vulnerability
+1471,Highland Perennial,SSA,Protect/conserve riparian zones,Adaptation option
+1472,Highland Perennial,SSA,Implement reforestation practices,Adaptation option
+1473,Highland Perennial,SSA,Invest in water harvesting and storage infrastructure,Adaptation option
+1474,Highland Perennial,SSA,Invest in irrigation infrastructure,Adaptation option
+1475,Highland Perennial,SSA,Invest in road infrastructure,Adaptation option
+1476,Highland Perennial,SSA,Diversify livelihoods,Adaptation option
+1477,Highland Perennial,SSA,Adopt drought tolerant varieties,Adaptation option
+1478,Highland Perennial,SSA,Plant multiple varieties,Adaptation option
+1479,Highland Perennial,SSA,Improve access to modern processing technologies,Adaptation option
+1480,Highland Perennial,SSA,Capacity building on sustainable agricultural practices,Adaptation option
+1481,Highland Perennial,SSA,Undertake pruning to reduce damaged leaves,Adaptation option
+1482,Highland Perennial,SSA,Cold air drainage and diversion,Adaptation option
+1483,Highland Perennial,SSA,Implement agroforestry practices,Adaptation option
+1484,Highland Perennial,SSA,Implement water conservation irrigation,Adaptation option
+1485,Highland Perennial,SSA,Improve climate change awareness,Adaptation option
+1486,Highland Perennial,SSA,Implement conservation agriculture practices,Adaptation option
+1487,Highland Perennial,SSA,Adopt disease tolerant varieties,Adaptation option
+1488,Highland Perennial,SSA,Adopt pest tolerant breeds,Adaptation option
+1489,Highland Perennial,SSA,Implement efficient water management,Adaptation option
+1490,Highland Perennial,SSA,Promote literacy,Adaptation option
+1491,Highland Perennial,SSA,Improve access to climate information services,Adaptation option
+1492,Highland Perennial,SSA,Improve access to agricultural extension services,Adaptation option
+1493,Highland Perennial,SSA,Improve interprovincial interventions,Adaptation option
+1494,Highland Perennial,SSA,Diversify markets,Adaptation option
+1495,Highland Perennial,SSA,Farmers engaged in agri system,Exposure
+1496,Highland Perennial,SSA,Area of land used,Exposure
+1497,Highland Perennial,SSA,Risk to farmers of loss of livelihoods due to Climate Change,Risk
+1498,Highland Perennial,SSA,Risk to farmers of food insecurity due to Climate Change,Risk
+1499,Highland Perennial,SSA,Risk to farmers of chronic poverty due to Climate Change,Risk
+1500,Maize Mixed,SSA,Increase in extreme rainfall events,Hazard
+1501,Maize Mixed,SSA,Increase in drought events,Hazard
+1502,Maize Mixed,SSA,Increasingly erratic rainfall,Hazard
+1503,Maize Mixed,SSA,Decrease in average precipitation,Hazard
+1504,Maize Mixed,SSA,Increase in extreme heat (no. of hot days),Hazard
+1505,Maize Mixed,SSA,Increase in strong winds,Hazard
+1506,Maize Mixed,SSA,Increase in average temperatures,Hazard
+1507,Maize Mixed,SSA,Siltation/sedimentation of rivers,Impact
+1508,Maize Mixed,SSA,Increased flooding,Impact
+1509,Maize Mixed,SSA,Reduced crop productivity/failure,Impact
+1510,Maize Mixed,SSA,Waterlogging,Impact
+1511,Maize Mixed,SSA,Water scarcity,Impact
+1512,Maize Mixed,SSA,Reduced groundwater tables,Impact
+1513,Maize Mixed,SSA,Unpredictable planting period,Impact
+1514,Maize Mixed,SSA,Lodging of plants,Impact
+1515,Maize Mixed,SSA,Emergence of new pests,Impact
+1516,Maize Mixed,SSA,Increase in pests,Impact
+1517,Maize Mixed,SSA,Increase in diseases,Impact
+1518,Maize Mixed,SSA,Shorter growing season,Impact
+1519,Maize Mixed,SSA,Change in production zone suitability,Impact
+1520,Maize Mixed,SSA,Increase in post-harvest losses,Impact
+1521,Maize Mixed,SSA,Increase in food insecurity,Impact
+1522,Maize Mixed,SSA,Loss of income,Impact
+1523,Maize Mixed,SSA,Increase in poverty,Impact
+1524,Maize Mixed,SSA,Increase in food prices,Impact
+1525,Maize Mixed,SSA,Reliance on rainfed agriculture,Vulnerability
+1526,Maize Mixed,SSA,High poverty levels,Vulnerability
+1527,Maize Mixed,SSA,Dependent on a single crop type,Vulnerability
+1528,Maize Mixed,SSA,Poor efficiency of farming,Vulnerability
+1529,Maize Mixed,SSA,Poor water use efficiency and management,Vulnerability
+1530,Maize Mixed,SSA,Demographic pressure on land,Vulnerability
+1531,Maize Mixed,SSA,Crop is highly susceptible to diseases,Vulnerability
+1532,Maize Mixed,SSA,Inability to interpret climate information,Vulnerability
+1533,Maize Mixed,SSA,Inadequate climate information services,Vulnerability
+1534,Maize Mixed,SSA,"Weak land tenure and access rights, particularly for women",Vulnerability
+1535,Maize Mixed,SSA,Lack of access to risk insurance,Vulnerability
+1536,Maize Mixed,SSA,Low access to credit,Vulnerability
+1537,Maize Mixed,SSA,High interest rates,Vulnerability
+1538,Maize Mixed,SSA,Large contributor to national GDP,Vulnerability
+1539,Maize Mixed,SSA,Barriers to trade,Vulnerability
+1540,Maize Mixed,SSA,Lack of access to improved crop varieties,Vulnerability
+1541,Maize Mixed,SSA,Inadequate storage infrastructure,Vulnerability
+1542,Maize Mixed,SSA,Lack of irrigation infrastructure,Vulnerability
+1543,Maize Mixed,SSA,Invest in irrigation infrastructure,Adaptation option
+1544,Maize Mixed,SSA,Invest in water harvesting and storage infrastructure,Adaptation option
+1545,Maize Mixed,SSA,Plant multiple crop types,Adaptation option
+1546,Maize Mixed,SSA,Use of machinery,Adaptation option
+1547,Maize Mixed,SSA,Implement conservation agriculture practices,Adaptation option
+1548,Maize Mixed,SSA,Capacity building on sustainable agricultural practices,Adaptation option
+1549,Maize Mixed,SSA,Adopt drought tolerant varieties,Adaptation option
+1550,Maize Mixed,SSA,Adopt disease tolerant varieties,Adaptation option
+1551,Maize Mixed,SSA,Integrated pest and diseases management,Adaptation option
+1552,Maize Mixed,SSA,Plant multiple crop types,Adaptation option
+1553,Maize Mixed,SSA,Diversify livelihoods,Adaptation option
+1554,Maize Mixed,SSA,Apply integrated pest and diseases management,Adaptation option
+1555,Maize Mixed,SSA,Diversify to livestock value chains,Adaptation option
+1556,Maize Mixed,SSA,Implement climate smart agriculture practices,Adaptation option
+1557,Maize Mixed,SSA,Improve access to climate information services,Adaptation option
+1558,Maize Mixed,SSA,Build capacity on usage of climate information,Adaptation option
+1559,Maize Mixed,SSA,Land tenure reform,Adaptation option
+1560,Maize Mixed,SSA,Improve access to risk insurance schemes,Adaptation option
+1561,Maize Mixed,SSA,Facilitate access to loans,Adaptation option
+1562,Maize Mixed,SSA,Diversify markets,Adaptation option
+1563,Maize Mixed,SSA,Improve access to credit,Adaptation option
+1564,Maize Mixed,SSA,Farmers engaged in agri system,Exposure
+1565,Maize Mixed,SSA,Area of land used,Exposure
+1566,Maize Mixed,SSA,Risk to farmers of loss of livelihoods due to Climate Change,Risk
+1567,Maize Mixed,SSA,Risk to farmers of food insecurity due to Climate Change,Risk
+1568,Maize Mixed,SSA,Risk to farmers of chronic poverty due to Climate Change,Risk
+1569,Pastoral,SSA,Increase in average precipitation,Hazard
+1570,Pastoral,SSA,Increase in extreme rainfall events,Hazard
+1571,Pastoral,SSA,Increase in drought events,Hazard
+1572,Pastoral,SSA,Decrease in average precipitation,Hazard
+1573,Pastoral,SSA,Increase in average temperatures,Hazard
+1574,Pastoral,SSA,Increase in extreme heat (no. of hot days),Hazard
+1575,Pastoral,SSA,Increase in strong winds,Hazard
+1576,Pastoral,SSA,Increase in diseases,Impact
+1577,Pastoral,SSA,Reduced forage quality,Impact
+1578,Pastoral,SSA,Reduced livestock productivity,Impact
+1579,Pastoral,SSA,Livestock mortalities,Impact
+1580,Pastoral,SSA,Reduced herd size,Impact
+1581,Pastoral,SSA,Reduced fodder availability,Impact
+1582,Pastoral,SSA,Water scarcity,Impact
+1583,Pastoral,SSA,Increased incidence of bushfires,Impact
+1584,Pastoral,SSA,Increase in pests,Impact
+1585,Pastoral,SSA,Reduced water quality,Impact
+1586,Pastoral,SSA,Increase in heat stress,Impact
+1587,Pastoral,SSA,Biodiversity loss,Impact
+1588,Pastoral,SSA,Delays in transportation,Impact
+1589,Pastoral,SSA,Saline intrusion,Impact
+1590,Pastoral,SSA,Increase in livestock mobility,Impact
+1591,Pastoral,SSA,Competition for resources,Impact
+1592,Pastoral,SSA,Conflict over resources,Impact
+1593,Pastoral,SSA,Increase in migration,Impact
+1594,Pastoral,SSA,Decrease in livestock mobility,Impact
+1595,Pastoral,SSA,Increase in poverty,Impact
+1596,Pastoral,SSA,Loss of income,Impact
+1597,Pastoral,SSA,Change of livelihoods,Impact
+1598,Pastoral,SSA,Unsustainable natural resource use,Vulnerability
+1599,Pastoral,SSA,High illiteracy rates,Vulnerability
+1600,Pastoral,SSA,Animal/breed is highly susceptible to diseases,Vulnerability
+1601,Pastoral,SSA,Inadequate climate information services,Vulnerability
+1602,Pastoral,SSA,Weak land tenure,Vulnerability
+1603,Pastoral,SSA,Weak land tenure and access rights for women,Vulnerability
+1604,Pastoral,SSA,Large contributor to national GDP,Vulnerability
+1605,Pastoral,SSA,Low access to markets,Vulnerability
+1606,Pastoral,SSA,Water scarce area,Vulnerability
+1607,Pastoral,SSA,High prevalence of land degradation,Vulnerability
+1608,Pastoral,SSA,Land fragmentation,Vulnerability
+1609,Pastoral,SSA,Low level of education,Vulnerability
+1610,Pastoral,SSA,Lack of road infrastructure,Vulnerability
+1611,Pastoral,SSA,High poverty levels,Vulnerability
+1612,Pastoral,SSA,Conflict prone area,Vulnerability
+1613,Pastoral,SSA,Demographic pressure on land,Vulnerability
+1614,Pastoral,SSA,Unstable commodity prices,Vulnerability
+1615,Pastoral,SSA,Low access to agricultural extension services,Vulnerability
+1616,Pastoral,SSA,Lack of access to risk insurance,Vulnerability
+1617,Pastoral,SSA,Reliance on rainfed agriculture,Vulnerability
+1618,Pastoral,SSA,Implement reforestation practices,Adaptation option
+1619,Pastoral,SSA,Invest in water harvesting and storage infrastructure,Adaptation option
+1620,Pastoral,SSA,Invest in road infrastructure,Adaptation option
+1621,Pastoral,SSA,Diversify livelihoods,Adaptation option
+1622,Pastoral,SSA,Promote literacy,Adaptation option
+1623,Pastoral,SSA,Livestock mobility to semi-arid/sub-humid zones,Adaptation option
+1624,Pastoral,SSA,Diversify livestock,Adaptation option
+1625,Pastoral,SSA,Implement fodder management,Adaptation option
+1626,Pastoral,SSA,Intensify and sedentarise livestock production,Adaptation option
+1627,Pastoral,SSA,Diversify to livestock value chains,Adaptation option
+1628,Pastoral,SSA,Capacity building on sustainable agricultural practices,Adaptation option
+1629,Pastoral,SSA,Implement integrated soil fertility management,Adaptation option
+1630,Pastoral,SSA,Build capacity on advocacy,Adaptation option
+1631,Pastoral,SSA,Improve networking and knowledge exchange,Adaptation option
+1632,Pastoral,SSA,Build the capacity of agricultural extension agents,Adaptation option
+1633,Pastoral,SSA,Invest in agricultural research and development,Adaptation option
+1634,Pastoral,SSA,Implement disaster recovery strategies,Adaptation option
+1635,Pastoral,SSA,Land tenure reform,Adaptation option
+1636,Pastoral,SSA,Improve access to climate information services,Adaptation option
+1637,Pastoral,SSA,Build climate information services,Adaptation option
+1638,Pastoral,SSA,Policy reform,Adaptation option
+1639,Pastoral,SSA,Develop/improve early warning systems,Adaptation option
+1640,Pastoral,SSA,Improve access to input/output markets,Adaptation option
+1641,Pastoral,SSA,Improve access to market information,Adaptation option
+1642,Pastoral,SSA,Improve access to risk insurance schemes,Adaptation option
+1643,Pastoral,SSA,Farmers engaged in agri system,Exposure
+1644,Pastoral,SSA,Area of land used,Exposure
+1645,Pastoral,SSA,Risk to farmers of loss of livelihoods due to Climate Change,Risk
+1646,Pastoral,SSA,Risk to farmers of chronic poverty due to Climate Change,Risk
+1647,Pastoral,SSA,Risk to farmers of food insecurity due to Climate Change,Risk
+1648,Root Crop,SSA,Increase in extreme rainfall events,Hazard
+1649,Root Crop,SSA,Increase in drought events,Hazard
+1650,Root Crop,SSA,Increasingly erratic rainfall,Hazard
+1651,Root Crop,SSA,Decrease in average precipitation,Hazard
+1652,Root Crop,SSA,Increase in extreme heat (no. of hot days),Hazard
+1653,Root Crop,SSA,Increase in average temperatures,Hazard
+1654,Root Crop,SSA,Rising sea levels,Hazard
+1655,Root Crop,SSA,Shorter growing season,Hazard
+1656,Root Crop,SSA,Reduced crop productivity/failure,Impact
+1657,Root Crop,SSA,Increased flooding,Impact
+1658,Root Crop,SSA,Soil erosion,Impact
+1659,Root Crop,SSA,Waterlogging,Impact
+1660,Root Crop,SSA,Water scarcity,Impact
+1661,Root Crop,SSA,Increase in pests,Impact
+1662,Root Crop,SSA,Increased incidence of bushfires,Impact
+1663,Root Crop,SSA,Unpredictable planting period,Impact
+1664,Root Crop,SSA,Shorter growing seasons,Impact
+1665,Root Crop,SSA,Increase in pests,Impact
+1666,Root Crop,SSA,Increase in diseases,Impact
+1667,Root Crop,SSA,Poor seed production,Impact
+1668,Root Crop,SSA,Desertification,Impact
+1669,Root Crop,SSA,Soil salinisation,Impact
+1670,Root Crop,SSA,Land degradation,Impact
+1671,Root Crop,SSA,Increase in soil water deficit,Impact
+1672,Root Crop,SSA,Biodiversity loss,Impact
+1673,Root Crop,SSA,Crop stress/damage/mortality,Impact
+1674,Root Crop,SSA,Reduced water quality,Impact
+1675,Root Crop,SSA,Loss of income,Impact
+1676,Root Crop,SSA,Increase in post-harvest losses,Impact
+1677,Root Crop,SSA,High poverty levels,Vulnerability
+1678,Root Crop,SSA,Major component of local diet,Vulnerability
+1679,Root Crop,SSA,Reliance on rainfed agriculture,Vulnerability
+1680,Root Crop,SSA,High illiteracy rates,Vulnerability
+1681,Root Crop,SSA,Limited uptake of modern technologies,Vulnerability
+1682,Root Crop,SSA,Crop is highly susceptible to pests,Vulnerability
+1683,Root Crop,SSA,Crop is highly susceptible to diseases,Vulnerability
+1684,Root Crop,SSA,Unequal opportunities for women,Vulnerability
+1685,Root Crop,SSA,Gender inequality,Vulnerability
+1686,Root Crop,SSA,Large contributor to national GDP,Vulnerability
+1687,Root Crop,SSA,Low access to credit,Vulnerability
+1688,Root Crop,SSA,Low access to markets,Vulnerability
+1689,Root Crop,SSA,High prevalence of land degradation,Vulnerability
+1690,Root Crop,SSA,Frequent bushfires,Vulnerability
+1691,Root Crop,SSA,High disease prevalence,Vulnerability
+1692,Root Crop,SSA,Unsuitable crop varieties,Vulnerability
+1693,Root Crop,SSA,Lack of irrigation infrastructure,Vulnerability
+1694,Root Crop,SSA,Lack of access to  inputs,Vulnerability
+1695,Root Crop,SSA,Inadequate storage infrastructure,Vulnerability
+1696,Root Crop,SSA,Major component of local diet,Vulnerability
+1697,Root Crop,SSA,Lack of road infrastructure,Vulnerability
+1698,Root Crop,SSA,Invest in irrigation infrastructure,Adaptation option
+1699,Root Crop,SSA,Invest in water harvesting and storage infrastructure,Adaptation option
+1700,Root Crop,SSA,Diversify livelihoods,Adaptation option
+1701,Root Crop,SSA,Build women's  capacity,Adaptation option
+1702,Root Crop,SSA,Adopt drought tolerant varieties,Adaptation option
+1703,Root Crop,SSA,Adopt high yielding varieties,Adaptation option
+1704,Root Crop,SSA,Implement integrated soil fertility management,Adaptation option
+1705,Root Crop,SSA,Promote literacy,Adaptation option
+1706,Root Crop,SSA,Adopt post-harvest technologies,Adaptation option
+1707,Root Crop,SSA,Implement climate smart agriculture practices,Adaptation option
+1708,Root Crop,SSA,Plant multiple varieties,Adaptation option
+1709,Root Crop,SSA,Adjust crop calendar,Adaptation option
+1710,Root Crop,SSA,Undertake soil rehabilitation,Adaptation option
+1711,Root Crop,SSA,Implement conservation agriculture practices,Adaptation option
+1712,Root Crop,SSA,Adopt disease tolerant varieties,Adaptation option
+1713,Root Crop,SSA,Adopt pest tolerant varieties,Adaptation option
+1714,Root Crop,SSA,Educate on bushfires,Adaptation option
+1715,Root Crop,SSA,Invest in agricultural research and development,Adaptation option
+1716,Root Crop,SSA,Adopt early maturing varieties,Adaptation option
+1717,Root Crop,SSA,Plant multiple crop types,Adaptation option
+1718,Root Crop,SSA,Improve networking and knowledge exchange,Adaptation option
+1719,Root Crop,SSA,Establish farmer organisations,Adaptation option
+1720,Root Crop,SSA,Develop policies for building climate change resilience,Adaptation option
+1721,Root Crop,SSA,Policy reform,Adaptation option
+1722,Root Crop,SSA,Policy reform,Adaptation option
+1723,Root Crop,SSA,Develop/improve early warning systems,Adaptation option
+1724,Root Crop,SSA,Build the capacity of agricultural extension agents,Adaptation option
+1725,Root Crop,SSA,Policy reform,Adaptation option
+1726,Root Crop,SSA,Increase awareness of gender equality,Adaptation option
+1727,Root Crop,SSA,Land tenure reform,Adaptation option
+1728,Root Crop,SSA,Improve access to input/output markets,Adaptation option
+1729,Root Crop,SSA,Facilitate access to loans,Adaptation option
+1730,Root Crop,SSA,Remove barriers to women's access to credit,Adaptation option
+1731,Root Crop,SSA,Remove barriers to women's access to markets,Adaptation option
+1732,Root Crop,SSA,Diversify markets,Adaptation option
+1733,Root Crop,SSA,Farmers engaged in agri system,Exposure
+1734,Root Crop,SSA,Area of land used,Exposure
+1735,Root Crop,SSA,Risk to farmers of chronic poverty due to Climate Change,Risk
+1736,Root Crop,SSA,Risk to farmers of food insecurity due to Climate Change,Risk
+1737,Root Crop,SSA,Risk to farmers of loss of livelihoods due to Climate Change,Risk

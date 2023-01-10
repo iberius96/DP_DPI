@@ -1,0 +1,191 @@
+UCCs FOR TABLE: Regions
+	UCC: ['M49']
+	UCC: ['Name']
+-------------------------
+
+
+UCCs FOR TABLE: Sub-regions
+	UCC: ['Sub-region Code']
+	UCC: ['Sub-region Name']
+-------------------------
+
+
+UCCs FOR TABLE: Intermediate regions
+	UCC: ['Intermediate Region Code']
+	UCC: ['Intermediate Region Name']
+-------------------------
+
+
+UCCs FOR TABLE: Countries
+	UCC: ['M49 Code']
+	UCC: ['Country or Area']
+	UCC: ['ISO-alpha3 Code']
+-------------------------
+
+
+UCCs FOR TABLE: Dixon macro regions
+	UCC: ['Label']
+	UCC: ['Name']
+-------------------------
+
+
+UCCs FOR TABLE: FS Country assignments
+	UCC: ['Location: Countries (M49-code)', 'Farming system']
+-------------------------
+
+
+UCCs FOR TABLE: FS livelihood sources
+	UCC: ['FS name', 'FS macro region', 'Dominant livelihood source']
+-------------------------
+
+
+UCCs FOR TABLE: FS landscapes
+	UCC: ['Landscape']
+-------------------------
+
+
+UCCs FOR TABLE: Farming Systems
+	UCC: ['Total area (m ha)']
+	UCC: ['Farming system', 'Macro region']
+	UCC: ['Farming system', 'Agro-ecological zone']
+	UCC: ['Farming system', 'Farm size (ha)']
+	UCC: ['Farming system', 'Description']
+	UCC: ['Agro-ecological zone', 'Description']
+	UCC: ['Farm size (ha)', 'Description']
+-------------------------
+
+
+UCCs FOR TABLE: Commodities
+	UCC: ['FS name', 'NCBITaxonID']
+	UCC: ['FS name', 'Max THI']
+	UCC: ['Name', 'Max THI']
+	UCC: ['Max THI', 'Min temperature  (°C)']
+	UCC: ['Max THI', 'Max temperature (°C)']
+	UCC: ['Max THI', 'Average temperature  (°C)']
+	UCC: ['Max THI', 'Min precipitation (mm)']
+	UCC: ['Max THI', 'Max precipitation (mm)']
+	UCC: ['Max THI', 'Average precipitation (mm)']
+	UCC: ['Max THI', 'Min elevation (masl)']
+	UCC: ['Max THI', 'Max elevation (masl)']
+	UCC: ['FS name', 'FS macro region', 'Name']
+	UCC: ['FS name', 'Name', 'Min elevation (masl)']
+	UCC: ['FS name', 'Name', 'Max elevation (masl)']
+	UCC: ['FS name', 'Min temperature  (°C)', 'Min elevation (masl)']
+	UCC: ['FS name', 'Average temperature  (°C)', 'Max elevation (masl)']
+	UCC: ['FS name', 'Min precipitation (mm)', 'Min elevation (masl)']
+	UCC: ['FS name', 'Min precipitation (mm)', 'Max elevation (masl)']
+	UCC: ['FS name', 'Max precipitation (mm)', 'Min elevation (masl)']
+	UCC: ['FS name', 'Max precipitation (mm)', 'Max elevation (masl)']
+	UCC: ['FS name', 'Average precipitation (mm)', 'Min elevation (masl)']
+	UCC: ['FS name', 'Average precipitation (mm)', 'Max elevation (masl)']
+	UCC: ['FS macro region', 'Average precipitation (mm)', 'Max elevation (masl)']
+	UCC: ['FS name', 'FS macro region', 'Min temperature  (°C)', 'Max temperature (°C)']
+	UCC: ['FS name', 'FS macro region', 'Min temperature  (°C)', 'Average temperature  (°C)']
+	UCC: ['FS name', 'FS macro region', 'Min temperature  (°C)', 'Min precipitation (mm)']
+	UCC: ['FS name', 'FS macro region', 'Min temperature  (°C)', 'Max precipitation (mm)']
+	UCC: ['FS name', 'FS macro region', 'Min temperature  (°C)', 'Average precipitation (mm)']
+	UCC: ['FS name', 'FS macro region', 'Max temperature (°C)', 'Min precipitation (mm)']
+	UCC: ['FS name', 'FS macro region', 'Max temperature (°C)', 'Max precipitation (mm)']
+	UCC: ['FS name', 'FS macro region', 'Max temperature (°C)', 'Average precipitation (mm)']
+	UCC: ['FS name', 'FS macro region', 'Max temperature (°C)', 'Max elevation (masl)']
+	UCC: ['FS name', 'FS macro region', 'Average temperature  (°C)', 'Min precipitation (mm)']
+	UCC: ['FS name', 'FS macro region', 'Average temperature  (°C)', 'Max precipitation (mm)']
+	UCC: ['FS name', 'FS macro region', 'Average temperature  (°C)', 'Average precipitation (mm)']
+	UCC: ['FS name', 'FS macro region', 'Min precipitation (mm)', 'Average precipitation (mm)']
+	UCC: ['FS name', 'FS macro region', 'Max precipitation (mm)', 'Average precipitation (mm)']
+	UCC: ['FS name', 'Min temperature  (°C)', 'Max temperature (°C)', 'Max elevation (masl)']
+	UCC: ['FS name', 'Max temperature (°C)', 'Average temperature  (°C)', 'Min elevation (masl)']
+	UCC: ['Name', 'NCBITaxonID', 'Average precipitation (mm)', 'Max elevation (masl)']
+	UCC: ['NCBITaxonID', 'Average temperature  (°C)', 'Average precipitation (mm)', 'Max elevation (masl)']
+-------------------------
+
+
+UCCs FOR TABLE: Taxonomies
+	UCC: ['NCBITaxonID']
+	UCC: ['NCBITaxonName']
+-------------------------
+
+
+UCCs FOR TABLE: Commodity soils
+	UCC: ['FS name', 'FS macro region', 'Name', 'Soil type']
+	UCC: ['FS name', 'Name', 'Soil type', 'Description']
+-------------------------
+
+
+UCCs FOR TABLE: Commodity resources
+	UCC: ['FS name', 'FS macro region', 'Name', 'Resource ID']
+-------------------------
+
+
+UCCs FOR TABLE: Resources
+	UCC: ['Citation', 'Year', 'Number']
+	UCC: ['Citation', 'Number', 'URL']
+	UCC: ['Citation', 'Number', 'Title', 'Resource type']
+-------------------------
+
+
+UCCs FOR TABLE: FS resources
+	UCC: ['FS name', 'FS macro region', 'Field', 'Resource ID']
+	UCC: ['FS name', 'FS macro region', 'Field', 'Resource year']
+-------------------------
+
+
+UCCs FOR TABLE: Impact Chain Models
+	UCC: ['Description']
+	UCC: ['Impact chain model', 'FS macro region']
+-------------------------
+
+
+UCCs FOR TABLE: ICM resources
+	UCC: ['FS name']
+	UCC: ['FS macro region']
+	UCC: ['Resource number']
+-------------------------
+
+
+UCCs FOR TABLE: Connections
+	UCC: ['ID']
+-------------------------
+
+
+UCCs FOR TABLE: Connection tags
+	UCC: ['ID', 'Tags']
+-------------------------
+
+
+UCCs FOR TABLE: FS factors Type-2 assignments
+	UCC: ['ID', 'Type2']
+-------------------------
+
+
+UCCs FOR TABLE: FS factors
+	UCC: ['ID']
+-------------------------
+
+
+UCCs FOR TABLE: FS factor tags
+	UCC: ['ID', 'Tags']
+-------------------------
+
+
+UCCs FOR TABLE: FS factor resources
+	UCC: ['ID', 'Citation', 'Year']
+-------------------------
+
+
+UCCs FOR TABLE: Expert involvements
+	UCC: ['Expert ID', 'FS name']
+	UCC: ['FS name', 'Date']
+	UCC: ['FS name', 'FS macro region', 'Domain']
+-------------------------
+
+
+UCCs FOR TABLE: Experts
+	UCC: ['ID']
+	UCC: ['Author ID']
+	UCC: ['First name']
+	UCC: ['Last name']
+	UCC: ['Email']
+-------------------------
+
+
