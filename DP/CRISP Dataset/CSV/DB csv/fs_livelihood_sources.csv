@@ -14,6 +14,7 @@
 "High Altitude Mixed (C. Andes)","LAC","Tubers"
 "High Altitude Mixed (C. Andes)","LAC","Sheep"
 "High Altitude Mixed (C. Andes)","LAC","Grain"
+"Highland Mixed","SSA","Crop production"
 "Highland Mixed","MENA","Cereal"
 "Highland Mixed","MENA","Legumes"
 "Highland Mixed","MENA","Sheep"
@@ -40,3 +41,4 @@
 "Temperate Mixed","EAP","Pulse"
 "Temperate Mixed","EAP","Livestock"
 "Upland Intensive Mixed","EAP","Subsistence rice production"
+"Upland Intensive Mixed","EAP","Crop production"

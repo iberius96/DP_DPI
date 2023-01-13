@@ -58,6 +58,7 @@ UCCs FOR TABLE: Farming Systems
 UCCs FOR TABLE: Commodities
 	UCC: ['FS name', 'NCBITaxonID']
 	UCC: ['FS name', 'Max THI']
+	UCC: ['Livelihood source', 'Max THI']
 	UCC: ['Name', 'Max THI']
 	UCC: ['Max THI', 'Min temperature  (°C)']
 	UCC: ['Max THI', 'Max temperature (°C)']
@@ -79,6 +80,7 @@ UCCs FOR TABLE: Commodities
 	UCC: ['FS name', 'Average precipitation (mm)', 'Min elevation (masl)']
 	UCC: ['FS name', 'Average precipitation (mm)', 'Max elevation (masl)']
 	UCC: ['FS macro region', 'Average precipitation (mm)', 'Max elevation (masl)']
+	UCC: ['Livelihood source', 'NCBITaxonID', 'Max elevation (masl)']
 	UCC: ['FS name', 'FS macro region', 'Min temperature  (°C)', 'Max temperature (°C)']
 	UCC: ['FS name', 'FS macro region', 'Min temperature  (°C)', 'Average temperature  (°C)']
 	UCC: ['FS name', 'FS macro region', 'Min temperature  (°C)', 'Min precipitation (mm)']
@@ -93,10 +95,19 @@ UCCs FOR TABLE: Commodities
 	UCC: ['FS name', 'FS macro region', 'Average temperature  (°C)', 'Average precipitation (mm)']
 	UCC: ['FS name', 'FS macro region', 'Min precipitation (mm)', 'Average precipitation (mm)']
 	UCC: ['FS name', 'FS macro region', 'Max precipitation (mm)', 'Average precipitation (mm)']
+	UCC: ['FS name', 'Livelihood source', 'Max temperature (°C)', 'Max elevation (masl)']
+	UCC: ['FS name', 'Livelihood source', 'Average temperature  (°C)', 'Min elevation (masl)']
 	UCC: ['FS name', 'Min temperature  (°C)', 'Max temperature (°C)', 'Max elevation (masl)']
 	UCC: ['FS name', 'Max temperature (°C)', 'Average temperature  (°C)', 'Min elevation (masl)']
+	UCC: ['FS macro region', 'Livelihood source', 'Name', 'Max elevation (masl)']
+	UCC: ['FS macro region', 'Livelihood source', 'Max temperature (°C)', 'Max elevation (masl)']
+	UCC: ['FS macro region', 'Livelihood source', 'Average temperature  (°C)', 'Max elevation (masl)']
+	UCC: ['FS macro region', 'Livelihood source', 'Min precipitation (mm)', 'Max elevation (masl)']
+	UCC: ['FS macro region', 'Livelihood source', 'Max precipitation (mm)', 'Max elevation (masl)']
 	UCC: ['Name', 'NCBITaxonID', 'Average precipitation (mm)', 'Max elevation (masl)']
 	UCC: ['NCBITaxonID', 'Average temperature  (°C)', 'Average precipitation (mm)', 'Max elevation (masl)']
+	UCC: ['FS name', 'FS macro region', 'Livelihood source', 'Min precipitation (mm)', 'Max precipitation (mm)']
+	UCC: ['FS macro region', 'Livelihood source', 'Min temperature  (°C)', 'Min elevation (masl)', 'Max elevation (masl)']
 -------------------------
 
 
