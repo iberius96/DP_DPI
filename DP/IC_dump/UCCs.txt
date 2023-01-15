@@ -130,8 +130,6 @@ UCCs FOR TABLE: Commodity resources
 
 UCCs FOR TABLE: Resources
 	UCC: ['Citation', 'Year', 'Number']
-	UCC: ['Citation', 'Number', 'URL']
-	UCC: ['Citation', 'Number', 'Title', 'Resource type']
 -------------------------
 
 
@@ -200,3 +198,6 @@ UCCs FOR TABLE: Experts
 -------------------------
 
 
+UCCs FOR TABLE: Connection resources
+	UCC: ['ID', 'Citation', 'Year']
+-------------------------
