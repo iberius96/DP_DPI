@@ -3,6 +3,7 @@
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix obda: <https://w3id.org/obda/vocabulary#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @base <http://www.semanticweb.org/samueleceol/ontologies/2023/0/untitled-ontology-23> .
 
@@ -481,13 +482,6 @@
                 rdfs:range xsd:string .
 
 
-###  http://www.semanticweb.org/samueleceol/ontologies/2023/0/untitled-ontology-23#IntermediateRegionISOAlpha3
-:IntermediateRegionISOAlpha3 rdf:type owl:DatatypeProperty ,
-                                      owl:FunctionalProperty ;
-                             rdfs:domain :Intermediate_region ;
-                             rdfs:range xsd:string .
-
-
 ###  http://www.semanticweb.org/samueleceol/ontologies/2023/0/untitled-ontology-23#LSName
 :LSName rdf:type owl:DatatypeProperty ,
                  owl:FunctionalProperty ;
@@ -563,13 +557,6 @@
                    owl:FunctionalProperty ;
           rdfs:domain :Soil ;
           rdfs:range xsd:string .
-
-
-###  http://www.semanticweb.org/samueleceol/ontologies/2023/0/untitled-ontology-23#Sub-RegionISOAlpha3
-:Sub-RegionISOAlpha3 rdf:type owl:DatatypeProperty ,
-                              owl:FunctionalProperty ;
-                     rdfs:domain :Sub-region ;
-                     rdfs:range xsd:string .
 
 
 ###  http://www.semanticweb.org/samueleceol/ontologies/2023/0/untitled-ontology-23#UNLocationM49
@@ -875,10 +862,6 @@
                                        owl:onProperty [ owl:inverseOf :countrySituatedInIR
                                                       ] ;
                                        owl:someValuesFrom owl:Thing
-                                     ] ,
-                                     [ rdf:type owl:Restriction ;
-                                       owl:onProperty :IntermediateRegionISOAlpha3 ;
-                                       owl:someValuesFrom rdfs:Literal
                                      ] ;
                      owl:disjointWith :Region ,
                                       :Sub-region .
@@ -983,10 +966,6 @@
                               owl:onProperty [ owl:inverseOf :countrySituatedInSubRegion
                                              ] ;
                               owl:someValuesFrom owl:Thing
-                            ] ,
-                            [ rdf:type owl:Restriction ;
-                              owl:onProperty :Sub-RegionISOAlpha3 ;
-                              owl:someValuesFrom rdfs:Literal
                             ] .
 
 
