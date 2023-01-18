@@ -35,8 +35,8 @@
                 rdfs:range :Resource .
 
 
-###  http://www.semanticweb.org/samueleceol/ontologies/2023/0/untitled-ontology-23#IRSituatedinSubRegion
-:IRSituatedinSubRegion rdf:type owl:ObjectProperty ;
+###  http://www.semanticweb.org/samueleceol/ontologies/2023/0/untitled-ontology-23#IRSituatedInSubRegion
+:IRSituatedInSubRegion rdf:type owl:ObjectProperty ;
                        rdfs:subPropertyOf :situatedIn ;
                        rdf:type owl:FunctionalProperty ;
                        rdfs:domain :Intermediate_region ;
@@ -552,6 +552,13 @@
               rdfs:range xsd:integer .
 
 
+###  http://www.semanticweb.org/samueleceol/ontologies/2023/0/untitled-ontology-23#SoilDescription
+:SoilDescription rdf:type owl:DatatypeProperty ,
+                          owl:FunctionalProperty ;
+                 rdfs:domain :Soil ;
+                 rdfs:range xsd:string .
+
+
 ###  http://www.semanticweb.org/samueleceol/ontologies/2023/0/untitled-ontology-23#SoilName
 :SoilName rdf:type owl:DatatypeProperty ,
                    owl:FunctionalProperty ;
@@ -855,7 +862,7 @@
 :Intermediate_region rdf:type owl:Class ;
                      rdfs:subClassOf :UN_location ,
                                      [ rdf:type owl:Restriction ;
-                                       owl:onProperty :IRSituatedinSubRegion ;
+                                       owl:onProperty :IRSituatedInSubRegion ;
                                        owl:someValuesFrom owl:Thing
                                      ] ,
                                      [ rdf:type owl:Restriction ;
