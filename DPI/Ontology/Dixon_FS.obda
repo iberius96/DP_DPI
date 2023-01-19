@@ -24,8 +24,8 @@ source		SELECT fs_name, fs_macro_region, livelihood_source, commodity_name, soil
 			FROM global_schema.commodity_soils
 
 mappingId	Resource
-target		:resource/{resource}/{year}/{number} a :Resource ; :ResourceID {resource}^^xsd:string ; :ResourceYear {year}^^xsd:integer ; :ResourceNumber {number}^^xsd:integer ; :ResourceTitle {title}^^xsd:string ; :ResourceType {type}^^xsd:string ; :ResourceURL {url}^^xsd:string . 
-source		SELECT resource, year, number, title, type, url
+target		:resource/{resource}/{year}/{nr} a :Resource ; :ResourceID {resource}^^xsd:string ; :ResourceYear {year}^^xsd:integer ; :ResourceNumber {nr}^^xsd:integer ; :ResourceTitle {title}^^xsd:string ; :ResourceType {type}^^xsd:string ; :ResourceURL {url}^^xsd:string . 
+source		SELECT resource, year, nr, title, type, url
 			FROM global_schema.resources
 
 mappingId	Farming system
@@ -39,7 +39,7 @@ source		SELECT fs_name, fs_macro_region, livelihood_source
 			FROM global_schema.fs_livelihood_sources
 
 mappingId	Expert involvement
-target		:expert_involvement/{fs_macro_region}/{fs_name}/{domain}/{expert_id} a :Expert_involvement ; :ExpertInvDate {date}^^xsd:dateTime ; :ExpertInvDomain {domain}^^xsd:string . 
+target		:expert_involvement/{fs_macro_region}/{fs_name}/{domain}/{expert_id} a :Expert_involvement ; :ExpertInvDate {date}^^xsd:dateTime ; :ExpertInvDomain {domain}^^xsd:string ; :involvementByExpert :expert/{expert_id} ; :involvementInFarmingSystem :farming_system/{fs_macro_region}/{fs_name} . 
 source		SELECT expert_id, fs_name, fs_macro_region, domain, date
 			FROM global_schema.expert_involvements
 
@@ -49,7 +49,7 @@ source		SELECT fs_name, fs_macro_region, description
 			FROM global_schema.impact_chain_model
 
 mappingId	Farming System sourcing
-target		:farming_system_sourcing/{fs_macro_region}/{fs_name}/{field}/{resource_id}/{resource_year}/{resource_number} a :Farming_system_sourcing ; :FSSourcingField {field}^^xsd:string . 
+target		:farming_system_sourcing/{fs_macro_region}/{fs_name}/{field}/{resource_id}/{resource_year}/{resource_number} a :Farming_system_sourcing ; :FSSourcingField {field}^^xsd:string ; :sourcedForFSField :farming_system/{fs_macro_region}/{fs_name} ; :FSFieldSourcedFrom :resource/{resource_id}/{resource_year}/{resource_number} . 
 source		SELECT fs_name, fs_macro_region, field, resource_id, resource_year, resource_number
 			FROM global_schema.fs_resources
 
@@ -92,7 +92,7 @@ source		SELECT fs_name, fs_macro_region, factor, type_1_label
 mappingId	OP: reliesOnLivelihoodSource
 target		:farming_system/{fs_macro_region}/{fs_name} :reliesOnLivelihoodSource :livelihood_source/{fs_macro_region}/{fs_name}/{livelihood_source} . 
 source		SELECT fs_name, fs_macro_region, livelihood_source
-			   FROM global_schema.fs_livelihood_sources
+			FROM global_schema.fs_livelihood_sources
 
 mappingId	Commodity
 target		:commodity/{fs_macro_region}/{fs_name}/{livelihood_source}/{name} a :Commodity ; :CommodityName {name}^^xsd:string ; :CommodityNCBITaxonomyID {ncbi_taxonomy_id}^^xsd:integer ; :CommodityNCBITaxonomyName {ncbi_taxonomy_name}^^xsd:string ; :CommodityMaxTHI {max_thi}^^xsd:decimal ; :CommodityMinTemperature {min_temperature}^^xsd:decimal ; :CommodityMaxTemperature {max_temperature}^^xsd:decimal ; :CommodityAvgTemperature {average_temperature}^^xsd:decimal ; :CommodityMinPrecipitation {min_precipitation}^^xsd:decimal ; :CommodityMaxPrecipitation {max_precipitation}^^xsd:decimal ; :CommodityAvgPrecipitation {average_precipitation}^^xsd:decimal ; :CommodityMinElevation {min_elevation}^^xsd:decimal ; :CommodityMaxElevation {max_elevation}^^xsd:decimal . 
@@ -103,56 +103,62 @@ source		SELECT c.fs_name, c.fs_macro_region, c.livelihood_source, c.name, c.ncbi
 mappingId	OP: takesPlaceInLandscape
 target		:farming_system/{fs_macro_region}/{fs_name} :takesPlaceInLandscape :landscape/{fs_macro_region}/{fs_name}/{landscape} . 
 source		SELECT fs_name, fs_macro_region, landscape
-			   FROM global_schema.fs_landscapes;
+			FROM global_schema.fs_landscapes;
 
 mappingId	OP: growsInSoil
 target		:commodity/{fs_macro_region}/{fs_name}/{livelihood_source}/{commodity_name} :growsInSoil :soil/{fs_macro_region}/{fs_name}/{livelihood_source}/{commodity_name}/{soil} . 
 source		SELECT fs_name, fs_macro_region, livelihood_source, commodity_name, soil
-			   FROM global_schema.commodity_soils;
+			FROM global_schema.commodity_soils;
 
 mappingId	OP: hostsFarmingSystem
 target		:dixon_macro_region/{macro_region} :hostsFarmingSystem :farming_system/{macro_region}/{name} . 
 source		SELECT name, macro_region
-			   FROM global_schema.farming_system;
+			FROM global_schema.farming_system;
 
 mappingId	OP: subjectToICM
 target		:farming_system/{macro_region}/{name} :subjectToICM :impact_chain_model/{macro_region}/{name} . 
 source		SELECT name, macro_region
-			   FROM global_schema.farming_system;
+			FROM global_schema.farming_system;
 
 mappingId	OP: foundInCountry
 target		:farming_system/{fs_macro_region}/{fs_name} :foundInCountry :country/{country_m49} . 
 source		SELECT country_m49, fs_name, fs_macro_region
-			   FROM global_schema.fs_country_assignments;
+			FROM global_schema.fs_country_assignments;
 
 mappingId	OP: countrySituatedInIR
 target		:country/{m49} :countrySituatedInIR :intermediate_region/{intermediate_region_m49} . 
 source		SELECT m49, intermediate_region_m49
-			   FROM global_schema.countries;
+			FROM global_schema.countries;
 
 mappingId	OP: countrySituatedInSubRegion
 target		:country/{m49} :countrySituatedInSubRegion :sub_region/{sub_region_m49} . 
 source		SELECT m49, sub_region_m49
-			   FROM global_schema.countries;
+			FROM global_schema.countries;
 
 mappingId	OP: IRSituatedInSubRegion
 target		:intermediate_region/{m49} :IRSituatedInSubRegion :sub_region/{sub_region_m49} . 
 source		SELECT m49, sub_region_m49
-			   FROM global_schema.intermediate_regions;
+			FROM global_schema.intermediate_regions;
 
 mappingId	OP: subRegionSituatedInRegion
 target		:sub_region/{m49} :subRegionSituatedInRegion :region/{region_m49} . 
 source		SELECT m49, region_m49
-			   FROM global_schema.sub_regions;
+			FROM global_schema.sub_regions;
 
 mappingId	OP: commoditySourcedFrom
-target		:commodity/{fs_name}/{fs_macro_region}/{livelihood_source}/{commodity_name} :commoditySourcedFrom :resource/{resource_id}/{resource_year}/{resource_number} . 
+target		:commodity/{fs_macro_region}/{fs_name}/{livelihood_source}/{commodity_name} :commoditySourcedFrom :resource/{resource_id}/{resource_year}/{resource_number} . 
 source		SELECT fs_name, fs_macro_region, livelihood_source, commodity_name, resource_id, resource_year, resource_number
-			   FROM global_schema.commodity_resources;
+			FROM global_schema.commodity_resources;
 
 mappingId	OP: ICMSourcedFrom
 target		:impact_chain_model/{icm_macro_region}/{icm_name} :ICMSourcedFrom :resource/{resource_id}/{resource_year}/{resource_number} . 
 source		SELECT icm_name, icm_macro_region, resource_id, resource_year, resource_number
-			   FROM global_schema.icm_resources;
+			FROM global_schema.icm_resources;
+
+mappingId	OP: characterisedByFactor
+target		:impact_chain_model/{fs_macro_region}/{fs_name} :characterisedByFactor :factor/{fs_macro_region}/{fs_name}/{type_1_label}/{factor} . 
+source		SELECT fs_name, fs_macro_region, factor, type_1_label
+			FROM global_schema.fs_factors
+			GROUP BY fs_name, fs_macro_region, factor, type_1_label
 ]]
 
