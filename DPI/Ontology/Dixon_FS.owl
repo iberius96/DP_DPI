@@ -16,7 +16,7 @@
 ###  http://www.semanticweb.org/samueleceol/ontologies/2023/0/untitled-ontology-23#FDSourcedFrom
 :FDSourcedFrom rdf:type owl:ObjectProperty ;
                rdfs:subPropertyOf :sourcedFrom ;
-               rdfs:domain :FactorDescriptor ;
+               rdfs:domain :Factor_descriptor ;
                rdfs:range :Resource .
 
 
@@ -94,11 +94,18 @@
                             rdfs:range :Sub-region .
 
 
+###  http://www.semanticweb.org/samueleceol/ontologies/2023/0/untitled-ontology-23#describedByConnection
+:describedByConnection rdf:type owl:ObjectProperty ,
+                                owl:InverseFunctionalProperty ;
+                       rdfs:domain :Impact_chain_model ;
+                       rdfs:range :Connection .
+
+
 ###  http://www.semanticweb.org/samueleceol/ontologies/2023/0/untitled-ontology-23#describedByFD
 :describedByFD rdf:type owl:ObjectProperty ,
                         owl:InverseFunctionalProperty ;
                rdfs:domain :Factor ;
-               rdfs:range :FactorDescriptor .
+               rdfs:range :Factor_descriptor .
 
 
 ###  http://www.semanticweb.org/samueleceol/ontologies/2023/0/untitled-ontology-23#foundInCountry
@@ -283,6 +290,13 @@
                        rdfs:range xsd:string .
 
 
+###  http://www.semanticweb.org/samueleceol/ontologies/2023/0/untitled-ontology-23#ConnectionFrom
+:ConnectionFrom rdf:type owl:DatatypeProperty ,
+                         owl:FunctionalProperty ;
+                rdfs:domain :Connection ;
+                rdfs:range xsd:string .
+
+
 ###  http://www.semanticweb.org/samueleceol/ontologies/2023/0/untitled-ontology-23#ConnectionLinkType
 :ConnectionLinkType rdf:type owl:DatatypeProperty ,
                              owl:FunctionalProperty ;
@@ -294,6 +308,13 @@
 :ConnectionTag rdf:type owl:DatatypeProperty ;
                rdfs:domain :Connection ;
                rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/samueleceol/ontologies/2023/0/untitled-ontology-23#ConnectionTo
+:ConnectionTo rdf:type owl:DatatypeProperty ,
+                       owl:FunctionalProperty ;
+              rdfs:domain :Connection ;
+              rdfs:range xsd:string .
 
 
 ###  http://www.semanticweb.org/samueleceol/ontologies/2023/0/untitled-ontology-23#CountryISOAlpha3
@@ -361,19 +382,19 @@
 ###  http://www.semanticweb.org/samueleceol/ontologies/2023/0/untitled-ontology-23#FDDescription
 :FDDescription rdf:type owl:DatatypeProperty ,
                         owl:FunctionalProperty ;
-               rdfs:domain :FactorDescriptor ;
+               rdfs:domain :Factor_descriptor ;
                rdfs:range xsd:string .
 
 
 ###  http://www.semanticweb.org/samueleceol/ontologies/2023/0/untitled-ontology-23#FDTag
 :FDTag rdf:type owl:DatatypeProperty ;
-       rdfs:domain :FactorDescriptor ;
+       rdfs:domain :Factor_descriptor ;
        rdfs:range xsd:string .
 
 
 ###  http://www.semanticweb.org/samueleceol/ontologies/2023/0/untitled-ontology-23#FDType-2
 :FDType-2 rdf:type owl:DatatypeProperty ;
-          rdfs:domain :FactorDescriptor ;
+          rdfs:domain :Factor_descriptor ;
           rdfs:range xsd:string .
 
 
@@ -592,7 +613,7 @@
                             :Expert ,
                             :Expert_involvement ,
                             :Factor ,
-                            :FactorDescriptor ,
+                            :Factor_descriptor ,
                             :Farming_system ,
                             :Farming_system_sourcing ,
                             :Impact_chain_model ,
@@ -606,21 +627,26 @@
 ###  http://www.semanticweb.org/samueleceol/ontologies/2023/0/untitled-ontology-23#Connection
 :Connection rdf:type owl:Class ;
             rdfs:subClassOf [ rdf:type owl:Restriction ;
-                              owl:onProperty :connectionFrom ;
+                              owl:onProperty [ owl:inverseOf :describedByConnection
+                                             ] ;
                               owl:someValuesFrom owl:Thing
                             ] ,
                             [ rdf:type owl:Restriction ;
-                              owl:onProperty :connectionTo ;
-                              owl:someValuesFrom owl:Thing
+                              owl:onProperty :ConnectionFrom ;
+                              owl:someValuesFrom rdfs:Literal
                             ] ,
                             [ rdf:type owl:Restriction ;
                               owl:onProperty :ConnectionLinkType ;
+                              owl:someValuesFrom rdfs:Literal
+                            ] ,
+                            [ rdf:type owl:Restriction ;
+                              owl:onProperty :ConnectionTo ;
                               owl:someValuesFrom rdfs:Literal
                             ] ;
             owl:disjointWith :Expert ,
                              :Expert_involvement ,
                              :Factor ,
-                             :FactorDescriptor ,
+                             :Factor_descriptor ,
                              :Farming_system ,
                              :Farming_system_sourcing ,
                              :Impact_chain_model ,
@@ -686,7 +712,7 @@
                         ] ;
         owl:disjointWith :Expert_involvement ,
                          :Factor ,
-                         :FactorDescriptor ,
+                         :Factor_descriptor ,
                          :Farming_system ,
                          :Farming_system_sourcing ,
                          :Impact_chain_model ,
@@ -716,7 +742,7 @@
                                       owl:someValuesFrom rdfs:Literal
                                     ] ;
                     owl:disjointWith :Factor ,
-                                     :FactorDescriptor ,
+                                     :Factor_descriptor ,
                                      :Farming_system ,
                                      :Farming_system_sourcing ,
                                      :Impact_chain_model ,
@@ -742,7 +768,7 @@
                           owl:onProperty :FactorType-1 ;
                           owl:someValuesFrom rdfs:Literal
                         ] ;
-        owl:disjointWith :FactorDescriptor ,
+        owl:disjointWith :Factor_descriptor ,
                          :Farming_system ,
                          :Farming_system_sourcing ,
                          :Impact_chain_model ,
@@ -753,21 +779,21 @@
                          :Soil .
 
 
-###  http://www.semanticweb.org/samueleceol/ontologies/2023/0/untitled-ontology-23#FactorDescriptor
-:FactorDescriptor rdf:type owl:Class ;
-                  rdfs:subClassOf [ rdf:type owl:Restriction ;
-                                    owl:onProperty [ owl:inverseOf :describedByFD
-                                                   ] ;
-                                    owl:someValuesFrom owl:Thing
-                                  ] ;
-                  owl:disjointWith :Farming_system ,
-                                   :Farming_system_sourcing ,
-                                   :Impact_chain_model ,
-                                   :Landscape ,
-                                   :Livelihood_source ,
-                                   :Location ,
-                                   :Resource ,
-                                   :Soil .
+###  http://www.semanticweb.org/samueleceol/ontologies/2023/0/untitled-ontology-23#Factor_descriptor
+:Factor_descriptor rdf:type owl:Class ;
+                   rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                     owl:onProperty [ owl:inverseOf :describedByFD
+                                                    ] ;
+                                     owl:someValuesFrom owl:Thing
+                                   ] ;
+                   owl:disjointWith :Farming_system ,
+                                    :Farming_system_sourcing ,
+                                    :Impact_chain_model ,
+                                    :Landscape ,
+                                    :Livelihood_source ,
+                                    :Location ,
+                                    :Resource ,
+                                    :Soil .
 
 
 ###  http://www.semanticweb.org/samueleceol/ontologies/2023/0/untitled-ontology-23#Farming_system
@@ -840,6 +866,10 @@
 :Impact_chain_model rdf:type owl:Class ;
                     rdfs:subClassOf [ rdf:type owl:Restriction ;
                                       owl:onProperty :characterisedByFactor ;
+                                      owl:someValuesFrom owl:Thing
+                                    ] ,
+                                    [ rdf:type owl:Restriction ;
+                                      owl:onProperty :describedByConnection ;
                                       owl:someValuesFrom owl:Thing
                                     ] ,
                                     [ rdf:type owl:Restriction ;
