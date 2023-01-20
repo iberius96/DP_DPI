@@ -164,41 +164,70 @@ source		SELECT fs_name, fs_macro_region, factor, type_1_label
 mappingId	Connection
 target		:connection/{id} a :Connection ; :ConnectionLinkType {link_type}^^xsd:string ; :ConnectionFrom {link_from}^^xsd:string ; :ConnectionTo {link_to}^^xsd:string ; :ConnectionDescription {description}^^xsd:string . 
 source		SELECT id, link_from, link_to, link_type, description
-			   FROM global_schema.connections
+			FROM global_schema.connections
 
 mappingId	OP: connectionFrom
 target		:connection/{id} :connectionFrom :factor/{fs_macro_region}/{fs_name}/{link_from} . 
-source		SELECT id, fs_name, fs_macro_region, link_from
-			   FROM global_schema.connections
+source		SELECT c.id, c.fs_name, c.fs_macro_region, c.link_from
+			FROM global_schema.connections c
+			JOIN (
+			      SELECT fs_name, fs_macro_region, factor, type_1_label
+			      FROM global_schema.fs_factors
+			      GROUP BY fs_name, fs_macro_region, factor, type_1_label) AS t
+			ON c.link_from = t.factor
+			AND c.fs_name = t.fs_name
+			AND c.fs_macro_region = t.fs_macro_region
 
 mappingId	OP: connectionTo
 target		:connection/{id} :connectionTo :factor/{fs_macro_region}/{fs_name}/{link_to} . 
-source		SELECT id, fs_name, fs_macro_region, link_to
-			   FROM global_schema.connections
+source		SELECT c.id, c.fs_name, c.fs_macro_region, c.link_to
+			FROM global_schema.connections c
+			JOIN (
+			      SELECT fs_name, fs_macro_region, factor, type_1_label
+			      FROM global_schema.fs_factors
+			      GROUP BY fs_name, fs_macro_region, factor, type_1_label) AS t
+			ON c.link_to = t.factor
+			AND c.fs_name = t.fs_name
+			AND c.fs_macro_region = t.fs_macro_region
 
 mappingId	OP: connectionSourcedFrom
-target		:connection/{connection_id} :commoditySourcedFrom :resource/{resource_id}/{resource_year}/{resource_number} . 
+target		:connection/{connection_id} :connectionSourcedFrom :resource/{resource_id}/{resource_year}/{resource_number} . 
 source		SELECT connection_id, resource_id, resource_year, resource_number
-			   FROM global_schema.connection_resources
+			FROM global_schema.connection_resources
 
 mappingId	Factor descriptor
 target		:factor_descriptor/{id} a :Factor_descriptor ; :FDDescription {description}^^xsd:string . 
 source		SELECT id, description
-			   FROM global_schema.fs_factors
+			FROM global_schema.fs_factors
 
 mappingId	OP: describedByFD
 target		:factor/{fs_macro_region}/{fs_name}/{factor} :describedByFD :factor_descriptor/{id} . 
 source		SELECT id, fs_name, fs_macro_region, factor
-			   FROM global_schema.fs_factors
+			FROM global_schema.fs_factors
 
 mappingId	OP: FDSourcedFrom
 target		:factor_descriptor/{fs_factor_id} :FDSourcedFrom :resource/{resource_id}/{resource_year}/{resource_number} . 
 source		SELECT fs_factor_id, resource_id, resource_year, resource_number
-			   FROM global_schema.fs_factor_resources
+			FROM global_schema.fs_factor_resources
 
 mappingId	OP: describedByConnection
 target		:impact_chain_model/{fs_macro_region}/{fs_name} :describedByConnection :connection/{id} . 
 source		SELECT id, fs_name, fs_macro_region
-			   FROM global_schema.connections
+			FROM global_schema.connections
+
+mappingId	DP: Connection Tag
+target		:connection/{connection_id} a :Connection ; :ConnectionTag {tag}^^xsd:string . 
+source		SELECT connection_id, tag
+			   FROM global_schema.connection_tags;
+
+mappingId	DP: Factor Descriptor Tag
+target		:factor_descriptor/{fs_factor_id} a :Factor_descriptor ; :FDTag {tag}^^xsd:string . 
+source		SELECT fs_factor_id, tag
+			   FROM global_schema.fs_factor_tags;
+
+mappingId	DP: Factor Descriptor Type-2
+target		:factor_descriptor/{fs_factor_id} a :Factor_descriptor ; :FDType-2 {type_2_label}^^xsd:string . 
+source		SELECT *
+			   FROM global_schema.fs_factor_type_2_assignments;
 ]]
 
