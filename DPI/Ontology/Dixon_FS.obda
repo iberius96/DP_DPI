@@ -171,9 +171,9 @@ target		:connection/{id} :connectionFrom :factor/{fs_macro_region}/{fs_name}/{li
 source		SELECT c.id, c.fs_name, c.fs_macro_region, c.link_from
 			FROM global_schema.connections c
 			JOIN (
-			      SELECT fs_name, fs_macro_region, factor, type_1_label
-			      FROM global_schema.fs_factors
-			      GROUP BY fs_name, fs_macro_region, factor, type_1_label) AS t
+			SELECT fs_name, fs_macro_region, factor, type_1_label
+			FROM global_schema.fs_factors
+			GROUP BY fs_name, fs_macro_region, factor, type_1_label) AS t
 			ON c.link_from = t.factor
 			AND c.fs_name = t.fs_name
 			AND c.fs_macro_region = t.fs_macro_region
@@ -183,9 +183,9 @@ target		:connection/{id} :connectionTo :factor/{fs_macro_region}/{fs_name}/{link
 source		SELECT c.id, c.fs_name, c.fs_macro_region, c.link_to
 			FROM global_schema.connections c
 			JOIN (
-			      SELECT fs_name, fs_macro_region, factor, type_1_label
-			      FROM global_schema.fs_factors
-			      GROUP BY fs_name, fs_macro_region, factor, type_1_label) AS t
+			SELECT fs_name, fs_macro_region, factor, type_1_label
+			FROM global_schema.fs_factors
+			GROUP BY fs_name, fs_macro_region, factor, type_1_label) AS t
 			ON c.link_to = t.factor
 			AND c.fs_name = t.fs_name
 			AND c.fs_macro_region = t.fs_macro_region
@@ -218,16 +218,16 @@ source		SELECT id, fs_name, fs_macro_region
 mappingId	DP: Connection Tag
 target		:connection/{connection_id} a :Connection ; :ConnectionTag {tag}^^xsd:string . 
 source		SELECT connection_id, tag
-			   FROM global_schema.connection_tags;
+			FROM global_schema.connection_tags;
 
 mappingId	DP: Factor Descriptor Tag
 target		:factor_descriptor/{fs_factor_id} a :Factor_descriptor ; :FDTag {tag}^^xsd:string . 
 source		SELECT fs_factor_id, tag
-			   FROM global_schema.fs_factor_tags;
+			FROM global_schema.fs_factor_tags;
 
 mappingId	DP: Factor Descriptor Type-2
 target		:factor_descriptor/{fs_factor_id} a :Factor_descriptor ; :FDType-2 {type_2_label}^^xsd:string . 
 source		SELECT *
-			   FROM global_schema.fs_factor_type_2_assignments;
+			FROM global_schema.fs_factor_type_2_assignments;
 ]]
 
