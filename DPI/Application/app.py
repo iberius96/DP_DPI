@@ -37,7 +37,12 @@ fs_fields_str = {
     'total_pop': 'Total population'
 }
 
+curr_fs = {}
+active_scopes = set()
+
 def app():
+    active_scopes.clear()
+
     put_markdown('# Let\'s explore some Farming Systems')
 
     with use_scope('dmr_scope'):
@@ -120,6 +125,9 @@ def process_fs_selection(dmr_label, fs_name):
 
     df_dict = sparql_dataframe.get(endpoint, q).iloc[0].to_dict()
 
+    curr_fs['dmr_label'] = dmr_label
+    curr_fs['fs_name'] = fs_name
+
     clear('dmr_scope')
     with use_scope('fs_scope', clear=True):
         put_markdown(f"Here are some details of the **{fs_name}** farming system that might be of interest to you.")
@@ -136,16 +144,47 @@ def process_fs_selection(dmr_label, fs_name):
 
                 if(key == 'irrigated_area'): put_markdown(f"**{fs_fields_str['irrigated_rainfed']}:** {df_dict['irrigated_rainfed']}")
 
-        df_landscape = get_fs_landscapes(dmr_label, fs_name)
+        df_landscape = get_fs_landscapes()
         if(len(df_landscape.index) > 0):
             put_markdown("### Landscapes")
             put_markdown(f"The **{fs_name}** farming system takes place in the following **landscapes**")
             for landscape in df_landscape['landscape_name'].to_numpy():
                 put_markdown(f" * {landscape}")
+    build_what_else_scope()
 
-        put_markdown("### What else?\nThere are more information related to this farming system, click one of the following categories to extend the search.")
+def build_countries_scope():
+    q = """
+    %s
 
-def get_fs_landscapes(dmr_label, fs_name):
+    select ?country_name ?country_iso_alpha_3 ?country_m49
+    where{
+    ?farming_system a :Farming_system ;
+        :FSName "%s" .
+
+    ?dixon_macro_region a :Dixon_macro_region ;
+        :DixonMRLabel "%s" .
+
+    ?country a :Country ;
+        :LocationName ?country_name ;
+        :CountryISOAlpha3 ?country_iso_alpha_3 ;
+        :UNLocationM49 ?country_m49 .
+
+    ?dixon_macro_region :hostsFarmingSystem ?farming_system  .
+    ?farming_system :foundInCountry ?country  .
+    }
+    """ % (q_prefix, curr_fs['fs_name'], curr_fs['dmr_label'])
+
+    clear('what_else_countries')
+    with use_scope('countries'):
+        active_scopes.add('countries')
+        df_countries = sparql_dataframe.get(endpoint, q)
+        #df_countries['Flag'] = df['Text'].apply(split_count)
+        put_markdown("### Countries\nHere are the countries associated with the farming system.")
+        put_html(df_countries.to_html(border=0))
+        build_hide_section_button('countries')
+    build_what_else_scope()
+
+def get_fs_landscapes():
     q = """
     %s
 
@@ -165,9 +204,23 @@ def get_fs_landscapes(dmr_label, fs_name):
     ?dixon_macro_region :hostsFarmingSystem ?farming_system  .
     ?farming_system :takesPlaceInLandscape ?landscape  .
     }
-    """ % (q_prefix, fs_name, dmr_label)
+    """ % (q_prefix, curr_fs['fs_name'], curr_fs['dmr_label'])
 
     return sparql_dataframe.get(endpoint, q)
+
+def build_what_else_scope():
+    remove('what_else')
+    with use_scope('what_else'):
+        put_markdown("### What else?\nThere are more information related to this farming system, click one of the following categories to extend the search.")
+        if('countries' not in active_scopes): put_button('Related countries', onclick=lambda: build_countries_scope(), color = 'light', outline = False)
+
+def build_hide_section_button(scope_id):
+    put_button('Hide section', onclick=lambda l_scope_id = scope_id: hide_scope(l_scope_id), color = 'light', outline = False)
+
+def hide_scope(scope_id):
+    remove(scope_id)
+    active_scopes.remove(scope_id)
+    build_what_else_scope()
 
 if __name__ == '__main__':
     parser = ArgumentParser()

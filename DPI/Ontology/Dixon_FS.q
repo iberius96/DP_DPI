@@ -67,3 +67,37 @@ where{
    ?dixon_macro_region :hostsFarmingSystem ?farming_system  .
    ?farming_system :takesPlaceInLandscape ?landscape  .
 }
+[QueryItem="Countries from FS"]
+PREFIX : <http://www.semanticweb.org/samueleceol/ontologies/2023/0/untitled-ontology-23#>
+
+select ?country_name ?country_iso_alpha_3 ?country_m49 ?intermediate_region_name ?intermediate_region_m49 ?sub_region_name ?sub_region_m49 ?region_name ?region_m49
+where{
+   ?farming_system a :Farming_system ;
+    :FSName ?fs_name .
+
+   ?dixon_macro_region a :Dixon_macro_region ;
+       :DixonMRLabel ?mr_label .
+
+   ?country a :Country ;
+    :LocationName ?country_name ;
+    :CountryISOAlpha3 ?country_iso_alpha_3 ;
+    :UNLocationM49 ?country_m49 .
+
+   ?dixon_macro_region :hostsFarmingSystem ?farming_system  .
+   ?farming_system :foundInCountry ?country  .
+
+   optional { ?country :countrySituatedInIR ?intermediate_region 
+	optional { ?intermediate_region :UNLocationM49 ?intermediate_region_m49 }
+	optional { ?intermediate_region :LocationName ?intermediate_region_name }
+    }
+
+   optional { ?country :countrySituatedInSubRegion ?sub_region 
+	optional { ?sub_region :UNLocationM49 ?sub_region_m49 }
+	optional { ?sub_region :LocationName ?sub_region_name }
+    }
+
+   optional { ?sub_region :subRegionSituatedInRegion ?region 
+	optional { ?region :UNLocationM49 ?region_m49 }
+	optional { ?region :LocationName ?region_name }
+    }
+}
