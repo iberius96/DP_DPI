@@ -132,10 +132,11 @@ def process_fs_selection(dmr_label, fs_name):
     with use_scope('fs_scope', clear=True):
         put_markdown(f"Here are some details of the **{fs_name}** farming system that might be of interest to you.")
 
+        build_experts_scope()
+
         if(df_dict['desc']):
             put_markdown(f"### {fs_fields_str['desc']}\n{df_dict['desc']}")
 
-        
         for key in fs_icons_urls:
             if((key == 'agro_eco_zone' and df_dict[key] != '') or
                 not math.isnan(df_dict[key])):
@@ -152,11 +153,47 @@ def process_fs_selection(dmr_label, fs_name):
                 put_markdown(f" * {landscape}")
     build_what_else_scope()
 
+def build_experts_scope():
+    q = """
+    %s
+
+    select ?expert_first_name ?expert_middle_name ?expert_last_name ?expert_email ?expert_domain ?expert_org
+    where{
+    ?farming_system a :Farming_system ;
+        :FSName "%s" .
+
+    ?dixon_macro_region a :Dixon_macro_region ;
+        :DixonMRLabel "%s" .
+
+    ?expert_inv a :Expert_involvement ;
+        :ExpertInvDomain ?expert_domain .
+
+    ?expert a :Expert ;
+        :ExpertFirstName ?expert_first_name ;
+        :ExpertLastName ?expert_last_name ;
+        :ExpertEmail ?expert_email ;
+        :ExpertOrganisation ?expert_org .
+
+    optional { ?expert :ExpertMiddleName ?expert_middle_name }
+
+    ?dixon_macro_region :hostsFarmingSystem ?farming_system  .
+    ?expert_inv :involvementInFarmingSystem ?farming_system .
+    ?expert_inv :involvementByExpert ?expert .
+    }
+    """ % (q_prefix, curr_fs['fs_name'], curr_fs['dmr_label'])
+    df_experts = sparql_dataframe.get(endpoint, q)
+
+    if(len(df_experts) > 0):
+        put_markdown("### Involved experts")
+        for i in range(len(df_experts)):
+            put_markdown(f"**{df_experts.loc[i, 'expert_domain']}:** {df_experts.loc[i, 'expert_last_name']}, {df_experts.loc[i, 'expert_first_name']} ({df_experts.loc[i, 'expert_email']})")
+            put_markdown(f"*{df_experts.loc[i, 'expert_org']}*")
+
 def build_countries_scope():
     q = """
     %s
 
-    select ?country_name ?country_iso_alpha_3 ?country_m49
+    select ?country_name ?country_iso_alpha_3 ?intermediate_region_name ?sub_region_name ?region_name
     where{
     ?farming_system a :Farming_system ;
         :FSName "%s" .
@@ -166,22 +203,65 @@ def build_countries_scope():
 
     ?country a :Country ;
         :LocationName ?country_name ;
-        :CountryISOAlpha3 ?country_iso_alpha_3 ;
-        :UNLocationM49 ?country_m49 .
+        :CountryISOAlpha3 ?country_iso_alpha_3 .
 
     ?dixon_macro_region :hostsFarmingSystem ?farming_system  .
     ?farming_system :foundInCountry ?country  .
+
+    optional { ?country :countrySituatedInIR ?intermediate_region 
+        optional { ?intermediate_region :LocationName ?intermediate_region_name }
+        }
+
+    optional { ?country :countrySituatedInSubRegion ?sub_region 
+        optional { ?sub_region :LocationName ?sub_region_name }
+        }
+
+    optional { ?sub_region :subRegionSituatedInRegion ?region 
+        optional { ?region :LocationName ?region_name }
+        }
     }
     """ % (q_prefix, curr_fs['fs_name'], curr_fs['dmr_label'])
 
-    clear('what_else_countries')
-    with use_scope('countries'):
+    #clear('what_else_countries')
+    with use_scope('countries', clear=True):
         active_scopes.add('countries')
         df_countries = sparql_dataframe.get(endpoint, q)
-        #df_countries['Flag'] = df['Text'].apply(split_count)
+        df_countries['Country'] = df_countries['country_name'] + ' (' + df_countries['country_iso_alpha_3'] + ')'
+        df_countries.rename(columns={'intermediate_region_name': 'Intermediate region', 'sub_region_name': 'Sub-region', 'region_name': 'Region'}, inplace = True)
+        df_countries = df_countries[['Country', 'Intermediate region', 'Sub-region', 'Region']]
+
         put_markdown("### Countries\nHere are the countries associated with the farming system.")
-        put_html(df_countries.to_html(border=0))
+        build_input_search('countries', df_countries, 'Country', 'Search country')
+        with use_scope('countries_table'): put_html(df_countries.to_html(border=0))
         build_hide_section_button('countries')
+    build_what_else_scope()
+
+def build_ls_scope():
+    q = """
+    %s
+
+    select ?ls_name
+    where{
+    ?farming_system a :Farming_system ;
+        :FSName "%s" .
+
+    ?dixon_macro_region a :Dixon_macro_region ;
+        :DixonMRLabel "%s" .
+
+    ?livelihood_source a :Livelihood_source ;
+        :LSName ?ls_name .
+
+    ?dixon_macro_region :hostsFarmingSystem ?farming_system  .
+    ?farming_system :reliesOnLivelihoodSource ?livelihood_source .
+    }
+    """ % (q_prefix, curr_fs['fs_name'], curr_fs['dmr_label'])
+
+    with use_scope('livelihood_sources', clear=True):
+        active_scopes.add('livelihood_sources')
+        df_ls = sparql_dataframe.get(endpoint, q)
+
+        put_markdown("### Livelihood sources\nThe farming system relies on the following livelihood sources.")
+        build_hide_section_button('livelihood_sources')
     build_what_else_scope()
 
 def get_fs_landscapes():
@@ -213,6 +293,7 @@ def build_what_else_scope():
     with use_scope('what_else'):
         put_markdown("### What else?\nThere are more information related to this farming system, click one of the following categories to extend the search.")
         if('countries' not in active_scopes): put_button('Related countries', onclick=lambda: build_countries_scope(), color = 'light', outline = False)
+        if('livelihood_sources' not in active_scopes): put_button('Livelihood sources', onclick=lambda: build_ls_scope(), color = 'light', outline = False)
 
 def build_hide_section_button(scope_id):
     put_button('Hide section', onclick=lambda l_scope_id = scope_id: hide_scope(l_scope_id), color = 'light', outline = False)
@@ -222,9 +303,21 @@ def hide_scope(scope_id):
     active_scopes.remove(scope_id)
     build_what_else_scope()
 
+def build_input_search(target_scope, target_df, target_field, placeholder_str):
+    put_input(target_scope + '_search', placeholder=placeholder_str)
+    put_button('Search', onclick=lambda l_target_scope = target_scope,
+                                        l_target_df = target_df,
+                                        l_target_field = target_field: filter_table(l_target_scope, l_target_df, l_target_field, pin[target_scope + '_search']))
+
+def filter_table(target_scope, target_df, target_field, field_val):
+    if(field_val): filtered_df = target_df[target_df[target_field].str.contains(field_val, na = False, case = False)]
+    else: filtered_df = target_df
+    with use_scope(target_scope + '_table', clear=True):
+        put_html(filtered_df.to_html(border=0))
+
 if __name__ == '__main__':
     parser = ArgumentParser()
     parser.add_argument('-p', '--port', default = 8080, type = int)
 
     args = parser.parse_args()
-    start_server(app, port = args.port)
+    start_server(app, port = args.port, auto_open_webbrowser=True)

@@ -70,7 +70,7 @@ where{
 [QueryItem="Countries from FS"]
 PREFIX : <http://www.semanticweb.org/samueleceol/ontologies/2023/0/untitled-ontology-23#>
 
-select ?country_name ?country_iso_alpha_3 ?country_m49 ?intermediate_region_name ?intermediate_region_m49 ?sub_region_name ?sub_region_m49 ?region_name ?region_m49
+select ?country_name ?country_iso_alpha_3 ?intermediate_region_name ?sub_region_name ?region_name
 where{
    ?farming_system a :Farming_system ;
     :FSName ?fs_name .
@@ -79,25 +79,98 @@ where{
        :DixonMRLabel ?mr_label .
 
    ?country a :Country ;
+    :LocationName "Thailand" ;
     :LocationName ?country_name ;
-    :CountryISOAlpha3 ?country_iso_alpha_3 ;
-    :UNLocationM49 ?country_m49 .
+    :CountryISOAlpha3 ?country_iso_alpha_3 .
 
    ?dixon_macro_region :hostsFarmingSystem ?farming_system  .
    ?farming_system :foundInCountry ?country  .
 
    optional { ?country :countrySituatedInIR ?intermediate_region 
-	optional { ?intermediate_region :UNLocationM49 ?intermediate_region_m49 }
 	optional { ?intermediate_region :LocationName ?intermediate_region_name }
     }
 
    optional { ?country :countrySituatedInSubRegion ?sub_region 
-	optional { ?sub_region :UNLocationM49 ?sub_region_m49 }
 	optional { ?sub_region :LocationName ?sub_region_name }
     }
 
    optional { ?sub_region :subRegionSituatedInRegion ?region 
-	optional { ?region :UNLocationM49 ?region_m49 }
 	optional { ?region :LocationName ?region_name }
     }
+}
+[QueryItem="Expert involvements from FS"]
+PREFIX : <http://www.semanticweb.org/samueleceol/ontologies/2023/0/untitled-ontology-23#>
+
+select ?expert_first_name ?expert_middle_name ?expert_last_name ?expert_email ?expert_domain ?expert_org
+where{
+   ?farming_system a :Farming_system ;
+    :FSName "Lowland Rice" .
+
+   ?dixon_macro_region a :Dixon_macro_region ;
+    :DixonMRLabel "EAP" .
+
+   ?expert_inv a :Expert_involvement ;
+    :ExpertInvDomain ?expert_domain .
+
+   ?expert a :Expert ;
+    :ExpertFirstName ?expert_first_name ;
+    :ExpertLastName ?expert_last_name ;
+    :ExpertEmail ?expert_email ;
+    :ExpertOrganisation ?expert_org .
+
+   optional { ?expert :ExpertMiddleName ?expert_middle_name }
+
+   ?dixon_macro_region :hostsFarmingSystem ?farming_system  .
+   ?expert_inv :involvementInFarmingSystem ?farming_system .
+   ?expert_inv :involvementByExpert ?expert .
+}
+[QueryItem="Livelihood sources from FS"]
+PREFIX : <http://www.semanticweb.org/samueleceol/ontologies/2023/0/untitled-ontology-23#>
+
+select ?ls_name
+where{
+   ?farming_system a :Farming_system ;
+    :FSName "Lowland Rice" .
+
+   ?dixon_macro_region a :Dixon_macro_region ;
+    :DixonMRLabel "EAP" .
+
+   ?livelihood_source a :Livelihood_source ;
+    :LSName ?ls_name .
+
+   ?dixon_macro_region :hostsFarmingSystem ?farming_system  .
+   ?farming_system :reliesOnLivelihoodSource ?livelihood_source .
+}
+[QueryItem="Commodities from livelihod source"]
+PREFIX : <http://www.semanticweb.org/samueleceol/ontologies/2023/0/untitled-ontology-23#>
+
+select ?c_name ?c_ncbi_taxo_name ?c_ncbi_taxo_id ?c_max_thi ?c_min_temp ?c_max_temp ?c_avg_temp ?c_min_prec ?c_max_prec ?c_avg_prec ?c_min_elev ?c_max_elev
+where{
+   ?farming_system a :Farming_system ;
+    :FSName "Lowland Rice" .
+
+   ?dixon_macro_region a :Dixon_macro_region ;
+    :DixonMRLabel "EAP" .
+
+   ?livelihood_source a :Livelihood_source ;
+    :LSName "Rice" .
+
+   ?commodity a :Commodity ;
+    :CommodityName ?c_name .
+
+    optional { ?commodity :CommodityNCBITaxonomyName ?c_ncbi_taxo_name }
+    optional { ?commodity :CommodityNCBITaxonomyID ?c_ncbi_taxo_id }
+    optional { ?commodity :CommodityMaxTHI ?c_max_thi }
+    optional { ?commodity :CommodityMinTemperature ?c_min_temp }
+    optional { ?commodity :CommodityMaxTemperature ?c_max_temp }
+    optional { ?commodity :CommodityAverageTemperature ?c_avg_temp }
+    optional { ?commodity :CommodityMinPrecipitation ?c_min_prec }
+    optional { ?commodity :CommodityMaxPrecipitation ?c_max_prec }
+    optional { ?commodity :CommodityAvgPrecipitation ?c_avg_prec }
+    optional { ?commodity :CommodityMinElevation ?c_min_elev }
+    optional { ?commodity :CommodityMaxElevation ?c_max_elev }
+
+   ?dixon_macro_region :hostsFarmingSystem ?farming_system  .
+   ?farming_system :reliesOnLivelihoodSource ?livelihood_source .
+   ?livelihood_source :producesCommodity ?commodity .
 }
