@@ -1,0 +1,1343 @@
+"Dependant","Referenced"
+"type-1_labels.csv.Type-1 label","fs_factors.csv.Type-1"
+"icm_resources.csv.Resource ID","resources.csv.Citation"
+"icm_resources.csv.Resource ID","fs_resources.csv.Resource ID"
+"icm_resources.csv.Resource ID","fs_factor_resources.csv.Citation"
+"icm_resources.csv.Resource ID","connection_resources.csv.Citation"
+"icm_resources.csv.Resource ID","commodity_resources.csv.Resource ID"
+"commodity_resources.csv.FS name","impact_chain_models.csv.Impact chain model"
+"commodity_resources.csv.FS name","fs_resources.csv.FS name"
+"commodity_resources.csv.FS name","fs_livelihood_sources.csv.FS name"
+"commodity_resources.csv.FS name","fs_factors.csv.FS name"
+"commodity_resources.csv.FS name","fs_country_assignments.csv.Farming system"
+"commodity_resources.csv.FS name","farming_systems.csv.Farming system"
+"commodity_resources.csv.FS name","expert_involvements.csv.FS name"
+"commodity_resources.csv.FS name","connections.csv.FS name"
+"commodity_resources.csv.FS name","commodities.csv.FS name"
+"connections.csv.Link type","connection_link_types.csv.Link type"
+"fs_country_assignments.csv.FS macro region","impact_chain_models.csv.FS macro region"
+"fs_country_assignments.csv.FS macro region","fs_resources.csv.FS macro region"
+"fs_country_assignments.csv.FS macro region","fs_livelihood_sources.csv.FS macro region"
+"fs_country_assignments.csv.FS macro region","fs_landscapes.csv.FS macro region"
+"fs_country_assignments.csv.FS macro region","fs_factors.csv.FS macro region"
+"fs_country_assignments.csv.FS macro region","farming_systems.csv.Macro region"
+"fs_country_assignments.csv.FS macro region","expert_involvements.csv.FS macro region"
+"fs_country_assignments.csv.FS macro region","dixon_macro_regions.csv.Label"
+"fs_country_assignments.csv.FS macro region","connections.csv.FS macro region"
+"fs_country_assignments.csv.FS macro region","commodity_soils.csv.FS macro region"
+"fs_country_assignments.csv.FS macro region","commodity_resources.csv.FS macro region"
+"fs_country_assignments.csv.FS macro region","commodities.csv.FS macro region"
+"connections.csv.FS macro region","impact_chain_models.csv.FS macro region"
+"connections.csv.FS macro region","fs_resources.csv.FS macro region"
+"connections.csv.FS macro region","fs_livelihood_sources.csv.FS macro region"
+"connections.csv.FS macro region","fs_landscapes.csv.FS macro region"
+"connections.csv.FS macro region","fs_factors.csv.FS macro region"
+"connections.csv.FS macro region","fs_country_assignments.csv.FS macro region"
+"connections.csv.FS macro region","farming_systems.csv.Macro region"
+"connections.csv.FS macro region","expert_involvements.csv.FS macro region"
+"connections.csv.FS macro region","dixon_macro_regions.csv.Label"
+"connections.csv.FS macro region","commodity_soils.csv.FS macro region"
+"connections.csv.FS macro region","commodity_resources.csv.FS macro region"
+"connections.csv.FS macro region","commodities.csv.FS macro region"
+"M49_Regions.csv.M49","M49_Sub-regions.csv.Region Code"
+"M49_Regions.csv.M49","fs_factors.csv.ID"
+"M49_Regions.csv.M49","fs_factor_type-2_assignments.csv.ID"
+"M49_Regions.csv.M49","fs_factor_tags.csv.ID"
+"M49_Regions.csv.M49","fs_factor_resources.csv.ID"
+"M49_Regions.csv.M49","connections.csv.ID"
+"M49_Regions.csv.M49","connection_tags.csv.ID"
+"M49_Regions.csv.M49","connection_resources.csv.ID"
+"M49_Intermediate_Regions.csv.Intermediate Region Code","M49_Countries.csv.Intermediate Region Code"
+"M49_Intermediate_Regions.csv.Intermediate Region Code","fs_factors.csv.ID"
+"M49_Intermediate_Regions.csv.Intermediate Region Code","fs_factor_tags.csv.ID"
+"M49_Intermediate_Regions.csv.Intermediate Region Code","connections.csv.ID"
+"M49_Intermediate_Regions.csv.Intermediate Region Code","connection_tags.csv.ID"
+"M49_Intermediate_Regions.csv.Intermediate Region Code","connection_resources.csv.ID"
+"icm_resources.csv.Resource number","resources.csv.Number"
+"icm_resources.csv.Resource number","fs_resources.csv.Resource number"
+"icm_resources.csv.Resource number","fs_factors.csv.ID"
+"icm_resources.csv.Resource number","fs_factor_type-2_assignments.csv.ID"
+"icm_resources.csv.Resource number","fs_factor_tags.csv.ID"
+"icm_resources.csv.Resource number","fs_factor_resources.csv.ID"
+"icm_resources.csv.Resource number","fs_factor_resources.csv.Number"
+"icm_resources.csv.Resource number","farming_systems.csv.Farm size (ha)"
+"icm_resources.csv.Resource number","experts.csv.ID"
+"icm_resources.csv.Resource number","expert_involvements.csv.Expert ID"
+"icm_resources.csv.Resource number","connections.csv.ID"
+"icm_resources.csv.Resource number","connection_tags.csv.ID"
+"icm_resources.csv.Resource number","connection_resources.csv.ID"
+"icm_resources.csv.Resource number","connection_resources.csv.Number"
+"icm_resources.csv.Resource number","commodities.csv.Min temperature  (°C)"
+"commodity_resources.csv.FS macro region","impact_chain_models.csv.FS macro region"
+"commodity_resources.csv.FS macro region","fs_resources.csv.FS macro region"
+"commodity_resources.csv.FS macro region","fs_livelihood_sources.csv.FS macro region"
+"commodity_resources.csv.FS macro region","fs_landscapes.csv.FS macro region"
+"commodity_resources.csv.FS macro region","fs_factors.csv.FS macro region"
+"commodity_resources.csv.FS macro region","fs_country_assignments.csv.FS macro region"
+"commodity_resources.csv.FS macro region","farming_systems.csv.Macro region"
+"commodity_resources.csv.FS macro region","expert_involvements.csv.FS macro region"
+"commodity_resources.csv.FS macro region","dixon_macro_regions.csv.Label"
+"commodity_resources.csv.FS macro region","connections.csv.FS macro region"
+"commodity_resources.csv.FS macro region","commodity_soils.csv.FS macro region"
+"commodity_resources.csv.FS macro region","commodities.csv.FS macro region"
+"fs_landscapes.csv.Farming system","impact_chain_models.csv.Impact chain model"
+"fs_landscapes.csv.Farming system","fs_resources.csv.FS name"
+"fs_landscapes.csv.Farming system","fs_livelihood_sources.csv.FS name"
+"fs_landscapes.csv.Farming system","fs_factors.csv.FS name"
+"fs_landscapes.csv.Farming system","fs_country_assignments.csv.Farming system"
+"fs_landscapes.csv.Farming system","farming_systems.csv.Farming system"
+"fs_landscapes.csv.Farming system","expert_involvements.csv.FS name"
+"fs_landscapes.csv.Farming system","connections.csv.FS name"
+"fs_landscapes.csv.Farming system","commodity_resources.csv.FS name"
+"fs_landscapes.csv.Farming system","commodities.csv.FS name"
+"commodity_soils.csv.Soil type","soils.csv.Soil type"
+"fs_landscapes.csv.FS macro region","impact_chain_models.csv.FS macro region"
+"fs_landscapes.csv.FS macro region","fs_resources.csv.FS macro region"
+"fs_landscapes.csv.FS macro region","fs_livelihood_sources.csv.FS macro region"
+"fs_landscapes.csv.FS macro region","fs_factors.csv.FS macro region"
+"fs_landscapes.csv.FS macro region","fs_country_assignments.csv.FS macro region"
+"fs_landscapes.csv.FS macro region","farming_systems.csv.Macro region"
+"fs_landscapes.csv.FS macro region","expert_involvements.csv.FS macro region"
+"fs_landscapes.csv.FS macro region","dixon_macro_regions.csv.Label"
+"fs_landscapes.csv.FS macro region","connections.csv.FS macro region"
+"fs_landscapes.csv.FS macro region","commodity_soils.csv.FS macro region"
+"fs_landscapes.csv.FS macro region","commodity_resources.csv.FS macro region"
+"fs_landscapes.csv.FS macro region","commodities.csv.FS macro region"
+"commodity_soils.csv.Name","commodity_resources.csv.Name"
+"commodity_soils.csv.Name","commodity_names.csv.Name"
+"commodity_soils.csv.Name","commodities.csv.Name"
+"commodity_resources.csv.Livelihood source","livelihood_sources.csv.Dominant livelihood source"
+"commodity_resources.csv.Livelihood source","fs_livelihood_sources.csv.Dominant livelihood source"
+"commodity_resources.csv.Livelihood source","commodities.csv.Livelihood source"
+"fs_factors.csv.FS name","impact_chain_models.csv.Impact chain model"
+"fs_factors.csv.FS name","fs_resources.csv.FS name"
+"fs_factors.csv.FS name","fs_livelihood_sources.csv.FS name"
+"fs_factors.csv.FS name","fs_country_assignments.csv.Farming system"
+"fs_factors.csv.FS name","farming_systems.csv.Farming system"
+"fs_factors.csv.FS name","expert_involvements.csv.FS name"
+"fs_factors.csv.FS name","connections.csv.FS name"
+"fs_factors.csv.FS name","commodity_resources.csv.FS name"
+"fs_factors.csv.FS name","commodities.csv.FS name"
+"icm_resources.csv.FS name","impact_chain_models.csv.Impact chain model"
+"icm_resources.csv.FS name","fs_resources.csv.FS name"
+"icm_resources.csv.FS name","fs_names.csv.Farming system"
+"icm_resources.csv.FS name","fs_livelihood_sources.csv.FS name"
+"icm_resources.csv.FS name","fs_landscapes.csv.Farming system"
+"icm_resources.csv.FS name","fs_factors.csv.FS name"
+"icm_resources.csv.FS name","fs_country_assignments.csv.Farming system"
+"icm_resources.csv.FS name","farming_systems.csv.Farming system"
+"icm_resources.csv.FS name","expert_involvements.csv.FS name"
+"icm_resources.csv.FS name","connections.csv.FS name"
+"icm_resources.csv.FS name","commodity_soils.csv.FS name"
+"icm_resources.csv.FS name","commodity_resources.csv.FS name"
+"icm_resources.csv.FS name","commodities.csv.FS name"
+"icm_resources.csv.FS macro region","impact_chain_models.csv.FS macro region"
+"icm_resources.csv.FS macro region","fs_resources.csv.FS macro region"
+"icm_resources.csv.FS macro region","fs_livelihood_sources.csv.FS macro region"
+"icm_resources.csv.FS macro region","fs_landscapes.csv.FS macro region"
+"icm_resources.csv.FS macro region","fs_factors.csv.FS macro region"
+"icm_resources.csv.FS macro region","fs_country_assignments.csv.FS macro region"
+"icm_resources.csv.FS macro region","farming_systems.csv.Macro region"
+"icm_resources.csv.FS macro region","expert_involvements.csv.FS macro region"
+"icm_resources.csv.FS macro region","dixon_macro_regions.csv.Label"
+"icm_resources.csv.FS macro region","connections.csv.FS macro region"
+"icm_resources.csv.FS macro region","commodity_soils.csv.FS macro region"
+"icm_resources.csv.FS macro region","commodity_resources.csv.FS macro region"
+"icm_resources.csv.FS macro region","commodities.csv.FS macro region"
+"commodities.csv.Max THI","fs_factors.csv.ID"
+"commodities.csv.Max THI","connections.csv.ID"
+"commodities.csv.Max THI","connection_tags.csv.ID"
+"commodities.csv.Max THI","connection_resources.csv.ID"
+"icm_resources.csv.Resource year","resources.csv.Year"
+"icm_resources.csv.Resource year","fs_resources.csv.Resource year"
+"icm_resources.csv.Resource year","fs_factor_resources.csv.Year"
+"icm_resources.csv.Resource year","connections.csv.ID"
+"icm_resources.csv.Resource year","connection_tags.csv.ID"
+"icm_resources.csv.Resource year","connection_resources.csv.ID"
+"icm_resources.csv.Resource year","connection_resources.csv.Year"
+"icm_resources.csv.Resource year","commodity_resources.csv.Resource year"
+"fs_livelihood_sources.csv.Dominant livelihood source","livelihood_sources.csv.Dominant livelihood source"
+"fs_resources.csv.FS name","impact_chain_models.csv.Impact chain model"
+"fs_resources.csv.FS name","fs_livelihood_sources.csv.FS name"
+"fs_resources.csv.FS name","fs_factors.csv.FS name"
+"fs_resources.csv.FS name","fs_country_assignments.csv.Farming system"
+"fs_resources.csv.FS name","farming_systems.csv.Farming system"
+"fs_resources.csv.FS name","expert_involvements.csv.FS name"
+"fs_resources.csv.FS name","connections.csv.FS name"
+"fs_resources.csv.FS name","commodity_resources.csv.FS name"
+"fs_resources.csv.FS name","commodities.csv.FS name"
+"impact_chain_models.csv.FS macro region","fs_resources.csv.FS macro region"
+"impact_chain_models.csv.FS macro region","fs_livelihood_sources.csv.FS macro region"
+"impact_chain_models.csv.FS macro region","fs_landscapes.csv.FS macro region"
+"impact_chain_models.csv.FS macro region","fs_factors.csv.FS macro region"
+"impact_chain_models.csv.FS macro region","fs_country_assignments.csv.FS macro region"
+"impact_chain_models.csv.FS macro region","farming_systems.csv.Macro region"
+"impact_chain_models.csv.FS macro region","expert_involvements.csv.FS macro region"
+"impact_chain_models.csv.FS macro region","dixon_macro_regions.csv.Label"
+"impact_chain_models.csv.FS macro region","connections.csv.FS macro region"
+"impact_chain_models.csv.FS macro region","commodity_soils.csv.FS macro region"
+"impact_chain_models.csv.FS macro region","commodity_resources.csv.FS macro region"
+"impact_chain_models.csv.FS macro region","commodities.csv.FS macro region"
+"commodity_resources.csv.Resource ID","resources.csv.Citation"
+"fs_resources.csv.FS macro region","impact_chain_models.csv.FS macro region"
+"fs_resources.csv.FS macro region","fs_livelihood_sources.csv.FS macro region"
+"fs_resources.csv.FS macro region","fs_landscapes.csv.FS macro region"
+"fs_resources.csv.FS macro region","fs_factors.csv.FS macro region"
+"fs_resources.csv.FS macro region","fs_country_assignments.csv.FS macro region"
+"fs_resources.csv.FS macro region","farming_systems.csv.Macro region"
+"fs_resources.csv.FS macro region","expert_involvements.csv.FS macro region"
+"fs_resources.csv.FS macro region","dixon_macro_regions.csv.Label"
+"fs_resources.csv.FS macro region","connections.csv.FS macro region"
+"fs_resources.csv.FS macro region","commodity_soils.csv.FS macro region"
+"fs_resources.csv.FS macro region","commodity_resources.csv.FS macro region"
+"fs_resources.csv.FS macro region","commodities.csv.FS macro region"
+"commodity_soils.csv.Livelihood source","livelihood_sources.csv.Dominant livelihood source"
+"commodity_soils.csv.Livelihood source","fs_livelihood_sources.csv.Dominant livelihood source"
+"commodity_soils.csv.Livelihood source","commodity_resources.csv.Livelihood source"
+"commodity_soils.csv.Livelihood source","commodities.csv.Livelihood source"
+"fs_factors.csv.Factor","factors.csv.Label"
+"M49_Sub-regions.csv.Sub-region Code","M49_Countries.csv.Sub-region Code"
+"M49_Sub-regions.csv.Sub-region Code","fs_factors.csv.ID"
+"M49_Sub-regions.csv.Sub-region Code","connections.csv.ID"
+"M49_Sub-regions.csv.Sub-region Code","connection_tags.csv.ID"
+"dixon_macro_regions.csv.Label","impact_chain_models.csv.FS macro region"
+"dixon_macro_regions.csv.Label","fs_resources.csv.FS macro region"
+"dixon_macro_regions.csv.Label","fs_livelihood_sources.csv.FS macro region"
+"dixon_macro_regions.csv.Label","fs_landscapes.csv.FS macro region"
+"dixon_macro_regions.csv.Label","fs_factors.csv.FS macro region"
+"dixon_macro_regions.csv.Label","fs_country_assignments.csv.FS macro region"
+"dixon_macro_regions.csv.Label","farming_systems.csv.Macro region"
+"dixon_macro_regions.csv.Label","expert_involvements.csv.FS macro region"
+"dixon_macro_regions.csv.Label","connections.csv.FS macro region"
+"dixon_macro_regions.csv.Label","commodity_soils.csv.FS macro region"
+"dixon_macro_regions.csv.Label","commodity_resources.csv.FS macro region"
+"dixon_macro_regions.csv.Label","commodities.csv.FS macro region"
+"commodity_soils.csv.FS name","impact_chain_models.csv.Impact chain model"
+"commodity_soils.csv.FS name","fs_resources.csv.FS name"
+"commodity_soils.csv.FS name","fs_livelihood_sources.csv.FS name"
+"commodity_soils.csv.FS name","fs_factors.csv.FS name"
+"commodity_soils.csv.FS name","fs_country_assignments.csv.Farming system"
+"commodity_soils.csv.FS name","farming_systems.csv.Farming system"
+"commodity_soils.csv.FS name","expert_involvements.csv.FS name"
+"commodity_soils.csv.FS name","connections.csv.FS name"
+"commodity_soils.csv.FS name","commodity_resources.csv.FS name"
+"commodity_soils.csv.FS name","commodities.csv.FS name"
+"M49_Intermediate_Regions.csv.Sub-region Code","M49_Sub-regions.csv.Sub-region Code"
+"M49_Intermediate_Regions.csv.Sub-region Code","M49_Countries.csv.Sub-region Code"
+"M49_Intermediate_Regions.csv.Sub-region Code","fs_factors.csv.ID"
+"M49_Intermediate_Regions.csv.Sub-region Code","connections.csv.ID"
+"M49_Intermediate_Regions.csv.Sub-region Code","connection_tags.csv.ID"
+"connection_tags.csv.Tags","tags.csv.Tags"
+"fs_factor_resources.csv.Citation","resources.csv.Citation"
+"M49_Countries.csv.M49 Code","fs_factors.csv.ID"
+"M49_Countries.csv.M49 Code","connections.csv.ID"
+"fs_factor_resources.csv.Number","resources.csv.Number"
+"fs_factor_resources.csv.Number","fs_factors.csv.ID"
+"fs_factor_resources.csv.Number","fs_factor_type-2_assignments.csv.ID"
+"fs_factor_resources.csv.Number","fs_factor_resources.csv.ID"
+"fs_factor_resources.csv.Number","connections.csv.ID"
+"fs_factor_resources.csv.Number","connection_tags.csv.ID"
+"fs_factor_resources.csv.Number","connection_resources.csv.Number"
+"farming_systems.csv.Farming system","impact_chain_models.csv.Impact chain model"
+"farming_systems.csv.Farming system","fs_resources.csv.FS name"
+"farming_systems.csv.Farming system","fs_livelihood_sources.csv.FS name"
+"farming_systems.csv.Farming system","fs_factors.csv.FS name"
+"farming_systems.csv.Farming system","fs_country_assignments.csv.Farming system"
+"farming_systems.csv.Farming system","expert_involvements.csv.FS name"
+"farming_systems.csv.Farming system","connections.csv.FS name"
+"farming_systems.csv.Farming system","commodity_resources.csv.FS name"
+"farming_systems.csv.Farming system","commodities.csv.FS name"
+"resources.csv.Number","fs_factors.csv.ID"
+"resources.csv.Number","fs_factor_type-2_assignments.csv.ID"
+"resources.csv.Number","fs_factor_resources.csv.ID"
+"resources.csv.Number","fs_factor_resources.csv.Number"
+"resources.csv.Number","connections.csv.ID"
+"resources.csv.Number","connection_tags.csv.ID"
+"resources.csv.Number","connection_resources.csv.Number"
+"expert_involvements.csv.FS macro region","impact_chain_models.csv.FS macro region"
+"expert_involvements.csv.FS macro region","fs_resources.csv.FS macro region"
+"expert_involvements.csv.FS macro region","fs_livelihood_sources.csv.FS macro region"
+"expert_involvements.csv.FS macro region","fs_landscapes.csv.FS macro region"
+"expert_involvements.csv.FS macro region","fs_factors.csv.FS macro region"
+"expert_involvements.csv.FS macro region","fs_country_assignments.csv.FS macro region"
+"expert_involvements.csv.FS macro region","farming_systems.csv.Macro region"
+"expert_involvements.csv.FS macro region","dixon_macro_regions.csv.Label"
+"expert_involvements.csv.FS macro region","connections.csv.FS macro region"
+"expert_involvements.csv.FS macro region","commodity_soils.csv.FS macro region"
+"expert_involvements.csv.FS macro region","commodity_resources.csv.FS macro region"
+"expert_involvements.csv.FS macro region","commodities.csv.FS macro region"
+"expert_involvements.csv.Expert ID","resources.csv.Number"
+"expert_involvements.csv.Expert ID","fs_factors.csv.ID"
+"expert_involvements.csv.Expert ID","fs_factor_type-2_assignments.csv.ID"
+"expert_involvements.csv.Expert ID","fs_factor_resources.csv.ID"
+"expert_involvements.csv.Expert ID","fs_factor_resources.csv.Number"
+"expert_involvements.csv.Expert ID","experts.csv.ID"
+"expert_involvements.csv.Expert ID","connections.csv.ID"
+"expert_involvements.csv.Expert ID","connection_tags.csv.ID"
+"expert_involvements.csv.Expert ID","connection_resources.csv.Number"
+"experts.csv.Organisation","organisations.csv.Organisation"
+"connection_resources.csv.Year","resources.csv.Year"
+"connection_resources.csv.Year","connections.csv.ID"
+"connection_resources.csv.Year","connection_tags.csv.ID"
+"connection_resources.csv.Year","connection_resources.csv.ID"
+"expert_involvements.csv.Domain","domains.csv.Domain"
+"fs_factor_type-2_assignments.csv.Type2","tags.csv.Tags"
+"connection_resources.csv.Number","resources.csv.Number"
+"connection_resources.csv.Number","fs_factors.csv.ID"
+"connection_resources.csv.Number","fs_factor_type-2_assignments.csv.ID"
+"connection_resources.csv.Number","fs_factor_resources.csv.ID"
+"connection_resources.csv.Number","fs_factor_resources.csv.Number"
+"connection_resources.csv.Number","connections.csv.ID"
+"connection_resources.csv.Number","connection_tags.csv.ID"
+"fs_factor_type-2_assignments.csv.ID","fs_factors.csv.ID"
+"fs_factor_tags.csv.ID","fs_factors.csv.ID"
+"livelihood_sources.csv.Dominant livelihood source","fs_livelihood_sources.csv.Dominant livelihood source"
+"M49_Countries.csv.Intermediate Region Code","M49_Intermediate_Regions.csv.Intermediate Region Code"
+"M49_Countries.csv.Intermediate Region Code","fs_factors.csv.ID"
+"M49_Countries.csv.Intermediate Region Code","fs_factor_type-2_assignments.csv.ID"
+"M49_Countries.csv.Intermediate Region Code","fs_factor_tags.csv.ID"
+"M49_Countries.csv.Intermediate Region Code","connections.csv.ID"
+"M49_Countries.csv.Intermediate Region Code","connection_tags.csv.ID"
+"M49_Countries.csv.Intermediate Region Code","connection_resources.csv.ID"
+"connection_resources.csv.Citation","resources.csv.Citation"
+"fs_factor_tags.csv.Tags","tags.csv.Tags"
+"fs_resources.csv.Resource ID","resources.csv.Citation"
+"connection_link_types.csv.Link type","connections.csv.Link type"
+"commodity_resources.csv.Resource number","resources.csv.Number"
+"commodity_resources.csv.Resource number","fs_factors.csv.ID"
+"commodity_resources.csv.Resource number","fs_factor_type-2_assignments.csv.ID"
+"commodity_resources.csv.Resource number","fs_factor_resources.csv.ID"
+"commodity_resources.csv.Resource number","fs_factor_resources.csv.Number"
+"commodity_resources.csv.Resource number","experts.csv.ID"
+"commodity_resources.csv.Resource number","expert_involvements.csv.Expert ID"
+"commodity_resources.csv.Resource number","connections.csv.ID"
+"commodity_resources.csv.Resource number","connection_tags.csv.ID"
+"commodity_resources.csv.Resource number","connection_resources.csv.Number"
+"fs_factors.csv.Type-1","type-1_labels.csv.Type-1 label"
+"commodities.csv.Name","commodity_names.csv.Name"
+"commodities.csv.Livelihood source","livelihood_sources.csv.Dominant livelihood source"
+"commodities.csv.Livelihood source","fs_livelihood_sources.csv.Dominant livelihood source"
+"commodities.csv.FS macro region","impact_chain_models.csv.FS macro region"
+"commodities.csv.FS macro region","fs_resources.csv.FS macro region"
+"commodities.csv.FS macro region","fs_livelihood_sources.csv.FS macro region"
+"commodities.csv.FS macro region","fs_landscapes.csv.FS macro region"
+"commodities.csv.FS macro region","fs_factors.csv.FS macro region"
+"commodities.csv.FS macro region","fs_country_assignments.csv.FS macro region"
+"commodities.csv.FS macro region","farming_systems.csv.Macro region"
+"commodities.csv.FS macro region","expert_involvements.csv.FS macro region"
+"commodities.csv.FS macro region","dixon_macro_regions.csv.Label"
+"commodities.csv.FS macro region","connections.csv.FS macro region"
+"commodities.csv.FS macro region","commodity_soils.csv.FS macro region"
+"commodities.csv.FS macro region","commodity_resources.csv.FS macro region"
+"fs_resources.csv.Field","fs_resource_fields.csv.Resource field"
+"commodity_resources.csv.Resource year","resources.csv.Year"
+"commodity_resources.csv.Resource year","connections.csv.ID"
+"commodity_resources.csv.Resource year","connection_tags.csv.ID"
+"commodity_resources.csv.Resource year","connection_resources.csv.ID"
+"commodity_names.csv.Name","commodities.csv.Name"
+"fs_livelihood_sources.csv.FS macro region","impact_chain_models.csv.FS macro region"
+"fs_livelihood_sources.csv.FS macro region","fs_resources.csv.FS macro region"
+"fs_livelihood_sources.csv.FS macro region","fs_landscapes.csv.FS macro region"
+"fs_livelihood_sources.csv.FS macro region","fs_factors.csv.FS macro region"
+"fs_livelihood_sources.csv.FS macro region","fs_country_assignments.csv.FS macro region"
+"fs_livelihood_sources.csv.FS macro region","farming_systems.csv.Macro region"
+"fs_livelihood_sources.csv.FS macro region","expert_involvements.csv.FS macro region"
+"fs_livelihood_sources.csv.FS macro region","dixon_macro_regions.csv.Label"
+"fs_livelihood_sources.csv.FS macro region","connections.csv.FS macro region"
+"fs_livelihood_sources.csv.FS macro region","commodity_soils.csv.FS macro region"
+"fs_livelihood_sources.csv.FS macro region","commodity_resources.csv.FS macro region"
+"fs_livelihood_sources.csv.FS macro region","commodities.csv.FS macro region"
+"fs_livelihood_sources.csv.FS name","impact_chain_models.csv.Impact chain model"
+"fs_livelihood_sources.csv.FS name","fs_resources.csv.FS name"
+"fs_livelihood_sources.csv.FS name","fs_factors.csv.FS name"
+"fs_livelihood_sources.csv.FS name","fs_country_assignments.csv.Farming system"
+"fs_livelihood_sources.csv.FS name","farming_systems.csv.Farming system"
+"fs_livelihood_sources.csv.FS name","expert_involvements.csv.FS name"
+"fs_livelihood_sources.csv.FS name","connections.csv.FS name"
+"fs_livelihood_sources.csv.FS name","commodity_resources.csv.FS name"
+"fs_livelihood_sources.csv.FS name","commodities.csv.FS name"
+"fs_resource_fields.csv.Resource field","fs_resources.csv.Field"
+"fs_resources.csv.Resource number","resources.csv.Number"
+"fs_resources.csv.Resource number","fs_factors.csv.ID"
+"fs_resources.csv.Resource number","fs_factor_type-2_assignments.csv.ID"
+"fs_resources.csv.Resource number","fs_factor_resources.csv.ID"
+"fs_resources.csv.Resource number","fs_factor_resources.csv.Number"
+"fs_resources.csv.Resource number","experts.csv.ID"
+"fs_resources.csv.Resource number","expert_involvements.csv.Expert ID"
+"fs_resources.csv.Resource number","connections.csv.ID"
+"fs_resources.csv.Resource number","connection_tags.csv.ID"
+"fs_resources.csv.Resource number","connection_resources.csv.Number"
+"fs_resources.csv.Resource year","resources.csv.Year"
+"fs_resources.csv.Resource year","fs_factor_resources.csv.Year"
+"fs_resources.csv.Resource year","connections.csv.ID"
+"fs_resources.csv.Resource year","connection_tags.csv.ID"
+"fs_resources.csv.Resource year","connection_resources.csv.ID"
+"fs_resources.csv.Resource year","connection_resources.csv.Year"
+"fs_resources.csv.Resource year","commodity_resources.csv.Resource year"
+"commodities.csv.FS name","impact_chain_models.csv.Impact chain model"
+"commodities.csv.FS name","fs_resources.csv.FS name"
+"commodities.csv.FS name","fs_livelihood_sources.csv.FS name"
+"commodities.csv.FS name","fs_factors.csv.FS name"
+"commodities.csv.FS name","fs_country_assignments.csv.Farming system"
+"commodities.csv.FS name","farming_systems.csv.Farming system"
+"commodities.csv.FS name","expert_involvements.csv.FS name"
+"commodities.csv.FS name","connections.csv.FS name"
+"commodities.csv.FS name","commodity_resources.csv.FS name"
+"connection_tags.csv.ID","connections.csv.ID"
+"commodities.csv.NCBITaxonID","taxonomies.csv.NCBITaxonID"
+"commodity_soils.csv.FS macro region","impact_chain_models.csv.FS macro region"
+"commodity_soils.csv.FS macro region","fs_resources.csv.FS macro region"
+"commodity_soils.csv.FS macro region","fs_livelihood_sources.csv.FS macro region"
+"commodity_soils.csv.FS macro region","fs_landscapes.csv.FS macro region"
+"commodity_soils.csv.FS macro region","fs_factors.csv.FS macro region"
+"commodity_soils.csv.FS macro region","fs_country_assignments.csv.FS macro region"
+"commodity_soils.csv.FS macro region","farming_systems.csv.Macro region"
+"commodity_soils.csv.FS macro region","expert_involvements.csv.FS macro region"
+"commodity_soils.csv.FS macro region","dixon_macro_regions.csv.Label"
+"commodity_soils.csv.FS macro region","connections.csv.FS macro region"
+"commodity_soils.csv.FS macro region","commodity_resources.csv.FS macro region"
+"commodity_soils.csv.FS macro region","commodities.csv.FS macro region"
+"commodity_resources.csv.Name","commodity_names.csv.Name"
+"commodity_resources.csv.Name","commodities.csv.Name"
+"organisations.csv.Organisation","experts.csv.Organisation"
+"fs_factors.csv.FS macro region","impact_chain_models.csv.FS macro region"
+"fs_factors.csv.FS macro region","fs_resources.csv.FS macro region"
+"fs_factors.csv.FS macro region","fs_livelihood_sources.csv.FS macro region"
+"fs_factors.csv.FS macro region","fs_landscapes.csv.FS macro region"
+"fs_factors.csv.FS macro region","fs_country_assignments.csv.FS macro region"
+"fs_factors.csv.FS macro region","farming_systems.csv.Macro region"
+"fs_factors.csv.FS macro region","expert_involvements.csv.FS macro region"
+"fs_factors.csv.FS macro region","dixon_macro_regions.csv.Label"
+"fs_factors.csv.FS macro region","connections.csv.FS macro region"
+"fs_factors.csv.FS macro region","commodity_soils.csv.FS macro region"
+"fs_factors.csv.FS macro region","commodity_resources.csv.FS macro region"
+"fs_factors.csv.FS macro region","commodities.csv.FS macro region"
+"farming_systems.csv.Macro region","impact_chain_models.csv.FS macro region"
+"farming_systems.csv.Macro region","fs_resources.csv.FS macro region"
+"farming_systems.csv.Macro region","fs_livelihood_sources.csv.FS macro region"
+"farming_systems.csv.Macro region","fs_landscapes.csv.FS macro region"
+"farming_systems.csv.Macro region","fs_factors.csv.FS macro region"
+"farming_systems.csv.Macro region","fs_country_assignments.csv.FS macro region"
+"farming_systems.csv.Macro region","expert_involvements.csv.FS macro region"
+"farming_systems.csv.Macro region","dixon_macro_regions.csv.Label"
+"farming_systems.csv.Macro region","connections.csv.FS macro region"
+"farming_systems.csv.Macro region","commodity_soils.csv.FS macro region"
+"farming_systems.csv.Macro region","commodity_resources.csv.FS macro region"
+"farming_systems.csv.Macro region","commodities.csv.FS macro region"
+"fs_factor_resources.csv.ID","fs_factors.csv.ID"
+"impact_chain_models.csv.Impact chain model","fs_resources.csv.FS name"
+"impact_chain_models.csv.Impact chain model","fs_livelihood_sources.csv.FS name"
+"impact_chain_models.csv.Impact chain model","fs_factors.csv.FS name"
+"impact_chain_models.csv.Impact chain model","fs_country_assignments.csv.Farming system"
+"impact_chain_models.csv.Impact chain model","farming_systems.csv.Farming system"
+"impact_chain_models.csv.Impact chain model","expert_involvements.csv.FS name"
+"impact_chain_models.csv.Impact chain model","connections.csv.FS name"
+"impact_chain_models.csv.Impact chain model","commodity_resources.csv.FS name"
+"impact_chain_models.csv.Impact chain model","commodities.csv.FS name"
+"connection_resources.csv.ID","connections.csv.ID"
+"M49_Countries.csv.Sub-region Code","M49_Sub-regions.csv.Sub-region Code"
+"M49_Countries.csv.Sub-region Code","fs_factors.csv.ID"
+"M49_Countries.csv.Sub-region Code","connections.csv.ID"
+"M49_Countries.csv.Sub-region Code","connection_tags.csv.ID"
+"fs_factor_resources.csv.Year","resources.csv.Year"
+"fs_factor_resources.csv.Year","connections.csv.ID"
+"fs_factor_resources.csv.Year","connection_tags.csv.ID"
+"fs_factor_resources.csv.Year","connection_resources.csv.ID"
+"fs_factor_resources.csv.Year","connection_resources.csv.Year"
+"connections.csv.To","fs_factors.csv.Factor"
+"connections.csv.To","factors.csv.Label"
+"connections.csv.FS name","impact_chain_models.csv.Impact chain model"
+"connections.csv.FS name","fs_resources.csv.FS name"
+"connections.csv.FS name","fs_livelihood_sources.csv.FS name"
+"connections.csv.FS name","fs_factors.csv.FS name"
+"connections.csv.FS name","fs_country_assignments.csv.Farming system"
+"connections.csv.FS name","farming_systems.csv.Farming system"
+"connections.csv.FS name","expert_involvements.csv.FS name"
+"connections.csv.FS name","commodity_resources.csv.FS name"
+"connections.csv.FS name","commodities.csv.FS name"
+"resources.csv.Year","connections.csv.ID"
+"resources.csv.Year","connection_tags.csv.ID"
+"resources.csv.Year","connection_resources.csv.ID"
+"expert_involvements.csv.FS name","impact_chain_models.csv.Impact chain model"
+"expert_involvements.csv.FS name","fs_resources.csv.FS name"
+"expert_involvements.csv.FS name","fs_livelihood_sources.csv.FS name"
+"expert_involvements.csv.FS name","fs_factors.csv.FS name"
+"expert_involvements.csv.FS name","fs_country_assignments.csv.Farming system"
+"expert_involvements.csv.FS name","farming_systems.csv.Farming system"
+"expert_involvements.csv.FS name","connections.csv.FS name"
+"expert_involvements.csv.FS name","commodity_resources.csv.FS name"
+"expert_involvements.csv.FS name","commodities.csv.FS name"
+"M49_Sub-regions.csv.Region Code","M49_Regions.csv.M49"
+"M49_Sub-regions.csv.Region Code","fs_factors.csv.ID"
+"M49_Sub-regions.csv.Region Code","fs_factor_type-2_assignments.csv.ID"
+"M49_Sub-regions.csv.Region Code","fs_factor_tags.csv.ID"
+"M49_Sub-regions.csv.Region Code","fs_factor_resources.csv.ID"
+"M49_Sub-regions.csv.Region Code","connections.csv.ID"
+"M49_Sub-regions.csv.Region Code","connection_tags.csv.ID"
+"M49_Sub-regions.csv.Region Code","connection_resources.csv.ID"
+"domains.csv.Domain","expert_involvements.csv.Domain"
+"experts.csv.Author ID","type-1_labels.csv.Type-1 label"
+"experts.csv.Author ID","taxonomies.csv.NCBITaxonID"
+"experts.csv.Author ID","taxonomies.csv.NCBITaxonName"
+"experts.csv.Author ID","tags.csv.Tags"
+"experts.csv.Author ID","soils.csv.Soil type"
+"experts.csv.Author ID","resources.csv.Citation"
+"experts.csv.Author ID","resources.csv.Year"
+"experts.csv.Author ID","resources.csv.Number"
+"experts.csv.Author ID","resources.csv.Title"
+"experts.csv.Author ID","resources.csv.Resource type"
+"experts.csv.Author ID","resources.csv.URL"
+"experts.csv.Author ID","resources_type.csv.Type"
+"experts.csv.Author ID","organisations.csv.Organisation"
+"experts.csv.Author ID","M49_Sub-regions.csv.Sub-region Code"
+"experts.csv.Author ID","M49_Sub-regions.csv.Region Code"
+"experts.csv.Author ID","M49_Sub-regions.csv.Sub-region Name"
+"experts.csv.Author ID","M49_Regions.csv.M49"
+"experts.csv.Author ID","M49_Regions.csv.Name"
+"experts.csv.Author ID","M49_Intermediate_Regions.csv.Intermediate Region Code"
+"experts.csv.Author ID","M49_Intermediate_Regions.csv.Sub-region Code"
+"experts.csv.Author ID","M49_Intermediate_Regions.csv.Intermediate Region Name"
+"experts.csv.Author ID","M49_Countries.csv.M49 Code"
+"experts.csv.Author ID","M49_Countries.csv.Sub-region Code"
+"experts.csv.Author ID","M49_Countries.csv.Intermediate Region Code"
+"experts.csv.Author ID","M49_Countries.csv.Country or Area"
+"experts.csv.Author ID","M49_Countries.csv.ISO-alpha3 Code"
+"experts.csv.Author ID","livelihood_sources.csv.Dominant livelihood source"
+"experts.csv.Author ID","landscapes.csv.Landscape"
+"experts.csv.Author ID","impact_chain_models.csv.Impact chain model"
+"experts.csv.Author ID","impact_chain_models.csv.FS macro region"
+"experts.csv.Author ID","impact_chain_models.csv.Description"
+"experts.csv.Author ID","icm_resources.csv.FS name"
+"experts.csv.Author ID","icm_resources.csv.FS macro region"
+"experts.csv.Author ID","icm_resources.csv.Resource ID"
+"experts.csv.Author ID","icm_resources.csv.Resource year"
+"experts.csv.Author ID","icm_resources.csv.Resource number"
+"experts.csv.Author ID","fs_resources.csv.FS name"
+"experts.csv.Author ID","fs_resources.csv.FS macro region"
+"experts.csv.Author ID","fs_resources.csv.Field"
+"experts.csv.Author ID","fs_resources.csv.Resource ID"
+"experts.csv.Author ID","fs_resources.csv.Resource year"
+"experts.csv.Author ID","fs_resources.csv.Resource number"
+"experts.csv.Author ID","fs_resource_fields.csv.Resource field"
+"experts.csv.Author ID","fs_names.csv.Farming system"
+"experts.csv.Author ID","fs_livelihood_sources.csv.FS name"
+"experts.csv.Author ID","fs_livelihood_sources.csv.FS macro region"
+"experts.csv.Author ID","fs_livelihood_sources.csv.Dominant livelihood source"
+"experts.csv.Author ID","fs_landscapes.csv.Farming system"
+"experts.csv.Author ID","fs_landscapes.csv.FS macro region"
+"experts.csv.Author ID","fs_landscapes.csv.Landscape"
+"experts.csv.Author ID","fs_landscapes.csv.Description"
+"experts.csv.Author ID","fs_factors.csv.ID"
+"experts.csv.Author ID","fs_factors.csv.FS name"
+"experts.csv.Author ID","fs_factors.csv.FS macro region"
+"experts.csv.Author ID","fs_factors.csv.Factor"
+"experts.csv.Author ID","fs_factors.csv.Type-1"
+"experts.csv.Author ID","fs_factors.csv.Description"
+"experts.csv.Author ID","fs_factor_type-2_assignments.csv.ID"
+"experts.csv.Author ID","fs_factor_type-2_assignments.csv.Type2"
+"experts.csv.Author ID","fs_factor_tags.csv.ID"
+"experts.csv.Author ID","fs_factor_tags.csv.Tags"
+"experts.csv.Author ID","fs_factor_resources.csv.ID"
+"experts.csv.Author ID","fs_factor_resources.csv.Citation"
+"experts.csv.Author ID","fs_factor_resources.csv.Year"
+"experts.csv.Author ID","fs_factor_resources.csv.Number"
+"experts.csv.Author ID","fs_country_assignments.csv.Location: Countries (M49-code)"
+"experts.csv.Author ID","fs_country_assignments.csv.Farming system"
+"experts.csv.Author ID","fs_country_assignments.csv.FS macro region"
+"experts.csv.Author ID","farming_systems.csv.Farming system"
+"experts.csv.Author ID","farming_systems.csv.Macro region"
+"experts.csv.Author ID","farming_systems.csv.Agro-ecological zone"
+"experts.csv.Author ID","farming_systems.csv.Total area (m ha)"
+"experts.csv.Author ID","farming_systems.csv.Cultivated area (m ha)"
+"experts.csv.Author ID","farming_systems.csv.Cattle population (m head)"
+"experts.csv.Author ID","farming_systems.csv.Irrigated area (m ha)"
+"experts.csv.Author ID","farming_systems.csv.Total population (m)"
+"experts.csv.Author ID","farming_systems.csv.Agricultural population (m)"
+"experts.csv.Author ID","farming_systems.csv.Farm size (ha)"
+"experts.csv.Author ID","farming_systems.csv.Description"
+"experts.csv.Author ID","farming_systems.csv.Irrigated/rainfed"
+"experts.csv.Author ID","factors.csv.Label"
+"experts.csv.Author ID","experts.csv.ID"
+"experts.csv.Author ID","experts.csv.Organisation"
+"experts.csv.Author ID","experts.csv.First name"
+"experts.csv.Author ID","experts.csv.Middle name"
+"experts.csv.Author ID","experts.csv.Last name"
+"experts.csv.Author ID","experts.csv.Email"
+"experts.csv.Author ID","expert_involvements.csv.Expert ID"
+"experts.csv.Author ID","expert_involvements.csv.FS name"
+"experts.csv.Author ID","expert_involvements.csv.FS macro region"
+"experts.csv.Author ID","expert_involvements.csv.Domain"
+"experts.csv.Author ID","expert_involvements.csv.Date"
+"experts.csv.Author ID","domains.csv.Domain"
+"experts.csv.Author ID","dixon_macro_regions.csv.Label"
+"experts.csv.Author ID","dixon_macro_regions.csv.Name"
+"experts.csv.Author ID","connections.csv.ID"
+"experts.csv.Author ID","connections.csv.FS name"
+"experts.csv.Author ID","connections.csv.FS macro region"
+"experts.csv.Author ID","connections.csv.From"
+"experts.csv.Author ID","connections.csv.Link type"
+"experts.csv.Author ID","connections.csv.To"
+"experts.csv.Author ID","connections.csv.Description"
+"experts.csv.Author ID","connection_tags.csv.ID"
+"experts.csv.Author ID","connection_tags.csv.Tags"
+"experts.csv.Author ID","connection_resources.csv.ID"
+"experts.csv.Author ID","connection_resources.csv.Citation"
+"experts.csv.Author ID","connection_resources.csv.Year"
+"experts.csv.Author ID","connection_resources.csv.Number"
+"experts.csv.Author ID","connection_link_types.csv.Link type"
+"experts.csv.Author ID","commodity_soils.csv.FS name"
+"experts.csv.Author ID","commodity_soils.csv.FS macro region"
+"experts.csv.Author ID","commodity_soils.csv.Livelihood source"
+"experts.csv.Author ID","commodity_soils.csv.Name"
+"experts.csv.Author ID","commodity_soils.csv.Soil type"
+"experts.csv.Author ID","commodity_soils.csv.Description"
+"experts.csv.Author ID","commodity_resources.csv.FS name"
+"experts.csv.Author ID","commodity_resources.csv.FS macro region"
+"experts.csv.Author ID","commodity_resources.csv.Livelihood source"
+"experts.csv.Author ID","commodity_resources.csv.Name"
+"experts.csv.Author ID","commodity_resources.csv.Resource ID"
+"experts.csv.Author ID","commodity_resources.csv.Resource year"
+"experts.csv.Author ID","commodity_resources.csv.Resource number"
+"experts.csv.Author ID","commodity_names.csv.Name"
+"experts.csv.Author ID","commodities.csv.FS name"
+"experts.csv.Author ID","commodities.csv.FS macro region"
+"experts.csv.Author ID","commodities.csv.Livelihood source"
+"experts.csv.Author ID","commodities.csv.Name"
+"experts.csv.Author ID","commodities.csv.NCBITaxonID"
+"experts.csv.Author ID","commodities.csv.Max THI"
+"experts.csv.Author ID","commodities.csv.Min temperature  (°C)"
+"experts.csv.Author ID","commodities.csv.Max temperature (°C)"
+"experts.csv.Author ID","commodities.csv.Average temperature  (°C)"
+"experts.csv.Author ID","commodities.csv.Min precipitation (mm)"
+"experts.csv.Author ID","commodities.csv.Max precipitation (mm)"
+"experts.csv.Author ID","commodities.csv.Average precipitation (mm)"
+"experts.csv.Author ID","commodities.csv.Min elevation (masl)"
+"experts.csv.Author ID","commodities.csv.Max elevation (masl)"
+"experts.csv.Author ID","agro-ecological_zones.csv.Agro-ecological Zone"
+"experts.csv.ID","resources.csv.Number"
+"experts.csv.ID","fs_factors.csv.ID"
+"experts.csv.ID","fs_factor_type-2_assignments.csv.ID"
+"experts.csv.ID","fs_factor_resources.csv.ID"
+"experts.csv.ID","fs_factor_resources.csv.Number"
+"experts.csv.ID","expert_involvements.csv.Expert ID"
+"experts.csv.ID","connections.csv.ID"
+"experts.csv.ID","connection_tags.csv.ID"
+"experts.csv.ID","connection_resources.csv.Number"
+"connections.csv.From","factors.csv.Label"
+"fs_country_assignments.csv.Farming system","impact_chain_models.csv.Impact chain model"
+"fs_country_assignments.csv.Farming system","fs_resources.csv.FS name"
+"fs_country_assignments.csv.Farming system","fs_livelihood_sources.csv.FS name"
+"fs_country_assignments.csv.Farming system","fs_factors.csv.FS name"
+"fs_country_assignments.csv.Farming system","farming_systems.csv.Farming system"
+"fs_country_assignments.csv.Farming system","expert_involvements.csv.FS name"
+"fs_country_assignments.csv.Farming system","connections.csv.FS name"
+"fs_country_assignments.csv.Farming system","commodity_resources.csv.FS name"
+"fs_country_assignments.csv.Farming system","commodities.csv.FS name"
+"commodity_soils.csv.FS name,
+ commodity_soils.csv.Name","commodity_resources.csv.FS name,
+ commodity_resources.csv.Name"
+"commodity_soils.csv.FS name,
+ commodity_soils.csv.Name","commodities.csv.FS name,
+ commodities.csv.Name"
+"commodity_soils.csv.FS macro region,
+ commodity_soils.csv.Name","commodity_resources.csv.FS macro region,
+ commodity_resources.csv.Name"
+"commodity_soils.csv.FS macro region,
+ commodity_soils.csv.Name","commodities.csv.FS macro region,
+ commodities.csv.Name"
+"connection_resources.csv.Citation,
+ connection_resources.csv.Number","resources.csv.Citation,
+ resources.csv.Number"
+"commodity_soils.csv.Livelihood source,
+ commodity_soils.csv.Name","commodity_resources.csv.Livelihood source,
+ commodity_resources.csv.Name"
+ "commodity_soils.csv.Livelihood source,
+ commodity_soils.csv.Name","commodities.csv.Livelihood source,
+ commodities.csv.Name"
+"commodities.csv.FS name,
+ commodities.csv.FS macro region,
+ commodities.csv.Livelihood source","fs_livelihood_sources.csv.FS name,
+ fs_livelihood_sources.csv.FS macro region,
+ fs_livelihood_sources.csv.Dominant livelihood source"
+"connection_resources.csv.Year,
+ connection_resources.csv.Number","resources.csv.Year,
+ resources.csv.Number"
+"fs_factor_resources.csv.Citation,
+ fs_factor_resources.csv.Year,
+ fs_factor_resources.csv.Number","resources.csv.Citation,
+ resources.csv.Year,
+ resources.csv.Number"
+"fs_resources.csv.Resource ID,
+ fs_resources.csv.Resource year","resources.csv.Citation,
+ resources.csv.Year"
+"commodity_resources.csv.FS name,
+ commodity_resources.csv.FS macro region","impact_chain_models.csv.Impact chain model,
+ impact_chain_models.csv.FS macro region"
+"commodity_resources.csv.FS name,
+ commodity_resources.csv.FS macro region","fs_resources.csv.FS name,
+ fs_resources.csv.FS macro region"
+"commodity_resources.csv.FS name,
+ commodity_resources.csv.FS macro region","fs_livelihood_sources.csv.FS name,
+ fs_livelihood_sources.csv.FS macro region"
+"commodity_resources.csv.FS name,
+ commodity_resources.csv.FS macro region","fs_factors.csv.FS name,
+ fs_factors.csv.FS macro region"
+"commodity_resources.csv.FS name,
+ commodity_resources.csv.FS macro region","fs_country_assignments.csv.Farming system,
+ fs_country_assignments.csv.FS macro region"
+ "commodity_resources.csv.FS name,
+ commodity_resources.csv.FS macro region","farming_systems.csv.Farming system,
+ farming_systems.csv.Macro region"
+"commodity_resources.csv.FS name,
+ commodity_resources.csv.FS macro region","connections.csv.FS name,
+ connections.csv.FS macro region"
+"commodity_resources.csv.FS name,
+ commodity_resources.csv.FS macro region","commodities.csv.FS name,
+ commodities.csv.FS macro region"
+"fs_factors.csv.FS name,
+ fs_factors.csv.FS macro region","impact_chain_models.csv.Impact chain model,
+ impact_chain_models.csv.FS macro region"
+"fs_factors.csv.FS name,
+ fs_factors.csv.FS macro region","fs_resources.csv.FS name,
+ fs_resources.csv.FS macro region"
+"fs_factors.csv.FS name,
+ fs_factors.csv.FS macro region","fs_livelihood_sources.csv.FS name,
+ fs_livelihood_sources.csv.FS macro region"
+"fs_factors.csv.FS name,
+ fs_factors.csv.FS macro region","fs_country_assignments.csv.Farming system,
+ fs_country_assignments.csv.FS macro region"
+"fs_factors.csv.FS name,
+ fs_factors.csv.FS macro region","farming_systems.csv.Farming system,
+ farming_systems.csv.Macro region"
+"fs_factors.csv.FS name,
+ fs_factors.csv.FS macro region","connections.csv.FS name,
+ connections.csv.FS macro region"
+"fs_factors.csv.FS name,
+ fs_factors.csv.FS macro region","commodity_resources.csv.FS name,
+ commodity_resources.csv.FS macro region"
+ "fs_factors.csv.FS name,
+ fs_factors.csv.FS macro region","commodities.csv.FS name,
+ commodities.csv.FS macro region"
+"icm_resources.csv.FS name,
+ icm_resources.csv.FS macro region,
+ icm_resources.csv.Resource ID,
+ icm_resources.csv.Resource year,
+ icm_resources.csv.Resource number","fs_resources.csv.FS name,
+ fs_resources.csv.FS macro region,
+ fs_resources.csv.Resource ID,
+ fs_resources.csv.Resource year,
+ fs_resources.csv.Resource number"
+"fs_resources.csv.Resource ID,
+ fs_resources.csv.Resource number","resources.csv.Citation,
+ resources.csv.Number"
+"fs_resources.csv.Resource year,
+ fs_resources.csv.Resource number","resources.csv.Year,
+ resources.csv.Number"
+"commodity_resources.csv.FS name,
+ commodity_resources.csv.Livelihood source","fs_livelihood_sources.csv.FS name,
+ fs_livelihood_sources.csv.Dominant livelihood source"
+"commodity_resources.csv.FS name,
+ commodity_resources.csv.Livelihood source","commodities.csv.FS name,
+ commodities.csv.Livelihood source"
+"commodity_resources.csv.FS macro region,
+ commodity_resources.csv.Livelihood source","fs_livelihood_sources.csv.FS macro region,
+ fs_livelihood_sources.csv.Dominant livelihood source"
+"commodity_resources.csv.FS macro region,
+ commodity_resources.csv.Livelihood source","commodities.csv.FS macro region,
+ commodities.csv.Livelihood source"
+"commodity_resources.csv.FS name,
+ commodity_resources.csv.FS macro region,
+ commodity_resources.csv.Name","commodities.csv.FS name,
+ commodities.csv.FS macro region,
+ commodities.csv.Name"
+"commodity_resources.csv.FS name,
+ commodity_resources.csv.Name","commodities.csv.FS name,
+ commodities.csv.Name"
+ "commodity_resources.csv.FS macro region,
+ commodity_resources.csv.Name","commodities.csv.FS macro region,
+ commodities.csv.Name"
+"commodity_resources.csv.Livelihood source,
+ commodity_resources.csv.Name","commodities.csv.Livelihood source,
+ commodities.csv.Name"
+"commodity_resources.csv.FS name,
+ commodity_resources.csv.Livelihood source,
+ commodity_resources.csv.Name","commodities.csv.FS name,
+ commodities.csv.Livelihood source,
+ commodities.csv.Name"
+"commodity_resources.csv.FS macro region,
+ commodity_resources.csv.Livelihood source,
+ commodity_resources.csv.Name","commodities.csv.FS macro region,
+ commodities.csv.Livelihood source,
+ commodities.csv.Name"
+"fs_factor_resources.csv.Citation,
+ fs_factor_resources.csv.Year","resources.csv.Citation,
+ resources.csv.Year"
+"commodity_resources.csv.FS name,
+ commodity_resources.csv.FS macro region,
+ commodity_resources.csv.Name,
+ commodity_resources.csv.Livelihood source","commodities.csv.FS name,
+ commodities.csv.FS macro region,
+ commodities.csv.Name,
+ commodities.csv.Livelihood source"
+"commodities.csv.FS name,
+ commodities.csv.FS macro region","impact_chain_models.csv.Impact chain model,
+ impact_chain_models.csv.FS macro region"
+"commodities.csv.FS name,
+ commodities.csv.FS macro region","fs_resources.csv.FS name,
+ fs_resources.csv.FS macro region"
+"commodities.csv.FS name,
+ commodities.csv.FS macro region","fs_livelihood_sources.csv.FS name,
+ fs_livelihood_sources.csv.FS macro region"
+"commodities.csv.FS name,
+ commodities.csv.FS macro region","fs_factors.csv.FS name,
+ fs_factors.csv.FS macro region"
+ "commodities.csv.FS name,
+ commodities.csv.FS macro region","fs_country_assignments.csv.Farming system,
+ fs_country_assignments.csv.FS macro region"
+"commodities.csv.FS name,
+ commodities.csv.FS macro region","farming_systems.csv.Farming system,
+ farming_systems.csv.Macro region"
+"commodities.csv.FS name,
+ commodities.csv.FS macro region","connections.csv.FS name,
+ connections.csv.FS macro region"
+"commodities.csv.FS name,
+ commodities.csv.FS macro region","commodity_resources.csv.FS name,
+ commodity_resources.csv.FS macro region"
+"fs_factor_resources.csv.Citation,
+ fs_factor_resources.csv.Number","resources.csv.Citation,
+ resources.csv.Number"
+"farming_systems.csv.Farming system,
+ farming_systems.csv.Macro region","impact_chain_models.csv.Impact chain model,
+ impact_chain_models.csv.FS macro region"
+"farming_systems.csv.Farming system,
+ farming_systems.csv.Macro region","fs_resources.csv.FS name,
+ fs_resources.csv.FS macro region"
+"farming_systems.csv.Farming system,
+ farming_systems.csv.Macro region","fs_livelihood_sources.csv.FS name,
+ fs_livelihood_sources.csv.FS macro region"
+"farming_systems.csv.Farming system,
+ farming_systems.csv.Macro region","fs_factors.csv.FS name,
+ fs_factors.csv.FS macro region"
+"farming_systems.csv.Farming system,
+ farming_systems.csv.Macro region","fs_country_assignments.csv.Farming system,
+ fs_country_assignments.csv.FS macro region"
+ "farming_systems.csv.Farming system,
+ farming_systems.csv.Macro region","connections.csv.FS name,
+ connections.csv.FS macro region"
+"farming_systems.csv.Farming system,
+ farming_systems.csv.Macro region","commodity_resources.csv.FS name,
+ commodity_resources.csv.FS macro region"
+"farming_systems.csv.Farming system,
+ farming_systems.csv.Macro region","commodities.csv.FS name,
+ commodities.csv.FS macro region"
+"fs_factor_resources.csv.Year,
+ fs_factor_resources.csv.Number","resources.csv.Year,
+ resources.csv.Number"
+"icm_resources.csv.FS name,
+ icm_resources.csv.FS macro region,
+ icm_resources.csv.Resource number","fs_resources.csv.FS name,
+ fs_resources.csv.FS macro region,
+ fs_resources.csv.Resource number"
+"commodity_soils.csv.FS name,
+ commodity_soils.csv.FS macro region,
+ commodity_soils.csv.Livelihood source","fs_livelihood_sources.csv.FS name,
+ fs_livelihood_sources.csv.FS macro region,
+ fs_livelihood_sources.csv.Dominant livelihood source"
+"commodity_soils.csv.FS name,
+ commodity_soils.csv.FS macro region,
+ commodity_soils.csv.Livelihood source","commodity_resources.csv.FS name,
+ commodity_resources.csv.FS macro region,
+ commodity_resources.csv.Livelihood source"
+"commodity_soils.csv.FS name,
+ commodity_soils.csv.FS macro region,
+ commodity_soils.csv.Livelihood source","commodities.csv.FS name,
+ commodities.csv.FS macro region,
+ commodities.csv.Livelihood source"
+"icm_resources.csv.FS name,
+ icm_resources.csv.FS macro region,
+ icm_resources.csv.Resource year,
+ icm_resources.csv.Resource number","fs_resources.csv.FS name,
+ fs_resources.csv.FS macro region,
+ fs_resources.csv.Resource year,
+ fs_resources.csv.Resource number"
+"commodity_resources.csv.FS name,
+ commodity_resources.csv.FS macro region,
+ commodity_resources.csv.Livelihood source","fs_livelihood_sources.csv.FS name,
+ fs_livelihood_sources.csv.FS macro region,
+ fs_livelihood_sources.csv.Dominant livelihood source"
+ "commodity_resources.csv.FS name,
+ commodity_resources.csv.FS macro region,
+ commodity_resources.csv.Livelihood source","commodities.csv.FS name,
+ commodities.csv.FS macro region,
+ commodities.csv.Livelihood source"
+"fs_country_assignments.csv.Farming system,
+ fs_country_assignments.csv.FS macro region","impact_chain_models.csv.Impact chain model,
+ impact_chain_models.csv.FS macro region"
+"fs_country_assignments.csv.Farming system,
+ fs_country_assignments.csv.FS macro region","fs_resources.csv.FS name,
+ fs_resources.csv.FS macro region"
+"fs_country_assignments.csv.Farming system,
+ fs_country_assignments.csv.FS macro region","fs_livelihood_sources.csv.FS name,
+ fs_livelihood_sources.csv.FS macro region"
+"fs_country_assignments.csv.Farming system,
+ fs_country_assignments.csv.FS macro region","fs_factors.csv.FS name,
+ fs_factors.csv.FS macro region"
+"fs_country_assignments.csv.Farming system,
+ fs_country_assignments.csv.FS macro region","farming_systems.csv.Farming system,
+ farming_systems.csv.Macro region"
+"fs_country_assignments.csv.Farming system,
+ fs_country_assignments.csv.FS macro region","connections.csv.FS name,
+ connections.csv.FS macro region"
+"fs_country_assignments.csv.Farming system,
+ fs_country_assignments.csv.FS macro region","commodity_resources.csv.FS name,
+ commodity_resources.csv.FS macro region"
+"fs_country_assignments.csv.Farming system,
+ fs_country_assignments.csv.FS macro region","commodities.csv.FS name,
+ commodities.csv.FS macro region"
+"commodities.csv.FS name,
+ commodities.csv.Livelihood source","fs_livelihood_sources.csv.FS name,
+ fs_livelihood_sources.csv.Dominant livelihood source"
+ "commodities.csv.FS macro region,
+ commodities.csv.Livelihood source","fs_livelihood_sources.csv.FS macro region,
+ fs_livelihood_sources.csv.Dominant livelihood source"
+"commodity_resources.csv.Resource ID,
+ commodity_resources.csv.Resource year","resources.csv.Citation,
+ resources.csv.Year"
+"icm_resources.csv.FS name,
+ icm_resources.csv.Resource ID,
+ icm_resources.csv.Resource number","fs_resources.csv.FS name,
+ fs_resources.csv.Resource ID,
+ fs_resources.csv.Resource number"
+"icm_resources.csv.FS macro region,
+ icm_resources.csv.Resource ID,
+ icm_resources.csv.Resource number","fs_resources.csv.FS macro region,
+ fs_resources.csv.Resource ID,
+ fs_resources.csv.Resource number"
+"icm_resources.csv.FS macro region,
+ icm_resources.csv.Resource ID,
+ icm_resources.csv.Resource year,
+ icm_resources.csv.Resource number","fs_resources.csv.FS macro region,
+ fs_resources.csv.Resource ID,
+ fs_resources.csv.Resource year,
+ fs_resources.csv.Resource number"
+"icm_resources.csv.FS name,
+ icm_resources.csv.Resource ID,
+ icm_resources.csv.Resource year,
+ icm_resources.csv.Resource number","fs_resources.csv.FS name,
+ fs_resources.csv.Resource ID,
+ fs_resources.csv.Resource year,
+ fs_resources.csv.Resource number"
+"commodity_resources.csv.Resource ID,
+ commodity_resources.csv.Resource number","resources.csv.Citation,
+ resources.csv.Number"
+"commodity_resources.csv.Resource year,
+ commodity_resources.csv.Resource number","resources.csv.Year,
+ resources.csv.Number"
+"expert_involvements.csv.FS name,
+ expert_involvements.csv.FS macro region","impact_chain_models.csv.Impact chain model,
+ impact_chain_models.csv.FS macro region"
+"expert_involvements.csv.FS name,
+ expert_involvements.csv.FS macro region","fs_resources.csv.FS name,
+ fs_resources.csv.FS macro region"
+ "expert_involvements.csv.FS name,
+ expert_involvements.csv.FS macro region","fs_livelihood_sources.csv.FS name,
+ fs_livelihood_sources.csv.FS macro region"
+"expert_involvements.csv.FS name,
+ expert_involvements.csv.FS macro region","fs_factors.csv.FS name,
+ fs_factors.csv.FS macro region"
+"expert_involvements.csv.FS name,
+ expert_involvements.csv.FS macro region","fs_country_assignments.csv.Farming system,
+ fs_country_assignments.csv.FS macro region"
+"expert_involvements.csv.FS name,
+ expert_involvements.csv.FS macro region","farming_systems.csv.Farming system,
+ farming_systems.csv.Macro region"
+"expert_involvements.csv.FS name,
+ expert_involvements.csv.FS macro region","connections.csv.FS name,
+ connections.csv.FS macro region"
+"expert_involvements.csv.FS name,
+ expert_involvements.csv.FS macro region","commodity_resources.csv.FS name,
+ commodity_resources.csv.FS macro region"
+"expert_involvements.csv.FS name,
+ expert_involvements.csv.FS macro region","commodities.csv.FS name,
+ commodities.csv.FS macro region"
+"icm_resources.csv.FS name,
+ icm_resources.csv.Resource year,
+ icm_resources.csv.Resource number","fs_resources.csv.FS name,
+ fs_resources.csv.Resource year,
+ fs_resources.csv.Resource number"
+"commodity_soils.csv.FS name,
+ commodity_soils.csv.Name,
+ commodity_soils.csv.Livelihood source","commodity_resources.csv.FS name,
+ commodity_resources.csv.Name,
+ commodity_resources.csv.Livelihood source"
+"commodity_soils.csv.FS name,
+ commodity_soils.csv.Name,
+ commodity_soils.csv.Livelihood source","commodities.csv.FS name,
+ commodities.csv.Name,
+ commodities.csv.Livelihood source"
+ "icm_resources.csv.FS macro region,
+ icm_resources.csv.Resource year,
+ icm_resources.csv.Resource number","fs_resources.csv.FS macro region,
+ fs_resources.csv.Resource year,
+ fs_resources.csv.Resource number"
+"connections.csv.FS name,
+ connections.csv.FS macro region","impact_chain_models.csv.Impact chain model,
+ impact_chain_models.csv.FS macro region"
+"connections.csv.FS name,
+ connections.csv.FS macro region","fs_resources.csv.FS name,
+ fs_resources.csv.FS macro region"
+"connections.csv.FS name,
+ connections.csv.FS macro region","fs_livelihood_sources.csv.FS name,
+ fs_livelihood_sources.csv.FS macro region"
+"connections.csv.FS name,
+ connections.csv.FS macro region","fs_factors.csv.FS name,
+ fs_factors.csv.FS macro region"
+"connections.csv.FS name,
+ connections.csv.FS macro region","fs_country_assignments.csv.Farming system,
+ fs_country_assignments.csv.FS macro region"
+"connections.csv.FS name,
+ connections.csv.FS macro region","farming_systems.csv.Farming system,
+ farming_systems.csv.Macro region"
+"connections.csv.FS name,
+ connections.csv.FS macro region","commodity_resources.csv.FS name,
+ commodity_resources.csv.FS macro region"
+"connections.csv.FS name,
+ connections.csv.FS macro region","commodities.csv.FS name,
+ commodities.csv.FS macro region"
+"commodity_soils.csv.FS macro region,
+ commodity_soils.csv.Name,
+ commodity_soils.csv.Livelihood source","commodity_resources.csv.FS macro region,
+ commodity_resources.csv.Name,
+ commodity_resources.csv.Livelihood source"
+ "commodity_soils.csv.FS macro region,
+ commodity_soils.csv.Name,
+ commodity_soils.csv.Livelihood source","commodities.csv.FS macro region,
+ commodities.csv.Name,
+ commodities.csv.Livelihood source"
+"icm_resources.csv.Resource ID,
+ icm_resources.csv.Resource year,
+ icm_resources.csv.Resource number","resources.csv.Citation,
+ resources.csv.Year,
+ resources.csv.Number"
+"icm_resources.csv.Resource ID,
+ icm_resources.csv.Resource year,
+ icm_resources.csv.Resource number","fs_resources.csv.Resource ID,
+ fs_resources.csv.Resource year,
+ fs_resources.csv.Resource number"
+"icm_resources.csv.Resource ID,
+ icm_resources.csv.Resource year,
+ icm_resources.csv.Resource number","fs_factor_resources.csv.Citation,
+ fs_factor_resources.csv.Year,
+ fs_factor_resources.csv.Number"
+"icm_resources.csv.Resource ID,
+ icm_resources.csv.Resource year,
+ icm_resources.csv.Resource number","connection_resources.csv.Citation,
+ connection_resources.csv.Year,
+ connection_resources.csv.Number"
+"impact_chain_models.csv.Impact chain model,
+ impact_chain_models.csv.FS macro region","fs_resources.csv.FS name,
+ fs_resources.csv.FS macro region"
+"impact_chain_models.csv.Impact chain model,
+ impact_chain_models.csv.FS macro region","fs_livelihood_sources.csv.FS name,
+ fs_livelihood_sources.csv.FS macro region"
+"impact_chain_models.csv.Impact chain model,
+ impact_chain_models.csv.FS macro region","fs_factors.csv.FS name,
+ fs_factors.csv.FS macro region"
+"impact_chain_models.csv.Impact chain model,
+ impact_chain_models.csv.FS macro region","fs_country_assignments.csv.Farming system,
+ fs_country_assignments.csv.FS macro region"
+"impact_chain_models.csv.Impact chain model,
+ impact_chain_models.csv.FS macro region","farming_systems.csv.Farming system,
+ farming_systems.csv.Macro region"
+ "impact_chain_models.csv.Impact chain model,
+ impact_chain_models.csv.FS macro region","connections.csv.FS name,
+ connections.csv.FS macro region"
+"impact_chain_models.csv.Impact chain model,
+ impact_chain_models.csv.FS macro region","commodity_resources.csv.FS name,
+ commodity_resources.csv.FS macro region"
+"impact_chain_models.csv.Impact chain model,
+ impact_chain_models.csv.FS macro region","commodities.csv.FS name,
+ commodities.csv.FS macro region"
+"fs_resources.csv.Resource ID,
+ fs_resources.csv.Resource year,
+ fs_resources.csv.Resource number","resources.csv.Citation,
+ resources.csv.Year,
+ resources.csv.Number"
+"M49_Intermediate_Regions.csv.Intermediate Region Code,
+ M49_Intermediate_Regions.csv.Sub-region Code","M49_Countries.csv.Intermediate Region Code,
+ M49_Countries.csv.Sub-region Code"
+"connection_resources.csv.Citation,
+ connection_resources.csv.Number,
+ connection_resources.csv.Year","resources.csv.Citation,
+ resources.csv.Number,
+ resources.csv.Year"
+"icm_resources.csv.FS name,
+ icm_resources.csv.FS macro region","impact_chain_models.csv.Impact chain model,
+ impact_chain_models.csv.FS macro region"
+"icm_resources.csv.FS name,
+ icm_resources.csv.FS macro region","fs_resources.csv.FS name,
+ fs_resources.csv.FS macro region"
+"icm_resources.csv.FS name,
+ icm_resources.csv.FS macro region","fs_livelihood_sources.csv.FS name,
+ fs_livelihood_sources.csv.FS macro region"
+"icm_resources.csv.FS name,
+ icm_resources.csv.FS macro region","fs_factors.csv.FS name,
+ fs_factors.csv.FS macro region"
+ "icm_resources.csv.FS name,
+ icm_resources.csv.FS macro region","fs_country_assignments.csv.Farming system,
+ fs_country_assignments.csv.FS macro region"
+"icm_resources.csv.FS name,
+ icm_resources.csv.FS macro region","farming_systems.csv.Farming system,
+ farming_systems.csv.Macro region"
+"icm_resources.csv.FS name,
+ icm_resources.csv.FS macro region","connections.csv.FS name,
+ connections.csv.FS macro region"
+"icm_resources.csv.FS name,
+ icm_resources.csv.FS macro region","commodity_soils.csv.FS name,
+ commodity_soils.csv.FS macro region"
+"icm_resources.csv.FS name,
+ icm_resources.csv.FS macro region","commodity_resources.csv.FS name,
+ commodity_resources.csv.FS macro region"
+"icm_resources.csv.FS name,
+ icm_resources.csv.FS macro region","commodities.csv.FS name,
+ commodities.csv.FS macro region"
+"icm_resources.csv.FS name,
+ icm_resources.csv.FS macro region,
+ icm_resources.csv.Resource year","fs_resources.csv.FS name,
+ fs_resources.csv.FS macro region,
+ fs_resources.csv.Resource year"
+"icm_resources.csv.FS name,
+ icm_resources.csv.FS macro region,
+ icm_resources.csv.Resource ID,
+ icm_resources.csv.Resource number","fs_resources.csv.FS name,
+ fs_resources.csv.FS macro region,
+ fs_resources.csv.Resource ID,
+ fs_resources.csv.Resource number"
+"icm_resources.csv.FS name,
+ icm_resources.csv.Resource ID","fs_resources.csv.FS name,
+ fs_resources.csv.Resource ID"
+"icm_resources.csv.FS name,
+ icm_resources.csv.Resource ID,
+ icm_resources.csv.Resource year","fs_resources.csv.FS name,
+ fs_resources.csv.Resource ID,
+ fs_resources.csv.Resource year"
+ "icm_resources.csv.FS macro region,
+ icm_resources.csv.Resource ID","fs_resources.csv.FS macro region,
+ fs_resources.csv.Resource ID"
+"icm_resources.csv.FS macro region,
+ icm_resources.csv.Resource ID,
+ icm_resources.csv.Resource year","fs_resources.csv.FS macro region,
+ fs_resources.csv.Resource ID,
+ fs_resources.csv.Resource year"
+"commodity_soils.csv.FS name,
+ commodity_soils.csv.Name,
+ commodity_soils.csv.FS macro region,
+ commodity_soils.csv.Livelihood source","commodity_resources.csv.FS name,
+ commodity_resources.csv.Name,
+ commodity_resources.csv.FS macro region,
+ commodity_resources.csv.Livelihood source"
+"commodity_soils.csv.FS name,
+ commodity_soils.csv.Name,
+ commodity_soils.csv.FS macro region,
+ commodity_soils.csv.Livelihood source","commodities.csv.FS name,
+ commodities.csv.Name,
+ commodities.csv.FS macro region,
+ commodities.csv.Livelihood source"
+"icm_resources.csv.FS name,
+ icm_resources.csv.Resource year","fs_resources.csv.FS name,
+ fs_resources.csv.Resource year"
+"icm_resources.csv.FS macro region,
+ icm_resources.csv.Resource year","fs_resources.csv.FS macro region,
+ fs_resources.csv.Resource year"
+"commodity_soils.csv.FS name,
+ commodity_soils.csv.Name,
+ commodity_soils.csv.FS macro region","commodity_resources.csv.FS name,
+ commodity_resources.csv.Name,
+ commodity_resources.csv.FS macro region"
+"commodity_soils.csv.FS name,
+ commodity_soils.csv.Name,
+ commodity_soils.csv.FS macro region","commodities.csv.FS name,
+ commodities.csv.Name,
+ commodities.csv.FS macro region"
+"icm_resources.csv.Resource ID,
+ icm_resources.csv.Resource year","resources.csv.Citation,
+ resources.csv.Year"
+"icm_resources.csv.Resource ID,
+ icm_resources.csv.Resource year","fs_resources.csv.Resource ID,
+ fs_resources.csv.Resource year"
+ "icm_resources.csv.Resource ID,
+ icm_resources.csv.Resource year","fs_factor_resources.csv.Citation,
+ fs_factor_resources.csv.Year"
+"icm_resources.csv.Resource ID,
+ icm_resources.csv.Resource year","connection_resources.csv.Citation,
+ connection_resources.csv.Year"
+"commodity_soils.csv.FS name,
+ commodity_soils.csv.FS macro region","impact_chain_models.csv.Impact chain model,
+ impact_chain_models.csv.FS macro region"
+"commodity_soils.csv.FS name,
+ commodity_soils.csv.FS macro region","fs_resources.csv.FS name,
+ fs_resources.csv.FS macro region"
+"commodity_soils.csv.FS name,
+ commodity_soils.csv.FS macro region","fs_livelihood_sources.csv.FS name,
+ fs_livelihood_sources.csv.FS macro region"
+"commodity_soils.csv.FS name,
+ commodity_soils.csv.FS macro region","fs_factors.csv.FS name,
+ fs_factors.csv.FS macro region"
+"commodity_soils.csv.FS name,
+ commodity_soils.csv.FS macro region","fs_country_assignments.csv.Farming system,
+ fs_country_assignments.csv.FS macro region"
+"commodity_soils.csv.FS name,
+ commodity_soils.csv.FS macro region","farming_systems.csv.Farming system,
+ farming_systems.csv.Macro region"
+"commodity_soils.csv.FS name,
+ commodity_soils.csv.FS macro region","connections.csv.FS name,
+ connections.csv.FS macro region"
+"commodity_soils.csv.FS name,
+ commodity_soils.csv.FS macro region","commodity_resources.csv.FS name,
+ commodity_resources.csv.FS macro region"
+ "commodity_soils.csv.FS name,
+ commodity_soils.csv.FS macro region","commodities.csv.FS name,
+ commodities.csv.FS macro region"
+"icm_resources.csv.FS name,
+ icm_resources.csv.FS macro region,
+ icm_resources.csv.Resource ID,
+ icm_resources.csv.Resource year","fs_resources.csv.FS name,
+ fs_resources.csv.FS macro region,
+ fs_resources.csv.Resource ID,
+ fs_resources.csv.Resource year"
+"fs_resources.csv.FS name,
+ fs_resources.csv.FS macro region","impact_chain_models.csv.Impact chain model,
+ impact_chain_models.csv.FS macro region"
+"fs_resources.csv.FS name,
+ fs_resources.csv.FS macro region","fs_livelihood_sources.csv.FS name,
+ fs_livelihood_sources.csv.FS macro region"
+"fs_resources.csv.FS name,
+ fs_resources.csv.FS macro region","fs_factors.csv.FS name,
+ fs_factors.csv.FS macro region"
+"fs_resources.csv.FS name,
+ fs_resources.csv.FS macro region","fs_country_assignments.csv.Farming system,
+ fs_country_assignments.csv.FS macro region"
+"fs_resources.csv.FS name,
+ fs_resources.csv.FS macro region","farming_systems.csv.Farming system,
+ farming_systems.csv.Macro region"
+"fs_resources.csv.FS name,
+ fs_resources.csv.FS macro region","connections.csv.FS name,
+ connections.csv.FS macro region"
+"fs_resources.csv.FS name,
+ fs_resources.csv.FS macro region","commodity_resources.csv.FS name,
+ commodity_resources.csv.FS macro region"
+"fs_resources.csv.FS name,
+ fs_resources.csv.FS macro region","commodities.csv.FS name,
+ commodities.csv.FS macro region"
+ "icm_resources.csv.FS name,
+ icm_resources.csv.FS macro region,
+ icm_resources.csv.Resource ID","fs_resources.csv.FS name,
+ fs_resources.csv.FS macro region,
+ fs_resources.csv.Resource ID"
+"icm_resources.csv.FS name,
+ icm_resources.csv.Resource number","fs_resources.csv.FS name,
+ fs_resources.csv.Resource number"
+"icm_resources.csv.FS macro region,
+ icm_resources.csv.Resource number","fs_resources.csv.FS macro region,
+ fs_resources.csv.Resource number"
+"fs_livelihood_sources.csv.FS name,
+ fs_livelihood_sources.csv.FS macro region","impact_chain_models.csv.Impact chain model,
+ impact_chain_models.csv.FS macro region"
+"fs_livelihood_sources.csv.FS name,
+ fs_livelihood_sources.csv.FS macro region","fs_resources.csv.FS name,
+ fs_resources.csv.FS macro region"
+"fs_livelihood_sources.csv.FS name,
+ fs_livelihood_sources.csv.FS macro region","fs_factors.csv.FS name,
+ fs_factors.csv.FS macro region"
+"fs_livelihood_sources.csv.FS name,
+ fs_livelihood_sources.csv.FS macro region","fs_country_assignments.csv.Farming system,
+ fs_country_assignments.csv.FS macro region"
+"fs_livelihood_sources.csv.FS name,
+ fs_livelihood_sources.csv.FS macro region","farming_systems.csv.Farming system,
+ farming_systems.csv.Macro region"
+"fs_livelihood_sources.csv.FS name,
+ fs_livelihood_sources.csv.FS macro region","connections.csv.FS name,
+ connections.csv.FS macro region"
+"fs_livelihood_sources.csv.FS name,
+ fs_livelihood_sources.csv.FS macro region","commodity_resources.csv.FS name,
+ commodity_resources.csv.FS macro region"
+ "fs_livelihood_sources.csv.FS name,
+ fs_livelihood_sources.csv.FS macro region","commodities.csv.FS name,
+ commodities.csv.FS macro region"
+"icm_resources.csv.Resource ID,
+ icm_resources.csv.Resource number","resources.csv.Citation,
+ resources.csv.Number"
+"icm_resources.csv.Resource ID,
+ icm_resources.csv.Resource number","fs_resources.csv.Resource ID,
+ fs_resources.csv.Resource number"
+"icm_resources.csv.Resource ID,
+ icm_resources.csv.Resource number","fs_factor_resources.csv.Citation,
+ fs_factor_resources.csv.Number"
+"icm_resources.csv.Resource ID,
+ icm_resources.csv.Resource number","connection_resources.csv.Citation,
+ connection_resources.csv.Number"
+"icm_resources.csv.Resource year,
+ icm_resources.csv.Resource number","resources.csv.Year,
+ resources.csv.Number"
+"icm_resources.csv.Resource year,
+ icm_resources.csv.Resource number","fs_resources.csv.Resource year,
+ fs_resources.csv.Resource number"
+"icm_resources.csv.Resource year,
+ icm_resources.csv.Resource number","fs_factor_resources.csv.Year,
+ fs_factor_resources.csv.Number"
+"icm_resources.csv.Resource year,
+ icm_resources.csv.Resource number","connection_resources.csv.Year,
+ connection_resources.csv.Number"
+"commodity_soils.csv.FS name,
+ commodity_soils.csv.Livelihood source","fs_livelihood_sources.csv.FS name,
+ fs_livelihood_sources.csv.Dominant livelihood source"
+ "commodity_soils.csv.FS name,
+ commodity_soils.csv.Livelihood source","commodity_resources.csv.FS name,
+ commodity_resources.csv.Livelihood source"
+"commodity_soils.csv.FS name,
+ commodity_soils.csv.Livelihood source","commodities.csv.FS name,
+ commodities.csv.Livelihood source"
+"commodity_resources.csv.Resource ID,
+ commodity_resources.csv.Resource year,
+ commodity_resources.csv.Resource number","resources.csv.Citation,
+ resources.csv.Year,
+ resources.csv.Number"
+"commodity_soils.csv.FS macro region,
+ commodity_soils.csv.Livelihood source","fs_livelihood_sources.csv.FS macro region,
+ fs_livelihood_sources.csv.Dominant livelihood source"
+"commodity_soils.csv.FS macro region,
+ commodity_soils.csv.Livelihood source","commodity_resources.csv.FS macro region,
+ commodity_resources.csv.Livelihood source"
+"commodity_soils.csv.FS macro region,
+ commodity_soils.csv.Livelihood source","commodities.csv.FS macro region,
+ commodities.csv.Livelihood source"
+"fs_landscapes.csv.Farming system,
+ fs_landscapes.csv.FS macro region","impact_chain_models.csv.Impact chain model,
+ impact_chain_models.csv.FS macro region"
+"fs_landscapes.csv.Farming system,
+ fs_landscapes.csv.FS macro region","fs_resources.csv.FS name,
+ fs_resources.csv.FS macro region"
+"fs_landscapes.csv.Farming system,
+ fs_landscapes.csv.FS macro region","fs_livelihood_sources.csv.FS name,
+ fs_livelihood_sources.csv.FS macro region"
+"fs_landscapes.csv.Farming system,
+ fs_landscapes.csv.FS macro region","fs_factors.csv.FS name,
+ fs_factors.csv.FS macro region"
+ "fs_landscapes.csv.Farming system,
+ fs_landscapes.csv.FS macro region","fs_country_assignments.csv.Farming system,
+ fs_country_assignments.csv.FS macro region"
+"fs_landscapes.csv.Farming system,
+ fs_landscapes.csv.FS macro region","farming_systems.csv.Farming system,
+ farming_systems.csv.Macro region"
+"fs_landscapes.csv.Farming system,
+ fs_landscapes.csv.FS macro region","connections.csv.FS name,
+ connections.csv.FS macro region"
+"fs_landscapes.csv.Farming system,
+ fs_landscapes.csv.FS macro region","commodity_resources.csv.FS name,
+ commodity_resources.csv.FS macro region"
+"fs_landscapes.csv.Farming system,
+ fs_landscapes.csv.FS macro region","commodities.csv.FS name,
+ commodities.csv.FS macro region"
+"connection_resources.csv.Citation,
+ connection_resources.csv.Year","resources.csv.Citation,
+ resources.csv.Year"

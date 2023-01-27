@@ -147,13 +147,13 @@ PREFIX : <http://www.semanticweb.org/samueleceol/ontologies/2023/0/untitled-onto
 select ?c_name ?c_ncbi_taxo_name ?c_ncbi_taxo_id ?c_max_thi ?c_min_temp ?c_max_temp ?c_avg_temp ?c_min_prec ?c_max_prec ?c_avg_prec ?c_min_elev ?c_max_elev
 where{
    ?farming_system a :Farming_system ;
-    :FSName "Lowland Rice" .
+    :FSName "Dryland mixed" .
 
    ?dixon_macro_region a :Dixon_macro_region ;
-    :DixonMRLabel "EAP" .
+    :DixonMRLabel "LAC" .
 
    ?livelihood_source a :Livelihood_source ;
-    :LSName "Rice" .
+    :LSName "Agriculture" .
 
    ?commodity a :Commodity ;
     :CommodityName ?c_name .
@@ -173,4 +173,87 @@ where{
    ?dixon_macro_region :hostsFarmingSystem ?farming_system  .
    ?farming_system :reliesOnLivelihoodSource ?livelihood_source .
    ?livelihood_source :producesCommodity ?commodity .
+}
+[QueryItem="Resources from commodity"]
+PREFIX : <http://www.semanticweb.org/samueleceol/ontologies/2023/0/untitled-ontology-23#>
+
+select ?resource_id ?resource_title ?resource_year ?resource_type ?resource_url
+where{
+   ?farming_system a :Farming_system ;
+    :FSName "Dryland mixed" .
+
+   ?dixon_macro_region a :Dixon_macro_region ;
+    :DixonMRLabel "LAC" .
+
+   ?livelihood_source a :Livelihood_source ;
+    :LSName "Agriculture" .
+
+   ?commodity a :Commodity ;
+    :CommodityName "Cassava" .
+
+   ?dixon_macro_region :hostsFarmingSystem ?farming_system  .
+   ?farming_system :reliesOnLivelihoodSource ?livelihood_source .
+   ?livelihood_source :producesCommodity ?commodity .
+
+   optional { ?commodity :sourcedFrom ?resource
+	optional { ?resource :ResourceTitle ?resource_title }
+	optional { ?resource :ResourceURL ?resource_url }
+
+	?resource a :Resource ; 
+  	 :ResourceID ?resource_id ;
+	 :ResourceYear ?resource_year ;
+	 :ResourceType ?resource_type .
+    }
+}
+[QueryItem="Soils from commodity"]
+PREFIX : <http://www.semanticweb.org/samueleceol/ontologies/2023/0/untitled-ontology-23#>
+
+select ?soil_name ?soil_desc
+    where{
+    ?farming_system a :Farming_system ;
+        :FSName "Coastal plantation and mixed" .
+
+    ?dixon_macro_region a :Dixon_macro_region ;
+        :DixonMRLabel "LAC" .
+
+    ?livelihood_source a :Livelihood_source ;
+        :LSName "Crops/tree crops export" .
+
+    ?commodity a :Commodity ;
+        :CommodityName "Coffee (Coffea arabica)" .
+
+    ?dixon_macro_region :hostsFarmingSystem ?farming_system  .
+    ?farming_system :reliesOnLivelihoodSource ?livelihood_source .
+    ?livelihood_source :producesCommodity ?commodity .
+
+    optional { ?commodity :growsInSoil ?soil 
+        optional { ?soil :SoilDescription ?soil_desc } 
+        ?soil :SoilName ?soil_name
+    }
+}
+[QueryItem="Farming System sourcing from FS"]
+PREFIX : <http://www.semanticweb.org/samueleceol/ontologies/2023/0/untitled-ontology-23#>
+
+select ?fs_field ?resource_id ?resource_title ?resource_year ?resource_type ?resource_url
+where{
+   ?farming_system a :Farming_system ;
+    :FSName "Lowland Rice" .
+
+   ?dixon_macro_region a :Dixon_macro_region ;
+    :DixonMRLabel "EAP" .
+
+   ?fs_sourcing a :Farming_system_sourcing ;
+    :FSSourcingField ?fs_field .
+
+   ?resource a :Resource ; 
+  	 :ResourceID ?resource_id ;
+	 :ResourceYear ?resource_year ;
+	 :ResourceType ?resource_type .
+
+   optional { ?resource :ResourceTitle ?resource_title }
+   optional { ?resource :ResourceURL ?resource_url }
+
+   ?dixon_macro_region :hostsFarmingSystem ?farming_system  .
+   ?fs_sourcing :sourcedForFSField ?farming_system .
+   ?fs_sourcing :sourcedFrom ?resource .
 }

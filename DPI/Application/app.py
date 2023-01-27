@@ -37,6 +37,20 @@ fs_fields_str = {
     'total_pop': 'Total population'
 }
 
+commodity_icon_urls = {
+    'c_max_thi': 'https://cdn-icons-png.flaticon.com/512/1585/1585362.png',
+    'c_temp': 'https://cdn-icons-png.flaticon.com/512/1843/1843544.png',
+    'c_prec': 'https://cdn-icons-png.flaticon.com/512/3506/3506148.png',
+    'c_elev': 'https://cdn-icons-png.flaticon.com/512/6800/6800574.png'
+}
+
+commodity_fields_str = {
+    'c_max_thi': 'Max THI',
+    'c_temp': 'Temperatures',
+    'c_prec': 'Precipitations',
+    'c_elev': 'Elevation'
+}
+
 curr_fs = {}
 active_scopes = set()
 
@@ -145,12 +159,24 @@ def process_fs_selection(dmr_label, fs_name):
 
                 if(key == 'irrigated_area'): put_markdown(f"**{fs_fields_str['irrigated_rainfed']}:** {df_dict['irrigated_rainfed']}")
 
+        df_resources = get_grouped_fs_field_resources()
+        resources_collapse_content_list = []
+        for i in range(len(df_resources)):
+            resources_dict = df_resources.iloc[i].to_dict()
+            if(str(resources_dict['fs_field']) != 'nan'): resources_collapse_content_list.append(put_markdown(f"#### {', '.join(map(str, resources_dict['fs_field']))}"))
+            if(str(resources_dict['resource_id']) != 'nan'): resources_collapse_content_list.append(put_markdown(f"**{resources_dict['resource_id']} ({resources_dict['resource_year']}, {resources_dict['resource_type']})**"))
+            if(str(resources_dict['resource_title']) != 'nan'): resources_collapse_content_list.append(put_markdown(f"*\"{resources_dict['resource_title']}\"*"))
+            if(str(resources_dict['resource_url']) != 'nan'): resources_collapse_content_list.append(put_markdown(resources_dict['resource_url']))
+        if(len(resources_collapse_content_list) > 0): put_collapse('Resources', resources_collapse_content_list)
+
         df_landscape = get_fs_landscapes()
         if(len(df_landscape.index) > 0):
             put_markdown("### Landscapes")
             put_markdown(f"The **{fs_name}** farming system takes place in the following **landscapes**")
             for landscape in df_landscape['landscape_name'].to_numpy():
                 put_markdown(f" * {landscape}")
+        
+        
     build_what_else_scope()
 
 def build_experts_scope():
@@ -222,7 +248,6 @@ def build_countries_scope():
     }
     """ % (q_prefix, curr_fs['fs_name'], curr_fs['dmr_label'])
 
-    #clear('what_else_countries')
     with use_scope('countries', clear=True):
         active_scopes.add('countries')
         df_countries = sparql_dataframe.get(endpoint, q)
@@ -230,7 +255,7 @@ def build_countries_scope():
         df_countries.rename(columns={'intermediate_region_name': 'Intermediate region', 'sub_region_name': 'Sub-region', 'region_name': 'Region'}, inplace = True)
         df_countries = df_countries[['Country', 'Intermediate region', 'Sub-region', 'Region']]
 
-        put_markdown("### Countries\nHere are the countries associated with the farming system.")
+        put_markdown("# Countries\nHere are the countries associated with the farming system.")
         build_input_search('countries', df_countries, 'Country', 'Search country')
         with use_scope('countries_table'): put_html(df_countries.to_html(border=0))
         build_hide_section_button('countries')
@@ -260,9 +285,130 @@ def build_ls_scope():
         active_scopes.add('livelihood_sources')
         df_ls = sparql_dataframe.get(endpoint, q)
 
-        put_markdown("### Livelihood sources\nThe farming system relies on the following livelihood sources.")
+        put_markdown("# Livelihood sources\nThe farming system relies on the following **livelihood sources** (and related **commodities**).")
+        for i in range(len(df_ls)): put_markdown(f"* {df_ls.loc[i, 'ls_name']}")
+
+        for i in range(len(df_ls)):
+            build_related_commodities(df_ls.loc[i, 'ls_name'])
+
         build_hide_section_button('livelihood_sources')
     build_what_else_scope()
+
+def build_related_commodities(ls_name):
+    q = """
+    %s
+
+    select ?c_name ?c_ncbi_taxo_name ?c_ncbi_taxo_id ?c_max_thi ?c_min_temp ?c_max_temp ?c_avg_temp ?c_min_prec ?c_max_prec ?c_avg_prec ?c_min_elev ?c_max_elev
+    where{
+    ?farming_system a :Farming_system ;
+        :FSName "%s" .
+
+    ?dixon_macro_region a :Dixon_macro_region ;
+        :DixonMRLabel "%s" .
+
+    ?livelihood_source a :Livelihood_source ;
+        :LSName "%s" .
+
+    ?commodity a :Commodity ;
+        :CommodityName ?c_name .
+
+        optional { ?commodity :CommodityNCBITaxonomyName ?c_ncbi_taxo_name }
+        optional { ?commodity :CommodityNCBITaxonomyID ?c_ncbi_taxo_id }
+        optional { ?commodity :CommodityMaxTHI ?c_max_thi }
+        optional { ?commodity :CommodityMinTemperature ?c_min_temp }
+        optional { ?commodity :CommodityMaxTemperature ?c_max_temp }
+        optional { ?commodity :CommodityAverageTemperature ?c_avg_temp }
+        optional { ?commodity :CommodityMinPrecipitation ?c_min_prec }
+        optional { ?commodity :CommodityMaxPrecipitation ?c_max_prec }
+        optional { ?commodity :CommodityAvgPrecipitation ?c_avg_prec }
+        optional { ?commodity :CommodityMinElevation ?c_min_elev }
+        optional { ?commodity :CommodityMaxElevation ?c_max_elev }
+
+    ?dixon_macro_region :hostsFarmingSystem ?farming_system  .
+    ?farming_system :reliesOnLivelihoodSource ?livelihood_source .
+    ?livelihood_source :producesCommodity ?commodity .
+    }
+    """ % (q_prefix, curr_fs['fs_name'], curr_fs['dmr_label'], ls_name)
+
+    df_commodities = sparql_dataframe.get(endpoint, q)
+    df_commodities['c_temp'] = df_commodities['c_min_temp'].astype(str) + '-' + df_commodities['c_max_temp'].astype(str) + " (Avg:" + df_commodities['c_avg_temp'].astype(str) + ")"
+    df_commodities['c_prec'] = df_commodities['c_min_prec'].astype(str) + '-' + df_commodities['c_max_prec'].astype(str) + " (Avg:" + df_commodities['c_avg_prec'].astype(str) + ")"
+    df_commodities['c_elev'] = df_commodities['c_min_elev'].astype(str) + '-' + df_commodities['c_max_elev'].astype(str)
+
+    if(len(df_commodities) > 0): put_markdown(f"## {ls_name}")
+
+    tab_dicts = []
+    for i in range(len(df_commodities)):
+        tab_dict = {}
+        tab_content_list = []
+
+        commodity_dict = df_commodities.iloc[i].to_dict()
+
+        if(str(commodity_dict['c_ncbi_taxo_name']) != 'nan'): tab_content_list.append(put_markdown(f"**NCBI taxonomy name**: {commodity_dict['c_ncbi_taxo_name']}"))
+
+        for key in commodity_icon_urls:
+            if(str(commodity_dict[key]) != 'nan'):
+                tab_content_list.append(put_image(commodity_icon_urls[key], width='50px'))
+                tab_content_list.append(put_markdown(f"**{commodity_fields_str[key]}:** {commodity_dict[key]}"))
+        
+        df_soils = get_commodity_soils(ls_name, commodity_dict['c_name'])
+        soils_collapse_content_list = []
+        for i in range(len(df_soils)):
+            soils_dict = df_soils.iloc[i].to_dict()
+            if(str(soils_dict['soil_name']) != 'nan'): soils_collapse_content_list.append(put_markdown(f"**{soils_dict['soil_name']}**"))
+            if(str(soils_dict['soil_desc']) != 'nan'): soils_collapse_content_list.append(put_markdown(soils_dict['soil_desc']))
+        if(len(soils_collapse_content_list) > 0): tab_content_list.append(put_collapse('Soils', soils_collapse_content_list))
+
+        df_resources = get_resources('commodity', get_commodity_query_fragment(ls_name, commodity_dict['c_name']))
+        resources_collapse_content_list = []
+        for i in range(len(df_resources)):
+            resources_dict = df_resources.iloc[i].to_dict()
+            if(str(resources_dict['resource_id']) != 'nan'): resources_collapse_content_list.append(put_markdown(f"**{resources_dict['resource_id']} ({resources_dict['resource_year']}, {resources_dict['resource_type']})**"))
+            if(str(resources_dict['resource_title']) != 'nan'): resources_collapse_content_list.append(put_markdown(f"*\"{resources_dict['resource_title']}\"*"))
+            if(str(resources_dict['resource_url']) != 'nan'): resources_collapse_content_list.append(put_markdown(resources_dict['resource_url']))
+        if(len(resources_collapse_content_list) > 0): tab_content_list.append(put_collapse('Resources', resources_collapse_content_list))
+
+        tab_dict['content'] = tab_content_list
+        tab_dict['title'] = commodity_dict['c_name']
+        tab_dicts.append(tab_dict)
+    if(len(tab_dicts) > 0): put_tabs(tab_dicts)
+
+def get_commodity_soils(ls_name, commodity_name):
+    q = """
+    %s
+
+    select ?soil_name ?soil_desc
+    %s
+
+    optional { ?commodity :growsInSoil ?soil 
+        optional { ?soil :SoilDescription ?soil_desc } 
+        ?soil :SoilName ?soil_name
+        }
+    }
+    """ % (q_prefix, get_commodity_query_fragment(ls_name, commodity_name))
+
+    return sparql_dataframe.get(endpoint, q)
+
+def get_commodity_query_fragment(ls_name, commodity_name):
+    q = """
+    where{
+    ?farming_system a :Farming_system ;
+        :FSName "%s" .
+
+    ?dixon_macro_region a :Dixon_macro_region ;
+        :DixonMRLabel "%s" .
+
+    ?livelihood_source a :Livelihood_source ;
+        :LSName "%s" .
+
+    ?commodity a :Commodity ;
+        :CommodityName "%s" .
+
+    ?dixon_macro_region :hostsFarmingSystem ?farming_system  .
+    ?farming_system :reliesOnLivelihoodSource ?livelihood_source .
+    ?livelihood_source :producesCommodity ?commodity .
+    """ % (curr_fs['fs_name'], curr_fs['dmr_label'], ls_name, commodity_name)
+    return q
 
 def get_fs_landscapes():
     q = """
@@ -288,10 +434,63 @@ def get_fs_landscapes():
 
     return sparql_dataframe.get(endpoint, q)
 
+def get_grouped_fs_field_resources():
+    q = """
+    %s
+
+    select ?fs_field ?resource_id ?resource_title ?resource_year ?resource_type ?resource_url
+    where{
+    ?farming_system a :Farming_system ;
+        :FSName "%s" .
+
+    ?dixon_macro_region a :Dixon_macro_region ;
+        :DixonMRLabel "%s" .
+
+    ?fs_sourcing a :Farming_system_sourcing ;
+        :FSSourcingField ?fs_field .
+
+    ?resource a :Resource ; 
+        :ResourceID ?resource_id ;
+        :ResourceYear ?resource_year ;
+        :ResourceType ?resource_type .
+
+    optional { ?resource :ResourceTitle ?resource_title }
+    optional { ?resource :ResourceURL ?resource_url }
+
+    ?dixon_macro_region :hostsFarmingSystem ?farming_system  .
+    ?fs_sourcing :sourcedForFSField ?farming_system .
+    ?fs_sourcing :sourcedFrom ?resource .
+    }
+    """ % (q_prefix, curr_fs['fs_name'], curr_fs['dmr_label'])
+
+    df_resources = sparql_dataframe.get(endpoint, q)
+    return df_resources.groupby(by=['resource_id','resource_title','resource_year','resource_type','resource_url']).agg({'fs_field': list}).reset_index()
+
+def get_resources(sourced_element, query_fragment):
+    q = """
+    %s
+
+    select ?resource_id ?resource_title ?resource_year ?resource_type ?resource_url
+    %s
+
+    optional { ?%s :sourcedFrom ?resource
+        optional { ?resource :ResourceTitle ?resource_title }
+        optional { ?resource :ResourceURL ?resource_url }
+
+        ?resource a :Resource ; 
+        :ResourceID ?resource_id ;
+        :ResourceYear ?resource_year ;
+        :ResourceType ?resource_type .
+        }
+    }
+    """ % (q_prefix, query_fragment, sourced_element)
+
+    return sparql_dataframe.get(endpoint, q)
+
 def build_what_else_scope():
     remove('what_else')
     with use_scope('what_else'):
-        put_markdown("### What else?\nThere are more information related to this farming system, click one of the following categories to extend the search.")
+        put_markdown("# What else?\nThere are more information related to this farming system, click one of the following categories to extend the search.")
         if('countries' not in active_scopes): put_button('Related countries', onclick=lambda: build_countries_scope(), color = 'light', outline = False)
         if('livelihood_sources' not in active_scopes): put_button('Livelihood sources', onclick=lambda: build_ls_scope(), color = 'light', outline = False)
 
