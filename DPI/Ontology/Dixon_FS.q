@@ -257,3 +257,43 @@ where{
    ?fs_sourcing :sourcedForFSField ?farming_system .
    ?fs_sourcing :sourcedFrom ?resource .
 }
+[QueryItem="Impact chain model from FS"]
+PREFIX : <http://www.semanticweb.org/samueleceol/ontologies/2023/0/untitled-ontology-23#>
+
+select ?icm_desc
+where{
+   ?farming_system a :Farming_system ;
+    :FSName "Lowland Rice" .
+
+   ?dixon_macro_region a :Dixon_macro_region ;
+       :DixonMRLabel "EAP" .
+
+   ?icm a :Impact_chain_model ;
+    :ICMDescription ?icm_desc .
+
+   ?dixon_macro_region :hostsFarmingSystem ?farming_system  .
+   ?farming_system :subjectToICM ?icm  .
+}
+[QueryItem="Connections from ICM"]
+PREFIX : <http://www.semanticweb.org/samueleceol/ontologies/2023/0/untitled-ontology-23#>
+
+select ?c_from ?c_link_type ?c_to ?c_desc ?c_tag
+where{
+   ?farming_system a :Farming_system ;
+    :FSName "Lowland Rice" .
+
+   ?dixon_macro_region a :Dixon_macro_region ;
+       :DixonMRLabel "EAP" .
+
+   ?connection a :Connection ;
+    :ConnectionFrom ?c_from ;
+    :ConnectionLinkType ?c_link_type ;
+    :ConnectionTo ?c_to
+
+    optional { ?connection :ConnectionDescription ?c_desc }
+    optional { ?connection :ConnectionTag ?c_tag }
+
+   ?dixon_macro_region :hostsFarmingSystem ?farming_system  .
+   ?farming_system :subjectToICM ?icm  .
+   ?icm :describedByConnection ?connection .
+}

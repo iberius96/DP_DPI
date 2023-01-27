@@ -63,10 +63,6 @@ def app():
         put_markdown('Here you have all available **macro regions**, select the one you are interested in.')
         get_formatted_dmr()
 
-    #put_html(df.to_html(border=0))
-    #put_input(label='Search FS', name='search_FS', placeholder='Farming system')
-    #put_markdown('Select the farming system you want to further explore.')
-
 def get_formatted_dmr():
     q = """
     %s
@@ -373,6 +369,51 @@ def build_related_commodities(ls_name):
         tab_dicts.append(tab_dict)
     if(len(tab_dicts) > 0): put_tabs(tab_dicts)
 
+def build_icm_scope():
+    q = """
+    %s
+
+    select ?icm_desc
+    where{
+    ?farming_system a :Farming_system ;
+        :FSName "%s" .
+
+    ?dixon_macro_region a :Dixon_macro_region ;
+        :DixonMRLabel "%s" .
+
+    ?icm a :Impact_chain_model ;
+        :ICMDescription ?icm_desc .
+
+    ?dixon_macro_region :hostsFarmingSystem ?farming_system  .
+    ?farming_system :subjectToICM ?icm  .
+    }
+    """ % (q_prefix, curr_fs['fs_name'], curr_fs['dmr_label'])
+
+    with use_scope('icm', clear=True):
+        active_scopes.add('icm')
+        df_icm = sparql_dataframe.get(endpoint, q).iloc[0].to_dict()
+
+        put_markdown("# Impact chain model")
+        put_markdown(df_icm['icm_desc'])
+        put_tabs([{'title': 'Connections', 'content': [put_scrollable(put_scope('connection_scrollable'), height=500)]}])
+        build_connection_tab()
+
+        build_hide_section_button('icm')
+    build_what_else_scope()
+
+def build_connection_tab():
+    q = """
+    %s
+
+    select ?c_from ?c_link_type ?c_to ?c_desc ?c_tag
+    %s
+    }
+    """ % (q_prefix, get_connection_query_fragment())
+    
+    df_connection = sparql_dataframe.get(endpoint, q)
+    df_connection.groupby(by=['c_from','c_link_type','c_to','c_desc']).agg({'c_tag': list}).reset_index() #TODO
+    put_html(df_connection.to_html(border=0), scope='connection_scrollable')
+
 def get_commodity_soils(ls_name, commodity_name):
     q = """
     %s
@@ -408,6 +449,29 @@ def get_commodity_query_fragment(ls_name, commodity_name):
     ?farming_system :reliesOnLivelihoodSource ?livelihood_source .
     ?livelihood_source :producesCommodity ?commodity .
     """ % (curr_fs['fs_name'], curr_fs['dmr_label'], ls_name, commodity_name)
+    return q
+
+def get_connection_query_fragment():
+    q = """
+    where{
+    ?farming_system a :Farming_system ;
+        :FSName "%s" .
+
+    ?dixon_macro_region a :Dixon_macro_region ;
+        :DixonMRLabel "%s" .
+
+    ?connection a :Connection ;
+        :ConnectionFrom ?c_from ;
+        :ConnectionLinkType ?c_link_type ;
+        :ConnectionTo ?c_to
+
+        optional { ?connection :ConnectionDescription ?c_desc }
+        optional { ?connection :ConnectionTag ?c_tag }
+
+    ?dixon_macro_region :hostsFarmingSystem ?farming_system  .
+    ?farming_system :subjectToICM ?icm  .
+    ?icm :describedByConnection ?connection .
+    """ % (curr_fs['fs_name'], curr_fs['dmr_label'])
     return q
 
 def get_fs_landscapes():
@@ -493,6 +557,7 @@ def build_what_else_scope():
         put_markdown("# What else?\nThere are more information related to this farming system, click one of the following categories to extend the search.")
         if('countries' not in active_scopes): put_button('Related countries', onclick=lambda: build_countries_scope(), color = 'light', outline = False)
         if('livelihood_sources' not in active_scopes): put_button('Livelihood sources', onclick=lambda: build_ls_scope(), color = 'light', outline = False)
+        if('icm' not in active_scopes): put_button('Impact chain model', onclick=lambda: build_icm_scope(), color = 'light', outline = False)
 
 def build_hide_section_button(scope_id):
     put_button('Hide section', onclick=lambda l_scope_id = scope_id: hide_scope(l_scope_id), color = 'light', outline = False)
