@@ -51,6 +51,19 @@ commodity_fields_str = {
     'c_elev': 'Elevation'
 }
 
+connection_fields_str = {
+    'c_from': 'From',
+    'c_link_type': 'Link type',
+    'c_to': 'To',
+    'c_desc': 'Description',
+    'c_tag': 'Tags'
+}
+
+factor_fields_str = {
+    'f_label': 'Factor',
+    'f_type_1': 'Type-1 label'
+}
+
 curr_fs = {}
 active_scopes = set()
 
@@ -138,6 +151,7 @@ def process_fs_selection(dmr_label, fs_name):
     curr_fs['dmr_label'] = dmr_label
     curr_fs['fs_name'] = fs_name
 
+    remove('what_else')
     clear('dmr_scope')
     with use_scope('fs_scope', clear=True):
         put_markdown(f"Here are some details of the **{fs_name}** farming system that might be of interest to you.")
@@ -171,8 +185,6 @@ def process_fs_selection(dmr_label, fs_name):
             put_markdown(f"The **{fs_name}** farming system takes place in the following **landscapes**")
             for landscape in df_landscape['landscape_name'].to_numpy():
                 put_markdown(f" * {landscape}")
-        
-        
     build_what_else_scope()
 
 def build_experts_scope():
@@ -244,6 +256,7 @@ def build_countries_scope():
     }
     """ % (q_prefix, curr_fs['fs_name'], curr_fs['dmr_label'])
 
+    remove('what_else')
     with use_scope('countries', clear=True):
         active_scopes.add('countries')
         df_countries = sparql_dataframe.get(endpoint, q)
@@ -252,7 +265,7 @@ def build_countries_scope():
         df_countries = df_countries[['Country', 'Intermediate region', 'Sub-region', 'Region']]
 
         put_markdown("# Countries\nHere are the countries associated with the farming system.")
-        build_input_search('countries', df_countries, 'Country', 'Search country')
+        build_input_search(target_scope='countries', target_df=df_countries, target_field='Country', placeholder_str='Search country')
         with use_scope('countries_table'): put_html(df_countries.to_html(border=0))
         build_hide_section_button('countries')
     build_what_else_scope()
@@ -277,6 +290,7 @@ def build_ls_scope():
     }
     """ % (q_prefix, curr_fs['fs_name'], curr_fs['dmr_label'])
 
+    remove('what_else')
     with use_scope('livelihood_sources', clear=True):
         active_scopes.add('livelihood_sources')
         df_ls = sparql_dataframe.get(endpoint, q)
@@ -355,25 +369,15 @@ def build_related_commodities(ls_name):
             if(str(soils_dict['soil_desc']) != 'nan'): soils_collapse_content_list.append(put_markdown(soils_dict['soil_desc']))
         if(len(soils_collapse_content_list) > 0): tab_content_list.append(put_collapse('Soils', soils_collapse_content_list))
 
-        df_resources = get_resources('commodity', get_commodity_query_fragment(ls_name, commodity_dict['c_name']))
-        resources_collapse_content_list = []
-        for i in range(len(df_resources)):
-            resources_dict = df_resources.iloc[i].to_dict()
-            if(str(resources_dict['resource_id']) != 'nan'): resources_collapse_content_list.append(put_markdown(f"**{resources_dict['resource_id']} ({resources_dict['resource_year']}, {resources_dict['resource_type']})**"))
-            if(str(resources_dict['resource_title']) != 'nan'): resources_collapse_content_list.append(put_markdown(f"*\"{resources_dict['resource_title']}\"*"))
-            if(str(resources_dict['resource_url']) != 'nan'): resources_collapse_content_list.append(put_markdown(resources_dict['resource_url']))
+        resources_collapse_content_list = build_resource_collapse_content_list(get_resources('commodity', get_commodity_query_fragment(ls_name, commodity_dict['c_name'])))
         if(len(resources_collapse_content_list) > 0): tab_content_list.append(put_collapse('Resources', resources_collapse_content_list))
-
         tab_dict['content'] = tab_content_list
         tab_dict['title'] = commodity_dict['c_name']
         tab_dicts.append(tab_dict)
     if(len(tab_dicts) > 0): put_tabs(tab_dicts)
 
 def build_icm_scope():
-    q = """
-    %s
-
-    select ?icm_desc
+    icm_query_fragment = """
     where{
     ?farming_system a :Farming_system ;
         :FSName "%s" .
@@ -386,17 +390,30 @@ def build_icm_scope():
 
     ?dixon_macro_region :hostsFarmingSystem ?farming_system  .
     ?farming_system :subjectToICM ?icm  .
-    }
-    """ % (q_prefix, curr_fs['fs_name'], curr_fs['dmr_label'])
+    """ % (curr_fs['fs_name'], curr_fs['dmr_label'])
 
+    q = """
+    %s
+
+    select ?icm_desc
+    %s
+    }
+    """ % (q_prefix, icm_query_fragment)
+
+    remove('what_else')
     with use_scope('icm', clear=True):
         active_scopes.add('icm')
         df_icm = sparql_dataframe.get(endpoint, q).iloc[0].to_dict()
 
         put_markdown("# Impact chain model")
         put_markdown(df_icm['icm_desc'])
-        put_tabs([{'title': 'Connections', 'content': [put_scrollable(put_scope('connection_scrollable'), height=500)]}])
+        resources_collapse_content_list = build_resource_collapse_content_list(get_resources('icm', icm_query_fragment))
+        if(len(resources_collapse_content_list) > 0): put_collapse('Resources', resources_collapse_content_list)
+        put_tabs([
+            {'title': 'Factors', 'content': [put_scrollable(put_scope('factor_scrollable'), height=800)]},
+            {'title': 'Connections', 'content': [put_scrollable(put_scope('connection_scrollable'), height=800)]}])
         build_connection_tab()
+        build_factor_tab()
 
         build_hide_section_button('icm')
     build_what_else_scope()
@@ -405,14 +422,130 @@ def build_connection_tab():
     q = """
     %s
 
-    select ?c_from ?c_link_type ?c_to ?c_desc ?c_tag
+    select ?c_id ?c_from ?c_link_type ?c_to ?c_desc ?c_tag
     %s
     }
     """ % (q_prefix, get_connection_query_fragment())
     
     df_connection = sparql_dataframe.get(endpoint, q)
-    df_connection.groupby(by=['c_from','c_link_type','c_to','c_desc']).agg({'c_tag': list}).reset_index() #TODO
-    put_html(df_connection.to_html(border=0), scope='connection_scrollable')
+    df_connection = df_connection.groupby(by=['c_id','c_from','c_link_type','c_to','c_desc']).agg({'c_tag': list}).reset_index()
+    build_input_search(target_scope='connection_scrollable', target_df=df_connection, target_field='c_from', placeholder_str='Search connections', select_fields=list(connection_fields_str.values()))
+    put_scope('connection_scrollable_table', scope='connection_scrollable') # Required for search scope refresh
+    build_connection_table(df_connection)
+
+def build_factor_tab():
+    q = """
+    %s
+
+    select ?f_label ?f_type_1
+    where{
+    ?farming_system a :Farming_system ;
+        :FSName "%s" .
+
+    ?dixon_macro_region a :Dixon_macro_region ;
+        :DixonMRLabel "%s" .
+
+    ?factor a :Factor ;
+        :FactorLabel ?f_label ;
+        :FactorType-1 ?f_type_1 .
+
+    ?dixon_macro_region :hostsFarmingSystem ?farming_system  .
+    ?farming_system :subjectToICM ?icm  .
+    ?icm :characterisedByFactor ?factor .
+    }
+    """ % (q_prefix, curr_fs['fs_name'], curr_fs['dmr_label'])
+
+    df_factor = sparql_dataframe.get(endpoint, q)
+    build_input_search(target_scope='factor_scrollable', target_df=df_factor, target_field='f_label', placeholder_str='Search factors', select_fields=list(factor_fields_str.values()))
+    put_scope('factor_scrollable_table', scope='factor_scrollable') # Required for search scope refresh
+    build_factor_table(df_factor)
+
+def build_connection_table(df_connection):
+    with use_scope('connection_scrollable_table', clear=True):
+        for i in range(len(df_connection)):
+            connection_dict = df_connection.iloc[i].to_dict()
+            if(str(connection_dict['c_from']) != 'nan'): put_markdown(f"### {connection_dict['c_from']} → {connection_dict['c_link_type']} → {connection_dict['c_to']}")
+            if(str(connection_dict['c_desc']) != 'nan'): put_markdown(f"**Description**\n{connection_dict['c_desc']}")
+            if(len(connection_dict['c_tag']) > 0): put_markdown(f"**Tags:** {', '.join(map(str, connection_dict['c_tag']))}")
+
+            resources_collapse_content_list = build_resource_collapse_content_list(get_resources('connection', get_connection_query_fragment(by_id=True, id=connection_dict['c_id'])))
+            if(len(resources_collapse_content_list) > 0): put_collapse('Resources', resources_collapse_content_list)
+
+            put_markdown("\n---\n")
+
+def build_factor_table(df_factor):
+    with use_scope('factor_scrollable_table', clear=True):
+        for i in range(len(df_factor)):
+            factor_dict = df_factor.iloc[i].to_dict()
+            if(str(factor_dict['f_label']) != 'nan'): put_markdown(f"### {factor_dict['f_label']}")
+            if(str(factor_dict['f_type_1']) != 'nan'): put_markdown(f"**Type-1 label:** {factor_dict['f_type_1']}")
+            if(str(factor_dict['f_label']) != 'nan'): build_factor_descriptors_collapse(factor_dict['f_label'], factor_dict['f_type_1'])
+            if(str(factor_dict['f_label']) != 'nan'): build_factor_connections_collapse(factor_dict['f_label'])
+            put_markdown("\n---\n")
+
+def build_factor_descriptors_collapse(factor_label, factor_type_1):
+    q = """
+    %s
+
+    select ?fd_id ?fd_desc ?fd_type_2 ?fd_tag
+    %s
+    }
+    """ % (q_prefix, get_factor_descriptor_query_fragment(factor_label, factor_type_1))
+
+    factor_descriptors_df = sparql_dataframe.get(endpoint, q)
+    factor_descriptors_df = factor_descriptors_df.groupby(by=['fd_id','fd_desc']).agg({'fd_type_2': set, 'fd_tag': set}).reset_index()
+    collapse_content_list = []
+    for i in range(len(factor_descriptors_df)):
+            factor_descriptors_dict = factor_descriptors_df.iloc[i].to_dict()
+            if(str(factor_descriptors_dict['fd_type_2']) != 'nan'): collapse_content_list.append(put_markdown(f"**Type-2 label(s):** {', '.join(map(str, factor_descriptors_dict['fd_type_2']))}"))
+            if(str(factor_descriptors_dict['fd_tag']) != 'nan'): collapse_content_list.append(put_markdown(f"**Tag(s):** {', '.join(map(str, factor_descriptors_dict['fd_tag']))}"))
+            if(str(factor_descriptors_dict['fd_desc']) != 'nan'): collapse_content_list.append(put_markdown(f"**Description:**\n {factor_descriptors_dict['fd_desc']}"))
+            resources_collapse_content_list = build_resource_collapse_content_list(get_resources('factor_descriptor', get_factor_descriptor_query_fragment(factor_label, factor_type_1, by_id=True, id=factor_descriptors_dict['fd_id'])))
+            if(len(resources_collapse_content_list) > 0): collapse_content_list.append(put_collapse('Resources', resources_collapse_content_list))
+
+    if(len(collapse_content_list) > 0): put_collapse('Related descriptor(s)', collapse_content_list, scope='factor_scrollable_table')
+
+def build_factor_connections_collapse(factor_label):
+    q = """
+    %s
+
+    select distinct ?c_from ?c_link_type ?c_to
+    where{
+    ?farming_system a :Farming_system ;
+        :FSName "%s" .
+
+    ?dixon_macro_region a :Dixon_macro_region ;
+        :DixonMRLabel "%s" .
+
+    ?dixon_macro_region :hostsFarmingSystem ?farming_system  .
+    ?farming_system :subjectToICM ?icm  .
+    ?icm :characterisedByFactor ?factor .
+    ?icm :describedByConnection ?connection .
+
+    optional {
+        ?connection a :Connection ;
+        :ConnectionFrom ?c_from ;
+        :ConnectionLinkType ?c_link_type ;
+        :ConnectionTo ?c_to ;
+        :ConnectionTo "%s" .
+    }
+
+    optional {
+        ?connection a :Connection ;
+        :ConnectionFrom ?c_from ;
+        :ConnectionFrom "%s" ;
+        :ConnectionLinkType ?c_link_type ;
+        :ConnectionTo ?c_to .
+    }
+    }
+    """ % (q_prefix, curr_fs['fs_name'], curr_fs['dmr_label'], factor_label, factor_label)
+
+    factor_connections_df = sparql_dataframe.get(endpoint, q)
+    collapse_content_list = []
+    for i in range(len(factor_connections_df)):
+            factor_connections_dict = factor_connections_df.iloc[i].to_dict()
+            if(str(factor_connections_dict['c_from']) != 'nan'): collapse_content_list.append(put_markdown(f"{factor_connections_dict['c_from']} → {factor_connections_dict['c_link_type']} → {factor_connections_dict['c_to']}"))
+    if(len(collapse_content_list) > 0): put_collapse('Related connection(s)', collapse_content_list, scope='factor_scrollable_table')
 
 def get_commodity_soils(ls_name, commodity_name):
     q = """
@@ -451,27 +584,68 @@ def get_commodity_query_fragment(ls_name, commodity_name):
     """ % (curr_fs['fs_name'], curr_fs['dmr_label'], ls_name, commodity_name)
     return q
 
-def get_connection_query_fragment():
-    q = """
-    where{
-    ?farming_system a :Farming_system ;
-        :FSName "%s" .
+def get_factor_descriptor_query_fragment(factor_label, factor_type_1, by_id=False, id=0):
+    if(by_id):
+        q = """
+        where{
+        ?factor_descriptor a :Factor_descriptor ;
+            :FDId %s .
+        """ % (id)
+    else:
+        q = """
+        where{
+        ?farming_system a :Farming_system ;
+            :FSName "%s" .
 
-    ?dixon_macro_region a :Dixon_macro_region ;
-        :DixonMRLabel "%s" .
+        ?dixon_macro_region a :Dixon_macro_region ;
+            :DixonMRLabel "%s" .
 
-    ?connection a :Connection ;
-        :ConnectionFrom ?c_from ;
-        :ConnectionLinkType ?c_link_type ;
-        :ConnectionTo ?c_to
+        ?factor a :Factor ;
+            :FactorLabel "%s" ;
+            :FactorType-1 "%s" .
 
-        optional { ?connection :ConnectionDescription ?c_desc }
-        optional { ?connection :ConnectionTag ?c_tag }
+        ?factor_descriptor a :Factor_descriptor ;
+            :FDId ?fd_id ;
+            :FDDescription ?fd_desc ;
+            :FDType-2 ?fd_type_2 ;
+            :FDTag ?fd_tag .
 
-    ?dixon_macro_region :hostsFarmingSystem ?farming_system  .
-    ?farming_system :subjectToICM ?icm  .
-    ?icm :describedByConnection ?connection .
-    """ % (curr_fs['fs_name'], curr_fs['dmr_label'])
+        ?dixon_macro_region :hostsFarmingSystem ?farming_system  .
+        ?farming_system :subjectToICM ?icm  .
+        ?icm :characterisedByFactor ?factor .
+        ?factor :describedByFD ?factor_descriptor .
+        """ % (curr_fs['fs_name'], curr_fs['dmr_label'], factor_label, factor_type_1)
+    return q
+
+def get_connection_query_fragment(by_id=False, id=0):
+    if(by_id):
+        q = """
+        where{
+        ?connection a :Connection ;
+            :ConnectionId %s ;
+        """ % (id)
+    else:
+        q = """
+        where{
+        ?farming_system a :Farming_system ;
+            :FSName "%s" .
+
+        ?dixon_macro_region a :Dixon_macro_region ;
+            :DixonMRLabel "%s" .
+
+        ?connection a :Connection ;
+            :ConnectionId ?c_id ;
+            :ConnectionFrom ?c_from ;
+            :ConnectionLinkType ?c_link_type ;
+            :ConnectionTo ?c_to .
+
+            optional { ?connection :ConnectionDescription ?c_desc }
+            optional { ?connection :ConnectionTag ?c_tag }
+
+        ?dixon_macro_region :hostsFarmingSystem ?farming_system  .
+        ?farming_system :subjectToICM ?icm  .
+        ?icm :describedByConnection ?connection .
+        """ % (curr_fs['fs_name'], curr_fs['dmr_label'])
     return q
 
 def get_fs_landscapes():
@@ -551,6 +725,15 @@ def get_resources(sourced_element, query_fragment):
 
     return sparql_dataframe.get(endpoint, q)
 
+def build_resource_collapse_content_list(df_resources):
+    resources_collapse_content_list = []
+    for i in range(len(df_resources)):
+        resources_dict = df_resources.iloc[i].to_dict()
+        if(str(resources_dict['resource_id']) != 'nan'): resources_collapse_content_list.append(put_markdown(f"**{resources_dict['resource_id']} ({resources_dict['resource_year']}, {resources_dict['resource_type']})**"))
+        if(str(resources_dict['resource_title']) != 'nan'): resources_collapse_content_list.append(put_markdown(f"*\"{resources_dict['resource_title']}\"*"))
+        if(str(resources_dict['resource_url']) != 'nan'): resources_collapse_content_list.append(put_markdown(resources_dict['resource_url']))
+    return resources_collapse_content_list
+
 def build_what_else_scope():
     remove('what_else')
     with use_scope('what_else'):
@@ -567,17 +750,27 @@ def hide_scope(scope_id):
     active_scopes.remove(scope_id)
     build_what_else_scope()
 
-def build_input_search(target_scope, target_df, target_field, placeholder_str):
-    put_input(target_scope + '_search', placeholder=placeholder_str)
-    put_button('Search', onclick=lambda l_target_scope = target_scope,
+def build_input_search(target_scope, target_df, target_field, placeholder_str, select_fields=[]):
+    row_elements = []
+    row_elements.append(put_input(target_scope + '_search', placeholder=placeholder_str, scope=target_scope))
+    if(len(select_fields) > 0): row_elements.append(put_select(target_scope + '_select', select_fields, scope=target_scope))
+    field_str = connection_fields_str if target_scope == 'connection_scrollable' else factor_fields_str
+    row_elements.append(put_button('Search', onclick=lambda l_target_scope = target_scope,
                                         l_target_df = target_df,
-                                        l_target_field = target_field: filter_table(l_target_scope, l_target_df, l_target_field, pin[target_scope + '_search']))
+                                        l_target_field = target_field: filter_table(l_target_scope, 
+                                                                                    l_target_df, 
+                                                                                    [key for key,val in field_str.items() if val == pin[target_scope + '_select']][0] if len(select_fields) > 0 else l_target_field, 
+                                                                                    pin[target_scope + '_search']), 
+                                                                                    scope=target_scope))
+    put_row(row_elements, scope=target_scope)
 
 def filter_table(target_scope, target_df, target_field, field_val):
     if(field_val): filtered_df = target_df[target_df[target_field].str.contains(field_val, na = False, case = False)]
     else: filtered_df = target_df
-    with use_scope(target_scope + '_table', clear=True):
-        put_html(filtered_df.to_html(border=0))
+    if(target_scope == 'countries'): 
+        with use_scope(target_scope + '_table', clear=True): put_html(filtered_df.to_html(border=0))
+    elif(target_scope == 'connection_scrollable'): build_connection_table(filtered_df)
+    elif(target_scope == 'factor_scrollable'): build_factor_table(filtered_df)
 
 if __name__ == '__main__':
     parser = ArgumentParser()

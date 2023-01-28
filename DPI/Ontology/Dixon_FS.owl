@@ -297,6 +297,13 @@
                 rdfs:range xsd:string .
 
 
+###  http://www.semanticweb.org/samueleceol/ontologies/2023/0/untitled-ontology-23#ConnectionId
+:ConnectionId rdf:type owl:DatatypeProperty ,
+                       owl:FunctionalProperty ;
+              rdfs:domain :Connection ;
+              rdfs:range xsd:integer .
+
+
 ###  http://www.semanticweb.org/samueleceol/ontologies/2023/0/untitled-ontology-23#ConnectionLinkType
 :ConnectionLinkType rdf:type owl:DatatypeProperty ,
                              owl:FunctionalProperty ;
@@ -384,6 +391,13 @@
                         owl:FunctionalProperty ;
                rdfs:domain :Factor_descriptor ;
                rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/samueleceol/ontologies/2023/0/untitled-ontology-23#FDId
+:FDId rdf:type owl:DatatypeProperty ,
+               owl:FunctionalProperty ;
+      rdfs:domain :Factor_descriptor ;
+      rdfs:range xsd:integer .
 
 
 ###  http://www.semanticweb.org/samueleceol/ontologies/2023/0/untitled-ontology-23#FDTag
@@ -636,6 +650,10 @@
                               owl:someValuesFrom rdfs:Literal
                             ] ,
                             [ rdf:type owl:Restriction ;
+                              owl:onProperty :ConnectionId ;
+                              owl:someValuesFrom rdfs:Literal
+                            ] ,
+                            [ rdf:type owl:Restriction ;
                               owl:onProperty :ConnectionLinkType ;
                               owl:someValuesFrom rdfs:Literal
                             ] ,
@@ -785,6 +803,10 @@
                                      owl:onProperty [ owl:inverseOf :describedByFD
                                                     ] ;
                                      owl:someValuesFrom owl:Thing
+                                   ] ,
+                                   [ rdf:type owl:Restriction ;
+                                     owl:onProperty :FDId ;
+                                     owl:someValuesFrom rdfs:Literal
                                    ] ;
                    owl:disjointWith :Farming_system ,
                                     :Farming_system_sourcing ,

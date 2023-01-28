@@ -162,7 +162,7 @@ source		SELECT fs_name, fs_macro_region, factor, type_1_label
 			GROUP BY fs_name, fs_macro_region, factor, type_1_label
 
 mappingId	Connection
-target		:connection/{id} a :Connection ; :ConnectionLinkType {link_type}^^xsd:string ; :ConnectionFrom {link_from}^^xsd:string ; :ConnectionTo {link_to}^^xsd:string ; :ConnectionDescription {description}^^xsd:string . 
+target		:connection/{id} a :Connection ; :ConnectionId {id}^^xsd:integer ; :ConnectionLinkType {link_type}^^xsd:string ; :ConnectionFrom {link_from}^^xsd:string ; :ConnectionTo {link_to}^^xsd:string ; :ConnectionDescription {description}^^xsd:string . 
 source		SELECT id, link_from, link_to, link_type, description
 			FROM global_schema.connections
 
@@ -196,7 +196,7 @@ source		SELECT connection_id, resource_id, resource_year, resource_number
 			FROM global_schema.connection_resources
 
 mappingId	Factor descriptor
-target		:factor_descriptor/{id} a :Factor_descriptor ; :FDDescription {description}^^xsd:string . 
+target		:factor_descriptor/{id} a :Factor_descriptor ; :FDId {id}^^xsd:integer ; :FDDescription {description}^^xsd:string . 
 source		SELECT id, description
 			FROM global_schema.fs_factors
 
