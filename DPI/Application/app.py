@@ -1,6 +1,8 @@
 import sparql_dataframe
 import math
+import worldmap as wm
 
+from pathlib import Path
 from argparse import ArgumentParser
 from pywebio import *
 from pywebio.input import *
@@ -264,13 +266,19 @@ def build_countries_scope():
     with use_scope('countries', clear=True):
         active_scopes.add('countries')
         df_countries = sparql_dataframe.get(endpoint, q)
+        #country_list = df_countries['country_name'].to_numpy()
         df_countries['Country'] = df_countries['country_name'] + ' (' + df_countries['country_iso_alpha_3'] + ')'
         df_countries.rename(columns={'intermediate_region_name': 'Intermediate region', 'sub_region_name': 'Sub-region', 'region_name': 'Region'}, inplace = True)
         df_countries = df_countries[['Country', 'Intermediate region', 'Sub-region', 'Region']]
 
         put_markdown("# Countries\nHere are the countries associated with the farming system.")
         build_input_search(target_scope='countries', target_df=df_countries, target_field='Country', placeholder_str='Search country')
-        with use_scope('countries_table'): 
+        with use_scope('countries_table'):
+            #pathname = f"maps/{curr_fs['dmr_label']}_{curr_fs['fs_name']}.svg"
+            #if(Path(pathname).is_file() == False): 
+            #    wm.plot(country_list, map_name='world', cmap='Set1', filename=pathname) #Generate map svg
+            #img = open(pathname).read()
+            #put_html(img)
             put_html(df_countries.to_html(border=0))
         build_hide_section_button('countries')
     build_what_else_scope()
@@ -781,7 +789,7 @@ def filter_table(target_scope, target_df, target_field, field_val):
 
 if __name__ == '__main__':
     parser = ArgumentParser()
-    parser.add_argument('-p', '--port', default = 8080, type = int)
+    parser.add_argument('-p', '--port', default = 8081, type = int)
 
     args = parser.parse_args()
     start_server(app, port = args.port, auto_open_webbrowser=True)
