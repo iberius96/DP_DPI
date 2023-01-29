@@ -1,7 +1,4 @@
-import numpy as np
-import pandas as pd
 import sparql_dataframe
-import copy
 import math
 
 from argparse import ArgumentParser
@@ -27,14 +24,14 @@ fs_icons_urls = {
 fs_fields_str = {
     'desc': 'Description',
     'agro_eco_zone': 'Agro-Ecological Zone', 
-    'agri_pop': 'Agricultural population', 
-    'cattle_pop': 'Cattle population', 
-    'cultivated_area': 'Cultivated area', 
-    'farm_size': 'Farm size', 
-    'irrigated_area': 'Irrigated area', 
+    'agri_pop': 'Agricultural population (M)', 
+    'cattle_pop': 'Cattle population (M)', 
+    'cultivated_area': 'Cultivated area (M ha)', 
+    'farm_size': 'Farm size (M ha)', 
+    'irrigated_area': 'Irrigated area (M ha)', 
     'irrigated_rainfed': 'Irrigate/Rainfed', 
-    'total_area': 'Total area', 
-    'total_pop': 'Total population'
+    'total_area': 'Total area (M ha)', 
+    'total_pop': 'Total population (M)'
 }
 
 commodity_icon_urls = {
@@ -46,9 +43,9 @@ commodity_icon_urls = {
 
 commodity_fields_str = {
     'c_max_thi': 'Max THI',
-    'c_temp': 'Temperatures',
-    'c_prec': 'Precipitations',
-    'c_elev': 'Elevation'
+    'c_temp': 'Temperatures (°C)',
+    'c_prec': 'Precipitations (mm)',
+    'c_elev': 'Elevation (masl)'
 }
 
 connection_fields_str = {
@@ -161,13 +158,20 @@ def process_fs_selection(dmr_label, fs_name):
         if(df_dict['desc']):
             put_markdown(f"### {fs_fields_str['desc']}\n{df_dict['desc']}")
 
+        idx = 0
+        row_items = []
         for key in fs_icons_urls:
-            if((key == 'agro_eco_zone' and df_dict[key] != '') or
-                not math.isnan(df_dict[key])):
-                put_image(fs_icons_urls[key], width='50px')
-                put_markdown(f"**{fs_fields_str[key]}:** {df_dict[key]}")
-
-                if(key == 'irrigated_area'): put_markdown(f"**{fs_fields_str['irrigated_rainfed']}:** {df_dict['irrigated_rainfed']}")
+            if(idx % 2 == 0): 
+                if(len(row_items) > 0): put_row(row_items)
+                row_items = []
+            if((key == 'agro_eco_zone' and df_dict[key] != 'nan') or not math.isnan(df_dict[key])):
+                image_text_pair = []
+                image_text_pair.append([put_image(fs_icons_urls[key], width='50px')])
+                image_text_pair.append([put_markdown(f"**{fs_fields_str[key]}:** {df_dict[key] if isinstance(df_dict[key], str) else int(df_dict[key]) if df_dict[key].is_integer() else df_dict[key]}")])
+                if(key == 'irrigated_area'): image_text_pair.append([put_markdown(f"**{fs_fields_str['irrigated_rainfed']}:** {df_dict['irrigated_rainfed']}")])
+                row_items.append(put_grid(image_text_pair))
+                idx += 1
+        if(len(row_items) > 0): put_row(row_items)
 
         df_resources = get_grouped_fs_field_resources()
         resources_collapse_content_list = []
@@ -266,7 +270,8 @@ def build_countries_scope():
 
         put_markdown("# Countries\nHere are the countries associated with the farming system.")
         build_input_search(target_scope='countries', target_df=df_countries, target_field='Country', placeholder_str='Search country')
-        with use_scope('countries_table'): put_html(df_countries.to_html(border=0))
+        with use_scope('countries_table'): 
+            put_html(df_countries.to_html(border=0))
         build_hide_section_button('countries')
     build_what_else_scope()
 
@@ -344,7 +349,6 @@ def build_related_commodities(ls_name):
     df_commodities['c_temp'] = df_commodities['c_min_temp'].astype(str) + '-' + df_commodities['c_max_temp'].astype(str) + " (Avg:" + df_commodities['c_avg_temp'].astype(str) + ")"
     df_commodities['c_prec'] = df_commodities['c_min_prec'].astype(str) + '-' + df_commodities['c_max_prec'].astype(str) + " (Avg:" + df_commodities['c_avg_prec'].astype(str) + ")"
     df_commodities['c_elev'] = df_commodities['c_min_elev'].astype(str) + '-' + df_commodities['c_max_elev'].astype(str)
-
     if(len(df_commodities) > 0): put_markdown(f"## {ls_name}")
 
     tab_dicts = []
@@ -357,10 +361,12 @@ def build_related_commodities(ls_name):
         if(str(commodity_dict['c_ncbi_taxo_name']) != 'nan'): tab_content_list.append(put_markdown(f"**NCBI taxonomy name**: {commodity_dict['c_ncbi_taxo_name']}"))
 
         for key in commodity_icon_urls:
-            if(str(commodity_dict[key]) != 'nan'):
+            cleaned_str = str(commodity_dict[key]).replace('(Avg:nan)', '').replace('nan-nan','').replace('.0','')
+            if(cleaned_str.replace(' ', '') != '' and cleaned_str.replace(' ', '') != 'nan'):
                 tab_content_list.append(put_image(commodity_icon_urls[key], width='50px'))
-                tab_content_list.append(put_markdown(f"**{commodity_fields_str[key]}:** {commodity_dict[key]}"))
-        
+                tab_content_list.append(put_markdown(f"**{commodity_fields_str[key]}:** {cleaned_str}"))
+        if(len(tab_content_list) == 0): tab_content_list.append(put_markdown('No info to show for this commodity.'))
+
         df_soils = get_commodity_soils(ls_name, commodity_dict['c_name'])
         soils_collapse_content_list = []
         for i in range(len(df_soils)):
@@ -765,7 +771,8 @@ def build_input_search(target_scope, target_df, target_field, placeholder_str, s
     put_row(row_elements, scope=target_scope)
 
 def filter_table(target_scope, target_df, target_field, field_val):
-    if(field_val): filtered_df = target_df[target_df[target_field].str.contains(field_val, na = False, case = False)]
+    if(field_val): 
+        filtered_df = target_df[target_df[target_field].astype(str).str.contains(field_val, na = False, case = False)]
     else: filtered_df = target_df
     if(target_scope == 'countries'): 
         with use_scope(target_scope + '_table', clear=True): put_html(filtered_df.to_html(border=0))
