@@ -1,8 +1,8 @@
 import sparql_dataframe
 import math
-import worldmap as wm
+#import worldmap as wm
 
-from pathlib import Path
+#from pathlib import Path
 from argparse import ArgumentParser
 from pywebio import *
 from pywebio.input import *
@@ -426,8 +426,8 @@ def build_icm_scope():
         put_tabs([
             {'title': 'Factors', 'content': [put_scrollable(put_scope('factor_scrollable'), height=800)]},
             {'title': 'Connections', 'content': [put_scrollable(put_scope('connection_scrollable'), height=800)]}])
-        build_connection_tab()
         build_factor_tab()
+        build_connection_tab()
 
         build_hide_section_button('icm')
     build_what_else_scope()
@@ -751,7 +751,7 @@ def build_resource_collapse_content_list(df_resources):
 def build_what_else_scope():
     remove('what_else')
     with use_scope('what_else'):
-        put_markdown("# What else?\nThere are more information related to this farming system, click one of the following categories to extend the search.")
+        if(len(active_scopes) < 3): put_markdown("# What else?\nThere are more information related to this farming system, click one of the following categories to extend the search.")
         if('countries' not in active_scopes): put_button('Related countries', onclick=lambda: build_countries_scope(), color = 'light', outline = False)
         if('livelihood_sources' not in active_scopes): put_button('Livelihood sources', onclick=lambda: build_ls_scope(), color = 'light', outline = False)
         if('icm' not in active_scopes): put_button('Impact chain model', onclick=lambda: build_icm_scope(), color = 'light', outline = False)
