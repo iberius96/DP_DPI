@@ -5,5 +5,5 @@ dependencies:
   - pip=22.3.1 
   - python=3.10
   - pip:
-    - pywebio==1.7.    
+    - pywebio==1.7  
     - sparql_dataframe==0.4
