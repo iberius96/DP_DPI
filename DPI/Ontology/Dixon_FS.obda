@@ -218,16 +218,16 @@ source		SELECT id, fs_name, fs_macro_region
 mappingId	DP: Connection Tag
 target		:connection/{connection_id} a :Connection ; :ConnectionTag {tag}^^xsd:string . 
 source		SELECT connection_id, tag
-			FROM global_schema.connection_tags;
+			FROM global_schema.connection_tags
 
 mappingId	DP: Factor Descriptor Tag
 target		:factor_descriptor/{fs_factor_id} a :Factor_descriptor ; :FDTag {tag}^^xsd:string . 
 source		SELECT fs_factor_id, tag
-			FROM global_schema.fs_factor_tags;
+			FROM global_schema.fs_factor_tags
 
 mappingId	DP: Factor Descriptor Type-2
 target		:factor_descriptor/{fs_factor_id} a :Factor_descriptor ; :FDType-2 {type_2_label}^^xsd:string . 
 source		SELECT *
-			FROM global_schema.fs_factor_type_2_assignments;
+			FROM global_schema.fs_factor_type_2_assignments
 ]]
 

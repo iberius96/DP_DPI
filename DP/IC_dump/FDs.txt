@@ -1,0 +1,1188 @@
+FDs FOR TABLE: Regions
+['M49'] -> Name
+['Name'] -> M49
+-------------------------
+
+
+FDs FOR TABLE: Sub-regions
+['Sub-region Code'] -> Region Code
+['Sub-region Code'] -> Sub-region Name
+['Sub-region Name'] -> Sub-region Code
+['Sub-region Name'] -> Region Code
+-------------------------
+
+
+FDs FOR TABLE: Intermediate regions
+['Intermediate Region Code'] -> Sub-region Code
+['Intermediate Region Code'] -> Intermediate Region Name
+['Intermediate Region Name'] -> Intermediate Region Code
+['Intermediate Region Name'] -> Sub-region Code
+-------------------------
+
+
+FDs FOR TABLE: Countries
+['M49 Code'] -> Sub-region Code
+['M49 Code'] -> Intermediate Region Code
+['M49 Code'] -> Country or Area
+['M49 Code'] -> ISO-alpha3 Code
+['Country or Area'] -> M49 Code
+['Country or Area'] -> Sub-region Code
+['Country or Area'] -> Intermediate Region Code
+['Country or Area'] -> ISO-alpha3 Code
+['ISO-alpha3 Code'] -> M49 Code
+['ISO-alpha3 Code'] -> Sub-region Code
+['ISO-alpha3 Code'] -> Intermediate Region Code
+['ISO-alpha3 Code'] -> Country or Area
+['Intermediate Region Code'] -> Sub-region Code
+-------------------------
+
+
+FDs FOR TABLE: Dixon macro regions
+['Label'] -> Name
+['Name'] -> Label
+-------------------------
+
+
+FDs FOR TABLE: FS Country assignments
+['Location: Countries (M49-code)'] -> FS macro region
+-------------------------
+
+
+FDs FOR TABLE: FS livelihood sources
+-------------------------
+
+
+FDs FOR TABLE: FS landscapes
+['Landscape'] -> Farming system
+['Landscape'] -> FS macro region
+['Landscape'] -> Description
+-------------------------
+
+
+FDs FOR TABLE: Farming Systems
+['Total area (m ha)'] -> Farming system
+['Total area (m ha)'] -> Macro region
+['Total area (m ha)'] -> Agro-ecological zone
+['Total area (m ha)'] -> Cultivated area (m ha)
+['Total area (m ha)'] -> Cattle population (m head)
+['Total area (m ha)'] -> Irrigated area (m ha)
+['Total area (m ha)'] -> Total population (m)
+['Total area (m ha)'] -> Agricultural population (m)
+['Total area (m ha)'] -> Farm size (ha)
+['Total area (m ha)'] -> Description
+['Total area (m ha)'] -> Irrigated/rainfed
+['Farming system'] -> Irrigated/rainfed
+['Description'] -> Macro region
+['Agro-ecological zone'] -> Irrigated area (m ha)
+['Agro-ecological zone'] -> Total population (m)
+['Agro-ecological zone'] -> Agricultural population (m)
+['Cultivated area (m ha)'] -> Cattle population (m head)
+['Cultivated area (m ha)'] -> Irrigated area (m ha)
+['Cultivated area (m ha)'] -> Total population (m)
+['Cultivated area (m ha)'] -> Agricultural population (m)
+['Description'] -> Cultivated area (m ha)
+['Description'] -> Cattle population (m head)
+['Total population (m)'] -> Irrigated area (m ha)
+['Irrigated area (m ha)'] -> Total population (m)
+['Agricultural population (m)'] -> Irrigated area (m ha)
+['Irrigated area (m ha)'] -> Agricultural population (m)
+['Description'] -> Irrigated area (m ha)
+['Agricultural population (m)'] -> Total population (m)
+['Total population (m)'] -> Agricultural population (m)
+['Description'] -> Total population (m)
+['Description'] -> Agricultural population (m)
+['Description'] -> Irrigated/rainfed
+['Farming system', 'Macro region'] -> Agro-ecological zone
+['Farming system', 'Macro region'] -> Cultivated area (m ha)
+['Farming system', 'Macro region'] -> Cattle population (m head)
+['Farming system', 'Macro region'] -> Irrigated area (m ha)
+['Farming system', 'Macro region'] -> Total population (m)
+['Farming system', 'Macro region'] -> Agricultural population (m)
+['Farming system', 'Macro region'] -> Farm size (ha)
+['Farming system', 'Macro region'] -> Description
+['Farming system', 'Agro-ecological zone'] -> Macro region
+['Farming system', 'Agro-ecological zone'] -> Cultivated area (m ha)
+['Farming system', 'Agro-ecological zone'] -> Cattle population (m head)
+['Farming system', 'Agro-ecological zone'] -> Farm size (ha)
+['Farming system', 'Agro-ecological zone'] -> Description
+['Farming system', 'Farm size (ha)'] -> Macro region
+['Farming system', 'Farm size (ha)'] -> Agro-ecological zone
+['Farming system', 'Farm size (ha)'] -> Cultivated area (m ha)
+['Farming system', 'Farm size (ha)'] -> Cattle population (m head)
+['Farming system', 'Farm size (ha)'] -> Irrigated area (m ha)
+['Farming system', 'Farm size (ha)'] -> Total population (m)
+['Farming system', 'Farm size (ha)'] -> Agricultural population (m)
+['Farming system', 'Farm size (ha)'] -> Description
+['Farming system', 'Description'] -> Agro-ecological zone
+['Farming system', 'Description'] -> Farm size (ha)
+['Agro-ecological zone', 'Description'] -> Farming system
+['Agro-ecological zone', 'Description'] -> Farm size (ha)
+['Farm size (ha)', 'Description'] -> Farming system
+['Farm size (ha)', 'Description'] -> Agro-ecological zone
+['Farming system', 'Cattle population (m head)'] -> Cultivated area (m ha)
+['Farming system', 'Cattle population (m head)'] -> Irrigated area (m ha)
+['Farming system', 'Cattle population (m head)'] -> Total population (m)
+['Farming system', 'Cattle population (m head)'] -> Agricultural population (m)
+['Agro-ecological zone', 'Farm size (ha)'] -> Macro region
+['Agro-ecological zone', 'Cattle population (m head)'] -> Cultivated area (m ha)
+['Agro-ecological zone', 'Farm size (ha)'] -> Cultivated area (m ha)
+['Agro-ecological zone', 'Farm size (ha)'] -> Cattle population (m head)
+['Agro-ecological zone', 'Farm size (ha)'] -> Irrigated/rainfed
+['Cattle population (m head)', 'Irrigated area (m ha)'] -> Cultivated area (m ha)
+['Cattle population (m head)', 'Total population (m)'] -> Cultivated area (m ha)
+['Cattle population (m head)', 'Agricultural population (m)'] -> Cultivated area (m ha)
+['Irrigated area (m ha)', 'Farm size (ha)'] -> Cultivated area (m ha)
+['Total population (m)', 'Farm size (ha)'] -> Cultivated area (m ha)
+['Agricultural population (m)', 'Farm size (ha)'] -> Cultivated area (m ha)
+['Irrigated area (m ha)', 'Farm size (ha)'] -> Cattle population (m head)
+['Total population (m)', 'Farm size (ha)'] -> Cattle population (m head)
+['Agricultural population (m)', 'Farm size (ha)'] -> Cattle population (m head)
+['Macro region', 'Cattle population (m head)', 'Farm size (ha)'] -> Cultivated area (m ha)
+['Macro region', 'Cattle population (m head)', 'Farm size (ha)'] -> Irrigated area (m ha)
+['Macro region', 'Cattle population (m head)', 'Farm size (ha)'] -> Total population (m)
+['Macro region', 'Cattle population (m head)', 'Farm size (ha)'] -> Agricultural population (m)
+['Cattle population (m head)', 'Farm size (ha)', 'Irrigated/rainfed'] -> Cultivated area (m ha)
+['Cattle population (m head)', 'Farm size (ha)', 'Irrigated/rainfed'] -> Irrigated area (m ha)
+['Cattle population (m head)', 'Farm size (ha)', 'Irrigated/rainfed'] -> Total population (m)
+['Cattle population (m head)', 'Farm size (ha)', 'Irrigated/rainfed'] -> Agricultural population (m)
+['Macro region', 'Cultivated area (m ha)', 'Farm size (ha)', 'Irrigated/rainfed'] -> Agro-ecological zone
+['Macro region', 'Cattle population (m head)', 'Farm size (ha)', 'Irrigated/rainfed'] -> Agro-ecological zone
+['Macro region', 'Irrigated area (m ha)', 'Farm size (ha)', 'Irrigated/rainfed'] -> Agro-ecological zone
+['Macro region', 'Total population (m)', 'Farm size (ha)', 'Irrigated/rainfed'] -> Agro-ecological zone
+['Macro region', 'Agricultural population (m)', 'Farm size (ha)', 'Irrigated/rainfed'] -> Agro-ecological zone
+-------------------------
+
+
+FDs FOR TABLE: Commodities
+['Max THI'] -> FS macro region
+['Max THI'] -> NCBITaxonID
+['FS name', 'NCBITaxonID'] -> FS macro region
+['FS name', 'NCBITaxonID'] -> Livelihood source
+['FS name', 'NCBITaxonID'] -> Name
+['FS name', 'NCBITaxonID'] -> Max THI
+['FS name', 'NCBITaxonID'] -> Min temperature  (°C)
+['FS name', 'NCBITaxonID'] -> Max temperature (°C)
+['FS name', 'NCBITaxonID'] -> Average temperature  (°C)
+['FS name', 'NCBITaxonID'] -> Min precipitation (mm)
+['FS name', 'NCBITaxonID'] -> Max precipitation (mm)
+['FS name', 'NCBITaxonID'] -> Average precipitation (mm)
+['FS name', 'NCBITaxonID'] -> Min elevation (masl)
+['FS name', 'NCBITaxonID'] -> Max elevation (masl)
+['FS name', 'Max THI'] -> Livelihood source
+['FS name', 'Max THI'] -> Name
+['FS name', 'Max THI'] -> Min temperature  (°C)
+['FS name', 'Max THI'] -> Max temperature (°C)
+['FS name', 'Max THI'] -> Average temperature  (°C)
+['FS name', 'Max THI'] -> Min precipitation (mm)
+['FS name', 'Max THI'] -> Max precipitation (mm)
+['FS name', 'Max THI'] -> Average precipitation (mm)
+['FS name', 'Max THI'] -> Min elevation (masl)
+['FS name', 'Max THI'] -> Max elevation (masl)
+['Livelihood source', 'Max THI'] -> FS name
+['Livelihood source', 'Max THI'] -> Name
+['Livelihood source', 'Max THI'] -> Min temperature  (°C)
+['Livelihood source', 'Max THI'] -> Max temperature (°C)
+['Livelihood source', 'Max THI'] -> Average temperature  (°C)
+['Livelihood source', 'Max THI'] -> Min precipitation (mm)
+['Livelihood source', 'Max THI'] -> Max precipitation (mm)
+['Livelihood source', 'Max THI'] -> Average precipitation (mm)
+['Livelihood source', 'Max THI'] -> Min elevation (masl)
+['Livelihood source', 'Max THI'] -> Max elevation (masl)
+['Name', 'Max THI'] -> FS name
+['Name', 'Max THI'] -> Livelihood source
+['Name', 'Max THI'] -> Min temperature  (°C)
+['Name', 'Max THI'] -> Max temperature (°C)
+['Name', 'Max THI'] -> Average temperature  (°C)
+['Name', 'Max THI'] -> Min precipitation (mm)
+['Name', 'Max THI'] -> Max precipitation (mm)
+['Name', 'Max THI'] -> Average precipitation (mm)
+['Name', 'Max THI'] -> Min elevation (masl)
+['Name', 'Max THI'] -> Max elevation (masl)
+['Max THI', 'Min temperature  (°C)'] -> FS name
+['Max THI', 'Min temperature  (°C)'] -> Livelihood source
+['Max THI', 'Min temperature  (°C)'] -> Name
+['Max THI', 'Min temperature  (°C)'] -> Max temperature (°C)
+['Max THI', 'Min temperature  (°C)'] -> Average temperature  (°C)
+['Max THI', 'Min temperature  (°C)'] -> Min precipitation (mm)
+['Max THI', 'Min temperature  (°C)'] -> Max precipitation (mm)
+['Max THI', 'Min temperature  (°C)'] -> Average precipitation (mm)
+['Max THI', 'Min temperature  (°C)'] -> Min elevation (masl)
+['Max THI', 'Min temperature  (°C)'] -> Max elevation (masl)
+['Max THI', 'Max temperature (°C)'] -> FS name
+['Max THI', 'Max temperature (°C)'] -> Livelihood source
+['Max THI', 'Max temperature (°C)'] -> Name
+['Max THI', 'Max temperature (°C)'] -> Min temperature  (°C)
+['Max THI', 'Max temperature (°C)'] -> Average temperature  (°C)
+['Max THI', 'Max temperature (°C)'] -> Min precipitation (mm)
+['Max THI', 'Max temperature (°C)'] -> Max precipitation (mm)
+['Max THI', 'Max temperature (°C)'] -> Average precipitation (mm)
+['Max THI', 'Max temperature (°C)'] -> Min elevation (masl)
+['Max THI', 'Max temperature (°C)'] -> Max elevation (masl)
+['Max THI', 'Average temperature  (°C)'] -> FS name
+['Max THI', 'Average temperature  (°C)'] -> Livelihood source
+['Max THI', 'Average temperature  (°C)'] -> Name
+['Max THI', 'Average temperature  (°C)'] -> Min temperature  (°C)
+['Max THI', 'Average temperature  (°C)'] -> Max temperature (°C)
+['Max THI', 'Average temperature  (°C)'] -> Min precipitation (mm)
+['Max THI', 'Average temperature  (°C)'] -> Max precipitation (mm)
+['Max THI', 'Average temperature  (°C)'] -> Average precipitation (mm)
+['Max THI', 'Average temperature  (°C)'] -> Min elevation (masl)
+['Max THI', 'Average temperature  (°C)'] -> Max elevation (masl)
+['Max THI', 'Min precipitation (mm)'] -> FS name
+['Max THI', 'Min precipitation (mm)'] -> Livelihood source
+['Max THI', 'Min precipitation (mm)'] -> Name
+['Max THI', 'Min precipitation (mm)'] -> Min temperature  (°C)
+['Max THI', 'Min precipitation (mm)'] -> Max temperature (°C)
+['Max THI', 'Min precipitation (mm)'] -> Average temperature  (°C)
+['Max THI', 'Min precipitation (mm)'] -> Max precipitation (mm)
+['Max THI', 'Min precipitation (mm)'] -> Average precipitation (mm)
+['Max THI', 'Min precipitation (mm)'] -> Min elevation (masl)
+['Max THI', 'Min precipitation (mm)'] -> Max elevation (masl)
+['Max THI', 'Max precipitation (mm)'] -> FS name
+['Max THI', 'Max precipitation (mm)'] -> Livelihood source
+['Max THI', 'Max precipitation (mm)'] -> Name
+['Max THI', 'Max precipitation (mm)'] -> Min temperature  (°C)
+['Max THI', 'Max precipitation (mm)'] -> Max temperature (°C)
+['Max THI', 'Max precipitation (mm)'] -> Average temperature  (°C)
+['Max THI', 'Max precipitation (mm)'] -> Min precipitation (mm)
+['Max THI', 'Max precipitation (mm)'] -> Average precipitation (mm)
+['Max THI', 'Max precipitation (mm)'] -> Min elevation (masl)
+['Max THI', 'Max precipitation (mm)'] -> Max elevation (masl)
+['Max THI', 'Average precipitation (mm)'] -> FS name
+['Max THI', 'Average precipitation (mm)'] -> Livelihood source
+['Max THI', 'Average precipitation (mm)'] -> Name
+['Max THI', 'Average precipitation (mm)'] -> Min temperature  (°C)
+['Max THI', 'Average precipitation (mm)'] -> Max temperature (°C)
+['Max THI', 'Average precipitation (mm)'] -> Average temperature  (°C)
+['Max THI', 'Average precipitation (mm)'] -> Min precipitation (mm)
+['Max THI', 'Average precipitation (mm)'] -> Max precipitation (mm)
+['Max THI', 'Average precipitation (mm)'] -> Min elevation (masl)
+['Max THI', 'Average precipitation (mm)'] -> Max elevation (masl)
+['Max THI', 'Min elevation (masl)'] -> FS name
+['Max THI', 'Min elevation (masl)'] -> Livelihood source
+['Max THI', 'Min elevation (masl)'] -> Name
+['Max THI', 'Min elevation (masl)'] -> Min temperature  (°C)
+['Max THI', 'Min elevation (masl)'] -> Max temperature (°C)
+['Max THI', 'Min elevation (masl)'] -> Average temperature  (°C)
+['Max THI', 'Min elevation (masl)'] -> Min precipitation (mm)
+['Max THI', 'Min elevation (masl)'] -> Max precipitation (mm)
+['Max THI', 'Min elevation (masl)'] -> Average precipitation (mm)
+['Max THI', 'Min elevation (masl)'] -> Max elevation (masl)
+['Max THI', 'Max elevation (masl)'] -> FS name
+['Max THI', 'Max elevation (masl)'] -> Livelihood source
+['Max THI', 'Max elevation (masl)'] -> Name
+['Max THI', 'Max elevation (masl)'] -> Min temperature  (°C)
+['Max THI', 'Max elevation (masl)'] -> Max temperature (°C)
+['Max THI', 'Max elevation (masl)'] -> Average temperature  (°C)
+['Max THI', 'Max elevation (masl)'] -> Min precipitation (mm)
+['Max THI', 'Max elevation (masl)'] -> Max precipitation (mm)
+['Max THI', 'Max elevation (masl)'] -> Average precipitation (mm)
+['Max THI', 'Max elevation (masl)'] -> Min elevation (masl)
+['FS name', 'Name'] -> Livelihood source
+['FS name', 'Name'] -> Min temperature  (°C)
+['FS name', 'Name'] -> Max temperature (°C)
+['FS name', 'Name'] -> Average temperature  (°C)
+['FS name', 'Name'] -> Min precipitation (mm)
+['FS name', 'Name'] -> Max precipitation (mm)
+['FS name', 'Name'] -> Average precipitation (mm)
+['Name', 'Average temperature  (°C)'] -> Min temperature  (°C)
+['Name', 'Average precipitation (mm)'] -> Min precipitation (mm)
+['NCBITaxonID', 'Average precipitation (mm)'] -> Min temperature  (°C)
+['NCBITaxonID', 'Average precipitation (mm)'] -> Max temperature (°C)
+['NCBITaxonID', 'Average precipitation (mm)'] -> Min precipitation (mm)
+['NCBITaxonID', 'Average precipitation (mm)'] -> Max precipitation (mm)
+['Min temperature  (°C)', 'Max precipitation (mm)'] -> Max temperature (°C)
+['Max temperature (°C)', 'Average precipitation (mm)'] -> Min temperature  (°C)
+['Min temperature  (°C)', 'Average precipitation (mm)'] -> Max temperature (°C)
+['Average temperature  (°C)', 'Max precipitation (mm)'] -> Min temperature  (°C)
+['Min temperature  (°C)', 'Max precipitation (mm)'] -> Min precipitation (mm)
+['Min temperature  (°C)', 'Average precipitation (mm)'] -> Min precipitation (mm)
+['Min temperature  (°C)', 'Average precipitation (mm)'] -> Max precipitation (mm)
+['Max precipitation (mm)', 'Max elevation (masl)'] -> Min temperature  (°C)
+['Average temperature  (°C)', 'Max precipitation (mm)'] -> Max temperature (°C)
+['Max temperature (°C)', 'Average precipitation (mm)'] -> Min precipitation (mm)
+['Max temperature (°C)', 'Average precipitation (mm)'] -> Max precipitation (mm)
+['Max precipitation (mm)', 'Max elevation (masl)'] -> Max temperature (°C)
+['Average temperature  (°C)', 'Max precipitation (mm)'] -> Min precipitation (mm)
+['Max precipitation (mm)', 'Average precipitation (mm)'] -> Min precipitation (mm)
+['Max precipitation (mm)', 'Max elevation (masl)'] -> Min precipitation (mm)
+['Average precipitation (mm)', 'Min elevation (masl)'] -> Min precipitation (mm)
+['Average precipitation (mm)', 'Max elevation (masl)'] -> Min precipitation (mm)
+['Max precipitation (mm)', 'Max elevation (masl)'] -> Min elevation (masl)
+['Average precipitation (mm)', 'Max elevation (masl)'] -> Min elevation (masl)
+['FS name', 'FS macro region', 'Name'] -> Min elevation (masl)
+['FS name', 'FS macro region', 'Name'] -> Max elevation (masl)
+['FS name', 'Name', 'Min elevation (masl)'] -> FS macro region
+['FS name', 'Name', 'Min elevation (masl)'] -> Max elevation (masl)
+['FS name', 'Name', 'Max elevation (masl)'] -> FS macro region
+['FS name', 'Name', 'Max elevation (masl)'] -> Min elevation (masl)
+['FS name', 'Min temperature  (°C)', 'Min elevation (masl)'] -> FS macro region
+['FS name', 'Min temperature  (°C)', 'Min elevation (masl)'] -> Livelihood source
+['FS name', 'Min temperature  (°C)', 'Min elevation (masl)'] -> Name
+['FS name', 'Min temperature  (°C)', 'Min elevation (masl)'] -> Max temperature (°C)
+['FS name', 'Min temperature  (°C)', 'Min elevation (masl)'] -> Average temperature  (°C)
+['FS name', 'Min temperature  (°C)', 'Min elevation (masl)'] -> Min precipitation (mm)
+['FS name', 'Min temperature  (°C)', 'Min elevation (masl)'] -> Max precipitation (mm)
+['FS name', 'Min temperature  (°C)', 'Min elevation (masl)'] -> Average precipitation (mm)
+['FS name', 'Min temperature  (°C)', 'Min elevation (masl)'] -> Max elevation (masl)
+['FS name', 'Average temperature  (°C)', 'Max elevation (masl)'] -> FS macro region
+['FS name', 'Average temperature  (°C)', 'Max elevation (masl)'] -> Livelihood source
+['FS name', 'Average temperature  (°C)', 'Max elevation (masl)'] -> Name
+['FS name', 'Average temperature  (°C)', 'Max elevation (masl)'] -> Min temperature  (°C)
+['FS name', 'Average temperature  (°C)', 'Max elevation (masl)'] -> Max temperature (°C)
+['FS name', 'Average temperature  (°C)', 'Max elevation (masl)'] -> Min precipitation (mm)
+['FS name', 'Average temperature  (°C)', 'Max elevation (masl)'] -> Max precipitation (mm)
+['FS name', 'Average temperature  (°C)', 'Max elevation (masl)'] -> Average precipitation (mm)
+['FS name', 'Average temperature  (°C)', 'Max elevation (masl)'] -> Min elevation (masl)
+['FS name', 'Min precipitation (mm)', 'Min elevation (masl)'] -> FS macro region
+['FS name', 'Min precipitation (mm)', 'Min elevation (masl)'] -> Livelihood source
+['FS name', 'Min precipitation (mm)', 'Min elevation (masl)'] -> Name
+['FS name', 'Min precipitation (mm)', 'Min elevation (masl)'] -> Min temperature  (°C)
+['FS name', 'Min precipitation (mm)', 'Min elevation (masl)'] -> Max temperature (°C)
+['FS name', 'Min precipitation (mm)', 'Min elevation (masl)'] -> Average temperature  (°C)
+['FS name', 'Min precipitation (mm)', 'Min elevation (masl)'] -> Max precipitation (mm)
+['FS name', 'Min precipitation (mm)', 'Min elevation (masl)'] -> Average precipitation (mm)
+['FS name', 'Min precipitation (mm)', 'Min elevation (masl)'] -> Max elevation (masl)
+['FS name', 'Min precipitation (mm)', 'Max elevation (masl)'] -> FS macro region
+['FS name', 'Min precipitation (mm)', 'Max elevation (masl)'] -> Livelihood source
+['FS name', 'Min precipitation (mm)', 'Max elevation (masl)'] -> Name
+['FS name', 'Min precipitation (mm)', 'Max elevation (masl)'] -> Min temperature  (°C)
+['FS name', 'Min precipitation (mm)', 'Max elevation (masl)'] -> Max temperature (°C)
+['FS name', 'Min precipitation (mm)', 'Max elevation (masl)'] -> Average temperature  (°C)
+['FS name', 'Min precipitation (mm)', 'Max elevation (masl)'] -> Max precipitation (mm)
+['FS name', 'Min precipitation (mm)', 'Max elevation (masl)'] -> Average precipitation (mm)
+['FS name', 'Min precipitation (mm)', 'Max elevation (masl)'] -> Min elevation (masl)
+['FS name', 'Max precipitation (mm)', 'Min elevation (masl)'] -> FS macro region
+['FS name', 'Max precipitation (mm)', 'Min elevation (masl)'] -> Livelihood source
+['FS name', 'Max precipitation (mm)', 'Min elevation (masl)'] -> Name
+['FS name', 'Max precipitation (mm)', 'Min elevation (masl)'] -> Min temperature  (°C)
+['FS name', 'Max precipitation (mm)', 'Min elevation (masl)'] -> Max temperature (°C)
+['FS name', 'Max precipitation (mm)', 'Min elevation (masl)'] -> Average temperature  (°C)
+['FS name', 'Max precipitation (mm)', 'Min elevation (masl)'] -> Min precipitation (mm)
+['FS name', 'Max precipitation (mm)', 'Min elevation (masl)'] -> Average precipitation (mm)
+['FS name', 'Max precipitation (mm)', 'Min elevation (masl)'] -> Max elevation (masl)
+['FS name', 'Max precipitation (mm)', 'Max elevation (masl)'] -> FS macro region
+['FS name', 'Max precipitation (mm)', 'Max elevation (masl)'] -> Livelihood source
+['FS name', 'Max precipitation (mm)', 'Max elevation (masl)'] -> Name
+['FS name', 'Max precipitation (mm)', 'Max elevation (masl)'] -> Average temperature  (°C)
+['FS name', 'Max precipitation (mm)', 'Max elevation (masl)'] -> Average precipitation (mm)
+['FS name', 'Average precipitation (mm)', 'Min elevation (masl)'] -> FS macro region
+['FS name', 'Average precipitation (mm)', 'Min elevation (masl)'] -> Livelihood source
+['FS name', 'Average precipitation (mm)', 'Min elevation (masl)'] -> Name
+['FS name', 'Average precipitation (mm)', 'Min elevation (masl)'] -> Min temperature  (°C)
+['FS name', 'Average precipitation (mm)', 'Min elevation (masl)'] -> Max temperature (°C)
+['FS name', 'Average precipitation (mm)', 'Min elevation (masl)'] -> Average temperature  (°C)
+['FS name', 'Average precipitation (mm)', 'Min elevation (masl)'] -> Max precipitation (mm)
+['FS name', 'Average precipitation (mm)', 'Min elevation (masl)'] -> Max elevation (masl)
+['FS name', 'Average precipitation (mm)', 'Max elevation (masl)'] -> FS macro region
+['FS name', 'Average precipitation (mm)', 'Max elevation (masl)'] -> Livelihood source
+['FS name', 'Average precipitation (mm)', 'Max elevation (masl)'] -> Name
+['FS name', 'Average precipitation (mm)', 'Max elevation (masl)'] -> Min temperature  (°C)
+['FS name', 'Average precipitation (mm)', 'Max elevation (masl)'] -> Max temperature (°C)
+['FS name', 'Average precipitation (mm)', 'Max elevation (masl)'] -> Average temperature  (°C)
+['FS name', 'Average precipitation (mm)', 'Max elevation (masl)'] -> Max precipitation (mm)
+['FS macro region', 'Average precipitation (mm)', 'Max elevation (masl)'] -> FS name
+['FS macro region', 'Average precipitation (mm)', 'Max elevation (masl)'] -> Livelihood source
+['FS macro region', 'Average precipitation (mm)', 'Max elevation (masl)'] -> Name
+['FS macro region', 'Average precipitation (mm)', 'Max elevation (masl)'] -> NCBITaxonID
+['FS macro region', 'Average precipitation (mm)', 'Max elevation (masl)'] -> Min temperature  (°C)
+['FS macro region', 'Average precipitation (mm)', 'Max elevation (masl)'] -> Max temperature (°C)
+['FS macro region', 'Average precipitation (mm)', 'Max elevation (masl)'] -> Average temperature  (°C)
+['FS macro region', 'Average precipitation (mm)', 'Max elevation (masl)'] -> Max precipitation (mm)
+['Livelihood source', 'NCBITaxonID', 'Max elevation (masl)'] -> FS macro region
+['Livelihood source', 'NCBITaxonID', 'Max elevation (masl)'] -> Name
+['Livelihood source', 'NCBITaxonID', 'Max elevation (masl)'] -> Min temperature  (°C)
+['Livelihood source', 'NCBITaxonID', 'Max elevation (masl)'] -> Max temperature (°C)
+['Livelihood source', 'NCBITaxonID', 'Max elevation (masl)'] -> Average temperature  (°C)
+['Livelihood source', 'NCBITaxonID', 'Max elevation (masl)'] -> Min precipitation (mm)
+['Livelihood source', 'NCBITaxonID', 'Max elevation (masl)'] -> Max precipitation (mm)
+['Livelihood source', 'NCBITaxonID', 'Max elevation (masl)'] -> Average precipitation (mm)
+['Livelihood source', 'NCBITaxonID', 'Max elevation (masl)'] -> Min elevation (masl)
+['FS name', 'FS macro region', 'Average precipitation (mm)'] -> Livelihood source
+['FS name', 'Livelihood source', 'Max elevation (masl)'] -> FS macro region
+['FS name', 'FS macro region', 'Max elevation (masl)'] -> Livelihood source
+['FS name', 'Min temperature  (°C)', 'Max elevation (masl)'] -> FS macro region
+['FS name', 'Min temperature  (°C)', 'Max temperature (°C)'] -> Livelihood source
+['FS name', 'Min temperature  (°C)', 'Average temperature  (°C)'] -> Livelihood source
+['FS name', 'Min temperature  (°C)', 'Min precipitation (mm)'] -> Livelihood source
+['FS name', 'Min temperature  (°C)', 'Max precipitation (mm)'] -> Livelihood source
+['FS name', 'Min temperature  (°C)', 'Average precipitation (mm)'] -> Livelihood source
+['FS name', 'Min temperature  (°C)', 'Max elevation (masl)'] -> Livelihood source
+['FS name', 'Max temperature (°C)', 'Average temperature  (°C)'] -> Livelihood source
+['FS name', 'Max temperature (°C)', 'Min precipitation (mm)'] -> Livelihood source
+['FS name', 'Max temperature (°C)', 'Max precipitation (mm)'] -> Livelihood source
+['FS name', 'Max temperature (°C)', 'Average precipitation (mm)'] -> Livelihood source
+['FS name', 'Average temperature  (°C)', 'Min precipitation (mm)'] -> Livelihood source
+['FS name', 'Average temperature  (°C)', 'Max precipitation (mm)'] -> Livelihood source
+['FS name', 'Average temperature  (°C)', 'Average precipitation (mm)'] -> Livelihood source
+['FS name', 'Min precipitation (mm)', 'Average precipitation (mm)'] -> Livelihood source
+['FS name', 'Max precipitation (mm)', 'Average precipitation (mm)'] -> Livelihood source
+['FS name', 'Min temperature  (°C)', 'Max temperature (°C)'] -> Name
+['FS name', 'Min temperature  (°C)', 'Average temperature  (°C)'] -> Name
+['FS name', 'Min temperature  (°C)', 'Min precipitation (mm)'] -> Name
+['FS name', 'Min temperature  (°C)', 'Max precipitation (mm)'] -> Name
+['FS name', 'Min temperature  (°C)', 'Average precipitation (mm)'] -> Name
+['FS name', 'Max temperature (°C)', 'Min precipitation (mm)'] -> Name
+['FS name', 'Max temperature (°C)', 'Max precipitation (mm)'] -> Name
+['FS name', 'Max temperature (°C)', 'Average precipitation (mm)'] -> Name
+['FS name', 'Average temperature  (°C)', 'Min precipitation (mm)'] -> Name
+['FS name', 'Average temperature  (°C)', 'Max precipitation (mm)'] -> Name
+['FS name', 'Average temperature  (°C)', 'Average precipitation (mm)'] -> Name
+['FS name', 'Min precipitation (mm)', 'Average precipitation (mm)'] -> Name
+['FS name', 'Max precipitation (mm)', 'Average precipitation (mm)'] -> Name
+['FS name', 'Min temperature  (°C)', 'Average temperature  (°C)'] -> Max temperature (°C)
+['FS name', 'Min temperature  (°C)', 'Max temperature (°C)'] -> Average temperature  (°C)
+['FS name', 'Max temperature (°C)', 'Min precipitation (mm)'] -> Min temperature  (°C)
+['FS name', 'Min temperature  (°C)', 'Min precipitation (mm)'] -> Max temperature (°C)
+['FS name', 'Min temperature  (°C)', 'Max temperature (°C)'] -> Min precipitation (mm)
+['FS name', 'Max temperature (°C)', 'Max precipitation (mm)'] -> Min temperature  (°C)
+['FS name', 'Min temperature  (°C)', 'Max temperature (°C)'] -> Max precipitation (mm)
+['FS name', 'Min temperature  (°C)', 'Max temperature (°C)'] -> Average precipitation (mm)
+['FS name', 'Average temperature  (°C)', 'Min precipitation (mm)'] -> Min temperature  (°C)
+['FS name', 'Min temperature  (°C)', 'Min precipitation (mm)'] -> Average temperature  (°C)
+['FS name', 'Min temperature  (°C)', 'Average temperature  (°C)'] -> Min precipitation (mm)
+['FS name', 'Min temperature  (°C)', 'Max precipitation (mm)'] -> Average temperature  (°C)
+['FS name', 'Min temperature  (°C)', 'Average temperature  (°C)'] -> Max precipitation (mm)
+['FS name', 'Average temperature  (°C)', 'Average precipitation (mm)'] -> Min temperature  (°C)
+['FS name', 'Min temperature  (°C)', 'Average precipitation (mm)'] -> Average temperature  (°C)
+['FS name', 'Min temperature  (°C)', 'Average temperature  (°C)'] -> Average precipitation (mm)
+['FS name', 'Min temperature  (°C)', 'Min precipitation (mm)'] -> Max precipitation (mm)
+['FS name', 'Min precipitation (mm)', 'Average precipitation (mm)'] -> Min temperature  (°C)
+['FS name', 'Min temperature  (°C)', 'Min precipitation (mm)'] -> Average precipitation (mm)
+['FS name', 'Max precipitation (mm)', 'Average precipitation (mm)'] -> Min temperature  (°C)
+['FS name', 'Min temperature  (°C)', 'Max precipitation (mm)'] -> Average precipitation (mm)
+['FS name', 'Average temperature  (°C)', 'Min precipitation (mm)'] -> Max temperature (°C)
+['FS name', 'Max temperature (°C)', 'Min precipitation (mm)'] -> Average temperature  (°C)
+['FS name', 'Max temperature (°C)', 'Max precipitation (mm)'] -> Average temperature  (°C)
+['FS name', 'Average temperature  (°C)', 'Average precipitation (mm)'] -> Max temperature (°C)
+['FS name', 'Max temperature (°C)', 'Average precipitation (mm)'] -> Average temperature  (°C)
+['FS name', 'Max temperature (°C)', 'Max precipitation (mm)'] -> Min precipitation (mm)
+['FS name', 'Max temperature (°C)', 'Min precipitation (mm)'] -> Max precipitation (mm)
+['FS name', 'Min precipitation (mm)', 'Average precipitation (mm)'] -> Max temperature (°C)
+['FS name', 'Max temperature (°C)', 'Min precipitation (mm)'] -> Average precipitation (mm)
+['FS name', 'Max precipitation (mm)', 'Average precipitation (mm)'] -> Max temperature (°C)
+['FS name', 'Max temperature (°C)', 'Max precipitation (mm)'] -> Average precipitation (mm)
+['FS name', 'Max temperature (°C)', 'Max elevation (masl)'] -> Min elevation (masl)
+['FS name', 'Average temperature  (°C)', 'Min precipitation (mm)'] -> Max precipitation (mm)
+['FS name', 'Min precipitation (mm)', 'Average precipitation (mm)'] -> Average temperature  (°C)
+['FS name', 'Average temperature  (°C)', 'Average precipitation (mm)'] -> Min precipitation (mm)
+['FS name', 'Average temperature  (°C)', 'Min precipitation (mm)'] -> Average precipitation (mm)
+['FS name', 'Max precipitation (mm)', 'Average precipitation (mm)'] -> Average temperature  (°C)
+['FS name', 'Average temperature  (°C)', 'Average precipitation (mm)'] -> Max precipitation (mm)
+['FS name', 'Average temperature  (°C)', 'Max precipitation (mm)'] -> Average precipitation (mm)
+['FS name', 'Min precipitation (mm)', 'Average precipitation (mm)'] -> Max precipitation (mm)
+['FS macro region', 'Livelihood source', 'NCBITaxonID'] -> Name
+['FS macro region', 'Name', 'Average precipitation (mm)'] -> Livelihood source
+['Livelihood source', 'NCBITaxonID', 'Min precipitation (mm)'] -> FS macro region
+['Livelihood source', 'NCBITaxonID', 'Max precipitation (mm)'] -> FS macro region
+['Livelihood source', 'NCBITaxonID', 'Average precipitation (mm)'] -> FS macro region
+['FS macro region', 'NCBITaxonID', 'Average precipitation (mm)'] -> Livelihood source
+['Livelihood source', 'NCBITaxonID', 'Min elevation (masl)'] -> FS macro region
+['FS macro region', 'Min temperature  (°C)', 'Average precipitation (mm)'] -> Livelihood source
+['FS macro region', 'Max temperature (°C)', 'Average precipitation (mm)'] -> Livelihood source
+['FS macro region', 'Average temperature  (°C)', 'Average precipitation (mm)'] -> Livelihood source
+['FS macro region', 'Min precipitation (mm)', 'Average precipitation (mm)'] -> Livelihood source
+['FS macro region', 'Max precipitation (mm)', 'Average precipitation (mm)'] -> Livelihood source
+['FS macro region', 'Average precipitation (mm)', 'Min elevation (masl)'] -> Livelihood source
+['FS macro region', 'NCBITaxonID', 'Min temperature  (°C)'] -> Name
+['FS macro region', 'Name', 'Min temperature  (°C)'] -> NCBITaxonID
+['FS macro region', 'NCBITaxonID', 'Max temperature (°C)'] -> Name
+['FS macro region', 'Name', 'Max temperature (°C)'] -> NCBITaxonID
+['FS macro region', 'NCBITaxonID', 'Average temperature  (°C)'] -> Name
+['FS macro region', 'Name', 'Average temperature  (°C)'] -> NCBITaxonID
+['FS macro region', 'NCBITaxonID', 'Min precipitation (mm)'] -> Name
+['FS macro region', 'Name', 'Min precipitation (mm)'] -> NCBITaxonID
+['FS macro region', 'NCBITaxonID', 'Max precipitation (mm)'] -> Name
+['FS macro region', 'Name', 'Max precipitation (mm)'] -> NCBITaxonID
+['Name', 'NCBITaxonID', 'Average precipitation (mm)'] -> FS macro region
+['FS macro region', 'NCBITaxonID', 'Average precipitation (mm)'] -> Name
+['FS macro region', 'Name', 'Average precipitation (mm)'] -> NCBITaxonID
+['FS macro region', 'NCBITaxonID', 'Min elevation (masl)'] -> Name
+['FS macro region', 'Name', 'Min elevation (masl)'] -> NCBITaxonID
+['Name', 'NCBITaxonID', 'Max elevation (masl)'] -> FS macro region
+['FS macro region', 'NCBITaxonID', 'Max elevation (masl)'] -> Name
+['FS macro region', 'Name', 'Max elevation (masl)'] -> NCBITaxonID
+['FS macro region', 'Min temperature  (°C)', 'Max temperature (°C)'] -> Name
+['FS macro region', 'Name', 'Max temperature (°C)'] -> Min temperature  (°C)
+['FS macro region', 'Name', 'Min temperature  (°C)'] -> Average temperature  (°C)
+['FS macro region', 'Min temperature  (°C)', 'Max precipitation (mm)'] -> Name
+['FS macro region', 'Name', 'Max precipitation (mm)'] -> Min temperature  (°C)
+['FS macro region', 'Min temperature  (°C)', 'Average precipitation (mm)'] -> Name
+['FS macro region', 'Name', 'Average precipitation (mm)'] -> Min temperature  (°C)
+['FS macro region', 'Name', 'Min elevation (masl)'] -> Min temperature  (°C)
+['FS macro region', 'Name', 'Max elevation (masl)'] -> Min temperature  (°C)
+['FS macro region', 'Name', 'Max temperature (°C)'] -> Average temperature  (°C)
+['FS macro region', 'Max temperature (°C)', 'Min precipitation (mm)'] -> Name
+['FS macro region', 'Name', 'Max temperature (°C)'] -> Min precipitation (mm)
+['FS macro region', 'Name', 'Max precipitation (mm)'] -> Max temperature (°C)
+['FS macro region', 'Name', 'Max temperature (°C)'] -> Max precipitation (mm)
+['FS macro region', 'Max temperature (°C)', 'Average precipitation (mm)'] -> Name
+['FS macro region', 'Name', 'Average precipitation (mm)'] -> Max temperature (°C)
+['FS macro region', 'Name', 'Min elevation (masl)'] -> Max temperature (°C)
+['FS macro region', 'Name', 'Max elevation (masl)'] -> Max temperature (°C)
+['FS macro region', 'Average temperature  (°C)', 'Min precipitation (mm)'] -> Name
+['FS macro region', 'Average temperature  (°C)', 'Max precipitation (mm)'] -> Name
+['FS macro region', 'Name', 'Max precipitation (mm)'] -> Average temperature  (°C)
+['FS macro region', 'Average temperature  (°C)', 'Average precipitation (mm)'] -> Name
+['FS macro region', 'Name', 'Average precipitation (mm)'] -> Average temperature  (°C)
+['FS macro region', 'Name', 'Min elevation (masl)'] -> Average temperature  (°C)
+['FS macro region', 'Name', 'Max elevation (masl)'] -> Average temperature  (°C)
+['FS macro region', 'Name', 'Max precipitation (mm)'] -> Min precipitation (mm)
+['FS macro region', 'Min precipitation (mm)', 'Average precipitation (mm)'] -> Name
+['FS macro region', 'Min precipitation (mm)', 'Min elevation (masl)'] -> Name
+['FS macro region', 'Name', 'Min elevation (masl)'] -> Min precipitation (mm)
+['FS macro region', 'Min precipitation (mm)', 'Max elevation (masl)'] -> Name
+['FS macro region', 'Name', 'Max elevation (masl)'] -> Min precipitation (mm)
+['FS macro region', 'Max precipitation (mm)', 'Average precipitation (mm)'] -> Name
+['FS macro region', 'Name', 'Average precipitation (mm)'] -> Max precipitation (mm)
+['FS macro region', 'Max precipitation (mm)', 'Min elevation (masl)'] -> Name
+['FS macro region', 'Name', 'Min elevation (masl)'] -> Max precipitation (mm)
+['FS macro region', 'Max precipitation (mm)', 'Max elevation (masl)'] -> Name
+['FS macro region', 'Name', 'Max elevation (masl)'] -> Max precipitation (mm)
+['FS macro region', 'Average precipitation (mm)', 'Min elevation (masl)'] -> Name
+['FS macro region', 'Name', 'Max elevation (masl)'] -> Min elevation (masl)
+['FS macro region', 'Min temperature  (°C)', 'Max temperature (°C)'] -> NCBITaxonID
+['FS macro region', 'NCBITaxonID', 'Max temperature (°C)'] -> Min temperature  (°C)
+['FS macro region', 'NCBITaxonID', 'Average temperature  (°C)'] -> Min temperature  (°C)
+['FS macro region', 'NCBITaxonID', 'Min temperature  (°C)'] -> Average temperature  (°C)
+['FS macro region', 'Min temperature  (°C)', 'Max precipitation (mm)'] -> NCBITaxonID
+['FS macro region', 'NCBITaxonID', 'Max precipitation (mm)'] -> Min temperature  (°C)
+['FS macro region', 'Min temperature  (°C)', 'Average precipitation (mm)'] -> NCBITaxonID
+['FS macro region', 'NCBITaxonID', 'Min elevation (masl)'] -> Min temperature  (°C)
+['FS macro region', 'NCBITaxonID', 'Max elevation (masl)'] -> Min temperature  (°C)
+['FS macro region', 'NCBITaxonID', 'Max temperature (°C)'] -> Average temperature  (°C)
+['FS macro region', 'Max temperature (°C)', 'Min precipitation (mm)'] -> NCBITaxonID
+['FS macro region', 'NCBITaxonID', 'Max temperature (°C)'] -> Min precipitation (mm)
+['FS macro region', 'NCBITaxonID', 'Max precipitation (mm)'] -> Max temperature (°C)
+['FS macro region', 'NCBITaxonID', 'Max temperature (°C)'] -> Max precipitation (mm)
+['FS macro region', 'Max temperature (°C)', 'Average precipitation (mm)'] -> NCBITaxonID
+['FS macro region', 'NCBITaxonID', 'Min elevation (masl)'] -> Max temperature (°C)
+['FS macro region', 'NCBITaxonID', 'Max elevation (masl)'] -> Max temperature (°C)
+['NCBITaxonID', 'Average temperature  (°C)', 'Min precipitation (mm)'] -> FS macro region
+['FS macro region', 'Average temperature  (°C)', 'Min precipitation (mm)'] -> NCBITaxonID
+['NCBITaxonID', 'Average temperature  (°C)', 'Max precipitation (mm)'] -> FS macro region
+['FS macro region', 'Average temperature  (°C)', 'Max precipitation (mm)'] -> NCBITaxonID
+['FS macro region', 'NCBITaxonID', 'Max precipitation (mm)'] -> Average temperature  (°C)
+['NCBITaxonID', 'Average temperature  (°C)', 'Average precipitation (mm)'] -> FS macro region
+['FS macro region', 'Average temperature  (°C)', 'Average precipitation (mm)'] -> NCBITaxonID
+['FS macro region', 'NCBITaxonID', 'Average precipitation (mm)'] -> Average temperature  (°C)
+['NCBITaxonID', 'Average temperature  (°C)', 'Min elevation (masl)'] -> FS macro region
+['FS macro region', 'NCBITaxonID', 'Min elevation (masl)'] -> Average temperature  (°C)
+['FS macro region', 'NCBITaxonID', 'Max elevation (masl)'] -> Average temperature  (°C)
+['FS macro region', 'NCBITaxonID', 'Max precipitation (mm)'] -> Min precipitation (mm)
+['FS macro region', 'Min precipitation (mm)', 'Average precipitation (mm)'] -> NCBITaxonID
+['FS macro region', 'Min precipitation (mm)', 'Min elevation (masl)'] -> NCBITaxonID
+['FS macro region', 'NCBITaxonID', 'Min elevation (masl)'] -> Min precipitation (mm)
+['FS macro region', 'Min precipitation (mm)', 'Max elevation (masl)'] -> NCBITaxonID
+['FS macro region', 'NCBITaxonID', 'Max elevation (masl)'] -> Min precipitation (mm)
+['FS macro region', 'Max precipitation (mm)', 'Average precipitation (mm)'] -> NCBITaxonID
+['FS macro region', 'Max precipitation (mm)', 'Min elevation (masl)'] -> NCBITaxonID
+['FS macro region', 'NCBITaxonID', 'Min elevation (masl)'] -> Max precipitation (mm)
+['FS macro region', 'Max precipitation (mm)', 'Max elevation (masl)'] -> NCBITaxonID
+['FS macro region', 'NCBITaxonID', 'Max elevation (masl)'] -> Max precipitation (mm)
+['FS macro region', 'Average precipitation (mm)', 'Min elevation (masl)'] -> NCBITaxonID
+['FS macro region', 'NCBITaxonID', 'Max elevation (masl)'] -> Min elevation (masl)
+['FS macro region', 'Min temperature  (°C)', 'Max temperature (°C)'] -> Average temperature  (°C)
+['FS macro region', 'Max temperature (°C)', 'Min precipitation (mm)'] -> Min temperature  (°C)
+['FS macro region', 'Min temperature  (°C)', 'Max temperature (°C)'] -> Min precipitation (mm)
+['FS macro region', 'Min temperature  (°C)', 'Max temperature (°C)'] -> Max precipitation (mm)
+['FS macro region', 'Average temperature  (°C)', 'Min precipitation (mm)'] -> Min temperature  (°C)
+['FS macro region', 'Min temperature  (°C)', 'Max precipitation (mm)'] -> Average temperature  (°C)
+['FS macro region', 'Average temperature  (°C)', 'Average precipitation (mm)'] -> Min temperature  (°C)
+['FS macro region', 'Min temperature  (°C)', 'Average precipitation (mm)'] -> Average temperature  (°C)
+['FS macro region', 'Min precipitation (mm)', 'Average precipitation (mm)'] -> Min temperature  (°C)
+['FS macro region', 'Min precipitation (mm)', 'Min elevation (masl)'] -> Min temperature  (°C)
+['FS macro region', 'Min precipitation (mm)', 'Max elevation (masl)'] -> Min temperature  (°C)
+['FS macro region', 'Max precipitation (mm)', 'Average precipitation (mm)'] -> Min temperature  (°C)
+['FS macro region', 'Max precipitation (mm)', 'Min elevation (masl)'] -> Min temperature  (°C)
+['FS macro region', 'Average precipitation (mm)', 'Min elevation (masl)'] -> Min temperature  (°C)
+['FS macro region', 'Average temperature  (°C)', 'Min precipitation (mm)'] -> Max temperature (°C)
+['FS macro region', 'Max temperature (°C)', 'Min precipitation (mm)'] -> Average temperature  (°C)
+['FS macro region', 'Average temperature  (°C)', 'Average precipitation (mm)'] -> Max temperature (°C)
+['FS macro region', 'Max temperature (°C)', 'Average precipitation (mm)'] -> Average temperature  (°C)
+['FS macro region', 'Max temperature (°C)', 'Min precipitation (mm)'] -> Max precipitation (mm)
+['FS macro region', 'Min precipitation (mm)', 'Average precipitation (mm)'] -> Max temperature (°C)
+['FS macro region', 'Min precipitation (mm)', 'Min elevation (masl)'] -> Max temperature (°C)
+['FS macro region', 'Min precipitation (mm)', 'Max elevation (masl)'] -> Max temperature (°C)
+['FS macro region', 'Max precipitation (mm)', 'Average precipitation (mm)'] -> Max temperature (°C)
+['FS macro region', 'Max precipitation (mm)', 'Min elevation (masl)'] -> Max temperature (°C)
+['FS macro region', 'Average precipitation (mm)', 'Min elevation (masl)'] -> Max temperature (°C)
+['FS macro region', 'Average temperature  (°C)', 'Min precipitation (mm)'] -> Max precipitation (mm)
+['FS macro region', 'Min precipitation (mm)', 'Average precipitation (mm)'] -> Average temperature  (°C)
+['FS macro region', 'Average temperature  (°C)', 'Average precipitation (mm)'] -> Min precipitation (mm)
+['FS macro region', 'Min precipitation (mm)', 'Min elevation (masl)'] -> Average temperature  (°C)
+['FS macro region', 'Min precipitation (mm)', 'Max elevation (masl)'] -> Average temperature  (°C)
+['FS macro region', 'Max precipitation (mm)', 'Average precipitation (mm)'] -> Average temperature  (°C)
+['FS macro region', 'Average temperature  (°C)', 'Average precipitation (mm)'] -> Max precipitation (mm)
+['FS macro region', 'Max precipitation (mm)', 'Min elevation (masl)'] -> Average temperature  (°C)
+['FS macro region', 'Max precipitation (mm)', 'Max elevation (masl)'] -> Average temperature  (°C)
+['FS macro region', 'Average precipitation (mm)', 'Min elevation (masl)'] -> Average temperature  (°C)
+['FS macro region', 'Min precipitation (mm)', 'Average precipitation (mm)'] -> Max precipitation (mm)
+['FS macro region', 'Max precipitation (mm)', 'Min elevation (masl)'] -> Min precipitation (mm)
+['FS macro region', 'Min precipitation (mm)', 'Min elevation (masl)'] -> Max precipitation (mm)
+['FS macro region', 'Min precipitation (mm)', 'Max elevation (masl)'] -> Max precipitation (mm)
+['FS macro region', 'Min precipitation (mm)', 'Max elevation (masl)'] -> Min elevation (masl)
+['FS macro region', 'Average precipitation (mm)', 'Min elevation (masl)'] -> Max precipitation (mm)
+['Livelihood source', 'NCBITaxonID', 'Min precipitation (mm)'] -> Name
+['Livelihood source', 'NCBITaxonID', 'Max precipitation (mm)'] -> Name
+['Name', 'NCBITaxonID', 'Average precipitation (mm)'] -> Livelihood source
+['Livelihood source', 'NCBITaxonID', 'Average precipitation (mm)'] -> Name
+['Livelihood source', 'NCBITaxonID', 'Min elevation (masl)'] -> Name
+['Livelihood source', 'Name', 'Max temperature (°C)'] -> Min temperature  (°C)
+['Livelihood source', 'Name', 'Min temperature  (°C)'] -> Max temperature (°C)
+['Livelihood source', 'Name', 'Min temperature  (°C)'] -> Average temperature  (°C)
+['Livelihood source', 'Min temperature  (°C)', 'Min precipitation (mm)'] -> Name
+['Livelihood source', 'Name', 'Min temperature  (°C)'] -> Min precipitation (mm)
+['Livelihood source', 'Min temperature  (°C)', 'Max precipitation (mm)'] -> Name
+['Livelihood source', 'Name', 'Max precipitation (mm)'] -> Min temperature  (°C)
+['Livelihood source', 'Name', 'Min temperature  (°C)'] -> Max precipitation (mm)
+['Name', 'Min temperature  (°C)', 'Average precipitation (mm)'] -> Livelihood source
+['Livelihood source', 'Min temperature  (°C)', 'Average precipitation (mm)'] -> Name
+['Livelihood source', 'Name', 'Average precipitation (mm)'] -> Min temperature  (°C)
+['Livelihood source', 'Name', 'Min temperature  (°C)'] -> Average precipitation (mm)
+['Livelihood source', 'Name', 'Average temperature  (°C)'] -> Max temperature (°C)
+['Livelihood source', 'Name', 'Max temperature (°C)'] -> Average temperature  (°C)
+['Livelihood source', 'Name', 'Max temperature (°C)'] -> Min precipitation (mm)
+['Livelihood source', 'Max temperature (°C)', 'Max precipitation (mm)'] -> Name
+['Livelihood source', 'Name', 'Max precipitation (mm)'] -> Max temperature (°C)
+['Livelihood source', 'Name', 'Max temperature (°C)'] -> Max precipitation (mm)
+['Name', 'Max temperature (°C)', 'Average precipitation (mm)'] -> Livelihood source
+['Livelihood source', 'Max temperature (°C)', 'Average precipitation (mm)'] -> Name
+['Livelihood source', 'Name', 'Average precipitation (mm)'] -> Max temperature (°C)
+['Livelihood source', 'Name', 'Max temperature (°C)'] -> Average precipitation (mm)
+['Livelihood source', 'Max temperature (°C)', 'Max elevation (masl)'] -> Name
+['Livelihood source', 'Average temperature  (°C)', 'Min precipitation (mm)'] -> Name
+['Livelihood source', 'Name', 'Average temperature  (°C)'] -> Min precipitation (mm)
+['Livelihood source', 'Average temperature  (°C)', 'Max precipitation (mm)'] -> Name
+['Livelihood source', 'Name', 'Max precipitation (mm)'] -> Average temperature  (°C)
+['Livelihood source', 'Name', 'Average temperature  (°C)'] -> Max precipitation (mm)
+['Name', 'Average temperature  (°C)', 'Average precipitation (mm)'] -> Livelihood source
+['Livelihood source', 'Average temperature  (°C)', 'Average precipitation (mm)'] -> Name
+['Livelihood source', 'Name', 'Average precipitation (mm)'] -> Average temperature  (°C)
+['Livelihood source', 'Name', 'Average temperature  (°C)'] -> Average precipitation (mm)
+['Livelihood source', 'Min precipitation (mm)', 'Max precipitation (mm)'] -> Name
+['Livelihood source', 'Name', 'Max precipitation (mm)'] -> Min precipitation (mm)
+['Livelihood source', 'Min precipitation (mm)', 'Average precipitation (mm)'] -> Name
+['Livelihood source', 'Min precipitation (mm)', 'Min elevation (masl)'] -> Name
+['Name', 'Max precipitation (mm)', 'Average precipitation (mm)'] -> Livelihood source
+['Livelihood source', 'Max precipitation (mm)', 'Average precipitation (mm)'] -> Name
+['Livelihood source', 'Name', 'Average precipitation (mm)'] -> Max precipitation (mm)
+['Livelihood source', 'Name', 'Max precipitation (mm)'] -> Average precipitation (mm)
+['Livelihood source', 'Max precipitation (mm)', 'Max elevation (masl)'] -> Name
+['Livelihood source', 'Average precipitation (mm)', 'Min elevation (masl)'] -> Name
+['Livelihood source', 'Average precipitation (mm)', 'Max elevation (masl)'] -> Name
+['Livelihood source', 'NCBITaxonID', 'Max temperature (°C)'] -> Min temperature  (°C)
+['Livelihood source', 'NCBITaxonID', 'Min temperature  (°C)'] -> Max temperature (°C)
+['Livelihood source', 'NCBITaxonID', 'Average temperature  (°C)'] -> Min temperature  (°C)
+['Livelihood source', 'NCBITaxonID', 'Min temperature  (°C)'] -> Average temperature  (°C)
+['Livelihood source', 'NCBITaxonID', 'Max precipitation (mm)'] -> Min temperature  (°C)
+['Livelihood source', 'NCBITaxonID', 'Min elevation (masl)'] -> Min temperature  (°C)
+['Livelihood source', 'NCBITaxonID', 'Average temperature  (°C)'] -> Max temperature (°C)
+['Livelihood source', 'NCBITaxonID', 'Max temperature (°C)'] -> Average temperature  (°C)
+['Livelihood source', 'NCBITaxonID', 'Max precipitation (mm)'] -> Max temperature (°C)
+['Livelihood source', 'NCBITaxonID', 'Min elevation (masl)'] -> Max temperature (°C)
+['Livelihood source', 'NCBITaxonID', 'Max precipitation (mm)'] -> Average temperature  (°C)
+['NCBITaxonID', 'Average temperature  (°C)', 'Average precipitation (mm)'] -> Livelihood source
+['Livelihood source', 'NCBITaxonID', 'Average precipitation (mm)'] -> Average temperature  (°C)
+['Livelihood source', 'NCBITaxonID', 'Min elevation (masl)'] -> Average temperature  (°C)
+['Livelihood source', 'NCBITaxonID', 'Max precipitation (mm)'] -> Min precipitation (mm)
+['Livelihood source', 'NCBITaxonID', 'Min elevation (masl)'] -> Min precipitation (mm)
+['Livelihood source', 'NCBITaxonID', 'Max precipitation (mm)'] -> Average precipitation (mm)
+['Livelihood source', 'NCBITaxonID', 'Min elevation (masl)'] -> Max precipitation (mm)
+['Livelihood source', 'NCBITaxonID', 'Min elevation (masl)'] -> Average precipitation (mm)
+['Livelihood source', 'Min temperature  (°C)', 'Average temperature  (°C)'] -> Max temperature (°C)
+['Livelihood source', 'Min temperature  (°C)', 'Max temperature (°C)'] -> Average temperature  (°C)
+['Livelihood source', 'Min temperature  (°C)', 'Min precipitation (mm)'] -> Max temperature (°C)
+['Livelihood source', 'Max temperature (°C)', 'Max precipitation (mm)'] -> Min temperature  (°C)
+['Livelihood source', 'Max temperature (°C)', 'Max elevation (masl)'] -> Min temperature  (°C)
+['Livelihood source', 'Average temperature  (°C)', 'Min precipitation (mm)'] -> Min temperature  (°C)
+['Livelihood source', 'Min temperature  (°C)', 'Min precipitation (mm)'] -> Average temperature  (°C)
+['Livelihood source', 'Min temperature  (°C)', 'Max precipitation (mm)'] -> Average temperature  (°C)
+['Livelihood source', 'Average temperature  (°C)', 'Average precipitation (mm)'] -> Min temperature  (°C)
+['Livelihood source', 'Min temperature  (°C)', 'Average precipitation (mm)'] -> Average temperature  (°C)
+['Livelihood source', 'Min precipitation (mm)', 'Max precipitation (mm)'] -> Min temperature  (°C)
+['Livelihood source', 'Min temperature  (°C)', 'Min precipitation (mm)'] -> Max precipitation (mm)
+['Livelihood source', 'Min precipitation (mm)', 'Average precipitation (mm)'] -> Min temperature  (°C)
+['Livelihood source', 'Min temperature  (°C)', 'Min precipitation (mm)'] -> Average precipitation (mm)
+['Livelihood source', 'Min precipitation (mm)', 'Min elevation (masl)'] -> Min temperature  (°C)
+['Livelihood source', 'Max precipitation (mm)', 'Average precipitation (mm)'] -> Min temperature  (°C)
+['Livelihood source', 'Min temperature  (°C)', 'Max precipitation (mm)'] -> Average precipitation (mm)
+['Livelihood source', 'Average precipitation (mm)', 'Min elevation (masl)'] -> Min temperature  (°C)
+['Livelihood source', 'Average precipitation (mm)', 'Max elevation (masl)'] -> Min temperature  (°C)
+['Livelihood source', 'Average temperature  (°C)', 'Min precipitation (mm)'] -> Max temperature (°C)
+['Livelihood source', 'Max temperature (°C)', 'Max precipitation (mm)'] -> Average temperature  (°C)
+['Livelihood source', 'Average temperature  (°C)', 'Average precipitation (mm)'] -> Max temperature (°C)
+['Livelihood source', 'Max temperature (°C)', 'Average precipitation (mm)'] -> Average temperature  (°C)
+['Livelihood source', 'Max temperature (°C)', 'Max elevation (masl)'] -> Average temperature  (°C)
+['Livelihood source', 'Min precipitation (mm)', 'Max precipitation (mm)'] -> Max temperature (°C)
+['Livelihood source', 'Max temperature (°C)', 'Max precipitation (mm)'] -> Min precipitation (mm)
+['Livelihood source', 'Min precipitation (mm)', 'Average precipitation (mm)'] -> Max temperature (°C)
+['Livelihood source', 'Min precipitation (mm)', 'Min elevation (masl)'] -> Max temperature (°C)
+['Livelihood source', 'Max temperature (°C)', 'Max elevation (masl)'] -> Min precipitation (mm)
+['Livelihood source', 'Max precipitation (mm)', 'Average precipitation (mm)'] -> Max temperature (°C)
+['Livelihood source', 'Max temperature (°C)', 'Max precipitation (mm)'] -> Average precipitation (mm)
+['Livelihood source', 'Max temperature (°C)', 'Max elevation (masl)'] -> Max precipitation (mm)
+['Livelihood source', 'Average precipitation (mm)', 'Min elevation (masl)'] -> Max temperature (°C)
+['Livelihood source', 'Average precipitation (mm)', 'Max elevation (masl)'] -> Max temperature (°C)
+['Livelihood source', 'Max temperature (°C)', 'Max elevation (masl)'] -> Average precipitation (mm)
+['Livelihood source', 'Max temperature (°C)', 'Max elevation (masl)'] -> Min elevation (masl)
+['Livelihood source', 'Min precipitation (mm)', 'Max precipitation (mm)'] -> Average temperature  (°C)
+['Livelihood source', 'Average temperature  (°C)', 'Min precipitation (mm)'] -> Max precipitation (mm)
+['Livelihood source', 'Min precipitation (mm)', 'Average precipitation (mm)'] -> Average temperature  (°C)
+['Livelihood source', 'Average temperature  (°C)', 'Average precipitation (mm)'] -> Min precipitation (mm)
+['Livelihood source', 'Average temperature  (°C)', 'Min precipitation (mm)'] -> Average precipitation (mm)
+['Livelihood source', 'Min precipitation (mm)', 'Min elevation (masl)'] -> Average temperature  (°C)
+['Livelihood source', 'Max precipitation (mm)', 'Average precipitation (mm)'] -> Average temperature  (°C)
+['Livelihood source', 'Average temperature  (°C)', 'Average precipitation (mm)'] -> Max precipitation (mm)
+['Livelihood source', 'Average temperature  (°C)', 'Max precipitation (mm)'] -> Average precipitation (mm)
+['Livelihood source', 'Max precipitation (mm)', 'Max elevation (masl)'] -> Average temperature  (°C)
+['Average temperature  (°C)', 'Average precipitation (mm)', 'Min elevation (masl)'] -> Livelihood source
+['Livelihood source', 'Average precipitation (mm)', 'Min elevation (masl)'] -> Average temperature  (°C)
+['Average temperature  (°C)', 'Average precipitation (mm)', 'Max elevation (masl)'] -> Livelihood source
+['Livelihood source', 'Average precipitation (mm)', 'Max elevation (masl)'] -> Average temperature  (°C)
+['Livelihood source', 'Average temperature  (°C)', 'Max elevation (masl)'] -> Min elevation (masl)
+['Livelihood source', 'Min precipitation (mm)', 'Average precipitation (mm)'] -> Max precipitation (mm)
+['Livelihood source', 'Min precipitation (mm)', 'Max precipitation (mm)'] -> Average precipitation (mm)
+['Livelihood source', 'Min precipitation (mm)', 'Min elevation (masl)'] -> Max precipitation (mm)
+['Livelihood source', 'Min precipitation (mm)', 'Min elevation (masl)'] -> Average precipitation (mm)
+['Livelihood source', 'Average precipitation (mm)', 'Min elevation (masl)'] -> Max precipitation (mm)
+['Livelihood source', 'Average precipitation (mm)', 'Max elevation (masl)'] -> Max precipitation (mm)
+['Livelihood source', 'Max precipitation (mm)', 'Max elevation (masl)'] -> Average precipitation (mm)
+['Name', 'NCBITaxonID', 'Min temperature  (°C)'] -> Average temperature  (°C)
+['Name', 'NCBITaxonID', 'Max elevation (masl)'] -> Min temperature  (°C)
+['Name', 'NCBITaxonID', 'Max elevation (masl)'] -> Max temperature (°C)
+['NCBITaxonID', 'Average temperature  (°C)', 'Min precipitation (mm)'] -> Name
+['NCBITaxonID', 'Average temperature  (°C)', 'Max precipitation (mm)'] -> Name
+['NCBITaxonID', 'Average temperature  (°C)', 'Average precipitation (mm)'] -> Name
+['Name', 'NCBITaxonID', 'Average precipitation (mm)'] -> Average temperature  (°C)
+['NCBITaxonID', 'Average temperature  (°C)', 'Min elevation (masl)'] -> Name
+['Name', 'NCBITaxonID', 'Max elevation (masl)'] -> Average temperature  (°C)
+['Name', 'NCBITaxonID', 'Max elevation (masl)'] -> Min precipitation (mm)
+['Name', 'NCBITaxonID', 'Max elevation (masl)'] -> Max precipitation (mm)
+['Name', 'NCBITaxonID', 'Max elevation (masl)'] -> Min elevation (masl)
+['Name', 'Min temperature  (°C)', 'Max temperature (°C)'] -> Average temperature  (°C)
+['Name', 'Max temperature (°C)', 'Min precipitation (mm)'] -> Min temperature  (°C)
+['Name', 'Min temperature  (°C)', 'Min precipitation (mm)'] -> Max temperature (°C)
+['Name', 'Max temperature (°C)', 'Max precipitation (mm)'] -> Min temperature  (°C)
+['Name', 'Max temperature (°C)', 'Min elevation (masl)'] -> Min temperature  (°C)
+['Name', 'Min temperature  (°C)', 'Min elevation (masl)'] -> Max temperature (°C)
+['Name', 'Max temperature (°C)', 'Max elevation (masl)'] -> Min temperature  (°C)
+['Name', 'Min temperature  (°C)', 'Max elevation (masl)'] -> Max temperature (°C)
+['Name', 'Min temperature  (°C)', 'Min precipitation (mm)'] -> Average temperature  (°C)
+['Name', 'Min temperature  (°C)', 'Max precipitation (mm)'] -> Average temperature  (°C)
+['Name', 'Min temperature  (°C)', 'Average precipitation (mm)'] -> Average temperature  (°C)
+['Min temperature  (°C)', 'Average temperature  (°C)', 'Min elevation (masl)'] -> Name
+['Name', 'Min temperature  (°C)', 'Min elevation (masl)'] -> Average temperature  (°C)
+['Min temperature  (°C)', 'Average temperature  (°C)', 'Max elevation (masl)'] -> Name
+['Name', 'Min temperature  (°C)', 'Max elevation (masl)'] -> Average temperature  (°C)
+['Name', 'Min precipitation (mm)', 'Max precipitation (mm)'] -> Min temperature  (°C)
+['Name', 'Min temperature  (°C)', 'Min precipitation (mm)'] -> Max precipitation (mm)
+['Name', 'Min temperature  (°C)', 'Min elevation (masl)'] -> Min precipitation (mm)
+['Name', 'Min temperature  (°C)', 'Max elevation (masl)'] -> Min precipitation (mm)
+['Name', 'Max precipitation (mm)', 'Average precipitation (mm)'] -> Min temperature  (°C)
+['Name', 'Max precipitation (mm)', 'Min elevation (masl)'] -> Min temperature  (°C)
+['Name', 'Min temperature  (°C)', 'Min elevation (masl)'] -> Max precipitation (mm)
+['Name', 'Min temperature  (°C)', 'Max elevation (masl)'] -> Max precipitation (mm)
+['Name', 'Min temperature  (°C)', 'Max elevation (masl)'] -> Min elevation (masl)
+['Name', 'Average temperature  (°C)', 'Min precipitation (mm)'] -> Max temperature (°C)
+['Name', 'Max temperature (°C)', 'Min precipitation (mm)'] -> Average temperature  (°C)
+['Name', 'Max temperature (°C)', 'Max precipitation (mm)'] -> Average temperature  (°C)
+['Name', 'Average temperature  (°C)', 'Average precipitation (mm)'] -> Max temperature (°C)
+['Name', 'Max temperature (°C)', 'Average precipitation (mm)'] -> Average temperature  (°C)
+['Max temperature (°C)', 'Average temperature  (°C)', 'Min elevation (masl)'] -> Name
+['Name', 'Average temperature  (°C)', 'Min elevation (masl)'] -> Max temperature (°C)
+['Name', 'Max temperature (°C)', 'Min elevation (masl)'] -> Average temperature  (°C)
+['Max temperature (°C)', 'Average temperature  (°C)', 'Max elevation (masl)'] -> Name
+['Name', 'Average temperature  (°C)', 'Max elevation (masl)'] -> Max temperature (°C)
+['Name', 'Max temperature (°C)', 'Max elevation (masl)'] -> Average temperature  (°C)
+['Name', 'Min precipitation (mm)', 'Max precipitation (mm)'] -> Max temperature (°C)
+['Name', 'Max temperature (°C)', 'Max precipitation (mm)'] -> Min precipitation (mm)
+['Name', 'Max temperature (°C)', 'Min precipitation (mm)'] -> Max precipitation (mm)
+['Name', 'Max temperature (°C)', 'Min elevation (masl)'] -> Min precipitation (mm)
+['Name', 'Max temperature (°C)', 'Max elevation (masl)'] -> Min precipitation (mm)
+['Name', 'Max precipitation (mm)', 'Average precipitation (mm)'] -> Max temperature (°C)
+['Name', 'Max precipitation (mm)', 'Min elevation (masl)'] -> Max temperature (°C)
+['Name', 'Max temperature (°C)', 'Min elevation (masl)'] -> Max precipitation (mm)
+['Name', 'Max temperature (°C)', 'Max elevation (masl)'] -> Max precipitation (mm)
+['Name', 'Max temperature (°C)', 'Max elevation (masl)'] -> Min elevation (masl)
+['Name', 'Min precipitation (mm)', 'Max precipitation (mm)'] -> Average temperature  (°C)
+['Name', 'Average temperature  (°C)', 'Min precipitation (mm)'] -> Max precipitation (mm)
+['Average temperature  (°C)', 'Min precipitation (mm)', 'Min elevation (masl)'] -> Name
+['Name', 'Average temperature  (°C)', 'Min elevation (masl)'] -> Min precipitation (mm)
+['Average temperature  (°C)', 'Min precipitation (mm)', 'Max elevation (masl)'] -> Name
+['Name', 'Average temperature  (°C)', 'Max elevation (masl)'] -> Min precipitation (mm)
+['Name', 'Max precipitation (mm)', 'Average precipitation (mm)'] -> Average temperature  (°C)
+['Name', 'Average temperature  (°C)', 'Average precipitation (mm)'] -> Max precipitation (mm)
+['Average temperature  (°C)', 'Max precipitation (mm)', 'Min elevation (masl)'] -> Name
+['Name', 'Max precipitation (mm)', 'Min elevation (masl)'] -> Average temperature  (°C)
+['Name', 'Average temperature  (°C)', 'Min elevation (masl)'] -> Max precipitation (mm)
+['Average temperature  (°C)', 'Max precipitation (mm)', 'Max elevation (masl)'] -> Name
+['Name', 'Max precipitation (mm)', 'Max elevation (masl)'] -> Average temperature  (°C)
+['Name', 'Average temperature  (°C)', 'Max elevation (masl)'] -> Max precipitation (mm)
+['Average temperature  (°C)', 'Average precipitation (mm)', 'Min elevation (masl)'] -> Name
+['Average temperature  (°C)', 'Average precipitation (mm)', 'Max elevation (masl)'] -> Name
+['Name', 'Average temperature  (°C)', 'Max elevation (masl)'] -> Min elevation (masl)
+['Name', 'Max precipitation (mm)', 'Min elevation (masl)'] -> Min precipitation (mm)
+['Name', 'Min precipitation (mm)', 'Max elevation (masl)'] -> Min elevation (masl)
+['NCBITaxonID', 'Max temperature (°C)', 'Average temperature  (°C)'] -> Min temperature  (°C)
+['NCBITaxonID', 'Max temperature (°C)', 'Min precipitation (mm)'] -> Min temperature  (°C)
+['NCBITaxonID', 'Max temperature (°C)', 'Max precipitation (mm)'] -> Min temperature  (°C)
+['NCBITaxonID', 'Max temperature (°C)', 'Min elevation (masl)'] -> Min temperature  (°C)
+['NCBITaxonID', 'Min temperature  (°C)', 'Min elevation (masl)'] -> Max temperature (°C)
+['NCBITaxonID', 'Min temperature  (°C)', 'Max elevation (masl)'] -> Max temperature (°C)
+['NCBITaxonID', 'Average temperature  (°C)', 'Min precipitation (mm)'] -> Min temperature  (°C)
+['NCBITaxonID', 'Average temperature  (°C)', 'Min elevation (masl)'] -> Min temperature  (°C)
+['NCBITaxonID', 'Min precipitation (mm)', 'Max precipitation (mm)'] -> Min temperature  (°C)
+['NCBITaxonID', 'Min precipitation (mm)', 'Min elevation (masl)'] -> Min temperature  (°C)
+['NCBITaxonID', 'Min temperature  (°C)', 'Min elevation (masl)'] -> Min precipitation (mm)
+['NCBITaxonID', 'Min precipitation (mm)', 'Max elevation (masl)'] -> Min temperature  (°C)
+['NCBITaxonID', 'Min temperature  (°C)', 'Max elevation (masl)'] -> Min precipitation (mm)
+['NCBITaxonID', 'Max precipitation (mm)', 'Min elevation (masl)'] -> Min temperature  (°C)
+['NCBITaxonID', 'Min temperature  (°C)', 'Min elevation (masl)'] -> Max precipitation (mm)
+['NCBITaxonID', 'Min temperature  (°C)', 'Max elevation (masl)'] -> Max precipitation (mm)
+['NCBITaxonID', 'Min elevation (masl)', 'Max elevation (masl)'] -> Min temperature  (°C)
+['NCBITaxonID', 'Min temperature  (°C)', 'Max elevation (masl)'] -> Min elevation (masl)
+['NCBITaxonID', 'Average temperature  (°C)', 'Min precipitation (mm)'] -> Max temperature (°C)
+['NCBITaxonID', 'Average temperature  (°C)', 'Min elevation (masl)'] -> Max temperature (°C)
+['NCBITaxonID', 'Min precipitation (mm)', 'Max precipitation (mm)'] -> Max temperature (°C)
+['NCBITaxonID', 'Max temperature (°C)', 'Max precipitation (mm)'] -> Min precipitation (mm)
+['NCBITaxonID', 'Max temperature (°C)', 'Min precipitation (mm)'] -> Max precipitation (mm)
+['NCBITaxonID', 'Min precipitation (mm)', 'Min elevation (masl)'] -> Max temperature (°C)
+['NCBITaxonID', 'Max temperature (°C)', 'Min elevation (masl)'] -> Min precipitation (mm)
+['NCBITaxonID', 'Min precipitation (mm)', 'Max elevation (masl)'] -> Max temperature (°C)
+['NCBITaxonID', 'Max precipitation (mm)', 'Min elevation (masl)'] -> Max temperature (°C)
+['NCBITaxonID', 'Max temperature (°C)', 'Min elevation (masl)'] -> Max precipitation (mm)
+['NCBITaxonID', 'Min elevation (masl)', 'Max elevation (masl)'] -> Max temperature (°C)
+['NCBITaxonID', 'Average temperature  (°C)', 'Min precipitation (mm)'] -> Max precipitation (mm)
+['NCBITaxonID', 'Average temperature  (°C)', 'Min elevation (masl)'] -> Min precipitation (mm)
+['NCBITaxonID', 'Average temperature  (°C)', 'Min elevation (masl)'] -> Max precipitation (mm)
+['NCBITaxonID', 'Max precipitation (mm)', 'Min elevation (masl)'] -> Min precipitation (mm)
+['NCBITaxonID', 'Min precipitation (mm)', 'Min elevation (masl)'] -> Max precipitation (mm)
+['NCBITaxonID', 'Min precipitation (mm)', 'Max elevation (masl)'] -> Max precipitation (mm)
+['NCBITaxonID', 'Min elevation (masl)', 'Max elevation (masl)'] -> Min precipitation (mm)
+['NCBITaxonID', 'Min precipitation (mm)', 'Max elevation (masl)'] -> Min elevation (masl)
+['NCBITaxonID', 'Min elevation (masl)', 'Max elevation (masl)'] -> Max precipitation (mm)
+['Max temperature (°C)', 'Average temperature  (°C)', 'Min precipitation (mm)'] -> Min temperature  (°C)
+['Min temperature  (°C)', 'Average temperature  (°C)', 'Min precipitation (mm)'] -> Max temperature (°C)
+['Max temperature (°C)', 'Average temperature  (°C)', 'Min elevation (masl)'] -> Min temperature  (°C)
+['Min temperature  (°C)', 'Average temperature  (°C)', 'Min elevation (masl)'] -> Max temperature (°C)
+['Max temperature (°C)', 'Average temperature  (°C)', 'Max elevation (masl)'] -> Min temperature  (°C)
+['Min temperature  (°C)', 'Average temperature  (°C)', 'Max elevation (masl)'] -> Max temperature (°C)
+['Min temperature  (°C)', 'Max temperature (°C)', 'Min precipitation (mm)'] -> Max precipitation (mm)
+['Max temperature (°C)', 'Min precipitation (mm)', 'Min elevation (masl)'] -> Min temperature  (°C)
+['Min temperature  (°C)', 'Min precipitation (mm)', 'Min elevation (masl)'] -> Max temperature (°C)
+['Min temperature  (°C)', 'Max temperature (°C)', 'Min elevation (masl)'] -> Min precipitation (mm)
+['Max temperature (°C)', 'Min precipitation (mm)', 'Max elevation (masl)'] -> Min temperature  (°C)
+['Min temperature  (°C)', 'Min precipitation (mm)', 'Max elevation (masl)'] -> Max temperature (°C)
+['Min temperature  (°C)', 'Max temperature (°C)', 'Max elevation (masl)'] -> Min precipitation (mm)
+['Max temperature (°C)', 'Max precipitation (mm)', 'Min elevation (masl)'] -> Min temperature  (°C)
+['Min temperature  (°C)', 'Max temperature (°C)', 'Min elevation (masl)'] -> Max precipitation (mm)
+['Min temperature  (°C)', 'Max temperature (°C)', 'Max elevation (masl)'] -> Max precipitation (mm)
+['Min temperature  (°C)', 'Min elevation (masl)', 'Max elevation (masl)'] -> Max temperature (°C)
+['Min temperature  (°C)', 'Max temperature (°C)', 'Max elevation (masl)'] -> Min elevation (masl)
+['Min temperature  (°C)', 'Average temperature  (°C)', 'Min precipitation (mm)'] -> Max precipitation (mm)
+['Average temperature  (°C)', 'Min precipitation (mm)', 'Average precipitation (mm)'] -> Min temperature  (°C)
+['Average temperature  (°C)', 'Min precipitation (mm)', 'Min elevation (masl)'] -> Min temperature  (°C)
+['Min temperature  (°C)', 'Average temperature  (°C)', 'Min elevation (masl)'] -> Min precipitation (mm)
+['Average temperature  (°C)', 'Min precipitation (mm)', 'Max elevation (masl)'] -> Min temperature  (°C)
+['Min temperature  (°C)', 'Average temperature  (°C)', 'Max elevation (masl)'] -> Min precipitation (mm)
+['Min temperature  (°C)', 'Average temperature  (°C)', 'Min elevation (masl)'] -> Max precipitation (mm)
+['Min temperature  (°C)', 'Average temperature  (°C)', 'Max elevation (masl)'] -> Max precipitation (mm)
+['Average temperature  (°C)', 'Average precipitation (mm)', 'Min elevation (masl)'] -> Min temperature  (°C)
+['Average temperature  (°C)', 'Average precipitation (mm)', 'Max elevation (masl)'] -> Min temperature  (°C)
+['Min temperature  (°C)', 'Average temperature  (°C)', 'Max elevation (masl)'] -> Min elevation (masl)
+['Min precipitation (mm)', 'Max precipitation (mm)', 'Min elevation (masl)'] -> Min temperature  (°C)
+['Min temperature  (°C)', 'Min precipitation (mm)', 'Min elevation (masl)'] -> Max precipitation (mm)
+['Min temperature  (°C)', 'Min precipitation (mm)', 'Max elevation (masl)'] -> Max precipitation (mm)
+['Min temperature  (°C)', 'Min elevation (masl)', 'Max elevation (masl)'] -> Min precipitation (mm)
+['Min temperature  (°C)', 'Min precipitation (mm)', 'Max elevation (masl)'] -> Min elevation (masl)
+['Max precipitation (mm)', 'Average precipitation (mm)', 'Min elevation (masl)'] -> Min temperature  (°C)
+['Min temperature  (°C)', 'Min elevation (masl)', 'Max elevation (masl)'] -> Max precipitation (mm)
+['Max temperature (°C)', 'Average temperature  (°C)', 'Min precipitation (mm)'] -> Max precipitation (mm)
+['Average temperature  (°C)', 'Min precipitation (mm)', 'Average precipitation (mm)'] -> Max temperature (°C)
+['Average temperature  (°C)', 'Min precipitation (mm)', 'Min elevation (masl)'] -> Max temperature (°C)
+['Max temperature (°C)', 'Average temperature  (°C)', 'Min elevation (masl)'] -> Min precipitation (mm)
+['Average temperature  (°C)', 'Min precipitation (mm)', 'Max elevation (masl)'] -> Max temperature (°C)
+['Max temperature (°C)', 'Average temperature  (°C)', 'Max elevation (masl)'] -> Min precipitation (mm)
+['Max temperature (°C)', 'Average temperature  (°C)', 'Min elevation (masl)'] -> Max precipitation (mm)
+['Max temperature (°C)', 'Average temperature  (°C)', 'Max elevation (masl)'] -> Max precipitation (mm)
+['Average temperature  (°C)', 'Average precipitation (mm)', 'Min elevation (masl)'] -> Max temperature (°C)
+['Average temperature  (°C)', 'Average precipitation (mm)', 'Max elevation (masl)'] -> Max temperature (°C)
+['Max temperature (°C)', 'Average temperature  (°C)', 'Max elevation (masl)'] -> Min elevation (masl)
+['Min precipitation (mm)', 'Max precipitation (mm)', 'Min elevation (masl)'] -> Max temperature (°C)
+['Max temperature (°C)', 'Max precipitation (mm)', 'Min elevation (masl)'] -> Min precipitation (mm)
+['Max temperature (°C)', 'Min precipitation (mm)', 'Min elevation (masl)'] -> Max precipitation (mm)
+['Max temperature (°C)', 'Min precipitation (mm)', 'Max elevation (masl)'] -> Max precipitation (mm)
+['Max temperature (°C)', 'Min precipitation (mm)', 'Max elevation (masl)'] -> Min elevation (masl)
+['Max precipitation (mm)', 'Average precipitation (mm)', 'Min elevation (masl)'] -> Max temperature (°C)
+['Average temperature  (°C)', 'Min precipitation (mm)', 'Average precipitation (mm)'] -> Max precipitation (mm)
+['Average temperature  (°C)', 'Min precipitation (mm)', 'Min elevation (masl)'] -> Max precipitation (mm)
+['Average temperature  (°C)', 'Min precipitation (mm)', 'Max elevation (masl)'] -> Max precipitation (mm)
+['Average temperature  (°C)', 'Min precipitation (mm)', 'Max elevation (masl)'] -> Min elevation (masl)
+['Average temperature  (°C)', 'Average precipitation (mm)', 'Min elevation (masl)'] -> Max precipitation (mm)
+['Average temperature  (°C)', 'Average precipitation (mm)', 'Max elevation (masl)'] -> Max precipitation (mm)
+['FS name', 'FS macro region', 'Min temperature  (°C)', 'Max temperature (°C)'] -> Max elevation (masl)
+['FS name', 'FS macro region', 'Max temperature (°C)', 'Max elevation (masl)'] -> Min temperature  (°C)
+['FS name', 'Livelihood source', 'Average temperature  (°C)', 'Min elevation (masl)'] -> FS macro region
+['FS name', 'Livelihood source', 'Average temperature  (°C)', 'Min elevation (masl)'] -> Max temperature (°C)
+['FS name', 'Max temperature (°C)', 'Average temperature  (°C)', 'Min elevation (masl)'] -> FS macro region
+['FS macro region', 'Livelihood source', 'Max temperature (°C)', 'Max elevation (masl)'] -> FS name
+['FS macro region', 'Livelihood source', 'Average temperature  (°C)', 'Max elevation (masl)'] -> Name
+['FS macro region', 'Livelihood source', 'Average temperature  (°C)', 'Max elevation (masl)'] -> Min temperature  (°C)
+['FS macro region', 'Livelihood source', 'Average temperature  (°C)', 'Max elevation (masl)'] -> Max temperature (°C)
+['FS macro region', 'Livelihood source', 'Average temperature  (°C)', 'Max elevation (masl)'] -> Min precipitation (mm)
+['FS macro region', 'Livelihood source', 'Average temperature  (°C)', 'Max elevation (masl)'] -> Max precipitation (mm)
+['FS macro region', 'Livelihood source', 'Min temperature  (°C)', 'Max elevation (masl)'] -> FS name
+['FS name', 'FS macro region', 'Max temperature (°C)', 'Min elevation (masl)'] -> Livelihood source
+['FS macro region', 'Livelihood source', 'Min elevation (masl)', 'Max elevation (masl)'] -> FS name
+['Livelihood source', 'Name', 'NCBITaxonID', 'Min temperature  (°C)'] -> FS macro region
+['Livelihood source', 'Name', 'NCBITaxonID', 'Max temperature (°C)'] -> FS macro region
+['Livelihood source', 'Name', 'NCBITaxonID', 'Average temperature  (°C)'] -> FS macro region
+['FS macro region', 'Livelihood source', 'Min temperature  (°C)', 'Average temperature  (°C)'] -> Name
+['FS macro region', 'Livelihood source', 'Min temperature  (°C)', 'Min elevation (masl)'] -> Name
+['FS macro region', 'Livelihood source', 'Average temperature  (°C)', 'Min elevation (masl)'] -> Name
+['FS macro region', 'Livelihood source', 'Name', 'Min elevation (masl)'] -> Average precipitation (mm)
+['FS macro region', 'Livelihood source', 'Min temperature  (°C)', 'Average temperature  (°C)'] -> NCBITaxonID
+['FS macro region', 'Livelihood source', 'Min temperature  (°C)', 'Min precipitation (mm)'] -> NCBITaxonID
+['FS macro region', 'Livelihood source', 'NCBITaxonID', 'Min temperature  (°C)'] -> Min precipitation (mm)
+['FS macro region', 'Livelihood source', 'NCBITaxonID', 'Min temperature  (°C)'] -> Max precipitation (mm)
+['FS macro region', 'Livelihood source', 'NCBITaxonID', 'Min temperature  (°C)'] -> Average precipitation (mm)
+['FS macro region', 'Livelihood source', 'Min temperature  (°C)', 'Min elevation (masl)'] -> NCBITaxonID
+['FS macro region', 'Livelihood source', 'Max temperature (°C)', 'Max precipitation (mm)'] -> NCBITaxonID
+['FS macro region', 'Livelihood source', 'NCBITaxonID', 'Max temperature (°C)'] -> Average precipitation (mm)
+['FS macro region', 'Livelihood source', 'NCBITaxonID', 'Average temperature  (°C)'] -> Min precipitation (mm)
+['FS macro region', 'Livelihood source', 'NCBITaxonID', 'Average temperature  (°C)'] -> Max precipitation (mm)
+['FS macro region', 'Livelihood source', 'NCBITaxonID', 'Average temperature  (°C)'] -> Average precipitation (mm)
+['FS macro region', 'Livelihood source', 'Average temperature  (°C)', 'Min elevation (masl)'] -> NCBITaxonID
+['FS macro region', 'Livelihood source', 'Min precipitation (mm)', 'Max precipitation (mm)'] -> NCBITaxonID
+['FS macro region', 'Livelihood source', 'Min temperature  (°C)', 'Max temperature (°C)'] -> Average precipitation (mm)
+['FS macro region', 'Livelihood source', 'Min temperature  (°C)', 'Min elevation (masl)'] -> Max temperature (°C)
+['FS macro region', 'Livelihood source', 'Min temperature  (°C)', 'Average temperature  (°C)'] -> Min precipitation (mm)
+['FS macro region', 'Livelihood source', 'Min temperature  (°C)', 'Average temperature  (°C)'] -> Max precipitation (mm)
+['FS macro region', 'Livelihood source', 'Min temperature  (°C)', 'Average temperature  (°C)'] -> Average precipitation (mm)
+['FS macro region', 'Livelihood source', 'Average temperature  (°C)', 'Min elevation (masl)'] -> Min temperature  (°C)
+['FS macro region', 'Livelihood source', 'Min temperature  (°C)', 'Min elevation (masl)'] -> Average temperature  (°C)
+['FS macro region', 'Livelihood source', 'Min temperature  (°C)', 'Min elevation (masl)'] -> Min precipitation (mm)
+['FS macro region', 'Livelihood source', 'Min temperature  (°C)', 'Min elevation (masl)'] -> Max precipitation (mm)
+['FS macro region', 'Livelihood source', 'Min temperature  (°C)', 'Min elevation (masl)'] -> Average precipitation (mm)
+['FS macro region', 'Livelihood source', 'Average temperature  (°C)', 'Min elevation (masl)'] -> Max temperature (°C)
+['FS macro region', 'Livelihood source', 'Max temperature (°C)', 'Min precipitation (mm)'] -> Average precipitation (mm)
+['FS macro region', 'Livelihood source', 'Average temperature  (°C)', 'Min elevation (masl)'] -> Min precipitation (mm)
+['FS macro region', 'Livelihood source', 'Average temperature  (°C)', 'Min elevation (masl)'] -> Max precipitation (mm)
+['FS macro region', 'Livelihood source', 'Average temperature  (°C)', 'Min elevation (masl)'] -> Average precipitation (mm)
+['FS macro region', 'Livelihood source', 'Max precipitation (mm)', 'Min elevation (masl)'] -> Average precipitation (mm)
+['Name', 'NCBITaxonID', 'Min temperature  (°C)', 'Max temperature (°C)'] -> FS macro region
+['Name', 'NCBITaxonID', 'Min temperature  (°C)', 'Min precipitation (mm)'] -> FS macro region
+['Name', 'NCBITaxonID', 'Min temperature  (°C)', 'Max precipitation (mm)'] -> FS macro region
+['Name', 'NCBITaxonID', 'Min temperature  (°C)', 'Min elevation (masl)'] -> FS macro region
+['Name', 'NCBITaxonID', 'Max temperature (°C)', 'Average temperature  (°C)'] -> FS macro region
+['Name', 'NCBITaxonID', 'Max temperature (°C)', 'Min precipitation (mm)'] -> FS macro region
+['Name', 'NCBITaxonID', 'Max temperature (°C)', 'Max precipitation (mm)'] -> FS macro region
+['Name', 'NCBITaxonID', 'Max temperature (°C)', 'Min elevation (masl)'] -> FS macro region
+['Name', 'NCBITaxonID', 'Min precipitation (mm)', 'Max precipitation (mm)'] -> FS macro region
+['Name', 'NCBITaxonID', 'Min precipitation (mm)', 'Min elevation (masl)'] -> FS macro region
+['Name', 'NCBITaxonID', 'Max precipitation (mm)', 'Min elevation (masl)'] -> FS macro region
+['FS macro region', 'Min temperature  (°C)', 'Min elevation (masl)', 'Max elevation (masl)'] -> Name
+['FS macro region', 'Max temperature (°C)', 'Min elevation (masl)', 'Max elevation (masl)'] -> Name
+['FS macro region', 'Average temperature  (°C)', 'Min elevation (masl)', 'Max elevation (masl)'] -> Name
+['FS macro region', 'NCBITaxonID', 'Min temperature  (°C)', 'Min precipitation (mm)'] -> Max temperature (°C)
+['FS macro region', 'Min temperature  (°C)', 'Average temperature  (°C)', 'Min elevation (masl)'] -> NCBITaxonID
+['NCBITaxonID', 'Min temperature  (°C)', 'Average temperature  (°C)', 'Max elevation (masl)'] -> FS macro region
+['FS macro region', 'Min temperature  (°C)', 'Average temperature  (°C)', 'Max elevation (masl)'] -> NCBITaxonID
+['FS macro region', 'NCBITaxonID', 'Min temperature  (°C)', 'Min precipitation (mm)'] -> Max precipitation (mm)
+['FS macro region', 'Min temperature  (°C)', 'Min elevation (masl)', 'Max elevation (masl)'] -> NCBITaxonID
+['FS macro region', 'Max temperature (°C)', 'Average temperature  (°C)', 'Min elevation (masl)'] -> NCBITaxonID
+['NCBITaxonID', 'Max temperature (°C)', 'Average temperature  (°C)', 'Max elevation (masl)'] -> FS macro region
+['FS macro region', 'Max temperature (°C)', 'Average temperature  (°C)', 'Max elevation (masl)'] -> NCBITaxonID
+['FS macro region', 'Max temperature (°C)', 'Min elevation (masl)', 'Max elevation (masl)'] -> NCBITaxonID
+['FS macro region', 'Average temperature  (°C)', 'Min elevation (masl)', 'Max elevation (masl)'] -> NCBITaxonID
+['FS macro region', 'Max temperature (°C)', 'Min elevation (masl)', 'Max elevation (masl)'] -> Min temperature  (°C)
+['FS macro region', 'Average temperature  (°C)', 'Min elevation (masl)', 'Max elevation (masl)'] -> Min temperature  (°C)
+['FS macro region', 'Min temperature  (°C)', 'Min elevation (masl)', 'Max elevation (masl)'] -> Average temperature  (°C)
+['FS macro region', 'Average temperature  (°C)', 'Min elevation (masl)', 'Max elevation (masl)'] -> Max temperature (°C)
+['FS macro region', 'Max temperature (°C)', 'Min elevation (masl)', 'Max elevation (masl)'] -> Average temperature  (°C)
+['FS macro region', 'Max temperature (°C)', 'Min elevation (masl)', 'Max elevation (masl)'] -> Min precipitation (mm)
+['FS macro region', 'Max temperature (°C)', 'Min elevation (masl)', 'Max elevation (masl)'] -> Max precipitation (mm)
+['FS macro region', 'Average temperature  (°C)', 'Min elevation (masl)', 'Max elevation (masl)'] -> Min precipitation (mm)
+['FS macro region', 'Average temperature  (°C)', 'Min elevation (masl)', 'Max elevation (masl)'] -> Max precipitation (mm)
+['Livelihood source', 'Min temperature  (°C)', 'Max temperature (°C)', 'Min elevation (masl)'] -> Name
+['Livelihood source', 'Name', 'Min precipitation (mm)', 'Max elevation (masl)'] -> Min temperature  (°C)
+['Livelihood source', 'Min temperature  (°C)', 'Min elevation (masl)', 'Max elevation (masl)'] -> Name
+['Livelihood source', 'Name', 'Min precipitation (mm)', 'Max elevation (masl)'] -> Max temperature (°C)
+['Livelihood source', 'Name', 'Min precipitation (mm)', 'Max elevation (masl)'] -> Average temperature  (°C)
+['Livelihood source', 'Name', 'Min precipitation (mm)', 'Max elevation (masl)'] -> Max precipitation (mm)
+['Livelihood source', 'Name', 'Min precipitation (mm)', 'Max elevation (masl)'] -> Average precipitation (mm)
+['Livelihood source', 'NCBITaxonID', 'Max temperature (°C)', 'Min precipitation (mm)'] -> Average precipitation (mm)
+['Livelihood source', 'Min temperature  (°C)', 'Max temperature (°C)', 'Min elevation (masl)'] -> Average precipitation (mm)
+['Livelihood source', 'Min temperature  (°C)', 'Average temperature  (°C)', 'Min elevation (masl)'] -> Average precipitation (mm)
+['Livelihood source', 'Min temperature  (°C)', 'Average temperature  (°C)', 'Max elevation (masl)'] -> Average precipitation (mm)
+['Livelihood source', 'Min temperature  (°C)', 'Min elevation (masl)', 'Max elevation (masl)'] -> Average temperature  (°C)
+['Livelihood source', 'Min temperature  (°C)', 'Min elevation (masl)', 'Max elevation (masl)'] -> Average precipitation (mm)
+['Livelihood source', 'Max temperature (°C)', 'Average temperature  (°C)', 'Min elevation (masl)'] -> Average precipitation (mm)
+['Name', 'NCBITaxonID', 'Min temperature  (°C)', 'Max temperature (°C)'] -> Min precipitation (mm)
+['Name', 'NCBITaxonID', 'Min temperature  (°C)', 'Max temperature (°C)'] -> Max precipitation (mm)
+['Name', 'NCBITaxonID', 'Max temperature (°C)', 'Average temperature  (°C)'] -> Min precipitation (mm)
+['Name', 'NCBITaxonID', 'Max temperature (°C)', 'Average temperature  (°C)'] -> Max precipitation (mm)
+['Name', 'NCBITaxonID', 'Min precipitation (mm)', 'Min elevation (masl)'] -> Average temperature  (°C)
+-------------------------
+
+
+FDs FOR TABLE: Taxonomies
+['NCBITaxonID'] -> NCBITaxonName
+['NCBITaxonName'] -> NCBITaxonID
+-------------------------
+
+
+FDs FOR TABLE: Commodity soils
+['FS name', 'Name'] -> Livelihood source
+['FS name', 'Livelihood source', 'Description'] -> FS macro region
+['FS name', 'Name', 'Description'] -> FS macro region
+['FS name', 'Soil type', 'Description'] -> FS macro region
+['FS macro region', 'Name', 'Soil type'] -> Description
+-------------------------
+
+
+FDs FOR TABLE: Commodity resources
+['FS name', 'Name'] -> Livelihood source
+['FS name', 'Resource ID'] -> Resource year
+['Livelihood source', 'Resource ID'] -> Resource year
+['Name', 'Resource ID'] -> Resource year
+['Name', 'Resource ID'] -> Resource number
+['FS macro region', 'Resource ID', 'Resource number'] -> Resource year
+-------------------------
+
+
+FDs FOR TABLE: Resources
+['Citation', 'Year', 'Number'] -> Title
+['Citation', 'Year', 'Number'] -> Resource type
+['Citation', 'Year', 'Number'] -> URL
+['Citation', 'Number', 'URL'] -> Title
+['Citation', 'Number', 'URL'] -> Resource type
+['Citation', 'Number', 'Title', 'Resource type'] -> URL
+-------------------------
+
+
+FDs FOR TABLE: FS resources
+['FS name', 'Resource year'] -> Resource ID
+['FS macro region', 'Resource year'] -> Resource ID
+['FS macro region', 'Resource ID'] -> Resource year
+['Field', 'Resource year'] -> Resource ID
+['FS name', 'FS macro region', 'Resource ID'] -> Resource number
+['FS name', 'FS macro region', 'Resource year'] -> Resource number
+['FS name', 'Resource ID', 'Resource number'] -> Resource year
+-------------------------
+
+
+FDs FOR TABLE: Impact Chain Models
+['Description'] -> Impact chain model
+['Description'] -> FS macro region
+-------------------------
+
+
+FDs FOR TABLE: ICM resources
+['FS name'] -> FS macro region
+['FS name'] -> Resource ID
+['FS name'] -> Resource year
+['FS name'] -> Resource number
+['FS macro region'] -> FS name
+['FS macro region'] -> Resource ID
+['FS macro region'] -> Resource year
+['FS macro region'] -> Resource number
+['Resource number'] -> FS name
+['Resource number'] -> FS macro region
+['Resource number'] -> Resource ID
+['Resource number'] -> Resource year
+['Resource year'] -> Resource ID
+['Resource ID'] -> Resource year
+-------------------------
+
+
+FDs FOR TABLE: Connections
+['ID'] -> FS name
+['ID'] -> FS macro region
+['ID'] -> From
+['ID'] -> Link type
+['ID'] -> To
+['ID'] -> Description
+['Description'] -> Link type
+['FS name', 'Description'] -> FS macro region
+['From', 'To'] -> Link type
+-------------------------
+
+
+FDs FOR TABLE: Connection tags
+-------------------------
+
+
+FDs FOR TABLE: FS factors Type-2 assignments
+-------------------------
+
+
+FDs FOR TABLE: FS factors
+['ID'] -> FS name
+['ID'] -> FS macro region
+['ID'] -> Factor
+['ID'] -> Type-1
+['ID'] -> Description
+['FS name', 'Factor'] -> Type-1
+-------------------------
+
+
+FDs FOR TABLE: FS factor tags
+-------------------------
+
+
+FDs FOR TABLE: FS factor resources
+['ID', 'Citation', 'Year'] -> Number
+-------------------------
+
+
+FDs FOR TABLE: Expert involvements
+['Expert ID'] -> Domain
+['Date'] -> Domain
+['Expert ID', 'FS name'] -> FS macro region
+['Expert ID', 'FS name'] -> Date
+['FS name', 'Date'] -> Expert ID
+['FS name', 'Date'] -> FS macro region
+-------------------------
+
+
+FDs FOR TABLE: Experts
+['ID'] -> Organisation
+['ID'] -> Author ID
+['ID'] -> First name
+['ID'] -> Middle name
+['ID'] -> Last name
+['ID'] -> Email
+['Author ID'] -> ID
+['Author ID'] -> Organisation
+['Author ID'] -> First name
+['Author ID'] -> Middle name
+['Author ID'] -> Last name
+['Author ID'] -> Email
+['First name'] -> ID
+['First name'] -> Organisation
+['First name'] -> Author ID
+['First name'] -> Middle name
+['First name'] -> Last name
+['First name'] -> Email
+['Last name'] -> ID
+['Last name'] -> Organisation
+['Last name'] -> Author ID
+['Last name'] -> First name
+['Last name'] -> Middle name
+['Last name'] -> Email
+['Email'] -> ID
+['Email'] -> Organisation
+['Email'] -> Author ID
+['Email'] -> First name
+['Email'] -> Middle name
+['Email'] -> Last name
+['Organisation'] -> Middle name
+-------------------------
+
+
+FDs FOR TABLE: Connection resources
+-------------------------
+
+
